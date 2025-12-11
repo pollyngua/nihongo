@@ -32,9 +32,9 @@ body {
 }
 @media (orientation: portrait) {
   #prevBtn, #nextBtn {
-    display: none;
-    /*width: 15%;*/
-    /*font-size: 1rem;*/
+    /*display: none;*/
+    width: 15%;
+    font-size: 1rem;
   }
 }
 
@@ -50,9 +50,9 @@ body {
 }
 @media (orientation: portrait) {
   #card {
-    /*width: 70%;*/
-    width: 100%;
-    padding: 0 1rem;
+    width: 70%;
+    /*width: 100%;*/
+    /*padding: 0 1rem;*/
   }
 }
 
@@ -161,7 +161,7 @@ body {
 }
 @media (orientation: portrait) {
   .main {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -184,7 +184,7 @@ body {
 @media (orientation: portrait) {
   .note {
     padding: .2rem;
-    font-size: .8rem;
+    /*font-size: .8rem;*/
   }
 }
 
@@ -198,7 +198,7 @@ body {
 @media (orientation: portrait) {
   .example,
   .kanji-explanations {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 
