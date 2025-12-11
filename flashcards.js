@@ -230,50 +230,54 @@ document.addEventListener("keydown", (e) => {
 
 // ------------------- Swipe gestures (mobile) -------------------
 
-// Attach to the card so swipes originate only there
 const card = document.getElementById("card");
 
-let touchStartX = 0;
-let touchStartY = 0;
-let touchEndX = 0;
-let touchEndY = 0;
+let startX = 0;
+let startY = 0;
+let moved = false;
 
 card.addEventListener("touchstart", e => {
-  if (e.changedTouches.length > 0) {
-    touchStartX = e.changedTouches[0].screenX;
-    touchStartY = e.changedTouches[0].screenY;
-  }
+  const t = e.changedTouches[0];
+  startX = t.clientX;
+  startY = t.clientY;
+  moved = false;
 }, { passive: true });
 
 card.addEventListener("touchmove", e => {
-  if (e.changedTouches.length > 0) {
-    touchEndX = e.changedTouches[0].screenX;
-    touchEndY = e.changedTouches[0].screenY;
+  const t = e.changedTouches[0];
+  const dx = t.clientX - startX;
+  const dy = t.clientY - startY;
+
+  // mark that the user actually moved
+  if (Math.abs(dx) > 5 || Math.abs(dy) > 5) {
+    moved = true;
   }
-}, { passive: true });
+
+  // prevent vertical scrolling conflicts while swiping horizontally
+  if (Math.abs(dx) > Math.abs(dy)) {
+    e.preventDefault();
+  }
+}, { passive: false }); // IMPORTANT: must not be passive
 
 card.addEventListener("touchend", e => {
-  const deltaX = touchEndX - touchStartX;
-  const deltaY = touchEndY - touchStartY;
+  const t = e.changedTouches[0];
+  const dx = t.clientX - startX;
+  const dy = t.clientY - startY;
 
-  // Horizontal swipe threshold
-  const minX = 50;
-  // Vertical movement must be small to prevent false positives
-  const maxY = 40;
+  const swipeX = 50;    // minimum horizontal movement
+  const swipeYMax = 40; // vertical tolerance
 
-  if (Math.abs(deltaX) > minX && Math.abs(deltaY) < maxY) {
-    if (deltaX > 0) {
-      // swipe right → previous word
-      previousWord();
-    } else {
-      // swipe left → next word
-      nextWord();
-    }
+  // If the user moved enough horizontally => swipe
+  if (Math.abs(dx) > swipeX && Math.abs(dy) < swipeYMax) {
+    if (dx > 0) previousWord();
+    else nextWord();
     return;
   }
 
-  // Otherwise treat as tap → reveal
-  revealStep();
+  // If movement was tiny => treat as tap (reveal)
+  if (!moved) {
+    revealStep();
+  }
 });
 
 // ------------------- Initialize -------------------
