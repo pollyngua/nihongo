@@ -1,0 +1,279 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background-color: #2b303b;
+}
+
+/* --- typography*1.25: .8 / 1 / 1.3 / 1.6 / 2 / 2.4 / 3.1 / 3.8 / 4.8 / 6 --- */
+
+#container {
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+}
+
+.karate #container {
+  height: 100%;
+}
+
+#prevBtn, #nextBtn {
+  width: 20%;
+  height: 100%;
+  font-size: 1.6rem;
+  border: 0;
+  background-color: #2b303b;
+  color: #475062;
+  cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
+}
+@media (orientation: portrait) {
+  #prevBtn, #nextBtn {
+    display: none;
+    /*width: 15%;*/
+    /*font-size: 1rem;*/
+  }
+}
+
+#card {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'BIZ UDPMincho', serif;
+}
+@media (orientation: portrait) {
+  #card {
+    /*width: 70%;*/
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
+
+#kanji {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 3.1rem;
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: #d8deeb;
+  line-height: 1;
+}
+@media (orientation: portrait) {
+  #kanji {
+    padding-bottom: 2rem;
+    font-size: 2.4rem;
+  }
+}
+
+#kanji > ruby > rt {
+  font-weight: 400;
+}
+
+#kana {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.8rem;
+  color: #d8deeb;
+}
+@media (orientation: portrait) {
+  #kana {
+    font-size: 2.4rem;
+  }
+}
+
+#english {
+  position: relative;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 3.1rem;
+  color: #a2a9ba;
+}
+@media (orientation: portrait) {
+  #english {
+    padding-top: 2rem;
+  }
+}
+
+#english > *:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+@media (orientation: portrait) {
+  #english > *:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+#english > *:not(.note) {
+  position: relative;
+}
+
+#english > *:not(.note):not(:first-child)::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 2.4rem;
+  height: .07rem;
+  top: -.9rem;
+  left: 50%;
+  margin-left: -1.2rem;
+  background-color: #475062;
+}
+@media (orientation: portrait) {
+  #english > *:not(.note):not(:first-child)::after {
+    width: 1.6rem;
+    height: .04rem;
+    top: -.5rem;
+    margin-left: -.8rem;
+  }
+}
+
+.karate #english {
+  height: 70%;
+}
+
+.romaji {
+  font-family: 'BIZ UDMincho', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #d8deeb;
+}
+
+.main {
+  max-width: 44rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+@media (orientation: portrait) {
+  .main {
+    font-size: 1rem;
+  }
+}
+
+.main > i {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.note {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .4rem;
+  background-color: #e34234;
+  font-size: 1rem;
+  font-family: 'BIZ UDMincho', sans-serif;
+  color: #d8deeb;
+  line-height: .8;
+}
+@media (orientation: portrait) {
+  .note {
+    padding: .2rem;
+    font-size: .8rem;
+  }
+}
+
+.example,
+.kanji-explanations {
+  font-family: 'BIZ UDMincho', sans-serif;
+  font-size: 1.3rem;
+  color: #e34234;
+  line-height: 1.3;
+}
+@media (orientation: portrait) {
+  .example,
+  .kanji-explanations {
+    font-size: 1rem;
+  }
+}
+
+.kanji-explanations {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.example > b {
+  color: #a2a9ba;
+}
+
+.kanji-char {
+  font-weight: 700;
+  color: #a2a9ba;
+}
+
+.source {
+  font-family: 'BIZ UDMincho', sans-serif;
+  font-size: .8rem;
+  line-height: 1.3;
+}
+
+.source a {
+  color: #e34234;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10%;
+}
+
+#uniqueCounter {
+  padding: .5rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  color: #a2a9ba;
+}
+#uniqueCounter > .seen {
+  color: #e34234;
+}
+@media (orientation: portrait) {
+  #uniqueCounter {
+    font-size: .8rem;
+  }
+}
+
+#modeBtn, #kanjiBtn, #last50Btn {
+  height: auto;
+  font-size: 1rem;
+  padding: 1rem;
+  border: 0;
+  background-color: #232830;
+  color: #475062;
+  cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1;
+}
+@media (orientation: portrait) {
+  #modeBtn, #kanjiBtn, #last50Btn {
+    padding: .5rem;
+    font-size: .8rem;
+  }
+}
+
+#last50Btn.active,
+#kanjiBtn.active {
+  background-color: #475062;
+  color: #232830;
+}

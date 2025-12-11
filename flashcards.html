@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Japanese Flashcards</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BIZ+UDPMincho:400,700|BIZ+UDMincho:400,700|Noto+Sans:400">
+  <link rel="stylesheet" href="flashcards.css">
+</head>
+<body>
+
+  <div id="container">
+    <button id="prevBtn">prev</button>
+    <div id="card">
+      <div id="kanji"></div>
+      <div id="kana" class="hidden"></div>
+      <div id="english" class="hidden"></div>
+    </div>
+    <button id="nextBtn">next</button>
+  </div>
+
+  <div id="display">
+    <span id="uniqueCounter"><span>0</span> / 0</span>
+    <button id="modeBtn">mode: random</button>
+    <button id="kanjiBtn">kanji only: OFF</button>
+    <button id="last50Btn">last 50</button>
+  </div>
+
+  <script src="words.js"></script>
+  <script src="flashcards.js"></script>
+</body>
+</html>
