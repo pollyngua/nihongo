@@ -4,6 +4,10 @@
 let words = window.WORDS;
 let revealStage = 0;
 
+let swipeStartX = 0;
+let swipeStartY = 0;
+let swipeInProgress = false;
+
 let history = [];
 let currentIndex = -1;
 
@@ -138,7 +142,14 @@ function revealStep() {
 
 // ------------------- Event listeners -------------------
 
-document.getElementById("card").addEventListener("click", revealStep);
+const card = document.getElementById("card");
+
+card.addEventListener("pointerup", e => {
+  // If swipe occurred, swipe logic already handled it
+  if (swipeInProgress) return;
+
+  revealStep();
+});
 
 document.getElementById("nextBtn").addEventListener("click", nextWord);
 document.getElementById("prevBtn").addEventListener("click", previousWord);
@@ -230,54 +241,37 @@ document.addEventListener("keydown", (e) => {
 
 // ------------------- Swipe gestures (mobile) -------------------
 
-const card = document.getElementById("card");
+card.addEventListener("pointerdown", e => {
+  swipeStartX = e.clientX;
+  swipeStartY = e.clientY;
+  swipeInProgress = false;
+});
 
-let startX = 0;
-let startY = 0;
-let moved = false;
+card.addEventListener("pointermove", e => {
+  const dx = e.clientX - swipeStartX;
+  const dy = e.clientY - swipeStartY;
 
-card.addEventListener("touchstart", e => {
-  const t = e.changedTouches[0];
-  startX = t.clientX;
-  startY = t.clientY;
-  moved = false;
-}, { passive: true });
-
-card.addEventListener("touchmove", e => {
-  const t = e.changedTouches[0];
-  const dx = t.clientX - startX;
-  const dy = t.clientY - startY;
-
-  // mark that the user actually moved
+  // detect swipe intent
   if (Math.abs(dx) > 5 || Math.abs(dy) > 5) {
-    moved = true;
+    swipeInProgress = true;
   }
+});
 
-  // prevent vertical scrolling conflicts while swiping horizontally
-  if (Math.abs(dx) > Math.abs(dy)) {
-    e.preventDefault();
-  }
-}, { passive: false }); // IMPORTANT: must not be passive
+card.addEventListener("pointerup", e => {
+  const dx = e.clientX - swipeStartX;
+  const dy = e.clientY - swipeStartY;
 
-card.addEventListener("touchend", e => {
-  const t = e.changedTouches[0];
-  const dx = t.clientX - startX;
-  const dy = t.clientY - startY;
+  const minSwipe = 50;
 
-  const swipeX = 50;    // minimum horizontal movement
-  const swipeYMax = 40; // vertical tolerance
-
-  // If the user moved enough horizontally => swipe
-  if (Math.abs(dx) > swipeX && Math.abs(dy) < swipeYMax) {
+  // horizontal swipe
+  if (Math.abs(dx) > minSwipe && Math.abs(dy) < 40) {
     if (dx > 0) previousWord();
     else nextWord();
     return;
   }
 
-  // If movement was tiny => treat as tap (reveal)
-  if (!moved) {
-    revealStep();
-  }
+  // otherwise it's a tap (ONLY one event fires, no double)
+  revealStep();
 });
 
 // ------------------- Initialize -------------------
