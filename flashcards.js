@@ -4,10 +4,6 @@
 let words = window.WORDS;
 let revealStage = 0;
 
-let swipeStartX = 0;
-let swipeStartY = 0;
-let swipeInProgress = false;
-
 let history = [];
 let currentIndex = -1;
 
@@ -142,14 +138,7 @@ function revealStep() {
 
 // ------------------- Event listeners -------------------
 
-const card = document.getElementById("card");
-
-card.addEventListener("pointerup", e => {
-  // If swipe occurred, swipe logic already handled it
-  if (swipeInProgress) return;
-
-  revealStep();
-});
+document.getElementById("card").addEventListener("click", revealStep);
 
 document.getElementById("nextBtn").addEventListener("click", nextWord);
 document.getElementById("prevBtn").addEventListener("click", previousWord);
@@ -241,38 +230,7 @@ document.addEventListener("keydown", (e) => {
 
 // ------------------- Swipe gestures (mobile) -------------------
 
-card.addEventListener("pointerdown", e => {
-  swipeStartX = e.clientX;
-  swipeStartY = e.clientY;
-  swipeInProgress = false;
-});
 
-card.addEventListener("pointermove", e => {
-  const dx = e.clientX - swipeStartX;
-  const dy = e.clientY - swipeStartY;
-
-  // detect swipe intent
-  if (Math.abs(dx) > 5 || Math.abs(dy) > 5) {
-    swipeInProgress = true;
-  }
-});
-
-card.addEventListener("pointerup", e => {
-  const dx = e.clientX - swipeStartX;
-  const dy = e.clientY - swipeStartY;
-
-  const minSwipe = 50;
-
-  // horizontal swipe
-  if (Math.abs(dx) > minSwipe && Math.abs(dy) < 40) {
-    if (dx > 0) previousWord();
-    else nextWord();
-    return;
-  }
-
-  // otherwise it's a tap (ONLY one event fires, no double)
-  revealStep();
-});
 
 // ------------------- Initialize -------------------
 
