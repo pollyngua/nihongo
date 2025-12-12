@@ -36,9 +36,10 @@ body {
   #prevBtn, #nextBtn {
     position: absolute;
     width: auto;
-    height: auto;
+    /*height: auto;*/
+    height: 10%;
     bottom: 0;
-    padding: 1rem;
+    padding: 0 1rem;
     font-size: 1rem;
   }
 }
@@ -114,11 +115,13 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding-top: 3.1rem;
+  /* ↓ (.note font-size * line-height) + .note padding-bottom + #english children margin-bottom */
+  padding-top: 2.8rem;
   color: #a2a9ba;
 }
 @media (orientation: portrait) {
   #english {
+    /* ↓ (.note font-size * line-height) + .note padding-bottom + #english children margin-bottom */
     padding-top: 2rem;
   }
 }
@@ -198,8 +201,9 @@ body {
 }
 @media (orientation: portrait) {
   .note {
-    padding: .2rem;
-    /*font-size: .8rem;*/
+    right: -1rem;
+    padding: .4rem;
+    font-size: .8rem;
   }
 }
 
@@ -213,7 +217,7 @@ body {
 @media (orientation: portrait) {
   .example,
   .kanji-explanations {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
