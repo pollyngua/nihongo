@@ -384,7 +384,7 @@ window.WORDS = [
   },
   {
     kana: "しゅっしん",
-    english: { main: "from <i>(lit. one's origin, e.g. country, hometown, school)</i>", note: "noun", example: "にほん<b>しゅっしん</b>です (i'm from japan);<br><b>しゅっしん</b>はどこですか (where are you from)" }
+    english: { main: "'from' <i>(lit. <b>one's origin</b>, e.g. country, hometown, school)</i>", note: "noun", example: "にほん<b>しゅっしん</b>です (i'm from japan);<br><b>しゅっしん</b>はどこですか (where are you from)" }
   },
   {
     kana: "ニューヨーク",
@@ -425,7 +425,7 @@ window.WORDS = [
   },
   {
     kana: "おなまえは",
-    english: { main: "what is your name? <i>(lit. your name is...?)</i>", note: "expression; polite" }
+    english: { main: "'what is your name?' <i>(lit. <b>your name is...?</b>)</i>", note: "expression; polite" }
   },
   {
     kana: "はじめまして",
@@ -1190,7 +1190,7 @@ window.WORDS = [
   },
   {
     kana: "すき",
-    english: { main: "like <i>(lit. to one's liking; with が)</i>", note: "na-adjective", example: "まんがが<b>すき</b>です (i like manga)" }
+    english: { main: "'like' <i>(lit. <b>to one's liking</b>; with が)</i>", note: "na-adjective", example: "まんがが<b>すき</b>です (i like manga)" }
   },
   {
     kana: "どんな",
@@ -1210,7 +1210,7 @@ window.WORDS = [
   },
   {
     kana: "ほんとうですか",
-    english: { main: "really? <i>(lit. is it the truth?)</i>", note: "expression" }
+    english: { main: "'really?' <i>(lit. <b>is it the truth?</b>)</i>", note: "expression" }
   },
   {
     kana: "いえ",
@@ -1500,5 +1500,38 @@ window.WORDS = [
     kanji: "何さい",
     kana: "なんさい",
     english: { main: "how old; what age", note: "noun" }
+  },
+  {
+    kana: "ご",
+    english: { main: "<i>honorific/polite/humble prefix​</i>", note: "prefix​; honorific; polite; humble", example: "<b>ご</b>かぞくはどこですか (where is your family?)" }
+  },
+  {
+    kana: "りょうしん",
+    english: { main: "(both) parents", note: "noun", example: "ご<b>りょうしん</b>はどこにすんでいますか (where do your parents live?)" }
+  },
+  {
+    kana: "ちかく",
+    english: { main: "'nearby' <i>(lit. <b>neighborhood; vicinity</b>)</i>", note: "noun; adverb", example: "かぞくは<b>ちかく</b>にすんでいます (my family lives nearby)" }
+  },
+  {
+    kana: "アレルギー",
+    english: { main: "allergy", note: "noun; noun, used as a suffix" }
+  },
+  {
+    kanji: "休みます",
+    kana: "やすみます",
+    english: { main: "to rest <i>(masu-form of <b>休む</b>)</i>", note: "verb (godan, intransitive); polite" }
+  },
+  {
+    kana: "くすり",
+    english: { main: "medicine", note: "noun" }
+  },
+  {
+    kana: "きょう",
+    english: { main: "today", note: "noun; adverb" }
+  },
+  {
+    kana: "ちゃんと",
+    english: { main: "'make sure' <i>(lit. <b>diligently; seriously; earnestly</b>)</i>", note: "adverb", example: "<b>ちゃんと</b>水を飲みます (i'll make sure to drink water)" }
   }
 ];
