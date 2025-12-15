@@ -1533,5 +1533,38 @@ window.WORDS = [
   {
     kana: "ちゃんと",
     english: { main: "'make sure' <i>(lit. <b>diligently; seriously; earnestly</b>)</i>", note: "adverb", example: "<b>ちゃんと</b>水を飲みます (i'll make sure to drink water)" }
+  },
+  {
+    kana: "はる",
+    english: { main: "spring <i>(season)</i>", note: "noun, adverb", example: "<b>はる</b>はよくともだちとこうえんに行きます (in the spring, i often go to the park with friends)" }
+  },
+  {
+    kana: "あめ",
+    english: { main: "<i>1.</i> rain; <i>2.</i> rainy (weather)", note: "noun" }
+  },
+  {
+    kana: "てんき",
+    english: { main: "weather", note: "noun", example: "きょうの<b>てんき</b>はいいです (today's weather will be nice)" }
+  },
+  {
+    kana: "あたたかい",
+    english: { main: "warm", note: "i-adjective" }
+  },
+  {
+    kana: "はれ",
+    english: { main: "'sunny' <i>(lit. <b>clear/fine weather</b>)</i>", note: "noun" }
+  },
+  {
+    kana: "うみ",
+    english: { main: "'beach' <i>(lit. <b>sea; ocean; waters</b>)</i>", note: "noun" }
+  },
+  {
+    kana: "なつ",
+    english: { main: "summer", note: "noun, adverb" }
+  },
+  {
+    kanji: "日",
+    kana: "ひ",
+    english: { main: "day", note: "noun", example: "はれの<b>日</b>はスポーツをします (on sunny days, i play sports)" }
   }
 ];
