@@ -116,13 +116,13 @@ body {
   justify-content: start;
   align-items: center;
   /* ↓ (.note font-size * line-height) + .note padding-bottom + #english children margin-bottom */
-  padding-top: 2.8rem;
+  padding-top: 3rem;
   color: #a2a9ba;
 }
 @media (orientation: portrait) {
   #english {
     /* ↓ (.note font-size * line-height) + .note padding-bottom + #english children margin-bottom */
-    padding-top: 2rem;
+    padding-top: 2.2rem;
   }
 }
 
@@ -197,14 +197,24 @@ body {
   font-size: 1rem;
   font-family: 'BIZ UDMincho', sans-serif;
   color: #d8deeb;
-  line-height: .8;
+  line-height: 1;
+  text-align: right;
 }
 @media (orientation: portrait) {
   .note {
     right: -1rem;
-    padding: .4rem;
     font-size: .8rem;
   }
+}
+
+.note > i {
+  display: inline-block;
+  margin: -.4rem -.2rem -.4rem 0;
+  padding: .4rem;
+  background-color: #2b303b;
+  font-weight: 700;
+  font-style: normal;
+  color: #a2a9ba;
 }
 
 .example,
