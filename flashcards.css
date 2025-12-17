@@ -208,13 +208,12 @@ body {
 }
 
 .note > i {
-  display: inline-block;
-  margin: -.4rem -.2rem -.4rem 0;
-  padding: .4rem;
-  background-color: #2b303b;
   font-weight: 700;
   font-style: normal;
-  color: #a2a9ba;
+}
+.note > i::before {
+  content: "❘ ";
+  color: #2b303b;
 }
 
 .example,
@@ -283,7 +282,7 @@ body {
   }
 }
 
-#modeBtn, #kanjiBtn, #last50Btn {
+#modeBtn, #kanjiBtn, #last100Btn {
   height: auto;
   font-size: 1rem;
   padding: 1rem;
@@ -295,13 +294,13 @@ body {
   line-height: 1;
 }
 @media (orientation: portrait) {
-  #modeBtn, #kanjiBtn, #last50Btn {
+  #modeBtn, #kanjiBtn, #last100Btn {
     padding: .5rem;
     font-size: .8rem;
   }
 }
 
-#last50Btn.active,
+#last100Btn.active,
 #kanjiBtn.active {
   background-color: #475062;
   color: #232830;
