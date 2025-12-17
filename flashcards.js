@@ -11,8 +11,8 @@ let currentIndex = -1;
 let mode = "norepeat";
 let deck = [];
 
-// Last-50 mode
-let last50Mode = false;
+// Last 100 mode
+let last100Mode = false;
 
 // Kanji-only mode
 let kanjiOnlyMode = false;
@@ -29,8 +29,8 @@ function recomputeCurrentList() {
   let list = words;
 
   // apply last-50 filter first if active
-  if (last50Mode) {
-    list = list.slice(-50);
+  if (last100Mode) {
+    list = list.slice(-100);
   }
 
   // apply kanji filter
@@ -162,13 +162,13 @@ document.getElementById("modeBtn").addEventListener("click", () => {
   nextWord();
 });
 
-// ------------------- Last 50 toggle -------------------
+// ------------------- Last 100 toggle -------------------
 
-document.getElementById("last50Btn").addEventListener("click", () => {
-  last50Mode = !last50Mode;
+document.getElementById("last100Btn").addEventListener("click", () => {
+  last100Mode = !last100Mode;
 
   // update UI
-  document.getElementById("last50Btn").classList.toggle("active", last50Mode);
+  document.getElementById("last100Btn").classList.toggle("active", last100Mode);
 
   // rebuild list
   recomputeCurrentList();
