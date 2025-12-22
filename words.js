@@ -531,7 +531,7 @@ window.WORDS = [
   },
   {
     kana: "うるさい",
-    english: { main: "noisy", note: "i-adjective" }
+    english: { main: "<i>1.</i> noisy; <i>2.</i> annoying", note: "i-adjective" }
   },
   {
     kana: "ゆうめい",
@@ -1058,7 +1058,7 @@ window.WORDS = [
   {
     kanji: "有ります",
     kana: "あります",
-    english: { main: "to be; to exist <i>(masu-form of <b>有る</b>)</i>", note: "verb (godan, intransitive); polite <i>JLPT N4</i>", example: "ちずは<b>あります</b>か (do you have a map?)" }
+    english: { main: "to be; to exist <i>(of inanimate objects, concepts)</i> <i>(masu-form of <b>有る</b>)</i>", note: "verb (godan, intransitive); polite <i>JLPT N4</i>", example: "ちずは<b>あります</b>か (do you have a map?)" }
   },
   {
     kanji: "有りません",
@@ -1395,7 +1395,7 @@ window.WORDS = [
   },
   {
     kana: "ほんとうに",
-    english: { main: "really; truly", note: "adverb", example: "京都えきは<b>ほんとうに</b>きれいなえきです (tokyo station is a really pretty station)" }
+    english: { main: "really; truly", note: "adverb", example: "京都えきは<b>ほんとうに</b>きれいなえきです (kyoto station is a really pretty station)" }
   },
   {
     kana: "たてもの",
@@ -1629,5 +1629,34 @@ window.WORDS = [
   {
     kana: "さむい",
     english: { main: "cold <i>(e.g. weather)</i>", note: "i-adjective", example: "あしたはまだ<b>さむい</b>ですか (will tomorrow still be cold?)" }
+  },
+  {
+    kana: "おとうとさん",
+    english: { main: "younger brother", note: "noun; honorific" }
+  },
+  {
+    kana: "きょうだい",
+    english: { main: "siblings", note: "noun" }
+  },
+  {
+    kana: "います",
+    english: { main: "to be; to exist <i>(of animate objects)</i> <i>(masu-form of <b>いる</b>)</i>", note: "verb (ichidan, intransitive); polite", example: "きょうだいは<b>います</b>か (do you have siblings?); ゆうめいなおとうとが<b>います</b> (i have a famous younger brother)" }
+  },
+  {
+    kanji: "日本ご",
+    kana: "にほんご",
+    english: { main: "Japanese (language)", note: "noun" }
+  },
+  {
+    kana: "おねえさん",
+    english: { main: "older sister", note: "noun; honorific" }
+  },
+  {
+    kana: "オーストラリア",
+    english: { main: "Australia", note: "noun" }
+  },
+  {
+    kana: "コーチ",
+    english: { main: "<i>(sport)</i> coach", note: "noun" }
   }
 ];
