@@ -1653,10 +1653,26 @@ window.WORDS = [
   },
   {
     kana: "オーストラリア",
-    english: { main: "Australia", note: "noun" }
+    english: { main: "Australia", note: "proper noun" }
   },
   {
     kana: "コーチ",
     english: { main: "<i>(sport)</i> coach", note: "noun" }
+  },
+  {
+    kana: "ちゅうごくご",
+    english: { main: "Chinese (language)", note: "noun" }
+  },
+  {
+    kana: "いもうとさん",
+    english: { main: "younger sister", note: "noun; honorific" }
+  },
+  {
+    kana: "できます",
+    english: { main: "to be good at; to do well <i>(masu-form of <b>できる</b>)</i>", note: "verb (ichidan, intransitive); polite", example: "私も日本ごが<b>できます</b> (i also know japanese)" }
+  },
+  {
+    kana: "たいわん",
+    english: { main: "Taiwan", note: "proper noun" }
   }
 ];
