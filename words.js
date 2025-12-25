@@ -1674,5 +1674,21 @@ window.WORDS = [
   {
     kana: "たいわん",
     english: { main: "Taiwan", note: "proper noun" }
+  },
+  {
+    kana: "えいご",
+    english: { main: "English (language)", note: "noun" }
+  },
+  {
+    kana: "おにいさん",
+    english: { main: "older brother", note: "noun; honorific" }
+  },
+  {
+    kana: "ふたり",
+    english: { main: "two persons; pair; couple", note: "noun", example: "いもうとが<b>ふたり</b>います (i have two younger sisters)" }
+  },
+  {
+    kana: "マレーシア",
+    english: { main: "Malaysia", note: "proper noun" }
   }
 ];
