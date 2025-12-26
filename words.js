@@ -1690,5 +1690,25 @@ window.WORDS = [
   {
     kana: "マレーシア",
     english: { main: "Malaysia", note: "proper noun" }
+  },
+  {
+    kana: "かんこくご",
+    english: { main: "Korean (language, <i>esp. as spoken in South Korea</i>)", note: "noun" }
+  },
+  {
+    kana: "ソウル",
+    english: { main: "Seoul <i>(South Korea)</i>", note: "proper noun" }
+  },
+  {
+    kana: "ひとり",
+    english: { main: "one person", note: "noun" }
+  },
+  {
+    kana: "こども",
+    english: { main: "child", note: "noun" }
+  },
+  {
+    kana: "おこさん",
+    english: { main: "child", note: "noun; honorific" }
   }
 ];
