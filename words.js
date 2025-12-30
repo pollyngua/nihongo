@@ -547,7 +547,7 @@ window.WORDS = [
   },
   {
     kanji: "四",
-    kana: "よん | よ | し",
+    kana: "よん, よ, し",
     english: { main: "four", note: "numeric <i>JLPT N5</i>", example: "まいにち<b>よ</b>じにおよぎます (i swim every day at four o'clock)" }
   },
   {
@@ -567,7 +567,7 @@ window.WORDS = [
   },
   {
     kanji: "七",
-    kana: "なな | しち",
+    kana: "なな, しち",
     english: { main: "seven", note: "numeric <i>JLPT N5</i>", example: "<b>しち</b>じはん (seven thirty)" }
   },
   {
@@ -718,7 +718,7 @@ window.WORDS = [
   },
   {
     kanji: "九",
-    kana: "く | きゅう",
+    kana: "く, きゅう",
     english: { main: "nine", note: "numeric <i>JLPT N5</i>" }
   },
   {
@@ -1403,7 +1403,7 @@ window.WORDS = [
   },
   {
     kanji: "何",
-    kana: "なん",
+    kana: "なん, なに",
     english: { main: "what", note: "pronoun <i>JLPT N5</i>" }
   },
   {
@@ -1710,5 +1710,41 @@ window.WORDS = [
   {
     kana: "おこさん",
     english: { main: "child", note: "noun; honorific" }
+  },
+  {
+    kana: "しごと",
+    english: { main: "work; job", note: "noun" }
+  },
+  {
+    kana: "うち",
+    english: { main: "one's house; one's home", note: "noun" }
+  },
+  {
+    kana: "かえります",
+    english: { main: "to return <i>(masu-form of <b>かえる</b>)</i>", note: "verb (godan, intransitive); polite", example: "しごとのあと、うちに<b>かえります</b> (after work, i return home)" }
+  },
+  {
+    kana: "かじ",
+    english: { main: "(domestic) chores", note: "noun" }
+  },
+  {
+    kana: "あと",
+    english: { main: "after; later​", note: "noun", example: "かじの<b>あと</b>、ねます (after chores, i sleep)" }
+  },
+  {
+    kana: "がっこう",
+    english: { main: "school", note: "noun" }
+  },
+  {
+    kana: "てつだいます",
+    english: { main: "to help <i>(masu-form of <b>てつだう</b>)</i>", note: "verb (godan, transitive); polite", example: "いつもおとうとのしゅくだいを<b>てつだいます</b> (i always help with my younger brother's homework)" }
+  },
+  {
+    kana: "そうじ",
+    english: { main: "cleaning", note: "noun" }
+  },
+  {
+    kana: "しゅくだい",
+    english: { main: "homework", note: "noun" }
   }
 ];
