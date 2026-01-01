@@ -10,7 +10,7 @@ window.WORDS = [
   },
   {
     kana: "ごはん",
-    english: { main: "rice", note: "noun" }
+    english: { main: "<i>1.</i> cooked rice; <i>2.</i> meal", note: "noun" }
   },
   {
     kana: "おちゃ",
@@ -45,7 +45,7 @@ window.WORDS = [
     english: { main: "lawyer", note: "noun" }
   },
   {
-    kana: "やさしい",
+    kana: "やさしい (優しい)",
     english: { main: "nice; kind", note: "i-adjective" }
   },
   {
@@ -1746,5 +1746,41 @@ window.WORDS = [
   {
     kana: "しゅくだい",
     english: { main: "homework", note: "noun" }
+  },
+  {
+    kana: "いろいろ",
+    english: { main: "various; all sorts of", note: "na-adjective; noun" }
+  },
+  {
+    kana: "せんたく",
+    english: { main: "laundry", note: "noun" }
+  },
+  {
+    kana: "だれ",
+    english: { main: "who", note: "pronoun" }
+  },
+  {
+    kana: "やさしい (易しい)",
+    english: { main: "easy", note: "i-adjective" }
+  },
+  {
+    kana: "おふろ",
+    english: { main: "bath", note: "noun" }
+  },
+  {
+    kana: "たいへん",
+    english: { main: "difficult; tough", note: "na-adjective" }
+  },
+  {
+    kana: "そして",
+    english: { main: "then; and then", note: "conjunction" }
+  },
+  {
+    kana: "はいります",
+    english: { main: "to enter <i>(masu-form of <b>はいる</b>)</i>", note: "verb (godan, intransitive); polite", example: "まいばんおふろに<b>はいります</b> (i take a bath (lit. 'enter a bath') every night)" }
+  },
+  {
+    kana: "ストレッチ",
+    english: { main: "stretch <i>(exercise)</i>", note: "noun" }
   }
 ];
