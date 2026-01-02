@@ -99,7 +99,7 @@ window.WORDS = [
   },
   {
     kana: "は",
-    english: { main: "<i>topic marker</i> | and you?; what about you?", note: "particle", example: "私はトロントしゅっしんです。 はなさん<b>は</b>? (i'm from toronto. and you, hana?)" }
+    english: { main: "<i>topic marker</i> | and you?; what about you?", note: "particle", example: "私はトロントしゅっしんです。はなさん<b>は</b>? (i'm from toronto. and you, hana?)" }
   },
   {
     kana: "それ",
@@ -921,7 +921,7 @@ window.WORDS = [
   },
   {
     kana: "ひとりで",
-    english: { main: "by oneself", note: "expression", example: "<b>ひとりで</b>本を読みます (i read books by myself)" }
+    english: { main: "by oneself; on one's own", note: "expression", example: "<b>ひとりで</b>本を読みます (i read books by myself)" }
   },
   {
     kana: "ドラマ",
@@ -1579,7 +1579,7 @@ window.WORDS = [
   {
     kanji: "休み",
     kana: "やすみ",
-    english: { main: "<i>1.</i> rest; break; <i>2.</i> vacation", note: "noun <i>JLPT N5</i>", example: "なつ<b>休み</b>はいいですね (summer break is nice, isn't it?)" }
+    english: { main: "<i>1.</i> rest; break; <i>2.</i> vacation", note: "noun <i>JLPT N5</i>", example: "なつ<b>休み</b>はいいですね (summer break is nice, isn't it?); <b>休み</b>の日は何をしますか (what do you do on days off?)" }
   },
   {
     kana: "はなび",
@@ -1749,7 +1749,7 @@ window.WORDS = [
   },
   {
     kana: "いろいろ",
-    english: { main: "various; all sorts of", note: "na-adjective; noun" }
+    english: { main: "various; all sorts of", note: "na-adjective; noun", example: "<b>いろいろ</b>なかじがあります。いそがしいです。(i have all sorts of chores. i'm busy.)" }
   },
   {
     kana: "せんたく",
@@ -1782,5 +1782,22 @@ window.WORDS = [
   {
     kana: "ストレッチ",
     english: { main: "stretch <i>(exercise)</i>", note: "noun" }
+  },
+  {
+    kanji: "買い物",
+    kana: "かいもの",
+    english: { main: "shopping", note: "noun" }
+  },
+  {
+    kana: "たのしい",
+    english: { main: "enjoyable; fun", note: "i-adjective" }
+  },
+  {
+    kana: "りょうり",
+    english: { main: "cooking", note: "noun" }
+  },
+  {
+    kana: "ガーデニング",
+    english: { main: "gardening", note: "noun" }
   }
 ];
