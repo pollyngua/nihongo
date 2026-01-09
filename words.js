@@ -1799,5 +1799,39 @@ window.WORDS = [
   {
     kana: "ガーデニング",
     english: { main: "gardening", note: "noun" }
+  },
+  {
+    kana: "フランス",
+    english: { main: "France", note: "proper noun" }
+  },
+  {
+    kanji: "来月",
+    kana: "らいげつ",
+    english: { main: "next month", note: "noun; adverb" }
+  },
+  {
+    kana: "-ましょう",
+    english: { main: "let's [verb] <i>(used to make an invitation, request, etc.)</i>", note: "expression", example: "行き<b>ましょう</b>! (let's go!/we should go!);<br>何をし<b>ましょう</b>か? (what should we do?);<br>九時に会い<b>ましょう</b> (we should meet at 9 o'clock)" }
+  },
+  {
+    kana: "りょこう",
+    english: { main: "trip; travel", note: "noun" }
+  },
+  {
+    kanji: "会います",
+    kana: "あいます",
+    english: { main: "to meet <i>(masu-form of <b>会う</b>)</i>", note: "verb (godan, intransitive); polite <i>JLPT N4</i>" }
+  },
+  {
+    kana: "スーツケース",
+    english: { main: "suitcase", note: "noun" }
+  },
+  {
+    kana: "ひこうき",
+    english: { main: "airplane", note: "noun" }
+  },
+  {
+    kana: "チケット",
+    english: { main: "ticket", note: "noun" }
   }
 ];
