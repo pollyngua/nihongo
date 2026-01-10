@@ -1833,5 +1833,37 @@ window.WORDS = [
   {
     kana: "チケット",
     english: { main: "ticket", note: "noun" }
+  },
+  {
+    kana: "え",
+    english: { main: "painting", note: "noun" }
+  },
+  {
+    kana: "びじゅつかん",
+    english: { main: "art museum", note: "noun" }
+  },
+  {
+    kana: "で",
+    english: { main: "at; in <i>(​indicates location of action)</i>", note: "particle", example: "コンビニ<b>で</b>おかしを買いましょう (we should buy snacks at the convenience store)" }
+  },
+  {
+    kana: "どうぶつえん",
+    english: { main: "zoo", note: "noun" }
+  },
+  {
+    kana: "しゃしん",
+    english: { main: "photo", note: "noun" }
+  },
+  {
+    kana: "ライオン",
+    english: { main: "lion", note: "noun" }
+  },
+  {
+    kana: "とります",
+    english: { main: "to take (a photo) <i>(masu-form of <b>とる</b>)</i>", note: "verb (godan, transitive); polite" }
+  },
+  {
+    kana: "ひろば",
+    english: { main: "plaza", note: "noun" }
   }
 ];
