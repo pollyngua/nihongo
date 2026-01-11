@@ -1865,5 +1865,13 @@ window.WORDS = [
   {
     kana: "ひろば",
     english: { main: "plaza", note: "noun" }
+  },
+  {
+    kana: "にく",
+    english: { main: "meat", note: "noun" }
+  },
+  {
+    kana: "フランスりょうり",
+    english: { main: "French food", note: "noun" }
   }
 ];
