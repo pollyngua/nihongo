@@ -22,7 +22,7 @@ window.WORDS = [
   },
   {
     kana: "と",
-    english: { main: "<i>1.</i> and <i>(links nouns, not clauses)</i>; <i>2.</i> with; <i>3.</i> <i>quote marker</i>", note: "particle; conjunction", example: "(3) 田中<b>と</b>言います (my name is tanaka (lit. i say 'tanaka'))" }
+    english: { main: "<i>1.</i> and <i>(links nouns, not clauses)</i>; <i>2.</i> with; <i>3.</i> <i>quote marker</i>", note: "particle; conjunction", example: "(2) ライオン<b>と</b>しゃしんをとりましょう (we should take a photo with the lion);<br>(3) 田中<b>と</b>言います (my name is tanaka (lit. i say 'tanaka'))" }
   },
   {
     kana: "です",
@@ -198,7 +198,7 @@ window.WORDS = [
   },
   {
     kana: "ここ",
-    english: { main: "here; this place", note: "pronoun", example: "ちずは<b>ここ</b>です (the map is here); <b>ここ</b>はよこはまえきです (this is yokohama station)" }
+    english: { main: "here; this place", note: "pronoun", example: "ちずは<b>ここ</b>です (the map is here);<br><b>ここ</b>はよこはまえきです (this is yokohama station)" }
   },
   {
     kana: "えき",
@@ -1318,7 +1318,7 @@ window.WORDS = [
   },
   {
     kana: "つぎ",
-    english: { main: "next", note: "noun", example: "<b>つぎ</b>のでんしゃはもうすぐ来ます (the next train will come soon); <b>つぎ</b>はあきはばらです (next is akihabara)" }
+    english: { main: "next", note: "noun", example: "<b>つぎ</b>のでんしゃはもうすぐ来ます (the next train will come soon);<br><b>つぎ</b>はあきはばらです (next is akihabara)" }
   },
   {
     kanji: "行きます",
@@ -1579,7 +1579,7 @@ window.WORDS = [
   {
     kanji: "休み",
     kana: "やすみ",
-    english: { main: "<i>1.</i> rest; break; <i>2.</i> vacation", note: "noun <i>JLPT N5</i>", example: "なつ<b>休み</b>はいいですね (summer break is nice, isn't it?); <b>休み</b>の日は何をしますか (what do you do on days off?)" }
+    english: { main: "<i>1.</i> rest; break; <i>2.</i> vacation", note: "noun <i>JLPT N5</i>", example: "なつ<b>休み</b>はいいですね (summer break is nice, isn't it?);<br><b>休み</b>の日は何をしますか (what do you do on days off?)" }
   },
   {
     kana: "はなび",
@@ -1640,7 +1640,7 @@ window.WORDS = [
   },
   {
     kana: "います",
-    english: { main: "to be; to exist <i>(of animate objects)</i> <i>(masu-form of <b>いる</b>)</i>", note: "verb (ichidan, intransitive); polite", example: "きょうだいは<b>います</b>か (do you have siblings?); ゆうめいなおとうとが<b>います</b> (i have a famous younger brother)" }
+    english: { main: "to be; to exist <i>(of animate objects)</i> <i>(masu-form of <b>いる</b>)</i>", note: "verb (ichidan, intransitive); polite", example: "きょうだいは<b>います</b>か (do you have siblings?);<br>ゆうめいなおとうとが<b>います</b> (i have a famous younger brother)" }
   },
   {
     kanji: "日本ご",
