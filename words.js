@@ -1441,7 +1441,7 @@ window.WORDS = [
   },
   {
     kana: "や",
-    english: { main: "shop <i>(as a suffix)</i>", note: "suffix", example: "いつもこのピザ<b>や</b>に行きます (i always go to this pizza shop)" }
+    english: { main: "shop; restaurant <i>(as a suffix)</i>", note: "suffix", example: "いつもこのピザ<b>や</b>に行きます (i always go to this pizza shop)" }
   },
   {
     kana: "おみやげ",
@@ -1794,7 +1794,7 @@ window.WORDS = [
   },
   {
     kana: "りょうり",
-    english: { main: "cooking", note: "noun" }
+    english: { main: "cooking; food", note: "noun", example: "うちにかえります。そして、<b>りょうり</b>をします (i return home. then, i do the cooking);<br>フランス<b>りょうり</b>、日本<b>りょうり</b> (french food, japanese food)" }
   },
   {
     kana: "ガーデニング",
@@ -1871,7 +1871,42 @@ window.WORDS = [
     english: { main: "meat", note: "noun" }
   },
   {
-    kana: "フランスりょうり",
-    english: { main: "French food", note: "noun" }
+    kanji: "お父さん",
+    kana: "おとうさん",
+    english: { main: "father; dad", note: "noun; honorific" }
+  },
+  {
+    kana: "ロビー",
+    english: { main: "lobby", note: "noun" }
+  },
+  {
+    kanji: "金曜日",
+    kana: "きんようび",
+    english: { main: "Friday", note: "noun; adverb", example: "<b>金曜日</b>にどこで食べますか (where are you going to eat on friday?)" }
+  },
+  {
+    kanji: "お母さん",
+    kana: "おかあさん",
+    english: { main: "mother; mom", note: "noun; honorific" }
+  },
+  {
+    kana: "せき",
+    english: { main: "seat", note: "noun" }
+  },
+  {
+    kana: "べんり",
+    english: { main: "convenient", note: "na-adjective" }
+  },
+  {
+    kana: "しんかんせん",
+    english: { main: "bullet train", note: "noun" }
+  },
+  {
+    kana: "のります",
+    english: { main: "to ride; to get on; to take <i>(train, etc.)</i> <i>(masu-form of <b>のる</b>)</i>", note: "verb (godan, intransitive); polite", example: "しんかんせんに<b>のります</b> (we're going to ride the bullet train)" }
+  },
+  {
+    kana: "なごや",
+    english: { main: "Nagoya <i>(city)</i>", note: "proper noun" }
   }
 ];
