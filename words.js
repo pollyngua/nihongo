@@ -1873,7 +1873,7 @@ window.WORDS = [
   {
     kanji: "お父さん",
     kana: "おとうさん",
-    english: { main: "father; dad", note: "noun; honorific" }
+    english: { main: "father; dad", note: "noun; honorific <i>JLPT N5</i>" }
   },
   {
     kana: "ロビー",
@@ -1887,7 +1887,7 @@ window.WORDS = [
   {
     kanji: "お母さん",
     kana: "おかあさん",
-    english: { main: "mother; mom", note: "noun; honorific" }
+    english: { main: "mother; mom", note: "noun; honorific <i>JLPT N5</i>" }
   },
   {
     kana: "せき",
@@ -1908,5 +1908,38 @@ window.WORDS = [
   {
     kana: "なごや",
     english: { main: "Nagoya <i>(city)</i>", note: "proper noun" }
+  },
+  {
+    kana: "しろ",
+    english: { main: "castle", note: "noun" }
+  },
+  {
+    kana: "にわ",
+    english: { main: "garden", note: "noun" }
+  },
+  {
+    kana: "かんこう",
+    english: { main: "sightseeing", note: "noun" }
+  },
+  {
+    kana: "みそかつ",
+    english: { main: "miso pork cutlets; miso katsu", note: "noun" }
+  },
+  {
+    kanji: "月曜日",
+    kana: "げつようび",
+    english: { main: "Monday", note: "noun; adverb" }
+  },
+  {
+    kana: "みじかい",
+    english: { main: "short", note: "i-adjective" }
+  },
+  {
+    kana: "まちます",
+    english: { main: "to wait <i>(masu-form of <b>まつ</b>)</i>", note: "verb (godan, transitive, intransitive); polite" }
+  },
+  {
+    kana: "たのしみ",
+    english: { main: "anticipation; looking forward to", note: "noun; na-adjective", example: "何が<b>たのしみ</b>ですか (what are you looking forward to?);<br>つぎのりょこうが<b>たのしみ</b>です (i'm looking forward to the next trip)" }
   }
 ];
