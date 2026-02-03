@@ -1190,7 +1190,7 @@ window.WORDS = [
   },
   {
     kana: "すき",
-    english: { main: "'like' <i>(lit. <b>to one's liking</b>; with が)</i>", note: "na-adjective", example: "まんがが<b>すき</b>です (i like manga)" }
+    english: { main: "liked; to one’s liking", note: "na-adjective", example: "まんがが<b>すき</b>です (i like manga);<br>ケーキは<b>すき</b>ですか (do you like cake?)" }
   },
   {
     kana: "どんな",
@@ -1449,7 +1449,7 @@ window.WORDS = [
   },
   {
     kana: "おかし",
-    english: { main: "snack", note: "noun" }
+    english: { main: "confection; pastry; snack", note: "noun" }
   },
   {
     kana: "ポストカード",
@@ -1941,5 +1941,53 @@ window.WORDS = [
   {
     kana: "たのしみ",
     english: { main: "anticipation; looking forward to", note: "noun; na-adjective", example: "何が<b>たのしみ</b>ですか (what are you looking forward to?);<br>つぎのりょこうが<b>たのしみ</b>です (i'm looking forward to the next trip)" }
+  },
+  {
+    kana: "もの",
+    english: { main: "thing; stuff", note: "noun" }
+  },
+  {
+    kana: "あまい",
+    english: { main: "sweet", note: "i-adjective" }
+  },
+  {
+    kana: "だいすき",
+    english: { main: "loved; greatly liked", note: "na-adjective", example: "ケーキが<b>だいすき</b>です (i love cake)" }
+  },
+  {
+    kana: "チーズケーキ",
+    english: { main: "cheese cake", note: "noun" }
+  },
+  {
+    kana: "みどり",
+    english: { main: "green", note: "noun", example: "あの<b>みどり</b>のおかしは何ですか (what is that green snack over there?)" }
+  },
+  {
+    kana: "カップケーキ",
+    english: { main: "cupcake", note: "noun" }
+  },
+  {
+    kana: "まっちゃ",
+    english: { main: "matcha", note: "noun" }
+  },
+  {
+    kana: "いちご",
+    english: { main: "strawberry", note: "noun" }
+  },
+  {
+    kana: "クッキー",
+    english: { main: "cookie", note: "noun" }
+  },
+  {
+    kana: "チョコレート",
+    english: { main: "chocolate", note: "noun" }
+  },
+  {
+    kana: "ドーナツ",
+    english: { main: "donut", note: "noun" }
+  },
+  {
+    kana: "パイ",
+    english: { main: "pie", note: "noun" }
   }
 ];
