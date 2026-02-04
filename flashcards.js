@@ -17,26 +17,102 @@ let last100Mode = false;
 // Kanji-only mode
 let kanjiOnlyMode = false;
 
-// This will always contain the *active* filtered list
+// Selected POS / category filter key
+let posFilter = "all";
+
+// Active filtered list
 let currentWordList = words;
 
 // Track unique words
 let uniqueSeen = new Set();
+
+// ------------------- POS FILTER MAP -------------------
+
+const filters = {
+  all: w => true,
+
+  verb: w =>
+    w.english?.note &&
+    w.english.note.toLowerCase().includes("verb") &&
+    !w.english.note.toLowerCase().includes("adverb"),
+
+  noun: w =>
+    w.english?.note &&
+    w.english.note.toLowerCase().includes("noun") &&
+    !w.english.note.toLowerCase().includes("pronoun") &&
+    !w.english.note.toLowerCase().includes("-noun"),
+
+  pronoun: w =>
+    w.english.note &&
+    w.english.note.toLowerCase().includes("pronoun"),
+
+  adjective: w =>
+    w.english.note &&
+    w.english.note.toLowerCase().includes("adjectiv"),
+
+  adverb: w =>
+    w.english.note &&
+    w.english.note.toLowerCase().includes("adverb"),
+
+  expression: w =>
+    w.english.note &&
+    w.english.note.toLowerCase().includes("expression"),
+
+  small: w =>
+    w.english.note &&
+    (
+      w.english.note.toLowerCase().includes("particle") ||
+      w.english.note.toLowerCase().includes("fix") ||
+      w.english.note.toLowerCase().includes("conjunction")
+    ),
+
+  numeric: w =>
+    w.english.note &&
+    w.english.note.toLowerCase().includes("numeric"),
+
+  counter: w =>
+    w.english.note &&
+    w.english.note.toLowerCase().includes("counter"),
+
+  jlptn5: w =>
+    w.english.note &&
+    w.english.note.includes("JLPT N5"),
+
+  jlptn4: w =>
+    w.english.note &&
+    w.english.note.includes("JLPT N4"),
+
+  jlptn3: w =>
+    w.english.note &&
+    w.english.note.includes("JLPT N3"),
+
+  jlptn2: w =>
+    w.english.note &&
+    w.english.note.includes("JLPT N2"),
+
+  jlptn1: w =>
+    w.english.note &&
+    w.english.note.includes("JLPT N1")
+};
 
 // ------------------- FILTER PIPELINE -------------------
 
 function recomputeCurrentList() {
   let list = words;
 
-  // apply last-50 filter first if active
+  // last 100 filter
   if (last100Mode) {
     list = list.slice(-100);
   }
 
-  // apply kanji filter
+  // kanji-only filter
   if (kanjiOnlyMode) {
     list = list.filter(w => w.kanji && w.kanji.trim() !== "");
   }
+
+  // POS / category filter
+  const filterFn = filters[posFilter] || filters.all;
+  list = list.filter(filterFn);
 
   currentWordList = list;
 }
@@ -77,7 +153,6 @@ function displayWord(word) {
   }
 
   document.getElementById("english").innerHTML = englishHTML;
-
   document.getElementById("english").classList.add("hidden");
 
   if (hasKanji) {
@@ -92,7 +167,7 @@ function displayWord(word) {
 // ------------------- Navigation -------------------
 
 function nextWord() {
-  if (currentWordList.length === 0) return; // avoid crash if filters empty
+  if (currentWordList.length === 0) return;
 
   if (currentIndex < history.length - 1) {
     currentIndex++;
@@ -139,47 +214,17 @@ function revealStep() {
 // ------------------- Event listeners -------------------
 
 document.getElementById("card").addEventListener("click", revealStep);
-
 document.getElementById("nextBtn").addEventListener("click", nextWord);
 document.getElementById("prevBtn").addEventListener("click", previousWord);
-
-// ------------------- Mode button -------------------
-
-document.getElementById("modeBtn").addEventListener("click", () => {
-  if (mode === "random") {
-    mode = "norepeat";
-    document.getElementById("modeBtn").textContent = "mode: no repeats";
-    buildDeck();
-  } else {
-    mode = "random";
-    document.getElementById("modeBtn").textContent = "mode: random";
-  }
-
-  history = [];
-  currentIndex = -1;
-  uniqueSeen.clear();
-  updateUniqueCounter();
-  nextWord();
-});
 
 // ------------------- Last 100 toggle -------------------
 
 document.getElementById("last100Btn").addEventListener("click", () => {
   last100Mode = !last100Mode;
-
-  // update UI
   document.getElementById("last100Btn").classList.toggle("active", last100Mode);
 
-  // rebuild list
   recomputeCurrentList();
-
-  history = [];
-  currentIndex = -1;
-  uniqueSeen.clear();
-  updateUniqueCounter();
-
-  if (mode === "norepeat") buildDeck();
-  nextWord();
+  resetProgress();
 });
 
 // ------------------- Kanji-only toggle -------------------
@@ -188,36 +233,45 @@ document.getElementById("kanjiBtn").addEventListener("click", () => {
   kanjiOnlyMode = !kanjiOnlyMode;
 
   const btn = document.getElementById("kanjiBtn");
-
-  btn.textContent = kanjiOnlyMode
-    ? "kanji only: ON"
-    : "kanji only: OFF";
-
-  // add/remove active class
+  btn.textContent = kanjiOnlyMode ? "kanji only: ON" : "kanji only: OFF";
   btn.classList.toggle("active", kanjiOnlyMode);
 
   recomputeCurrentList();
+  resetProgress();
+});
 
+// ------------------- POS dropdown -------------------
+
+document.getElementById("posFilter").addEventListener("change", e => {
+  posFilter = e.target.value;
+  recomputeCurrentList();
+  resetProgress();
+});
+
+// ------------------- Helpers -------------------
+
+function resetProgress() {
   history = [];
   currentIndex = -1;
   uniqueSeen.clear();
   updateUniqueCounter();
 
-  if (mode === "norepeat") buildDeck();
+  buildDeck();
   nextWord();
-});
+}
 
 // ------------------- Counter -------------------
 
 function updateUniqueCounter() {
   const total = currentWordList.length;
   const seen = uniqueSeen.size;
-  document.getElementById("uniqueCounter").innerHTML = `<span class="seen">${seen}</span>/${total}`;
+  document.getElementById("uniqueCounter").innerHTML =
+    `<span class="seen">${seen}</span>/${total}`;
 }
 
 // ------------------- Keyboard controls -------------------
 
-document.addEventListener("keydown", (e) => {
+document.addEventListener("keydown", e => {
   if (e.code === "Space" || e.code === "Enter") {
     e.preventDefault();
     revealStep();
@@ -228,13 +282,8 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-// ------------------- Swipe gestures (mobile) -------------------
-
-
-
 // ------------------- Initialize -------------------
 
 recomputeCurrentList();
 buildDeck();
-document.getElementById("modeBtn").textContent = "mode: no repeats";
 nextWord();
