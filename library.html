@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>library</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BIZ+UDPMincho:400,700|BIZ+UDMincho:400,700|Noto+Sans:400">
+  <link rel="stylesheet" href="library.css">
+</head>
+<body>
+
+  <select id="filterMenu">
+    <option value="none">show all</option>
+    <option value="kanji">has kanji</option>
+    <option value="verb">verbs</option>
+    <option value="noun">nouns</option>
+    <option value="pronoun">pronouns</option>
+    <option value="adjective">adjectives</option>
+    <option value="adverb">adverbs</option>
+    <option value="expression">expressions</option>
+    <option value="small">particles etc.</option>
+    <option value="numeric">numbers etc.</option>
+    <option value="counter">counters</option>
+    <option value="jlptn5">JLPT N5</option>
+    <option value="jlptn4">JLPT N4</option>
+    <option value="jlptn3">JLPT N3</option>
+    <option value="jlptn2">JLPT N2</option>
+    <option value="jlptn1">JLPT N1</option>
+  </select>
+
+  <div id="wordList"></div>
+
+  <script src="words.js"></script>
+  <script src="library.js"></script>
+</body>
+</html>
