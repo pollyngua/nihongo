@@ -21,9 +21,25 @@
 
   <div id="display">
     <span id="uniqueCounter"><span>0</span> / 0</span>
-    <button id="modeBtn">mode: random</button>
     <button id="kanjiBtn">kanji only: OFF</button>
     <button id="last100Btn">last 100</button>
+    <select id="posFilter">
+      <option value="all">all words</option>
+      <option value="verb">verbs</option>
+      <option value="noun">nouns</option>
+      <option value="pronoun">pronouns</option>
+      <option value="adjective">adjectives</option>
+      <option value="adverb">adverbs</option>
+      <option value="expression">expressions</option>
+      <option value="small">particles etc.</option>
+      <option value="numeric">numbers etc.</option>
+      <option value="counter">counters</option>
+      <option value="jlptn5">JLPT N5</option>
+      <option value="jlptn4">JLPT N4</option>
+      <option value="jlptn3">JLPT N3</option>
+      <option value="jlptn2">JLPT N2</option>
+      <option value="jlptn1">JLPT N1</option>
+    </select>
   </div>
 
   <script src="words.js"></script>
