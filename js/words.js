@@ -1989,5 +1989,102 @@ window.WORDS = [
   {
     kana: "パイ",
     english: { main: "pie", note: "noun" }
+  },
+  {
+    kanji: "木曜日",
+    kana: "もくようび",
+    english: { main: "Thursday", note: "noun; adverb" }
+  },
+  {
+    kana: "ひま",
+    english: { main: "free", note: "na-adjective", example: "いま<b>ひま</b>ですか (are you free now?)" }
+  },
+  {
+    kana: "いっしょに",
+    english: { main: "together (with)", note: "adverb", example: "<b>いっしょに</b>レストランに行きましょう (we should go to a restaurant together)" }
+  },
+  {
+    kanji: "卵",
+    kana: "たまご",
+    english: { main: "egg", note: "noun <i>JLPT N2</i>" }
+  },
+  {
+    kana: "やさい",
+    english: { main: "vegetable", note: "noun" }
+  },
+  {
+    kana: "しょうゆ",
+    english: { main: "soy sauce", note: "noun" }
+  },
+  {
+    kana: "スーパー",
+    english: { main: "supermarket", note: "noun" }
+  },
+  {
+    kana: "もっと",
+    english: { main: "(some) more", note: "adverb", example: "スーパーで<b>もっと</b>パンを買いましょう (we should buy more bread at the supermaket)" }
+  },
+  {
+    kanji: "魚",
+    kana: "さかな",
+    english: { main: "fish", note: "noun <i>JLPT N4</i>" }
+  },
+  {
+    kana: "とうふ",
+    english: { main: "tofu", note: "noun" }
+  },
+  {
+    kana: "ぎゅうどん",
+    english: { main: "gyudon <i>(rice covered with sliced beef)</i>; beef bowl", note: "noun" }
+  },
+  {
+    kanji: "食べません",
+    kana: "たべません",
+    english: { main: "not to eat <i>(masen-form of <b>食べる</b>)</i>", note: "verb (ichidan, transitive); polite; negative <i>JLPT N5</i>" }
+  },
+  {
+    kana: "でも",
+    english: { main: "but; however; though", note: "conjunction" }
+  },
+  {
+    kana: "しお",
+    english: { main: "salt", note: "noun" }
+  },
+  {
+    kana: "とんかつ",
+    english: { main: "tonkatsu; breaded pork cutlet", note: "noun" }
+  },
+  {
+    kana: "ソース",
+    english: { main: "sauce", note: "noun" }
+  },
+  {
+    kana: "なま",
+    english: { main: "raw; uncooked", note: "noun", example: "<b>なま</b>の卵は食べません (i don't eat raw eggs)" }
+  },
+  {
+    kana: "つかいます",
+    english: { main: "to use <i>(masu-form of <b>つかう</b>)</i>", note: "verb (godan, transitive); polite" }
+  },
+  {
+    kana: "コーラ",
+    english: { main: "cola", note: "noun" }
+  },
+  {
+    kana: "ぶたにく",
+    english: { main: "pork", note: "noun" }
+  },
+  {
+    kana: "ビール",
+    english: { main: "beer", note: "noun" }
+  },
+  {
+    kana: "しょっぱい",
+    english: { main: "salty", note: "i-adjective" }
+  },
+  {
+    kanji: "飲みません",
+    kana: "のみません",
+    english: { main: "not to drink <i>(masen-form of <b>飲む</b>)</i>", note: "verb (godan, transitive); polite; negative <i>JLPT N4</i>" }
   }
 ];
