@@ -280,4 +280,3 @@ document.addEventListener("keydown", e => {
 recomputeCurrentList();
 buildDeck();
 nextWord();
-
