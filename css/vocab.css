@@ -24,6 +24,7 @@ textarea {
 button {
   overflow: visible;
   outline: 0;
+  border: 0;
 }
 
 button,
@@ -104,6 +105,23 @@ body {
 .kana {
   font-size: 2rem;
   color: #d8deeb;
+}
+
+.audioBtn {
+  width: .5em;
+  height: .5em;
+  margin: -1em 0 0 .25em;
+  background-image: url("../img/audio.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  cursor: pointer;
+  vertical-align: middle;
+  opacity: .5;
+}
+.audioBtn:hover,
+.audioBtn:active {
+  opacity: 1;
 }
 
 .english {
