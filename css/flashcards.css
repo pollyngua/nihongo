@@ -24,6 +24,7 @@ textarea {
 button {
   overflow: visible;
   outline: 0;
+  border: 0;
 }
 
 button,
@@ -53,10 +54,6 @@ body {
   display: flex;
   flex-direction: row;
   height: 90%;
-}
-
-.karate #container {
-  height: 100%;
 }
 
 #prevBtn, #nextBtn {
@@ -146,6 +143,25 @@ body {
   }
 }
 
+.audioBtn {
+  width: .4em;
+  height: .4em;
+  margin: -.8em -.6em 0 .2em;
+  background-image: url("../img/audio.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  cursor: pointer;
+  opacity: .5;
+}
+.audioBtn:not(:last-of-type) {
+  margin-right: 0;
+}
+.audioBtn:hover,
+.audioBtn:active {
+  opacity: 1;
+}
+
 #english {
   position: relative;
   height: 40%;
@@ -197,7 +213,7 @@ body {
   }
 }
 
-.karate #english {
+.budo #english {
   height: 70%;
 }
 
@@ -295,6 +311,7 @@ body {
 
 .hidden {
   opacity: 0;
+  pointer-events: none;
 }
 
 #display {
