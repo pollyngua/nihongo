@@ -1,5 +1,5 @@
 // words.js must be loaded before this file.
-// It defines: window.WORDS = [ { kanji, kana, english }, ... ];
+// It defines: window.WORDS = [ { kanji, kana, english, audio? }, ... ];
 
 let words = window.WORDS;
 let revealStage = 0;
@@ -28,34 +28,27 @@ let uniqueSeen = new Set();
 
 const filters = {
   all: w => true,
-
   verb: w =>
     w.english?.note &&
     w.english.note.toLowerCase().includes("verb") &&
     !w.english.note.toLowerCase().includes("adverb"),
-
   noun: w =>
     w.english?.note &&
     w.english.note.toLowerCase().includes("noun") &&
     !w.english.note.toLowerCase().includes("pronoun") &&
     !w.english.note.toLowerCase().includes("-noun"),
-
   pronoun: w =>
     w.english?.note &&
     w.english.note.toLowerCase().includes("pronoun"),
-
   adjective: w =>
     w.english?.note &&
     w.english.note.toLowerCase().includes("adjectiv"),
-
   adverb: w =>
     w.english?.note &&
     w.english.note.toLowerCase().includes("adverb"),
-
   expression: w =>
     w.english?.note &&
     w.english.note.toLowerCase().includes("expression"),
-
   small: w =>
     w.english?.note &&
     (
@@ -63,31 +56,24 @@ const filters = {
       w.english.note.toLowerCase().includes("fix") ||
       w.english.note.toLowerCase().includes("conjunction")
     ),
-
   numeric: w =>
     w.english?.note &&
     w.english.note.toLowerCase().includes("numeric"),
-
   counter: w =>
     w.english?.note &&
     w.english.note.toLowerCase().includes("counter"),
-
   jlptn5: w =>
     w.english?.note &&
     w.english.note.includes("JLPT N5"),
-
   jlptn4: w =>
     w.english?.note &&
     w.english.note.includes("JLPT N4"),
-
   jlptn3: w =>
     w.english?.note &&
     w.english.note.includes("JLPT N3"),
-
   jlptn2: w =>
     w.english?.note &&
     w.english.note.includes("JLPT N2"),
-
   jlptn1: w =>
     w.english?.note &&
     w.english.note.includes("JLPT N1")
@@ -98,17 +84,14 @@ const filters = {
 function recomputeCurrentList() {
   let list = words;
 
-  // last 100 filter
   if (last100Mode) {
     list = list.slice(-100);
   }
 
-  // kanji-only filter
   if (kanjiOnlyMode) {
     list = list.filter(w => w.kanji && w.kanji.trim() !== "");
   }
 
-  // POS / category filter
   const filterFn = filters[posFilter] || filters.all;
   list = list.filter(filterFn);
 
@@ -132,32 +115,94 @@ function getNextFromDeck() {
   return deck.shift();
 }
 
+// ------------------- Audio -------------------
+
+const audioPlayer = new Audio();
+
+function playAudioFile(file) {
+  audioPlayer.src = `audio/${file}.mp3`;
+  audioPlayer.currentTime = 0;
+  audioPlayer.play().catch(() => {});
+}
+
 // ------------------- Display logic -------------------
 
 function displayWord(word) {
   const hasKanji = word.kanji && word.kanji.trim() !== "";
 
-  document.getElementById("kanji").textContent = hasKanji ? word.kanji : "";
-  document.getElementById("kana").textContent = word.kana;
+  const kanjiEl = document.getElementById("kanji");
+  const kanaEl = document.getElementById("kana");
+  const englishEl = document.getElementById("english");
 
+  kanjiEl.textContent = hasKanji ? word.kanji : "";
+
+  // ---- render kana + audio buttons ----
+  kanaEl.innerHTML = "";
+
+  if (word.audio) {
+    // split kana into parts for multiple readings (separated by " | ")
+    const kanaParts = word.kana.split(" | ").map(s => s.trim());
+
+    // split audio string by commas into multiple files
+    const audioFiles = Array.isArray(word.audio)
+      ? word.audio.map(a => a.file) // backwards compatibility
+      : word.audio.split(",").map(s => s.trim());
+
+    const count = Math.max(kanaParts.length, audioFiles.length);
+
+    for (let i = 0; i < count; i++) {
+      // create kana span
+      const span = document.createElement("span");
+      span.className = "kanaText";
+      span.textContent = kanaParts[i] || kanaParts[0]; // fallback to first kana
+      kanaEl.appendChild(span);
+
+      // create audio button if file exists
+      if (audioFiles[i]) {
+        const btn = document.createElement("button");
+        btn.className = "audioBtn";
+        btn.type = "button";
+        btn.addEventListener("click", e => {
+          e.stopPropagation();
+
+          // play the file directly using your existing audioPlayer
+          audioPlayer.src = `audio/${audioFiles[i]}.mp3`;
+          audioPlayer.currentTime = 0;
+          audioPlayer.play().catch(() => {});
+        });
+        kanaEl.appendChild(btn);
+      }
+      // add separator between pairs, except after the last one
+      if (i < count - 1) {
+        kanaEl.appendChild(document.createTextNode("\u00A0|\u00A0"));
+      }
+    }
+  } else {
+    // no audio → just show kana text
+    const span = document.createElement("span");
+    span.className = "kanaText";
+    span.textContent = word.kana;
+    kanaEl.appendChild(span);
+  }
+
+  // ---- render english ----
   let englishHTML = `<div class="main">${word.english.main}</div>`;
-
   if (word.english.note) {
     englishHTML += `<span class="note">${word.english.note}</span>`;
   }
-
   if (word.english.example) {
     englishHTML += `<div class="example">${word.english.example}</div>`;
   }
 
-  document.getElementById("english").innerHTML = englishHTML;
-  document.getElementById("english").classList.add("hidden");
+  englishEl.innerHTML = englishHTML;
+  englishEl.classList.add("hidden");
 
+  // ---- reveal logic ----
   if (hasKanji) {
-    document.getElementById("kana").classList.add("hidden");
+    kanaEl.classList.add("hidden");
     revealStage = 0;
   } else {
-    document.getElementById("kana").classList.remove("hidden");
+    kanaEl.classList.remove("hidden");
     revealStage = 1;
   }
 }
@@ -171,10 +216,7 @@ function nextWord() {
     currentIndex++;
     displayWord(history[currentIndex]);
   } else {
-    let newWord;
-
-    newWord = getNextFromDeck();
-
+    const newWord = getNextFromDeck();
     history.push(newWord);
     currentIndex = history.length - 1;
 
@@ -195,11 +237,14 @@ function previousWord() {
 // ------------------- Reveal logic -------------------
 
 function revealStep() {
+  const kanaEl = document.getElementById("kana");
+  const englishEl = document.getElementById("english");
+
   if (revealStage === 0) {
-    document.getElementById("kana").classList.remove("hidden");
+    kanaEl.classList.remove("hidden");
     revealStage = 1;
   } else if (revealStage === 1) {
-    document.getElementById("english").classList.remove("hidden");
+    englishEl.classList.remove("hidden");
     revealStage = 2;
   }
 }
@@ -210,17 +255,12 @@ document.getElementById("card").addEventListener("click", revealStep);
 document.getElementById("nextBtn").addEventListener("click", nextWord);
 document.getElementById("prevBtn").addEventListener("click", previousWord);
 
-// ------------------- Last 100 toggle -------------------
-
 document.getElementById("last100Btn").addEventListener("click", () => {
   last100Mode = !last100Mode;
   document.getElementById("last100Btn").classList.toggle("active", last100Mode);
-
   recomputeCurrentList();
   resetProgress();
 });
-
-// ------------------- Kanji-only toggle -------------------
 
 document.getElementById("kanjiBtn").addEventListener("click", () => {
   kanjiOnlyMode = !kanjiOnlyMode;
@@ -232,8 +272,6 @@ document.getElementById("kanjiBtn").addEventListener("click", () => {
   recomputeCurrentList();
   resetProgress();
 });
-
-// ------------------- POS dropdown -------------------
 
 document.getElementById("posFilter").addEventListener("change", e => {
   posFilter = e.target.value;
@@ -252,8 +290,6 @@ function resetProgress() {
   buildDeck();
   nextWord();
 }
-
-// ------------------- Counter -------------------
 
 function updateUniqueCounter() {
   const total = currentWordList.length;
