@@ -14,30 +14,81 @@ function render(list) {
     const entry = document.createElement("div");
     entry.className = "entry";
 
-    let html = "";
-
+    // --- kanji ---
     if (word.kanji) {
-      html += `<div class="kanji">${word.kanji}</div>`;
+      const kanjiEl = document.createElement("div");
+      kanjiEl.className = "kanji";
+      kanjiEl.textContent = word.kanji;
+      entry.appendChild(kanjiEl);
     }
 
-    html += `<div class="kana">${word.kana}</div>`;
-    html += `<div class="english">`;
-    html += `<div class="main">${word.english.main}</div>`;
+    // --- kana with audio buttons ---
+    const kanaEl = document.createElement("div");
+    kanaEl.className = "kana";
 
+    if (word.audio) {
+      // If word.audio is a string with commas, split it
+      const audioFiles = typeof word.audio === "string" ? word.audio.split(",") : word.audio;
+
+      // Split kana by " / " if multiple readings
+      const kanaParts = word.kana.split(" | ");
+
+      const count = Math.max(kanaParts.length, audioFiles.length);
+
+      for (let i = 0; i < count; i++) {
+        // kana span
+        const span = document.createElement("span");
+        span.className = "kanaText";
+        span.textContent = kanaParts[i] || kanaParts[0];
+        kanaEl.appendChild(span);
+
+        // audio button if audio exists
+        if (audioFiles[i]) {
+          const btn = document.createElement("button");
+          btn.className = "audioBtn";
+          btn.type = "button";
+          btn.addEventListener("click", e => {
+            e.stopPropagation();
+            const audioPlayer = new Audio(`audio/${audioFiles[i].trim()}.mp3`);
+            audioPlayer.play().catch(() => {});
+          });
+          kanaEl.appendChild(btn);
+        }
+
+        // optional separator between readings (can be removed if not needed)
+        if (i < count - 1) {
+          kanaEl.appendChild(document.createTextNode("\u00A0|\u00A0")); // space on each side
+        }
+      }
+    } else {
+      // no audio → just show kana
+      const span = document.createElement("span");
+    span.className = "kanaText";
+    span.textContent = word.kana;
+    kanaEl.appendChild(span);
+    }
+
+    entry.appendChild(kanaEl);
+
+    // --- english ---
+    const englishEl = document.createElement("div");
+    englishEl.className = "english";
+
+    let englishHTML = `<div class="main">${word.english.main}</div>`;
     if (word.english.note) {
-      html += ` <span class="note">${word.english.note}</span>`;
+      englishHTML += ` <span class="note">${word.english.note}</span>`;
     }
-
     if (word.english.example) {
-      html += `<div class="example">${word.english.example}</div>`;
+      englishHTML += `<div class="example">${word.english.example}</div>`;
     }
 
-    html += `</div>`;
+    englishEl.innerHTML = englishHTML;
+    entry.appendChild(englishEl);
 
-    entry.innerHTML = html;
     container.appendChild(entry);
   });
 }
+
 
 // Map of filter functions for each dropdown option
 const filters = {
