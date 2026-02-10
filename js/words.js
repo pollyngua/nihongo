@@ -151,12 +151,12 @@ window.WORDS = [
   },
   {
     kana: "アメリカじん",
-    english: { main: "American (person)", note: "noun" }
+    english: { main: "American (person)", note: "noun" },
+    audio: "american-person"
   },
   {
     kana: "にほんじん",
-    english: { main: "Japanese (person)", note: "noun" },
-    audio: "american-person"
+    english: { main: "Japanese (person)", note: "noun" }
   },
   {
     kanji: "大きい",
