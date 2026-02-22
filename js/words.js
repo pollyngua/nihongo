@@ -286,7 +286,7 @@ window.WORDS = [
   },
   {
     kana: "いま",
-    english: { main: "now", note: "noun, often used adverbially", example: "<b>いま</b>にじはんです (it's two thirty now)" }
+    english: { main: "now", note: "noun; adverb", example: "<b>いま</b>にじはんです (it's two thirty now)" }
   },
   {
     kanji: "何時",
@@ -660,7 +660,7 @@ window.WORDS = [
   },
   {
     kana: "します",
-    english: { main: "to do, to carry out, to perform <i>(masu-form of <b>する</b>)</i>", note: "verb (irregular); polite" }
+    english: { main: "to do, to carry out, to perform <i>(masu-form of <b>する</b>)</i>", note: "verb (suru); polite" }
   },
   {
     kana: "ききます",
@@ -765,7 +765,7 @@ window.WORDS = [
   },
   {
     kana: "ふく",
-    english: { main: "clothes <i>(esp. Western)</i>", note: "noun" },
+    english: { main: "clothes <i>(esp. Western)</i>", note: "noun; noun, used as a suffix" },
     audio: "clothes-western"
   },
   {
@@ -903,7 +903,7 @@ window.WORDS = [
     audio: "onigiri"
   },
   {
-    kana: "じゃあ",
+    kana: "じゃあ, じゃ",
     english: { main: "okay then; well then", note: "conjunction" }
   },
   {
@@ -1040,7 +1040,7 @@ window.WORDS = [
   },
   {
     kana: "のりかえ",
-    english: { main: "transfer (train, bus)", note: "noun" },
+    english: { main: "transfer (train, bus)", note: "noun; verb (suru, intransitive)" },
     audio: "transfer-train-bus"
   },
   {
@@ -1152,7 +1152,7 @@ window.WORDS = [
   },
   {
     kana: "メール",
-    english: { main: "email", note: "noun" }
+    english: { main: "email", note: "noun; verb (suru, intransitive)" }
   },
   {
     kana: "シャワー",
@@ -1391,7 +1391,7 @@ window.WORDS = [
   {
     kanji: "来ます",
     kana: "きます",
-    english: { main: "to come <i>(masu-form of <b>来る (くる)</b>)</i>", note: "verb (irregular, intransitive); polite <i>JLPT N5</i>" }
+    english: { main: "to come <i>(masu-form of <b>来る (くる)</b>)</i>", note: "verb (kuru, intransitive); polite <i>JLPT N5</i>" }
   },
   {
     kana: "もうすぐ",
@@ -1595,12 +1595,12 @@ window.WORDS = [
   },
   {
     kana: "はる",
-    english: { main: "spring <i>(season)</i>", note: "noun, adverb", example: "<b>はる</b>はよくともだちとこうえんに行きます (in the spring, i often go to the park with friends)" },
+    english: { main: "spring <i>(season)</i>", note: "noun; adverb", example: "<b>はる</b>はよくともだちとこうえんに行きます (in the spring, i often go to the park with friends)" },
     audio: "spring-season"
   },
   {
     kana: "あめ",
-    english: { main: "<i>1.</i> rain; <i>2.</i> rainy (weather)", note: "noun" },
+    english: { main: "<i>1.</i> rain; <i>2.</i> rainy weather", note: "noun" },
     audio: "rain"
   },
   {
@@ -1726,7 +1726,7 @@ window.WORDS = [
   },
   {
     kana: "コーチ",
-    english: { main: "<i>(sport)</i> coach", note: "noun" }
+    english: { main: "<i>(sport)</i> coach", note: "noun; verb (suru, transitive)" }
   },
   {
     kana: "ちゅうごくご",
@@ -1784,7 +1784,7 @@ window.WORDS = [
   },
   {
     kana: "しごと",
-    english: { main: "work; job", note: "noun" },
+    english: { main: "work; job", note: "noun; verb (suru, intransitive)" },
     audio: "work-job"
   },
   {
@@ -1817,7 +1817,7 @@ window.WORDS = [
   },
   {
     kana: "そうじ",
-    english: { main: "cleaning", note: "noun" }
+    english: { main: "cleaning", note: "noun; verb (suru, transitive)" }
   },
   {
     kana: "しゅくだい",
@@ -1829,7 +1829,7 @@ window.WORDS = [
   },
   {
     kana: "せんたく",
-    english: { main: "laundry", note: "noun" }
+    english: { main: "laundry", note: "noun; verb (suru, transitive)" }
   },
   {
     kana: "だれ",
@@ -1864,7 +1864,7 @@ window.WORDS = [
   {
     kanji: "買い物",
     kana: "かいもの",
-    english: { main: "shopping", note: "noun" }
+    english: { main: "shopping", note: "noun; verb (suru, intransitive)" }
   },
   {
     kana: "たのしい",
@@ -1872,7 +1872,7 @@ window.WORDS = [
   },
   {
     kana: "りょうり",
-    english: { main: "cooking; food", note: "noun", example: "うちにかえります。そして、<b>りょうり</b>をします (i return home. then, i do the cooking);<br>フランス<b>りょうり</b>、日本<b>りょうり</b> (french food, japanese food)" }
+    english: { main: "cooking; food", note: "noun; verb (suru, transitive)", example: "うちにかえります。そして、<b>りょうり</b>をします (i return home. then, i do the cooking);<br>フランス<b>りょうり</b>、日本<b>りょうり</b> (french food, japanese food)" }
   },
   {
     kana: "ガーデニング",
@@ -1893,7 +1893,7 @@ window.WORDS = [
   },
   {
     kana: "りょこう",
-    english: { main: "trip; travel", note: "noun" },
+    english: { main: "trip; travel", note: "noun; verb (suru, intransitive)" },
     audio: "trip"
   },
   {
@@ -2005,7 +2005,7 @@ window.WORDS = [
   },
   {
     kana: "かんこう",
-    english: { main: "sightseeing", note: "noun" },
+    english: { main: "sightseeing", note: "noun; verb (suru, transitive)" },
     audio: "sightseeing"
   },
   {
@@ -2195,7 +2195,7 @@ window.WORDS = [
   },
   {
     kana: "じゅぎょう",
-    english: { main: "class; lesson", note: "noun", example: "きょうはスペインごの<b>じゅぎょう</b>があります (today, i have spanish class)" },
+    english: { main: "class; lesson", note: "noun; verb (suru, intransitive)", example: "きょうはスペインごの<b>じゅぎょう</b>があります (today, i have spanish class)" },
     audio: "class-lesson"
   },
   {
@@ -2224,16 +2224,16 @@ window.WORDS = [
   },
   {
     kana: "テスト",
-    english: { main: "test", note: "noun" }
+    english: { main: "test", note: "noun; verb (suru, transitive)" }
   },
   {
     kana: "しつもん",
-    english: { main: "question", note: "noun" },
+    english: { main: "question", note: "noun; verb (suru, transitive, intransitive)" },
     audio: "question"
   },
   {
     kana: "はやく",
-    english: { main: "early", note: "noun; adverb" },
+    english: { main: "early", note: "noun; adverb", example: "きょうは<b>はやく</b>うちにかえりますか (are you returning home early today?)" },
     audio: "early"
   },
   {
@@ -2275,5 +2275,59 @@ window.WORDS = [
     kana: "ななつ",
     english: { main: "seven", note: "numeric <i>JLPT N5</i>" },
     audio: "7-nanatsu"
+  },
+  {
+    kana: "どうりょう",
+    english: { main: "coworker", note: "noun" },
+    audio: "coworker"
+  },
+  {
+    kana: "マネージャー",
+    english: { main: "manager", note: "noun" },
+    audio: "manager"
+  },
+  {
+    kana: "かいしゃ",
+    english: { main: "company; corporation; firm", note: "noun" }
+  },
+  {
+    kana: "としょかん",
+    english: { main: "library", note: "noun" }
+  },
+  {
+    kana: "じしょ",
+    english: { main: "dictionary", note: "noun" }
+  },
+  {
+    kana: "ほんやく",
+    english: { main: "translation", note: "noun; verb (suru, transitive)" },
+    audio: "translation"
+  },
+  {
+    kana: "ほんやくか",
+    english: { main: "translator", note: "noun" },
+    audio: "translator"
+  },
+  {
+    kana: "ナビ",
+    english: { main: "navigation; GPS", note: "noun" }
+  },
+  {
+    kana: "うんてん",
+    english: { main: "driving (a vehicle)", note: "noun; verb (suru, transitive)" },
+    audio: "driving"
+  },
+  {
+    kana: "ごぜん",
+    english: { main: "a.m.", note: "noun; adverb", example: "<b>ごぜん</b>八時ごろおきます (i wake up around 8 a.m.)" }
+  },
+  {
+    kana: "あらいます",
+    english: { main: "to wash <i>(masu-form of <b>あらう</b>)</i>", note: "verb (godan, transitive); polite" }
+  },
+  {
+    kana: "うんてんしゅ",
+    english: { main: "driver", note: "noun" },
+    audio: "driver"
   }
 ];
