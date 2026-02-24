@@ -2329,5 +2329,39 @@ window.WORDS = [
     kana: "うんてんしゅ",
     english: { main: "driver", note: "noun" },
     audio: "driver"
+  },
+  {
+    kana: "カメラ",
+    english: { main: "camera", note: "noun" }
+  },
+  {
+    kana: "イベント",
+    english: { main: "event", note: "noun" }
+  },
+  {
+    kana: "しゃしんか",
+    english: { main: "photographer", note: "noun" }
+  },
+  {
+    kana: "チーム",
+    english: { main: "team", note: "noun" }
+  },
+  {
+    kana: "ジム",
+    english: { main: "gym", note: "noun" }
+  },
+  {
+    kana: "せんしゅ",
+    english: { main: "player <i>(of a sport)</i>; athlete", note: "noun" },
+    audio: "player-sport"
+  },
+  {
+    kana: "うんどう",
+    english: { main: "exercise; physical training", note: "noun; verb (suru, intransitive)" },
+    audio: "exercise"
+  },
+  {
+    kana: "プロ",
+    english: { main: "professional; pro​", note: "noun" }
   }
 ];
