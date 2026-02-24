@@ -123,6 +123,61 @@ window.WORDS = [
     ]
   },
   {
+    kanji: "時",
+    kana: "とき、どき、ジ",
+    english: "time, hour",
+    note: "JLPT N5",
+    parts: "radical: <b>日</b> (sun, day)",
+    examples: [
+    {
+      word: "<ruby><b>時</b><rt><b>じ</b></rt>間<rt>かん</rt></ruby>",
+      trans: "hour"
+    },
+    {
+      word: "<ruby>一<rt>いち</rt><b>時</b><rt><b>じ</b></rt></ruby>",
+      trans: "one o'clock"
+    },
+    {
+      word: "<ruby><b>時</b>計<rt>とけい</rt></ruby>",
+      trans: "clock; watch"
+    },
+    {
+      word: "<ruby><b>時</b><rt><b>とき</b></rt>々<rt>どき</rt></ruby>",
+      trans: "sometimes"
+    }
+    ]
+  },
+  {
+    kanji: "半",
+    kana: "なか、ハン",
+    english: "half, middle, odd number, semi-, part-",
+    note: "JLPT N5",
+    parts: "radical: <b>十</b> (ten, complete)",
+    examples: [
+    {
+      word: "<ruby>六<rt>ろく</rt>時<rt>じ</rt><b>半</b><rt><b>はん</b></rt></ruby>",
+      trans: "half past six"
+    }
+    ]
+  },
+  {
+    kanji: "私",
+    kana: "わたくし、わたし、シ",
+    english: "I, me, private",
+    note: "JLPT N4",
+    parts: "radical: <b>禾</b> (grain)",
+    examples: [
+    {
+      word: "<ruby><b>私</b><rt><b>わたし</b></rt></ruby>",
+      trans: "I; me"
+    },
+    {
+      word: "<ruby><b>私</b><rt><b>し</b></rt>見<rt>けん</rt></ruby>",
+      trans: "personal opinion"
+    }
+    ]
+  },
+  {
     kanji: "場",
     kana: "ば、ジョウ、チョウ",
     english: "location, place",
