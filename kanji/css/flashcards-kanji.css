@@ -1,0 +1,374 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+  outline: 0;
+  border: 0;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background-color: #2b303b;
+}
+
+::selection {
+  background-color: #d8deeb;
+  color: #e34234;
+}
+
+/* --- typography*1.25: .8 / 1 / 1.3 / 1.6 / 2 / 2.4 / 3.1 / 3.8 / 4.8 / 6 --- */
+
+#container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+}
+
+#prevBtn, #nextBtn {
+  width: 20%;
+  height: 100%;
+  font-size: 1.6rem;
+  border: 0;
+  background-color: #2b303b;
+  color: #475062;
+  cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1;
+}
+@media (orientation: portrait) {
+  #prevBtn, #nextBtn {
+    position: absolute;
+    width: auto;
+    /*height: auto;*/
+    height: 10%;
+    bottom: 0;
+    padding: 0 1rem;
+    font-size: 1rem;
+  }
+}
+@media (orientation: portrait) {
+  #prevBtn {
+    left: 0;
+  }
+}
+@media (orientation: portrait) {
+  #nextBtn {
+    right: 0;
+  }
+}
+
+#card {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'BIZ UDPMincho', serif;
+}
+@media (orientation: portrait) {
+  #card {
+    width: 100%;
+    height: 90%;
+    padding: 0 1rem;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#kanji {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 3.1rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #d8deeb;
+  line-height: 1;
+}
+@media (orientation: portrait) {
+  #kanji {
+    padding-bottom: 2rem;
+    font-size: 2.4rem;
+  }
+}
+
+#kana {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: #a2a9ba;
+}
+@media (orientation: portrait) {
+  #kana {
+    font-size: 1.3rem;
+  }
+}
+
+#kana > *:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+@media (orientation: portrait) {
+  #kana > *:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+#details {
+  position: relative;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  /* ↓ (.note font-size * line-height) + .note padding-bottom + #details children margin-bottom */
+  padding-top: 3rem;
+  color: #a2a9ba;
+}
+@media (orientation: portrait) {
+  #details {
+    /* ↓ (.note font-size * line-height) + .note padding-bottom + #details children margin-bottom */
+    padding-top: 2.2rem;
+  }
+}
+
+#details > *:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+@media (orientation: portrait) {
+  #details > *:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+#details > *:not(.note) {
+  position: relative;
+}
+
+#details > *:not(.note):not(:first-child)::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 2.4rem;
+  height: .07rem;
+  top: -.8rem;
+  left: 50%;
+  margin-left: -1.2rem;
+  background-color: #475062;
+}
+@media (orientation: portrait) {
+  #details > *:not(.note):not(:first-child)::after {
+    width: 1.6rem;
+    height: .04rem;
+    top: -.5rem;
+    margin-left: -.8rem;
+  }
+}
+
+.parts {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: #a2a9ba;
+}
+@media (orientation: portrait) {
+  .parts {
+    font-size: 1rem;
+  }
+}
+
+.parts b {
+  color: #d8deeb;
+}
+
+.english {
+  max-width: 44rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+@media (orientation: portrait) {
+  .english {
+    font-size: 1.3rem;
+  }
+}
+
+.english > i {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.note {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .4rem;
+  background-color: #e34234;
+  font-family: 'BIZ UDMincho', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #d8deeb;
+  line-height: 1;
+  text-align: right;
+}
+@media (orientation: portrait) {
+  .note {
+    right: -1rem;
+    font-size: .8rem;
+  }
+}
+
+.examples {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*align-items: flex-end;*/
+}
+
+.pair {
+  padding: 0 .5rem;
+}
+@media (orientation: portrait) {
+  .pair {
+    padding: .5rem;
+  }
+}
+
+.pair ruby {
+  font-family: 'BIZ UDPMincho', serif;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  color: #a2a9ba;
+}
+@media (orientation: portrait) {
+  .pair ruby {
+    font-size: 1.6rem;
+  }
+}
+
+.pair b {
+  font-weight: 400;
+  color: #d8deeb;
+}
+
+.pair .en {
+  display: block;
+  max-width: 10rem;
+  font-size: 1.2rem;
+}
+@media (orientation: portrait) {
+  .pair .en {
+    max-width: 8rem;
+    font-size: 1rem;
+  }
+}
+
+#display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10%;
+}
+
+#uniqueCounter {
+  padding: 1rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  color: #a2a9ba;
+}
+#uniqueCounter > .seen {
+  color: #e34234;
+}
+@media (orientation: portrait) {
+  #uniqueCounter {
+    padding: .5rem;
+    font-size: .8rem;
+  }
+}
+
+#last100Btn {
+  height: auto;
+  padding: 1rem;
+  border: 0;
+  background-color: #232830;
+  cursor: pointer;
+  color: #475062;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+}
+@media (orientation: portrait) {
+  #last100Btn {
+    padding: .5rem;
+    font-size: .8rem;
+  }
+}
+
+#last100Btn.active {
+  background-color: #475062;
+  color: #232830;
+}
+
+#posFilter {
+  appearance: none; /*remove browser’s additional padding*/
+  height: auto;
+  margin: 0;
+  padding: 1rem;
+  border: 0;
+  background-color: #232830;
+  cursor: pointer;
+  color: #475062;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+}
+#posFilter:focus {
+  outline: 0;
+}
+@media (orientation: portrait) {
+  #posFilter {
+    padding: .5rem;
+    font-size: .8rem;
+  }
+}
