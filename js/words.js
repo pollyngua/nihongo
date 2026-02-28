@@ -1234,7 +1234,7 @@ window.WORDS = [
   },
   {
     kana: "すき",
-    english: { main: "liked; to one’s liking", note: "na-adjective", example: "まんがが<b>すき</b>です (i like manga);<br>ケーキは<b>すき</b>ですか (do you like cake?)" },
+    english: { main: "likeable; to one's liking; favorite", note: "na-adjective", example: "まんがが<b>すき</b>です (i like manga);<br>ケーキは<b>すき</b>ですか (do you like cake?);<br>これは私の<b>すきな</b>本です (this is my favorite book)" },
     audio: "liked"
   },
   {
@@ -2041,7 +2041,7 @@ window.WORDS = [
   },
   {
     kana: "だいすき",
-    english: { main: "loved; greatly liked", note: "na-adjective", example: "ケーキが<b>だいすき</b>です (i love cake)" },
+    english: { main: "liking very much; to one's great liking", note: "na-adjective", example: "ケーキが<b>だいすき</b>です (i love cake)" },
     audio: "greatly-liked"
   },
   {
