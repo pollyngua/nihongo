@@ -1026,5 +1026,39 @@ window.WORDS = [
       trans: "iron hammer"
     }
     ]
+  },
+  {
+    kanji: "公",
+    kana: "おおやけ、コウ、ク",
+    english: "public, prince, official, governmental",
+    note: "JLPT N4",
+    parts: "radical: <b>八</b> (ハ) (eight, to divide)",
+    examples: [
+    {
+      word: "<ruby><b>公</b><rt><b>こう</b></rt>園<rt>えん</rt></ruby>",
+      trans: "(public) park"
+    }
+    ]
+  },
+  {
+    kanji: "背",
+    kana: "せ、せい、そむ、ハイ",
+    english: "stature, height, back, behind, disobey, defy, go back on, rebel",
+    note: "JLPT N3",
+    parts: "radical: <b>肉</b> (⺼、月) (meat, organs of the body)",
+    examples: [
+    {
+      word: "<ruby><b>背</b><rt><b>せ</b></rt>中<rt>なか</rt></ruby>",
+      trans: "back (of the body)"
+    },
+    {
+      word: "<ruby><b>背</b><rt><b>せ</b></rt></ruby>",
+      trans: "back; height"
+    },
+    {
+      word: "<ruby><b>背</b><rt><b>せ</b></rt>が<rt></rt>高<rt>たか</rt>い</ruby>",
+      trans: "tall (of a person)"
+    }
+    ]
   }
 ];
