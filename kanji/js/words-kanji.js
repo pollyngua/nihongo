@@ -1060,5 +1060,22 @@ window.WORDS = [
       trans: "tall (of a person)"
     }
     ]
+  },
+  {
+    kanji: "紙",
+    kana: "かみ、シ",
+    english: "paper",
+    note: "JLPT N4",
+    parts: "radical: <b>糸</b> (糹) (silk, thread, fabric)",
+    examples: [
+    {
+      word: "<ruby>手<rt>て</rt><b>紙</b><rt><b>がみ</b></rt></ruby>",
+      trans: "letter; note"
+    },
+    {
+      word: "<ruby>折<rt>お</rt>り<rt></rt><b>紙</b><rt><b>がみ</b></rt></ruby>",
+      trans: "origami"
+    }
+    ]
   }
 ];
