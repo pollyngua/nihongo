@@ -424,7 +424,7 @@ window.WORDS = [
   },
   {
     kana: "すんでいます",
-    english: { main: "to live <i>(masu-form, te-iru-form of <b>すむ</b>)</i>", note: "verb (godan, intransitive); polite; ongoing action", example: "東京に<b>すんでいます</b> (i live in tokyo)" }
+    english: { main: "to live <i>(masu-form, te-iru-form of <b>すむ</b>)</i>", note: "verb (godan, intr.); polite; ongoing action", example: "東京に<b>すんでいます</b> (i live in tokyo)" }
   },
   {
     kana: "にぎやか",
@@ -656,7 +656,7 @@ window.WORDS = [
   {
     kanji: "見ます",
     kana: "みます",
-    english: { main: "to watch <i>(masu-form of <b>見る</b>)</i>", note: "verb (ichidan, transitive); polite <i>JLPT N5</i>" }
+    english: { main: "to watch <i>(masu-form of <b>見る</b>)</i>", note: "verb (ichidan, tr.); polite <i>JLPT N5</i>" }
   },
   {
     kana: "します",
@@ -664,12 +664,12 @@ window.WORDS = [
   },
   {
     kana: "ききます",
-    english: { main: "<i>1.</i> to listen; <i>2.</i> to ask <i>(masu-form of <b>きく</b>)</i>", note: "verb (godan, transitive); polite", example: "(2) なおみさんに<b>ききましょう</b>か (should we ask naomi?)" }
+    english: { main: "<i>1.</i> to listen; <i>2.</i> to ask <i>(masu-form of <b>きく</b>)</i>", note: "verb (godan, tr.); polite", example: "(2) なおみさんに<b>ききましょう</b>か (should we ask naomi?)" }
   },
   {
     kanji: "読みます",
     kana: "よみます",
-    english: { main: "to read <i>(masu-form of <b>読む</b>)</i>", note: "verb (godan, transitive); polite <i>JLPT N5</i>" }
+    english: { main: "to read <i>(masu-form of <b>読む</b>)</i>", note: "verb (godan, tr.); polite <i>JLPT N5</i>" }
   },
   {
     kana: "よく",
@@ -718,12 +718,12 @@ window.WORDS = [
   {
     kanji: "食べます",
     kana: "たべます",
-    english: { main: "to eat <i>(masu-form of <b>食べる</b>)</i>", note: "verb (ichidan, transitive); polite <i>JLPT N5</i>" }
+    english: { main: "to eat <i>(masu-form of <b>食べる</b>)</i>", note: "verb (ichidan, tr.); polite <i>JLPT N5</i>" }
   },
   {
     kanji: "飲みます",
     kana: "のみます",
-    english: { main: "to drink <i>(masu-form of <b>飲む</b>)</i>", note: "verb (godan, transitive); polite <i>JLPT N4</i>" }
+    english: { main: "to drink <i>(masu-form of <b>飲む</b>)</i>", note: "verb (godan, tr.); polite <i>JLPT N4</i>" }
   },
   {
     kana: "まいにち",
@@ -951,7 +951,7 @@ window.WORDS = [
   },
   {
     kana: "およぎます",
-    english: { main: "to swim <i>(masu-form of <b>およぐ</b>)</i>", note: "verb (godan, intransitive); polite" }
+    english: { main: "to swim <i>(masu-form of <b>およぐ</b>)</i>", note: "verb (godan, intr.); polite" }
   },
   {
     kana: "ひとりで",
@@ -968,7 +968,7 @@ window.WORDS = [
   },
   {
     kana: "あそびます",
-    english: { main: "to hang out <i>(masu-form of <b>あそぶ</b>)</i>", note: "verb (godan, intransitive); polite" }
+    english: { main: "to hang out <i>(masu-form of <b>あそぶ</b>)</i>", note: "verb (godan, intr.); polite" }
   },
   {
     kana: "スポーツ",
@@ -1011,16 +1011,16 @@ window.WORDS = [
   {
     kanji: "買います",
     kana: "かいます",
-    english: { main: "to buy <i>(masu-form of <b>買う</b>)</i>", note: "verb (godan, transitive); polite <i>JLPT N4</i>" }
+    english: { main: "to buy <i>(masu-form of <b>買う</b>)</i>", note: "verb (godan, tr.); polite <i>JLPT N4</i>" }
   },
   {
     kana: "でかけます",
-    english: { main: "to go out <i>(masu-form of <b>でかける</b>)</i>", note: "verb (ichidan, intransitive); polite" }
+    english: { main: "to go out <i>(masu-form of <b>でかける</b>)</i>", note: "verb (ichidan, intr.); polite" }
   },
   {
     kanji: "話します",
     kana: "はなします",
-    english: { main: "to talk; to speak <i>(masu-form of <b>話す</b>)</i>", note: "verb (godan, transitive); polite <i>JLPT N5</i>" }
+    english: { main: "to talk; to speak <i>(masu-form of <b>話す</b>)</i>", note: "verb (godan, tr.); polite <i>JLPT N5</i>" }
   },
   {
     kana: "ホーム",
@@ -1040,7 +1040,7 @@ window.WORDS = [
   },
   {
     kana: "のりかえ",
-    english: { main: "transfer (train, bus)", note: "noun; verb (suru, intransitive)" },
+    english: { main: "transfer (train, bus)", note: "noun; verb (suru, intr.)" },
     audio: "transfer-train-bus"
   },
   {
@@ -1096,12 +1096,12 @@ window.WORDS = [
   {
     kanji: "有ります",
     kana: "あります",
-    english: { main: "to be; to exist <i>(of inanimate objects, concepts)</i> <i>(masu-form of <b>有る</b>)</i>", note: "verb (godan, intransitive); polite <i>JLPT N4</i>", example: "ちずは<b>あります</b>か (do you have a map?)" }
+    english: { main: "to be; to exist <i>(of inanimate objects, concepts)</i> <i>(masu-form of <b>有る</b>)</i>", note: "verb (godan, intr.); polite <i>JLPT N4</i>", example: "ちずは<b>あります</b>か (do you have a map?)" }
   },
   {
     kanji: "有りません",
     kana: "ありません",
-    english: { main: "not to be; not to exist <i>(masen-form of <b>有る</b>)</i>", note: "verb (godan, intransitive); polite; negative <i>JLPT N4</i>" }
+    english: { main: "not to be; not to exist <i>(masen-form of <b>有る</b>)</i>", note: "verb (godan, intr.); polite; negative <i>JLPT N4</i>" }
   },
   {
     kana: "とおい",
@@ -1127,7 +1127,7 @@ window.WORDS = [
   },
   {
     kana: "おきます",
-    english: { main: "<i>1.</i> to get up; <i>2.</i> to wake up <i>(masu-form of <b>おきる</b>)</i>", note: "verb (ichidan, intransitive); polite" }
+    english: { main: "<i>1.</i> to get up; <i>2.</i> to wake up <i>(masu-form of <b>おきる</b>)</i>", note: "verb (ichidan, intr.); polite" }
   },
   {
     kana: "いつも",
@@ -1139,7 +1139,7 @@ window.WORDS = [
   },
   {
     kana: "つくります",
-    english: { main: "<i>1.</i> to make; <i>2.</i> to prepare (food) <i>(masu-form of <b>つくる</b>)</i>", note: "verb (godan, transitive); polite" }
+    english: { main: "<i>1.</i> to make; <i>2.</i> to prepare (food) <i>(masu-form of <b>つくる</b>)</i>", note: "verb (godan, tr.); polite" }
   },
   {
     kana: "まいしゅう",
@@ -1152,7 +1152,7 @@ window.WORDS = [
   },
   {
     kana: "メール",
-    english: { main: "email", note: "noun; verb (suru, intransitive)" }
+    english: { main: "email", note: "noun; verb (suru, intr.)" }
   },
   {
     kana: "シャワー",
@@ -1160,11 +1160,11 @@ window.WORDS = [
   },
   {
     kana: "ねます",
-    english: { main: "to sleep <i>(masu-form of <b>ねる</b>)</i>", note: "verb (ichidan, intransitive); polite" }
+    english: { main: "to sleep <i>(masu-form of <b>ねる</b>)</i>", note: "verb (ichidan, intr.); polite" }
   },
   {
     kana: "あびます",
-    english: { main: "to take (e.g. shower) <i>(masu-form of <b>あびる</b>)</i>", note: "verb (ichidan, transitive); polite" }
+    english: { main: "to take (e.g. shower) <i>(masu-form of <b>あびる</b>)</i>", note: "verb (ichidan, tr.); polite" }
   },
   {
     kana: "らいしゅう",
@@ -1177,7 +1177,7 @@ window.WORDS = [
   {
     kanji: "走ります",
     kana: "はしります",
-    english: { main: "to run <i>(masu-form of <b>走る</b>)</i>", note: "verb (godan, intransitive); polite <i>JLPT N4</i>" }
+    english: { main: "to run <i>(masu-form of <b>走る</b>)</i>", note: "verb (godan, intr.); polite <i>JLPT N4</i>" }
   },
   {
     kana: "かれし",
@@ -1230,7 +1230,7 @@ window.WORDS = [
   {
     kanji: "言います",
     kana: "いいます",
-    english: { main: "<i>1.</i> to say; <i>2.</i> to name <i>(masu-form of <b>言う</b>)</i>", note: "verb (godan, transitive); polite <i>JLPT N4</i>", example: "田中と<b>言います</b> (my name is tanaka (lit. i say 'tanaka'))" }
+    english: { main: "<i>1.</i> to say; <i>2.</i> to name <i>(masu-form of <b>言う</b>)</i>", note: "verb (godan, tr.); polite <i>JLPT N4</i>", example: "田中と<b>言います</b> (my name is tanaka (lit. i say 'tanaka'))" }
   },
   {
     kana: "すき",
@@ -1311,7 +1311,7 @@ window.WORDS = [
   },
   {
     kana: "ひっこします",
-    english: { main: "to move (house) <i>(masu-form of <b>ひっこす</b>)</i>", note: "verb (godan, intransitive); polite" }
+    english: { main: "to move (house) <i>(masu-form of <b>ひっこす</b>)</i>", note: "verb (godan, intr.); polite" }
   },
   {
     kana: "ひろい",
@@ -1374,7 +1374,7 @@ window.WORDS = [
   {
     kanji: "行きます",
     kana: "いきます",
-    english: { main: "to go; to move (toward) <i>(masu-form of <b>行く</b>)</i>", note: "verb (godan, intransitive); polite <i>JLPT N5</i>", example: "このでんしゃはしぶやえきに<b>行きます</b> (this train goes to shibuya station)" }
+    english: { main: "to go; to move (toward) <i>(masu-form of <b>行く</b>)</i>", note: "verb (godan, intr.); polite <i>JLPT N5</i>", example: "このでんしゃはしぶやえきに<b>行きます</b> (this train goes to shibuya station)" }
   },
   {
     kana: "うえの",
@@ -1391,7 +1391,7 @@ window.WORDS = [
   {
     kanji: "来ます",
     kana: "きます",
-    english: { main: "to come <i>(masu-form of <b>来る (くる)</b>)</i>", note: "verb (kuru, intransitive); polite <i>JLPT N5</i>" }
+    english: { main: "to come <i>(masu-form of <b>来る (くる)</b>)</i>", note: "verb (kuru, intr.); polite <i>JLPT N5</i>" }
   },
   {
     kana: "もうすぐ",
@@ -1410,7 +1410,7 @@ window.WORDS = [
   },
   {
     kana: "かかります",
-    english: { main: "to take (e.g. time, money) <i>(masu-form of <b>かかる</b>)</i>", note: "verb (godan, intransitive); polite", example: "十分ぐらい<b>かかります</b> (it takes about 10 minutes)" }
+    english: { main: "to take (e.g. time, money) <i>(masu-form of <b>かかる</b>)</i>", note: "verb (godan, intr.); polite", example: "十分ぐらい<b>かかります</b> (it takes about 10 minutes)" }
   },
   {
     kana: "はやい",
@@ -1525,7 +1525,7 @@ window.WORDS = [
   },
   {
     kana: "すわります",
-    english: { main: "to sit (down) <i>(masu-form of <b>すわる</b>)</i>", note: "verb (godan, intransitive); polite" }
+    english: { main: "to sit (down) <i>(masu-form of <b>すわる</b>)</i>", note: "verb (godan, intr.); polite" }
   },
   {
     kana: "びょういん",
@@ -1579,7 +1579,7 @@ window.WORDS = [
   {
     kanji: "休みます",
     kana: "やすみます",
-    english: { main: "to rest <i>(masu-form of <b>休む</b>)</i>", note: "verb (godan, intransitive); polite <i>JLPT N5</i>" }
+    english: { main: "to rest <i>(masu-form of <b>休む</b>)</i>", note: "verb (godan, intr.); polite <i>JLPT N5</i>" }
   },
   {
     kana: "くすり",
@@ -1709,7 +1709,7 @@ window.WORDS = [
   },
   {
     kana: "います",
-    english: { main: "to be; to exist <i>(of animate objects)</i> <i>(masu-form of <b>いる</b>)</i>", note: "verb (ichidan, intransitive); polite", example: "きょうだいは<b>います</b>か (do you have siblings?);<br>ゆうめいなおとうとが<b>います</b> (i have a famous younger brother)" }
+    english: { main: "to be; to exist <i>(of animate objects)</i> <i>(masu-form of <b>いる</b>)</i>", note: "verb (ichidan, intr.); polite", example: "きょうだいは<b>います</b>か (do you have siblings?);<br>ゆうめいなおとうとが<b>います</b> (i have a famous younger brother)" }
   },
   {
     kanji: "日本ご",
@@ -1726,7 +1726,7 @@ window.WORDS = [
   },
   {
     kana: "コーチ",
-    english: { main: "<i>(sport)</i> coach", note: "noun; verb (suru, transitive)" }
+    english: { main: "<i>(sport)</i> coach", note: "noun; verb (suru, tr.)" }
   },
   {
     kana: "ちゅうごくご",
@@ -1738,7 +1738,7 @@ window.WORDS = [
   },
   {
     kana: "できます",
-    english: { main: "to be good at; to do well <i>(masu-form of <b>できる</b>)</i>", note: "verb (ichidan, intransitive); polite", example: "私も日本ごが<b>できます</b> (i also know japanese)" }
+    english: { main: "to be good at; to do well <i>(masu-form of <b>できる</b>)</i>", note: "verb (ichidan, intr.); polite", example: "私も日本ごが<b>できます</b> (i also know japanese)" }
   },
   {
     kana: "たいわん",
@@ -1784,7 +1784,7 @@ window.WORDS = [
   },
   {
     kana: "しごと",
-    english: { main: "work; job", note: "noun; verb (suru, intransitive)" },
+    english: { main: "work; job", note: "noun; verb (suru, intr.)" },
     audio: "work-job"
   },
   {
@@ -1794,7 +1794,7 @@ window.WORDS = [
   },
   {
     kana: "かえります",
-    english: { main: "to return <i>(masu-form of <b>かえる</b>)</i>", note: "verb (godan, intransitive); polite", example: "しごとのあと、うちに<b>かえります</b> (after work, i return home)" },
+    english: { main: "to return <i>(masu-form of <b>かえる</b>)</i>", note: "verb (godan, intr.); polite", example: "しごとのあと、うちに<b>かえります</b> (after work, i return home)" },
     audio: "to-return"
   },
   {
@@ -1812,12 +1812,12 @@ window.WORDS = [
   },
   {
     kana: "てつだいます",
-    english: { main: "to help <i>(masu-form of <b>てつだう</b>)</i>", note: "verb (godan, transitive); polite", example: "いつもおとうとのしゅくだいを<b>てつだいます</b> (i always help with my younger brother's homework)" },
+    english: { main: "to help <i>(masu-form of <b>てつだう</b>)</i>", note: "verb (godan, tr.); polite", example: "いつもおとうとのしゅくだいを<b>てつだいます</b> (i always help with my younger brother's homework)" },
     audio: "to-help"
   },
   {
     kana: "そうじ",
-    english: { main: "cleaning", note: "noun; verb (suru, transitive)" }
+    english: { main: "cleaning", note: "noun; verb (suru, tr.)" }
   },
   {
     kana: "しゅくだい",
@@ -1829,7 +1829,7 @@ window.WORDS = [
   },
   {
     kana: "せんたく",
-    english: { main: "laundry", note: "noun; verb (suru, transitive)" }
+    english: { main: "laundry", note: "noun; verb (suru, tr.)" }
   },
   {
     kana: "だれ",
@@ -1854,7 +1854,7 @@ window.WORDS = [
   },
   {
     kana: "はいります",
-    english: { main: "to enter <i>(masu-form of <b>はいる</b>)</i>", note: "verb (godan, intransitive); polite", example: "まいばんおふろに<b>はいります</b> (i take a bath (lit. 'enter a bath') every night)" },
+    english: { main: "to enter <i>(masu-form of <b>はいる</b>)</i>", note: "verb (godan, intr.); polite", example: "まいばんおふろに<b>はいります</b> (i take a bath (lit. 'enter a bath') every night)" },
     audio: "to-enter"
   },
   {
@@ -1864,7 +1864,7 @@ window.WORDS = [
   {
     kanji: "買い物",
     kana: "かいもの",
-    english: { main: "shopping", note: "noun; verb (suru, intransitive)" }
+    english: { main: "shopping", note: "noun; verb (suru, intr.)" }
   },
   {
     kana: "たのしい",
@@ -1872,7 +1872,7 @@ window.WORDS = [
   },
   {
     kana: "りょうり",
-    english: { main: "cooking; food", note: "noun; verb (suru, transitive)", example: "うちにかえります。そして、<b>りょうり</b>をします (i return home. then, i do the cooking);<br>フランス<b>りょうり</b>、日本<b>りょうり</b> (french food, japanese food)" }
+    english: { main: "cooking; food", note: "noun; verb (suru, tr.)", example: "うちにかえります。そして、<b>りょうり</b>をします (i return home. then, i do the cooking);<br>フランス<b>りょうり</b>、日本<b>りょうり</b> (french food, japanese food)" }
   },
   {
     kana: "ガーデニング",
@@ -1893,13 +1893,13 @@ window.WORDS = [
   },
   {
     kana: "りょこう",
-    english: { main: "trip; travel", note: "noun; verb (suru, intransitive)" },
+    english: { main: "trip; travel", note: "noun; verb (suru, intr.)" },
     audio: "trip"
   },
   {
     kanji: "会います",
     kana: "あいます",
-    english: { main: "to meet <i>(masu-form of <b>会う</b>)</i>", note: "verb (godan, intransitive); polite <i>JLPT N4</i>" }
+    english: { main: "to meet <i>(masu-form of <b>会う</b>)</i>", note: "verb (godan, intr.); polite <i>JLPT N4</i>" }
   },
   {
     kana: "スーツケース",
@@ -1941,7 +1941,7 @@ window.WORDS = [
   },
   {
     kana: "とります",
-    english: { main: "to take (a photo) <i>(masu-form of <b>とる</b>)</i>", note: "verb (godan, transitive); polite" }
+    english: { main: "to take (a photo) <i>(masu-form of <b>とる</b>)</i>", note: "verb (godan, tr.); polite" }
   },
   {
     kana: "ひろば",
@@ -1987,7 +1987,7 @@ window.WORDS = [
   },
   {
     kana: "のります",
-    english: { main: "to ride; to get on; to take <i>(train, etc.)</i> <i>(masu-form of <b>のる</b>)</i>", note: "verb (godan, intransitive); polite", example: "しんかんせんに<b>のります</b> (we're going to ride the bullet train)" }
+    english: { main: "to ride; to get on; to take <i>(train, etc.)</i> <i>(masu-form of <b>のる</b>)</i>", note: "verb (godan, intr.); polite", example: "しんかんせんに<b>のります</b> (we're going to ride the bullet train)" }
   },
   {
     kana: "なごや",
@@ -2005,7 +2005,7 @@ window.WORDS = [
   },
   {
     kana: "かんこう",
-    english: { main: "sightseeing", note: "noun; verb (suru, transitive)" },
+    english: { main: "sightseeing", note: "noun; verb (suru, tr.)" },
     audio: "sightseeing"
   },
   {
@@ -2023,7 +2023,7 @@ window.WORDS = [
   },
   {
     kana: "まちます",
-    english: { main: "to wait <i>(masu-form of <b>まつ</b>)</i>", note: "verb (godan, transitive, intransitive); polite" }
+    english: { main: "to wait <i>(masu-form of <b>まつ</b>)</i>", note: "verb (godan, tr., intr.); polite" }
   },
   {
     kana: "たのしみ",
@@ -2137,7 +2137,7 @@ window.WORDS = [
   {
     kanji: "食べません",
     kana: "たべません",
-    english: { main: "not to eat <i>(masen-form of <b>食べる</b>)</i>", note: "verb (ichidan, transitive); polite; negative <i>JLPT N5</i>" }
+    english: { main: "not to eat <i>(masen-form of <b>食べる</b>)</i>", note: "verb (ichidan, tr.); polite; negative <i>JLPT N5</i>" }
   },
   {
     kana: "でも",
@@ -2163,7 +2163,7 @@ window.WORDS = [
   },
   {
     kana: "つかいます",
-    english: { main: "to use <i>(masu-form of <b>つかう</b>)</i>", note: "verb (godan, transitive); polite" }
+    english: { main: "to use <i>(masu-form of <b>つかう</b>)</i>", note: "verb (godan, tr.); polite" }
   },
   {
     kana: "コーラ",
@@ -2186,7 +2186,7 @@ window.WORDS = [
   {
     kanji: "飲みません",
     kana: "のみません",
-    english: { main: "not to drink <i>(masen-form of <b>飲む</b>)</i>", note: "verb (godan, transitive); polite; negative <i>JLPT N4</i>" }
+    english: { main: "not to drink <i>(masen-form of <b>飲む</b>)</i>", note: "verb (godan, tr.); polite; negative <i>JLPT N4</i>" }
   },
   {
     kana: "きょうしつ",
@@ -2195,7 +2195,7 @@ window.WORDS = [
   },
   {
     kana: "じゅぎょう",
-    english: { main: "class; lesson", note: "noun; verb (suru, intransitive)", example: "きょうはスペインごの<b>じゅぎょう</b>があります (today, i have spanish class)" },
+    english: { main: "class; lesson", note: "noun; verb (suru, intr.)", example: "きょうはスペインごの<b>じゅぎょう</b>があります (today, i have spanish class)" },
     audio: "class-lesson"
   },
   {
@@ -2224,11 +2224,11 @@ window.WORDS = [
   },
   {
     kana: "テスト",
-    english: { main: "test", note: "noun; verb (suru, transitive)" }
+    english: { main: "test", note: "noun; verb (suru, tr.)" }
   },
   {
     kana: "しつもん",
-    english: { main: "question", note: "noun; verb (suru, transitive, intransitive)" },
+    english: { main: "question", note: "noun; verb (suru, tr., intr.)" },
     audio: "question"
   },
   {
@@ -2254,7 +2254,7 @@ window.WORDS = [
   },
   {
     kana: "おわります",
-    english: { main: "to end <i>(masu-form of <b>おわる</b>)</i>", note: "verb (godan, intransitive); polite", example: "じゅぎょうは何時に<b>おわります</b>か (what time does class end?)" }
+    english: { main: "to end <i>(masu-form of <b>おわる</b>)</i>", note: "verb (godan, intr.); polite", example: "じゅぎょうは何時に<b>おわります</b>か (what time does class end?)" }
   },
   {
     kanji: "水曜日",
@@ -2300,7 +2300,7 @@ window.WORDS = [
   },
   {
     kana: "ほんやく",
-    english: { main: "translation", note: "noun; verb (suru, transitive)" },
+    english: { main: "translation", note: "noun; verb (suru, tr.)" },
     audio: "translation"
   },
   {
@@ -2314,7 +2314,7 @@ window.WORDS = [
   },
   {
     kana: "うんてん",
-    english: { main: "driving (a vehicle)", note: "noun; verb (suru, transitive)" },
+    english: { main: "driving (a vehicle)", note: "noun; verb (suru, tr.)" },
     audio: "driving"
   },
   {
@@ -2323,7 +2323,7 @@ window.WORDS = [
   },
   {
     kana: "あらいます",
-    english: { main: "to wash <i>(masu-form of <b>あらう</b>)</i>", note: "verb (godan, transitive); polite" }
+    english: { main: "to wash <i>(masu-form of <b>あらう</b>)</i>", note: "verb (godan, tr.); polite" }
   },
   {
     kana: "うんてんしゅ",
@@ -2357,7 +2357,7 @@ window.WORDS = [
   },
   {
     kana: "うんどう",
-    english: { main: "exercise; physical training", note: "noun; verb (suru, intransitive)" },
+    english: { main: "exercise; physical training", note: "noun; verb (suru, intr.)" },
     audio: "exercise"
   },
   {
