@@ -2363,5 +2363,38 @@ window.WORDS = [
   {
     kana: "プロ",
     english: { main: "professional; pro​", note: "noun" }
+  },
+  {
+    kana: "はくぶつかん",
+    english: { main: "museum", note: "noun" },
+    audio: "museum"
+  },
+  {
+    kana: "ごご",
+    english: { main: "p.m.", note: "noun; adverb" }
+  },
+  {
+    kana: "ゆうえんち",
+    english: { main: "amusement park", note: "noun" },
+    audio: "amusement-park"
+  },
+  {
+    kana: "つまらない",
+    english: { main: "boring", note: "i-adjective" },
+    audio: "boring"
+  },
+  {
+    kana: "いりぐち",
+    english: { main: "entrance", note: "noun" },
+    audio: "entrance"
+  },
+  {
+    kana: "にゅうじょうりょう",
+    english: { main: "admission fee", note: "noun" },
+    audio: "admission-fee"
+  },
+  {
+    kana: "おとな",
+    english: { main: "adult", note: "noun; na-adjective" }
   }
 ];
