@@ -625,6 +625,7 @@ window.WORDS = [
     english: { main: "TV", note: "noun" }
   },
   {
+    kanji: "映画",
     kana: "えいが",
     english: { main: "movie", note: "noun" },
     audio: "movie"
@@ -946,6 +947,7 @@ window.WORDS = [
     english: { main: "a bit", note: "adverb <i>JLPT N4</i>", example: "<b>すこし</b>たかいですね (it's a bit expensive, isn't it)" }
   },
   {
+    kanji: "週末",
     kana: "しゅうまつ",
     english: { main: "weekend", note: "adverb; noun", example: "<b>しゅうまつ</b>はおよぎます (i swim on the weekends)" }
   },
@@ -2396,5 +2398,40 @@ window.WORDS = [
   {
     kana: "おとな",
     english: { main: "adult", note: "noun; na-adjective" }
+  },
+  {
+    kana: "ゴーカート",
+    english: { main: "go-kart", note: "noun", example: "つぎは<b>ゴーカート</b>にのりましょう (next, we should ride the go-karts)" }
+  },
+  {
+    kana: "アトラクション",
+    english: { main: "attraction <i>(as in a theme park)</i>", note: "noun" }
+  },
+  {
+    kana: "ジェットコースター",
+    english: { main: "roller coaster​", note: "noun" },
+    audio: "roller-coaster​"
+  },
+  {
+    kana: "こわい",
+    english: { main: "scary", note: "i-adjective" }
+  },
+  {
+    kana: "ショー",
+    english: { main: "show; performance", note: "noun" }
+  },
+  {
+    kana: "きいろい",
+    english: { main: "yellow", note: "i-adjective" },
+    audio: "yellow"
+  },
+  {
+    kana: "かお",
+    english: { main: "face", note: "noun" },
+    audio: "face"
+  },
+  {
+    kana: "キャラクター",
+    english: { main: "mascot; (fictional) character", note: "noun" }
   }
 ];
