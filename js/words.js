@@ -1416,7 +1416,7 @@ window.WORDS = [
   },
   {
     kana: "はやい",
-    english: { main: "fast", note: "i-adjective" }
+    english: { main: "<i>1.</i> fast; <i>2.</i> early", note: "i-adjective" }
   },
   {
     kana: "どの",
@@ -2433,5 +2433,27 @@ window.WORDS = [
   {
     kana: "キャラクター",
     english: { main: "mascot; (fictional) character", note: "noun" }
+  },
+  {
+    kana: "Ｌサイズ",
+    english: { main: "size l; large size", note: "noun" }
+  },
+  {
+    kana: "Ｓサイズ",
+    english: { main: "size s; small size", note: "noun" }
+  },
+  {
+    kana: "バニラ",
+    english: { main: "vanilla", note: "noun" },
+    audio: "vanilla"
+  },
+  {
+    kana: "あじ",
+    english: { main: "flavor", note: "noun", example: "すきな<b>あじ</b>は何ですか (what's your favorite flavor?);<br>すきなアイスクリームの<b>あじ</b>はチョコレートです (my favorite ice cream flavor is chocolate)" },
+    audio: "flavor"
+  },
+  {
+    kana: "チョコミント",
+    english: { main: "mint chocolate chip <i>(flavor)</i>", note: "noun" }
   }
 ];
