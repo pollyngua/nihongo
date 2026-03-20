@@ -1017,7 +1017,7 @@ window.WORDS = [
   },
   {
     kana: "でかけます",
-    english: { main: "to go out <i>(masu-form of <b>でかける</b>)</i>", note: "verb (ichidan, intr.); polite" }
+    english: { main: "to go out; to leave <i>(masu-form of <b>でかける</b>)</i>", note: "verb (ichidan, intr.); polite" }
   },
   {
     kanji: "話します",
@@ -1029,6 +1029,7 @@ window.WORDS = [
     english: { main: "platform (train station)", note: "noun" }
   },
   {
+    kanji: "一階",
     kana: "いっかい",
     english: { main: "first floor", note: "noun" }
   },
@@ -1072,6 +1073,7 @@ window.WORDS = [
     english: { main: "telephone", note: "noun" }
   },
   {
+    kanji: "二階",
     kana: "にかい",
     english: { main: "second floor", note: "noun" }
   },
@@ -1755,6 +1757,7 @@ window.WORDS = [
     english: { main: "older brother", note: "noun; honorific" }
   },
   {
+    kanji: "二人",
     kana: "ふたり",
     english: { main: "two persons; pair; couple", note: "noun", example: "いもうとが<b>ふたり</b>います (i have two younger sisters)" }
   },
@@ -1771,6 +1774,7 @@ window.WORDS = [
     english: { main: "Seoul <i>(South Korea)</i>", note: "proper noun" }
   },
   {
+    kanji: "一人",
     kana: "ひとり",
     english: { main: "one person", note: "noun" }
   },
@@ -2455,5 +2459,79 @@ window.WORDS = [
   {
     kana: "チョコミント",
     english: { main: "mint chocolate chip <i>(flavor)</i>", note: "noun" }
+  },
+  {
+    kana: "あきます",
+    english: { main: "<i>1.</i> to open <i>(e.g. door)</i>; <i>2.</i> to open <i>(e.g. business)</i> <i>(masu-form of <b>あく</b>)</i>", note: "verb (godan, intr.); polite", example: "ケーキやは十時に<b>あきます</b> (the cake shop opens at 10 o'clock)" }
+  },
+  {
+    kana: "ぜんぶ",
+    english: { main: "all; entire", note: "noun; adverb" },
+    audio: "all-entire"
+  },
+  {
+    kana: "ぜんぶで",
+    english: { main: "in total", note: "expression", example: "<b>ぜんぶで</b>いくらですか (how much is it in total?)" }
+  },
+  {
+    kana: "げんき",
+    english: { main: "<i>1.</i> lively; energetic; <i>2.</i> healthy", note: "na-adjective; noun" }
+  },
+  {
+    kana: "うでどけい",
+    english: { main: "wristwatch", note: "noun" },
+    audio: "wristwatch"
+  },
+  {
+    kana: "ネックレス",
+    english: { main: "necklace", note: "noun" }
+  },
+  {
+    kana: "ブラウス",
+    english: { main: "blouse", note: "noun" }
+  },
+  {
+    kana: "デート",
+    english: { main: "date <i>(with someone)</i>", note: "noun" }
+  },
+  {
+    kana: "えいがかん",
+    english: { main: "movie theater; cinema", note: "noun" },
+    audio: "movie-theater"
+  },
+  {
+    kana: "ステーキ",
+    english: { main: "steak", note: "noun" }
+  },
+  {
+    kana: "ポップコーン",
+    english: { main: "popcorn", note: "noun" }
+  },
+  {
+    kana: "ホットドッグ",
+    english: { main: "hot dog", note: "noun" }
+  },
+  {
+    kana: "よやく",
+    english: { main: "reservation; booking", note: "noun; verb (suru, tr.)" },
+    audio: "reservation"
+  },
+  {
+    kana: "ワイン",
+    english: { main: "wine", note: "noun" }
+  },
+  {
+    kana: "たんじょうび",
+    english: { main: "birthday", note: "noun" },
+    audio: "birthday"
+  },
+  {
+    kana: "スーツ",
+    english: { main: "suit <i>(clothing)</i>", note: "noun" }
+  },
+  {
+    kanji: "着ます",
+    kana: "きます",
+    english: { main: "to wear <i>(masu-form of <b>着る</b>)</i>", note: "verb (ichidan, tr.); polite" }
   }
 ];
