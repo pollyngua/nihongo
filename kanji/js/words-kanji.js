@@ -1077,5 +1077,60 @@ window.WORDS = [
       trans: "origami"
     }
     ]
+  },
+  {
+    kanji: "毎",
+    kana: "ごと、マイ",
+    english: "every",
+    note: "JLPT N5",
+    parts: "radical: <b>毋</b> (母、⺟) (mother, do not)",
+    examples: [
+    {
+      word: "<ruby><b>毎</b><rt><b>まい</b></rt>日<rt>にち</rt></ruby>",
+      trans: "every day"
+    },
+    {
+      word: "<ruby><b>毎</b><rt><b>まい</b></rt>週<rt>しゅう</rt></ruby>",
+      trans: "every week"
+    },
+    {
+      word: "<ruby><b>毎</b><rt><b>まい</b></rt>年<rt>とし</rt></ruby>",
+      trans: "every year"
+    }
+    ]
+  },
+  {
+    kanji: "作",
+    kana: "つく、づく、サク、サ",
+    english: "make, production, prepare, build",
+    note: "JLPT N4",
+    parts: "radical: <b>人</b> (亻、⺅、𠆢) (man, human)",
+    examples: [
+    {
+      word: "<ruby><b>作</b><rt><b>つく</b></rt>る</ruby>",
+      trans: "to make"
+    }
+    ]
+  },
+  {
+    kanji: "着",
+    kana: "き、つ、チャク、ジャク",
+    english: "don, arrive, wear, counter for suits of clothing",
+    note: "JLPT N4",
+    parts: "radical: <b>目</b> (eye)",
+    examples: [
+    {
+      word: "<ruby><b>着</b><rt><b>き</b></rt>る</ruby>",
+      trans: "to wear"
+    },
+    {
+      word: "<ruby><b>着</b><rt><b>き</b></rt>物<rt>もの</rt></ruby>",
+      trans: "kimono"
+    },
+    {
+      word: "<ruby>道<rt>どう</rt><b>着</b><rt><b>ぎ</b></rt></ruby>",
+      trans: "dogi"
+    }
+    ]
   }
 ];
