@@ -1142,8 +1142,9 @@ window.WORDS = [
     english: { main: "volleyball", note: "noun" }
   },
   {
+    kanji: "作ります",
     kana: "つくります",
-    english: { main: "<i>1.</i> to make; <i>2.</i> to prepare (food) <i>(masu-form of <b>つくる</b>)</i>", note: "verb (godan, tr.); polite" }
+    english: { main: "<i>1.</i> to make; <i>2.</i> to prepare <i>(food)</i> <i>(masu-form of <b>作る</b>)</i>", note: "verb (godan, tr.); polite <i>JLPT N4</i>" }
   },
   {
     kana: "まいしゅう",
@@ -2492,7 +2493,7 @@ window.WORDS = [
   },
   {
     kana: "デート",
-    english: { main: "date <i>(with someone)</i>", note: "noun" }
+    english: { main: "date <i>(with someone)</i>", note: "noun", example: "ダニエルさんと<b>デート</b>に行きます (i'm going on a date with daniel)" }
   },
   {
     kana: "えいがかん",
@@ -2522,7 +2523,7 @@ window.WORDS = [
   },
   {
     kana: "たんじょうび",
-    english: { main: "birthday", note: "noun" },
+    english: { main: "birthday", note: "noun", example: "日曜日は私の<b>たんじょうび</b>です (sunday is my birthday)" },
     audio: "birthday"
   },
   {
@@ -2532,6 +2533,70 @@ window.WORDS = [
   {
     kanji: "着ます",
     kana: "きます",
-    english: { main: "to wear <i>(masu-form of <b>着る</b>)</i>", note: "verb (ichidan, tr.); polite" }
+    english: { main: "to wear <i>(masu-form of <b>着る</b>)</i>", note: "verb (ichidan, tr.); polite <i>JLPT N4</i>" }
+  },
+  {
+    kana: "かんとく",
+    english: { main: "director; coach", note: "noun" },
+    audio: "director"
+  },
+  {
+    kana: "レシピ",
+    english: { main: "recipe", note: "noun" }
+  },
+  {
+    kana: "セール",
+    english: { main: "sale", note: "noun" }
+  },
+  {
+    kana: "コーナー",
+    english: { main: "<i>1.</i> corner; <i>2.</i> department; section", note: "noun", example: "この<b>コーナー</b>の本がだいすきです (i love the books in this section)" }
+  },
+  {
+    kana: "ポスター",
+    english: { main: "poster", note: "noun" }
+  },
+  {
+    kana: "はいゆう",
+    english: { main: "actor", note: "noun" },
+    audio: "actor"
+  },
+  {
+    kana: "アルバム",
+    english: { main: "album", note: "noun" }
+  },
+  {
+    kana: "バンド",
+    english: { main: "band <i>(music)</i>", note: "noun" }
+  },
+  {
+    kana: "あまり",
+    english: { main: "(not) very; (not) much <i>(with negative sentence, あまり〜ません)</i>", note: "adverb", example: "ホラーまんがは<b>あまり</b>読みません (i don't read horror manga very much)" },
+    audio: "not-very-not-much"
+  },
+  {
+    kana: "パズル",
+    english: { main: "puzzle", note: "noun" }
+  },
+  {
+    kana: "ポップス",
+    english: { main: "pop music", note: "noun" }
+  },
+  {
+    kana: "フィクション",
+    english: { main: "fiction", note: "noun" }
+  },
+  {
+    kana: "カードゲーム",
+    english: { main: "card game", note: "noun" }
+  },
+  {
+    kanji: "話",
+    kana: "はなし",
+    english: { main: "<i>1.</i> talk; <i>2.</i> tale; story; fable", note: "noun <i>JLPT N5</i>" }
+  },
+  {
+    kana: "ノンフィクション",
+    english: { main: "nonfiction", note: "noun" }
   }
 ];
