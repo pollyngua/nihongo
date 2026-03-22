@@ -2326,7 +2326,7 @@ window.WORDS = [
   },
   {
     kana: "ごぜん",
-    english: { main: "a.m.", note: "noun; adverb", example: "<b>ごぜん</b>八時ごろおきます (i wake up around 8 a.m.)" }
+    english: { main: "a.m.; morning", note: "noun; adverb", example: "<b>ごぜん</b>八時ごろおきます (i wake up around 8 a.m.)" }
   },
   {
     kana: "あらいます",
@@ -2378,7 +2378,7 @@ window.WORDS = [
   },
   {
     kana: "ごご",
-    english: { main: "p.m.", note: "noun; adverb" }
+    english: { main: "p.m.; afternoon", note: "noun; adverb" }
   },
   {
     kana: "ゆうえんち",
@@ -2598,5 +2598,80 @@ window.WORDS = [
   {
     kana: "ノンフィクション",
     english: { main: "nonfiction", note: "noun" }
+  },
+  {
+    kana: "アニソン",
+    english: { main: "anime song; anime music", note: "noun" }
+  },
+  {
+    kana: "ドキュメンタリー",
+    english: { main: "documentary", note: "noun" }
+  },
+  {
+    kana: "パソコン",
+    english: { main: "computer", note: "noun" }
+  },
+  {
+    kana: "うたいます",
+    english: { main: "to sing <i>(masu-form of <b>うたう</b>)</i>", note: "verb (godan, tr., intr.); polite" }
+  },
+  {
+    kana: "プリンター",
+    english: { main: "printer", note: "noun" }
+  },
+  {
+    kana: "オリエンテーション",
+    english: { main: "orientation", note: "noun" }
+  },
+  {
+    kana: "さいご",
+    english: { main: "last; final", note: "noun", example: "<b>さいご</b>のミーティングは何時からですか (what time does the last meeting start?)" }
+  },
+  {
+    kana: "から",
+    english: { main: "from <i>(time, place, numerical quantity)</i>; since", note: "particle", example: "さいごのミーティングは何時<b>から</b>ですか (what time does the last meeting start?)" }
+  },
+  {
+    kana: "まで",
+    english: { main: "until <i>(a time)</i>; to <i>(time, place, extent)</i>", note: "particle" }
+  },
+  {
+    kana: "ミーティング",
+    english: { main: "meeting", note: "noun" }
+  },
+  {
+    kanji: "階",
+    kana: "かい",
+    english: { main: "storey; floor", note: "noun; noun, used as a suffix; counter <i>JLPT N2</i>", example: "いっ<b>かい</b> (first floor); に<b>かい</b> (second floor)" }
+  },
+  {
+    kana: "しょくどう",
+    english: { main: "cafeteria; dining hall", note: "noun" },
+    audio: "cafeteria"
+  },
+  {
+    kana: "うけつけ",
+    english: { main: "reception (desk); front desk", note: "noun" },
+    audio: "reception-desk"
+  },
+  {
+    kana: "プレゼン",
+    english: { main: "presentation", note: "noun" }
+  },
+  {
+    kana: "カラオケ",
+    english: { main: "karaoke", note: "noun" }
+  },
+  {
+    kana: "よろしくおねがいします",
+    english: { main: "please remember me; please treat me favorably; i appreciate the help; looking forward to working with you", note: "expression; polite" }
+  },
+  {
+    kana: "チャーハン",
+    english: { main: "chinese-style fried rice", note: "noun" }
+  },
+  {
+    kana: "フライドポテト",
+    english: { main: "french fries", note: "noun" }
   }
 ];
