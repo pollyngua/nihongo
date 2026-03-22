@@ -1132,5 +1132,22 @@ window.WORDS = [
       trans: "dogi"
     }
     ]
+  },
+  {
+    kanji: "階",
+    kana: "きざはし、カイ",
+    english: "storey, stair, counter for storeys of a building",
+    note: "JLPT N2",
+    parts: "radical: <b>⻖</b> (阝、阜) (mound, hill, dam)",
+    examples: [
+    {
+      word: "<ruby><b>階</b><rt><b>かい</b></rt>段<rt>だん</rt></ruby>",
+      trans: "stairs"
+    },
+    {
+      word: "<ruby>一<rt>いっ</rt><b>階</b><rt><b>かい</b></rt></ruby>",
+      trans: "first floor"
+    }
+    ]
   }
 ];
