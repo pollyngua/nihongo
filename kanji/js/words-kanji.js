@@ -1149,5 +1149,22 @@ window.WORDS = [
       trans: "first floor"
     }
     ]
+  },
+  {
+    kanji: "家",
+    kana: "いえ、や、うち、カ、ケ",
+    english: "house, home, family, professional, expert, performer",
+    note: "JLPT N4",
+    parts: "radical: <b>宀</b> (roof)",
+    examples: [
+    {
+      word: "<ruby><b>家</b><rt><b>か</b></rt>族<rt>ぞく</rt></ruby>",
+      trans: "family"
+    },
+    {
+      word: "<ruby><b>家</b><rt><b>か</b></rt>事<rt>じ</rt></ruby>",
+      trans: "housework"
+    }
+    ]
   }
 ];
