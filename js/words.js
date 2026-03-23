@@ -1264,6 +1264,7 @@ window.WORDS = [
     english: { main: "'really?' <i>(lit. <b>is it the truth?</b>)</i>", note: "expression" }
   },
   {
+    kanji: "家",
     kana: "いえ",
     english: { main: "house", note: "noun" },
     audio: "house"
@@ -2673,5 +2674,70 @@ window.WORDS = [
   {
     kana: "フライドポテト",
     english: { main: "french fries", note: "noun" }
+  },
+  {
+    kana: "いとこ",
+    english: { main: "cousin", note: "noun" },
+    audio: "cousin"
+  },
+  {
+    kana: "ナイフ",
+    english: { main: "knife", note: "noun" }
+  },
+  {
+    kana: "とちゅう",
+    english: { main: "on the way; en route", note: "noun; adverb" },
+    audio: "on-the-way"
+  },
+  {
+    kana: "(お)さら",
+    english: { main: "plate; dish", note: "noun" },
+    audio: "plate"
+  },
+  {
+    kana: "カップ",
+    english: { main: "cup", note: "noun" }
+  },
+  {
+    kana: "おもちゃ",
+    english: { main: "toy", note: "noun" },
+    audio: "toy"
+  },
+  {
+    kana: "フォーク",
+    english: { main: "fork", note: "noun" }
+  },
+  {
+    kana: "ヘッドホン",
+    english: { main: "headphone", note: "noun" },
+    audio: "headphone"
+  },
+  {
+    kana: "わたります",
+    english: { main: "to cross over; to go across <i>(masu-form of <b>わたる</b>)</i>", note: "verb (godan, intr.); polite" }
+  },
+  {
+    kana: "いらっしゃい",
+    english: { main: "welcome", note: "expression" },
+    audio: "welcome-2"
+  },
+  {
+    kana: "どうやって",
+    english: { main: "how; in what way; by what means​", note: "expression" },
+    audio: "how-in-what-way"
+  },
+  {
+    kana: "あるきます",
+    english: { main: "to walk <i>(masu-form of <b>あるく</b>)</i>", note: "verb (godan, intr.); polite" }
+  },
+  {
+    kana: "みち",
+    english: { main: "road; path; street", note: "noun" },
+    audio: "road-path-street"
+  },
+  {
+    kanji: "百円ショップ",
+    kana: "ひゃくえんショップ",
+    english: { main: "hundred-yen store; dollar store", note: "noun" }
   }
 ];
