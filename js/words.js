@@ -2534,7 +2534,7 @@ window.WORDS = [
   {
     kanji: "着ます",
     kana: "きます",
-    english: { main: "to wear <i>(masu-form of <b>着る</b>)</i>", note: "verb (ichidan, tr.); polite <i>JLPT N4</i>" }
+    english: { main: "to wear <i>(from the shoulders down)</i> <i>(masu-form of <b>着る</b>)</i>", note: "verb (ichidan, tr.); polite <i>JLPT N4</i>" }
   },
   {
     kana: "かんとく",
@@ -2634,7 +2634,7 @@ window.WORDS = [
   },
   {
     kana: "まで",
-    english: { main: "until <i>(a time)</i>; to <i>(time, place, extent)</i>", note: "particle" }
+    english: { main: "until <i>(a time)</i>; to <i>(time, place, extent)</i>", note: "particle", example: "えき<b>まで</b>バスにのります (i take the bus to the station)" }
   },
   {
     kana: "ミーティング",
@@ -2686,7 +2686,7 @@ window.WORDS = [
   },
   {
     kana: "とちゅう",
-    english: { main: "on the way; en route", note: "noun; adverb" },
+    english: { main: "on the way; en route <i>(with で)</i>", note: "noun; adverb", example: "<b>とちゅう</b>でワインを買います (we're going to buy wine on the way)" },
     audio: "on-the-way"
   },
   {
@@ -2722,8 +2722,13 @@ window.WORDS = [
     audio: "welcome-2"
   },
   {
+    kana: "いらっしゃいませ",
+    english: { main: "welcome <i>(used in shops, restaurants, etc.)</i>", note: "expression; polite" },
+    audio: "welcome-3"
+  },
+  {
     kana: "どうやって",
-    english: { main: "how; in what way; by what means​", note: "expression" },
+    english: { main: "how; in what way; by what means​", note: "expression", example: "デパートまで<b>どうやって</b>行きましょうか (how should we get to the department store?)" },
     audio: "how-in-what-way"
   },
   {
@@ -2739,5 +2744,14 @@ window.WORDS = [
     kanji: "百円ショップ",
     kana: "ひゃくえんショップ",
     english: { main: "hundred-yen store; dollar store", note: "noun" }
+  },
+  {
+    kana: "フライドチキン",
+    english: { main: "fried chicken", note: "noun" }
+  },
+  {
+    kanji: "切ります",
+    kana: "きります",
+    english: { main: "to cut <i>(masu-form of <b>切る</b>)</i>", note: "verb (godan, tr.); polite" }
   }
 ];
