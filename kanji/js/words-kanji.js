@@ -1166,5 +1166,39 @@ window.WORDS = [
       trans: "housework"
     }
     ]
+  },
+  {
+    kanji: "円",
+    kana: "まる、まど、まろ、エン",
+    english: "circle, yen, round",
+    note: "JLPT N5",
+    parts: "radical: <b>冂</b> (open country/wilderness)",
+    examples: [
+    {
+      word: "<ruby>百<rt>ひゃく</rt><b>円</b><rt><b>えん</b></rt>ショップ</ruby>",
+      trans: "hundred-yen store"
+    }
+    ]
+  },
+  {
+    kanji: "切",
+    kana: "き、ぎ、セツ、サイ",
+    english: "cut, cutoff, be sharp",
+    note: "JLPT N4",
+    parts: "radical: <b>刀</b> (刂、⺉、⺈) (knife, sword)",
+    examples: [
+    {
+      word: "<ruby><b>切</b><rt><b>きっ</b></rt>符<rt>ぷ</rt></ruby>",
+      trans: "ticket"
+    },
+    {
+      word: "<ruby>締<rt>し</rt>め<rt></rt><b>切</b><rt><b>き</b></rt>り</ruby>",
+      trans: "deadline"
+    },
+    {
+      word: "<ruby><b>切</b><rt><b>き</b></rt>り<rt></rt>返<rt>かえ</rt>し</ruby>",
+      trans: "counterattack"
+    }
+    ]
   }
 ];
