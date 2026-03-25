@@ -210,6 +210,7 @@ window.WORDS = [
     english: { main: "here; this place", note: "pronoun", example: "ちずは<b>ここ</b>です (the map is here);<br><b>ここ</b>はよこはまえきです (this is yokohama station)" }
   },
   {
+    kanji: "駅",
     kana: "えき",
     english: { main: "train station", note: "noun" }
   },
@@ -1862,7 +1863,7 @@ window.WORDS = [
   },
   {
     kana: "はいります",
-    english: { main: "to enter <i>(masu-form of <b>はいる</b>)</i>", note: "verb (godan, intr.); polite", example: "まいばんおふろに<b>はいります</b> (i take a bath (lit. 'enter a bath') every night)" },
+    english: { main: "<i>1.</i> to enter; <i>2.</i> to join <i>(a club, company, etc.)</i> <i>(masu-form of <b>はいる</b>)</i>", note: "verb (godan, intr.); polite", example: "(1) まいばんおふろに<b>はいります</b> (i take a bath (lit. 'enter a bath') every night);<br>(2) アンドリューさんも日本ごサークルに<b>はいりません</b>か (would you also like to join the japanese club, andrew?)" },
     audio: "to-enter"
   },
   {
@@ -2442,11 +2443,11 @@ window.WORDS = [
   },
   {
     kana: "Ｌサイズ",
-    english: { main: "size l; large size", note: "noun" }
+    english: { main: "size L; large size", note: "noun" }
   },
   {
     kana: "Ｓサイズ",
-    english: { main: "size s; small size", note: "noun" }
+    english: { main: "size S; small size", note: "noun" }
   },
   {
     kana: "バニラ",
@@ -2665,15 +2666,15 @@ window.WORDS = [
   },
   {
     kana: "よろしくおねがいします",
-    english: { main: "please remember me; please treat me favorably; i appreciate the help; looking forward to working with you", note: "expression; polite" }
+    english: { main: "please remember me; please treat me favorably; I appreciate the help; looking forward to working with you", note: "expression; polite" }
   },
   {
     kana: "チャーハン",
-    english: { main: "chinese-style fried rice", note: "noun" }
+    english: { main: "Chinese-style fried rice", note: "noun" }
   },
   {
     kana: "フライドポテト",
-    english: { main: "french fries", note: "noun" }
+    english: { main: "French fries", note: "noun" }
   },
   {
     kana: "いとこ",
@@ -2753,5 +2754,140 @@ window.WORDS = [
     kanji: "切ります",
     kana: "きります",
     english: { main: "to cut <i>(masu-form of <b>切る</b>)</i>", note: "verb (godan, tr.); polite" }
+  },
+  {
+    kanji: "八月",
+    kana: "はちがつ",
+    english: { main: "August", note: "noun" },
+    audio: "august"
+  },
+  {
+    kana: "ダンス",
+    english: { main: "dance", note: "noun; verb (suru, intr.)" }
+  },
+  {
+    kana: "たいこ",
+    english: { main: "drum; taiko", note: "noun" },
+    audio: "drum"
+  },
+  {
+    kanji: "食べ物",
+    kana: "たべもの",
+    english: { main: "food", note: "noun" },
+    audio: "food"
+  },
+  {
+    kana: "クリスマス",
+    english: { main: "Christmas", note: "noun" }
+  },
+  {
+    kana: "ハロウィン",
+    english: { main: "Halloween", note: "noun" }
+  },
+  {
+    kana: "パーティー",
+    english: { main: "party", note: "noun" }
+  },
+  {
+    kanji: "十二月",
+    kana: "じゅうにがつ",
+    english: { main: "December", note: "noun" },
+    audio: "december"
+  },
+  {
+    kana: "イルミネーション",
+    english: { main: "illumination; decorative lighting", note: "noun" }
+  },
+  {
+    kana: "こんしゅうまつ",
+    english: { main: "this weekend", note: "noun" },
+    audio: "this-weekend"
+  },
+  {
+    kana: "おおみそか",
+    english: { main: "New Year's Eve", note: "noun" },
+    audio: "new-years-eve"
+  },
+  {
+    kana: "カウントダウン",
+    english: { main: "countdown", note: "noun" }
+  },
+  {
+    kana: "はなびたいかい",
+    english: { main: "fireworks display", note: "noun" }
+  },
+  {
+    kanji: "十月",
+    kana: "じゅうがつ",
+    english: { main: "October", note: "noun" },
+    audio: "october"
+  },
+  {
+    kana: "おまつり",
+    english: { main: "festival", note: "noun; polite" },
+    audio: "festival"
+  },
+  {
+    kana: "コンテスト",
+    english: { main: "contest", note: "noun" }
+  },
+  {
+    kana: "パレード",
+    english: { main: "parade", note: "noun; verb (suru, intr.)" }
+  },
+  {
+    kana: "コミュニティーセンター",
+    english: { main: "community center", note: "noun" },
+    audio: "community-center"
+  },
+  {
+    kana: "チョコバナナ",
+    english: { main: "chocolate covered banana", note: "noun" }
+  },
+  {
+    kana: "フィリピンじん",
+    english: { main: "Filipino (person)", note: "noun" }
+  },
+  {
+    kana: "ボードゲーム",
+    english: { main: "board game", note: "noun" }
+  },
+  {
+    kana: "ドイツ",
+    english: { main: "Germany", note: "proper noun" }
+  },
+  {
+    kana: "ボランティア",
+    english: { main: "volunteer", note: "noun" }
+  },
+  {
+    kanji: "-年生",
+    kana: "-ねんせい",
+    english: { main: "nth-year student", note: "suffix", example: "なおみさんは三<b>年生</b>ですか (are you a junior, naomi?)" },
+    audio: "nth-year-student"
+  },
+  {
+    kana: "すうがく",
+    english: { main: "mathematics", note: "noun" },
+    audio: "mathematics"
+  },
+  {
+    kana: "ルームメイト",
+    english: { main: "roommate", note: "noun" }
+  },
+  {
+    kana: "せんこう",
+    english: { main: "major <i>(as in college)</i>", note: "noun; verb (suru, tr.)" },
+    audio: "major-college"
+  },
+  {
+    kana: "サークル",
+    english: { main: "club; group with a common interest <i>(e.g. students)</i>", note: "noun" },
+    audio: "club"
+  },
+  {
+    kana: "げんご",
+    english: { main: "language", note: "noun" },
+    audio: "language"
   }
 ];
