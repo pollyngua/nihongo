@@ -1200,5 +1200,18 @@ window.WORDS = [
       trans: "counterattack"
     }
     ]
+  },
+  {
+    kanji: "駅",
+    kana: "エキ",
+    english: "station",
+    note: "JLPT N4",
+    parts: "radical: <b>馬</b> (horse)",
+    examples: [
+    {
+      word: "<ruby><b>駅</b><rt><b>えき</b></rt></ruby>",
+      trans: "train station"
+    }
+    ]
   }
 ];
