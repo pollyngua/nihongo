@@ -1575,7 +1575,7 @@ window.WORDS = [
   },
   {
     kana: "ちかく",
-    english: { main: "'nearby' <i>(lit. <b>neighborhood; vicinity</b>)</i>", note: "noun; adverb", example: "かぞくは<b>ちかく</b>にすんでいます (my family lives nearby)" },
+    english: { main: "'nearby' <i>(lit. <b>neighborhood; vicinity</b>)</i>", note: "noun; adverb", example: "かぞくは<b>ちかく</b>にすんでいます (my family lives nearby);<br>エリカさんもりょうの<b>ちかく</b>にすんでいますか (do you also live near the dorm, erika?)" },
     audio: "nearby"
   },
   {
@@ -1855,7 +1855,7 @@ window.WORDS = [
   {
     kana: "たいへん",
     english: { main: "difficult; tough", note: "na-adjective" },
-    audio: "difficult"
+    audio: "difficult-tough"
   },
   {
     kana: "そして",
@@ -2889,5 +2889,31 @@ window.WORDS = [
     kana: "げんご",
     english: { main: "language", note: "noun" },
     audio: "language"
+  },
+  {
+    kana: "タガログご",
+    english: { main: "Tagalog language", note: "noun" }
+  },
+  {
+    kana: "チェス",
+    english: { main: "chess", note: "noun" }
+  },
+  {
+    kana: "りょう",
+    english: { main: "dormitory", note: "noun", example: "エリカさんも<b>りょう</b>のちかくにすんでいますか (do you also live near the dorm, erika?)" },
+    audio: "dormitory"
+  },
+  {
+    kana: "キャンパス",
+    english: { main: "campus", note: "noun" }
+  },
+  {
+    kana: "むずかしい",
+    english: { main: "difficult; hard", note: "i-adjective" },
+    audio: "difficult-hard"
+  },
+  {
+    kana: "フィリピン",
+    english: { main: "Philippines", note: "proper noun" }
   }
 ];
