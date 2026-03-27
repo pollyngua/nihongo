@@ -94,73 +94,98 @@ function render(list) {
 const filters = {
   none: w => true,
 
+  noKatakana: w => {
+    if (!w.kana) return true;
+
+    const kana = w.kana.replace(/\s*\|\s*/g, "");
+    const isKatakanaOnly = /^[\u30A0-\u30FFー]+$/.test(kana);
+
+    const hasKanji = w.kanji && w.kanji.trim() !== "";
+
+    return !(isKatakanaOnly && !hasKanji);
+  },
+
   kanji: w =>
     w.kanji && w.kanji.trim() !== "",
 
-  verb: w =>
-    w.english.note &&
-    w.english.note.toLowerCase().includes("verb") &&
-    !w.english.note.toLowerCase().includes("adverb"),
+  verb: w => {
+    const note = w.english.note?.toLowerCase() || "";
+    return note.includes("verb") && !note.includes("adverb");
+  },
 
-  noun: w =>
-    w.english.note &&
-    w.english.note.toLowerCase().includes("noun") &&
-    !w.english.note.toLowerCase().includes("pronoun") &&   // exclude pronouns
-    !w.english.note.toLowerCase().includes("-noun"),       // exclude e.g. pre-noun adjectival
+  noun: w => {
+    const note = w.english.note?.toLowerCase() || "";
+    return (
+      note.includes("noun") &&
+      !note.includes("pronoun") &&
+      !note.includes("-noun")
+    );
+  },
 
-  pronoun: w =>
-    w.english.note &&
-    w.english.note.toLowerCase().includes("pronoun"),
+  pronoun: w => {
+    const note = w.english.note?.toLowerCase() || "";
+    return note.includes("pronoun");
+  },
 
-  adjective: w =>
-    w.english.note &&
-    w.english.note.toLowerCase().includes("adjectiv"),
+  adjective: w => {
+    const note = w.english.note?.toLowerCase() || "";
+    return note.includes("adjectiv");
+  },
 
-  adverb: w =>
-    w.english.note &&
-    w.english.note.toLowerCase().includes("adverb"),
+  adverb: w => {
+    const note = w.english.note?.toLowerCase() || "";
+    return note.includes("adverb");
+  },
 
-  expression: w =>
-    w.english.note &&
-    w.english.note.toLowerCase().includes("expression"),
+  expression: w => {
+    const note = w.english.note?.toLowerCase() || "";
+    return note.includes("expression");
+  },
 
-  small: w =>
-    w.english.note &&
-    (
-      w.english.note.toLowerCase().includes("particle") ||
-      w.english.note.toLowerCase().includes("fix") ||
-      w.english.note.toLowerCase().includes("conjunction")
-    ),
+  small: w => {
+    const note = w.english.note?.toLowerCase() || "";
+    return (
+      note.includes("particle") ||
+      note.includes("fix") ||
+      note.includes("conjunction")
+    );
+  },
 
-  numeric: w =>
-    w.english.note &&
-    w.english.note.toLowerCase().includes("numeric"),
+  numeric: w => {
+    const note = w.english.note?.toLowerCase() || "";
+    return note.includes("numeric");
+  },
 
-  counter: w =>
-    w.english.note &&
-    w.english.note.toLowerCase().includes("counter"),
+  counter: w => {
+    const note = w.english.note?.toLowerCase() || "";
+    return note.includes("counter");
+  },
 
-  jlptn5: w =>
-    w.english.note &&
-    w.english.note.includes("JLPT N5"),
+  jlptn5: w => {
+    const note = w.english.note || "";
+    return note.includes("JLPT N5");
+  },
 
-  jlptn4: w =>
-    w.english.note &&
-    w.english.note.includes("JLPT N4"),
+  jlptn4: w => {
+    const note = w.english.note || "";
+    return note.includes("JLPT N4");
+  },
 
-  jlptn3: w =>
-    w.english.note &&
-    w.english.note.includes("JLPT N3"),
+  jlptn3: w => {
+    const note = w.english.note || "";
+    return note.includes("JLPT N3");
+  },
 
-  jlptn2: w =>
-    w.english.note &&
-    w.english.note.includes("JLPT N2"),
+  jlptn2: w => {
+    const note = w.english.note || "";
+    return note.includes("JLPT N2");
+  },
 
-  jlptn1: w =>
-    w.english.note &&
-    w.english.note.includes("JLPT N1")
+  jlptn1: w => {
+    const note = w.english.note || "";
+    return note.includes("JLPT N1");
+  }
 };
-
 
 // Update dropdown labels to include counts
 function updateDropdownCounts() {

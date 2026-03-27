@@ -62,9 +62,9 @@ window.WORDS = [
   },
   {
     kanji: "人",
-    kana: "ひと",
-    english: { main: "person", note: "noun <i>JLPT N5</i>" },
-    audio: "person"
+    kana: "ひと | にん | じん",
+    english: { main: "person | <i>counter for people</i> | -ian, -ite, <i>etc. (indicates nationality)</i>", note: "noun; counter; suffix <i>JLPT N5</i>" },
+    audio: "person,,"
   },
   {
     kana: "こんにちは",
@@ -212,7 +212,7 @@ window.WORDS = [
   {
     kanji: "駅",
     kana: "えき",
-    english: { main: "train station", note: "noun" }
+    english: { main: "<i>1.</i> train station; <i>2. counter for railway stations and bus stations</i>", note: "noun; counter" }
   },
   {
     kana: "だいがく",
@@ -611,7 +611,7 @@ window.WORDS = [
   {
     kanji: "本",
     kana: "ほん",
-    english: { main: "book", note: "noun <i>JLPT N5</i>" }
+    english: { main: "<i>1.</i> book; <i>2. counter for: long cylindrical things; films, TV shows; goals, home runs; telephone calls</i>", note: "noun; counter <i>JLPT N5</i>" }
   },
   {
     kana: "ざっし",
@@ -767,7 +767,7 @@ window.WORDS = [
   },
   {
     kana: "ふく",
-    english: { main: "clothes <i>(esp. Western)</i>", note: "noun; noun, used as a suffix" },
+    english: { main: "<i>1.</i> clothes <i>(esp. Western)</i>; <i>2. counter for doses of medicine, gulps of tea, puffs of a cigarette, etc.</i>", note: "noun; noun, used as a suffix; counter" },
     audio: "clothes-western"
   },
   {
@@ -1406,13 +1406,13 @@ window.WORDS = [
   },
   {
     kanji: "分",
-    kana: "ふん/ぷん",
+    kana: "ふん",
     english: { main: "minute", note: "noun; counter-like <i>JLPT N5</i>", example: "に<b>ふん</b> (2 minutes); じゅっ<b>ぷん</b> (10 minutes)" }
   },
   {
     kanji: "十分",
     kana: "じゅっぷん | じゅうぶん",
-    english: { main: "10 minutes <i>(also <b>10分</b>)</i> | enough", note: "noun | na-adjective", example: "<b>じゅっぷん</b>は<b>じゅうぶん</b>です (10 minutes is enough)" },
+    english: { main: "10 minutes | enough", note: "noun | na-adjective", example: "<b>じゅっぷん</b>は<b>じゅうぶん</b>です (10 minutes is enough)" },
     audio: "10-minutes, enough"
   },
   {
@@ -1634,8 +1634,8 @@ window.WORDS = [
   },
   {
     kanji: "日",
-    kana: "ひ",
-    english: { main: "day", note: "noun <i>JLPT N5</i>", example: "はれの<b>日</b>はスポーツをします (on sunny days, i play sports)" }
+    kana: "ひ | にち",
+    english: { main: "day | <i>counter for days</i>", note: "noun; counter <i>JLPT N5</i>", example: "はれの<b>日</b>はスポーツをします (on sunny days, i play sports)" }
   },
   {
     kana: "プール",
@@ -2305,7 +2305,8 @@ window.WORDS = [
   },
   {
     kana: "じしょ",
-    english: { main: "dictionary", note: "noun" }
+    english: { main: "dictionary", note: "noun" },
+    audio: "dictionary"
   },
   {
     kana: "ほんやく",
@@ -2404,7 +2405,7 @@ window.WORDS = [
   },
   {
     kana: "おとな",
-    english: { main: "adult", note: "noun; na-adjective" }
+    english: { main: "adult; grown-up", note: "noun; na-adjective" }
   },
   {
     kana: "ゴーカート",
@@ -2594,8 +2595,8 @@ window.WORDS = [
   },
   {
     kanji: "話",
-    kana: "はなし",
-    english: { main: "<i>1.</i> talk; <i>2.</i> tale; story; fable", note: "noun <i>JLPT N5</i>" }
+    kana: "はなし | わ",
+    english: { main: "<i>1.</i> talk; <i>2.</i> tale; story; fable | <i>counter for stories, episodes of TV series, etc.</i>", note: "noun; counter <i>JLPT N5</i>" }
   },
   {
     kana: "ノンフィクション",
@@ -2644,7 +2645,7 @@ window.WORDS = [
   {
     kanji: "階",
     kana: "かい",
-    english: { main: "storey; floor", note: "noun; noun, used as a suffix; counter <i>JLPT N2</i>", example: "いっ<b>かい</b> (first floor); に<b>かい</b> (second floor)" }
+    english: { main: "<i>1.</i> storey; floor; <i>2. counter for storeys and floors of a building</i>", note: "noun; noun, used as a suffix; counter <i>JLPT N2</i>", example: "いっ<b>かい</b> (first floor); に<b>かい</b> (second floor)" }
   },
   {
     kana: "しょくどう",
@@ -2692,7 +2693,7 @@ window.WORDS = [
   },
   {
     kana: "(お)さら",
-    english: { main: "plate; dish", note: "noun" },
+    english: { main: "<i>1.</i> plate; dish; <i>2. (counter for)</i> serving; course", note: "noun; noun, used as a suffix; counter" },
     audio: "plate"
   },
   {
