@@ -35,7 +35,7 @@ select {
 html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
@@ -64,7 +64,7 @@ body {
   background-color: #2b303b;
   color: #475062;
   cursor: pointer;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   line-height: 1;
 }
 @media (orientation: portrait) {
@@ -313,7 +313,7 @@ body {
 
 #uniqueCounter {
   padding: 1rem;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 1rem;
   color: #a2a9ba;
 }
@@ -334,7 +334,7 @@ body {
   background-color: #232830;
   cursor: pointer;
   color: #475062;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 1rem;
   line-height: 1;
 }
@@ -359,7 +359,7 @@ body {
   background-color: #232830;
   cursor: pointer;
   color: #475062;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 1rem;
   line-height: 1;
 }

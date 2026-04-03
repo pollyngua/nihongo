@@ -35,7 +35,7 @@ select {
 html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
@@ -76,7 +76,7 @@ rt {
   border: 0;
   background-color: #475062;
   color: #d8deeb;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: .9rem;
   z-index: 1;
 }
