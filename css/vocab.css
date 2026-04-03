@@ -35,7 +35,7 @@ select {
 html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
@@ -56,7 +56,7 @@ body {
   border: 0;
   background-color: #475062;
   color: #d8deeb;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: .9rem;
   z-index: 1;
 }
@@ -149,6 +149,7 @@ body {
   top: 0;
   left: 0;
   padding: .25rem;
+  padding-left: 1rem;
   background-color: #e34234;
   font-size: .9rem;
   font-family: 'BIZ UDMincho', sans-serif;
@@ -157,12 +158,10 @@ body {
 }
 
 .note > i {
-  font-weight: 700;
+  display: inline-block;
+  /*padding: .25rem;
+  background-color: #e34234;*/
   font-style: normal;
-}
-.note > i::before {
-  content: "❘ ";
-  color: #2b303b;
 }
 
 .example,

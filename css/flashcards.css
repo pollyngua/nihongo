@@ -35,7 +35,7 @@ select {
 html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
@@ -64,7 +64,7 @@ body {
   background-color: #2b303b;
   color: #475062;
   cursor: pointer;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   line-height: 1;
 }
 @media (orientation: portrait) {
@@ -146,7 +146,7 @@ body {
 .audioBtn {
   width: .4em;
   height: .4em;
-  margin: -.8em -.6em 0 .2em;
+  margin: -.8em 0 0 .2em;
   background-image: url("../img/audio.svg");
   background-repeat: no-repeat;
   background-color: transparent;
@@ -262,12 +262,10 @@ body {
 }
 
 .note > i {
-  font-weight: 700;
+  display: inline-block;
+  /*padding: .4rem;
+  background-color: #e34234;*/
   font-style: normal;
-}
-.note > i::before {
-  content: "❘ ";
-  color: #2b303b;
 }
 
 .example,
@@ -324,7 +322,7 @@ body {
 
 #uniqueCounter {
   padding: 1rem;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 1rem;
   color: #a2a9ba;
 }
@@ -345,7 +343,7 @@ body {
   background-color: #232830;
   cursor: pointer;
   color: #475062;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 1rem;
   line-height: 1;
 }
@@ -371,7 +369,7 @@ body {
   background-color: #232830;
   cursor: pointer;
   color: #475062;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 1rem;
   line-height: 1;
 }
