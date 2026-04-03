@@ -227,9 +227,23 @@ function displayWord(word) {
 
   // ---- render english ----
   let englishHTML = `<div class="main">${word.english.main}</div>`;
+
+  // either display as they are with ;
   if (word.english.note) {
     englishHTML += `<span class="note">${word.english.note}</span>`;
   }
+  // or remove the ; and split into <i></i>s
+  // if (word.english.note) {
+  //   const formattedNote = word.english.note
+  //     .split(";")
+  //     .map(part => part.trim())
+  //     .filter(Boolean)
+  //     .map(part => `<i>${part}</i>`)
+  //     .join(" ");
+
+  //   englishHTML += `<span class="note">${formattedNote}</span>`;
+  // }
+
   if (word.english.example) {
     englishHTML += `<div class="example">${word.english.example}</div>`;
   }

@@ -6,7 +6,7 @@ window.WORDS = [
   {
     kanji: "水",
     kana: "みず",
-    english: { main: "water", note: "noun <i>JLPT N5</i>" },
+    english: { main: "water", note: "noun; JLPT N5" },
     audio: "water"
   },
   {
@@ -27,8 +27,8 @@ window.WORDS = [
     english: { main: "<i>1.</i> and <i>(links nouns, not clauses)</i>; <i>2.</i> with; <i>3.</i> <i>quote marker</i>", note: "particle; conjunction", example: "(2) ライオン<b>と</b>しゃしんをとりましょう (we should take a photo with the lion);<br>(3) 田中<b>と</b>言います (my name is tanaka (lit. i say 'tanaka'))" }
   },
   {
-    kana: "です",
-    english: { main: "be, is", note: "copula; auxiliary verb; polite" }
+    kana: "だ/です",
+    english: { main: "be; is", note: "copula; auxiliary verb" }
   },
   {
     kana: "さん",
@@ -56,6 +56,7 @@ window.WORDS = [
     english: { main: "cool", note: "i-adjective" }
   },
   {
+    kanji: "学生",
     kana: "がくせい",
     english: { main: "student", note: "noun" },
     audio: "student"
@@ -63,7 +64,7 @@ window.WORDS = [
   {
     kanji: "人",
     kana: "ひと | にん | じん",
-    english: { main: "person | <i>counter for people</i> | -ian, -ite, <i>etc. (indicates nationality)</i>", note: "noun; counter; suffix <i>JLPT N5</i>" },
+    english: { main: "person | <i>counter for people</i> | -ian, -ite, <i>etc. (indicates nationality)</i>", note: "noun; counter; suffix; JLPT N5" },
     audio: "person,,"
   },
   {
@@ -161,12 +162,12 @@ window.WORDS = [
   {
     kanji: "大きい",
     kana: "おおきい",
-    english: { main: "big; large", note: "i-adjective <i>JLPT N5</i>" }
+    english: { main: "big; large", note: "i-adjective; JLPT N5" }
   },
   {
     kanji: "小さい",
     kana: "ちいさい",
-    english: { main: "small", note: "i-adjective <i>JLPT N5</i>" }
+    english: { main: "small", note: "i-adjective; JLPT N5" }
   },
   {
     kana: "イギリス",
@@ -298,42 +299,42 @@ window.WORDS = [
   {
     kanji: "一",
     kana: "いち",
-    english: { main: "one", note: "numeric <i>JLPT N5</i>" }
+    english: { main: "one", note: "numeric; JLPT N5" }
   },
   {
     kanji: "一つ",
     kana: "ひとつ",
-    english: { main: "one", note: "numeric <i>JLPT N5</i>", example: "コーヒーを<b>ひとつ</b>ください (one coffee, please)" }
+    english: { main: "one", note: "numeric; JLPT N5", example: "コーヒーを<b>ひとつ</b>ください (one coffee, please)" }
   },
   {
     kanji: "二",
     kana: "に",
-    english: { main: "two", note: "numeric <i>JLPT N5</i>" }
+    english: { main: "two", note: "numeric; JLPT N5" }
   },
   {
     kanji: "二つ",
     kana: "ふたつ",
-    english: { main: "two", note: "numeric <i>JLPT N5</i>", example: "コーヒーを<b>ふたつ</b>ください (two coffees, please)" }
+    english: { main: "two", note: "numeric; JLPT N5", example: "コーヒーを<b>ふたつ</b>ください (two coffees, please)" }
   },
   {
     kanji: "三",
     kana: "さん",
-    english: { main: "three", note: "numeric <i>JLPT N5</i>" }
+    english: { main: "three", note: "numeric; JLPT N5" }
   },
   {
     kanji: "三つ",
     kana: "みっつ",
-    english: { main: "three", note: "numeric <i>JLPT N5</i>", example: "これを<b>みっつ</b>ください (three of this, please)" }
+    english: { main: "three", note: "numeric; JLPT N5", example: "これを<b>みっつ</b>ください (three of this, please)" }
   },
   {
     kanji: "時",
     kana: "じ",
-    english: { main: "o'clock", note: "suffix <i>JLPT N5</i>" }
+    english: { main: "o'clock", note: "suffix; JLPT N5" }
   },
   {
     kanji: "半",
     kana: "はん",
-    english: { main: "<i>1.</i> half; <i>2.</i> half-past", note: "noun; noun, used as a prefix; noun, used as a suffix <i>JLPT N5</i>", example: "いまにじ<b>はん</b>です (it's two thirty now)" }
+    english: { main: "<i>1.</i> half; <i>2.</i> half-past", note: "noun; noun, used as a prefix; noun, used as a suffix; JLPT N5", example: "いまにじ<b>はん</b>です (it's two thirty now)" }
   },
   {
     kana: "すみません",
@@ -390,7 +391,7 @@ window.WORDS = [
   {
     kanji: "私",
     kana: "わたし",
-    english: { main: "I; me", note: "pronoun; slightly formal or feminine <i>JLPT N4</i>" }
+    english: { main: "I; me", note: "pronoun; slightly formal or feminine; JLPT N4" }
   },
   {
     kanji: "東京",
@@ -424,8 +425,9 @@ window.WORDS = [
     english: { main: "Toronto", note: "proper noun" }
   },
   {
-    kana: "すんでいます",
-    english: { main: "to live <i>(masu-form, te-iru-form of <b>すむ</b>)</i>", note: "verb (godan, intr.); polite; ongoing action", example: "東京に<b>すんでいます</b> (i live in tokyo)" }
+    kanji: "住む/住みます",
+    kana: "すむ/すみます",
+    english: { main: "to live <i>(of humans)</i>; to reside", note: "verb (godan, intr.)", example: "東京に<b>すんでいます</b> (i live in tokyo)" }
   },
   {
     kana: "にぎやか",
@@ -494,12 +496,12 @@ window.WORDS = [
   {
     kanji: "母",
     kana: "はは",
-    english: { main: "mother; mom <i>(one's own, when referring to her)</i>", note: "noun; humble <i>JLPT N5</i>" }
+    english: { main: "mother; mom <i>(one's own, when referring to her)</i>", note: "noun; humble; JLPT N5" }
   },
   {
     kanji: "父",
     kana: "ちち",
-    english: { main: "father; dad <i>(one's own, when referring to him)</i>", note: "noun; humble <i>JLPT N5</i>" }
+    english: { main: "father; dad <i>(one's own, when referring to him)</i>", note: "noun; humble; JLPT N5" }
   },
   {
     kana: "いそがしい",
@@ -559,6 +561,7 @@ window.WORDS = [
     english: { main: "<i>1.</i> noisy; <i>2.</i> annoying", note: "i-adjective" }
   },
   {
+    // kanji: "有名",
     kana: "ゆうめい",
     english: { main: "famous", note: "na-adjective" }
   },
@@ -567,34 +570,35 @@ window.WORDS = [
     english: { main: "smart", note: "expression; i-adjective" }
   },
   {
+    // kanji: "才/歳",
     kana: "さい",
     english: { main: "years old", note: "counter" }
   },
   {
     kanji: "四",
     kana: "よん, よ, し",
-    english: { main: "four", note: "numeric <i>JLPT N5</i>", example: "まいにち<b>よ</b>じにおよぎます (i swim every day at four o'clock)" }
+    english: { main: "four", note: "numeric; JLPT N5", example: "まいにち<b>よ</b>じにおよぎます (i swim every day at four o'clock)" }
   },
   {
     kanji: "四つ",
     kana: "よっつ",
-    english: { main: "four", note: "numeric <i>JLPT N5</i>", example: "水を<b>よっつ</b>ください (four waters, please)" },
+    english: { main: "four", note: "numeric; JLPT N5", example: "水を<b>よっつ</b>ください (four waters, please)" },
     audio: "4-yottsu"
   },
   {
     kanji: "五",
     kana: "ご",
-    english: { main: "five", note: "numeric <i>JLPT N5</i>" }
+    english: { main: "five", note: "numeric; JLPT N5" }
   },
   {
     kanji: "六",
     kana: "ろく",
-    english: { main: "six", note: "numeric <i>JLPT N5</i>" }
+    english: { main: "six", note: "numeric; JLPT N5" }
   },
   {
     kanji: "七",
     kana: "なな, しち",
-    english: { main: "seven", note: "numeric <i>JLPT N5</i>", example: "<b>しち</b>じはん (seven thirty)" }
+    english: { main: "seven", note: "numeric; JLPT N5", example: "<b>しち</b>じはん (seven thirty)" }
   },
   {
     kana: "バスケットボール",
@@ -611,7 +615,7 @@ window.WORDS = [
   {
     kanji: "本",
     kana: "ほん",
-    english: { main: "<i>1.</i> book; <i>2. counter for: long cylindrical things; films, TV shows; goals, home runs; telephone calls</i>", note: "noun; counter <i>JLPT N5</i>" }
+    english: { main: "<i>1.</i> book; <i>2. counter for: long cylindrical things; films, TV shows; goals, home runs; telephone calls</i>", note: "noun; counter; JLPT N5" }
   },
   {
     kana: "ざっし",
@@ -656,22 +660,23 @@ window.WORDS = [
     english: { main: "j-pop", note: "noun" }
   },
   {
-    kanji: "見ます",
-    kana: "みます",
-    english: { main: "to watch <i>(masu-form of <b>見る</b>)</i>", note: "verb (ichidan, tr.); polite <i>JLPT N5</i>" }
+    kanji: "見る/見ます",
+    kana: "みる/みます",
+    english: { main: "to see; to look; to watch", note: "verb (ichidan, tr.); JLPT N5" }
   },
   {
-    kana: "します",
-    english: { main: "to do, to carry out, to perform <i>(masu-form of <b>する</b>)</i>", note: "verb (suru); polite" }
+    kana: "する/します",
+    english: { main: "to do, to carry out, to perform", note: "verb (suru)" }
   },
   {
-    kana: "ききます",
-    english: { main: "<i>1.</i> to listen; <i>2.</i> to ask <i>(masu-form of <b>きく</b>)</i>", note: "verb (godan, tr.); polite", example: "(2) なおみさんに<b>ききましょう</b>か (should we ask naomi?)" }
+    kanji: "聞く/聞きます",
+    kana: "きく/ききます",
+    english: { main: "<i>1.</i> to listen; <i>2.</i> to ask", note: "verb (godan, tr.); JLPT N5", example: "(2) なおみさんに<b>ききましょう</b>か (should we ask naomi?)" }
   },
   {
-    kanji: "読みます",
-    kana: "よみます",
-    english: { main: "to read <i>(masu-form of <b>読む</b>)</i>", note: "verb (godan, tr.); polite <i>JLPT N5</i>" }
+    kanji: "読む/読みます",
+    kana: "よむ/よみます",
+    english: { main: "to read", note: "verb (godan, tr.); JLPT N5" }
   },
   {
     kana: "よく",
@@ -718,14 +723,14 @@ window.WORDS = [
     english: { main: "dinner", note: "noun" }
   },
   {
-    kanji: "食べます",
-    kana: "たべます",
-    english: { main: "to eat <i>(masu-form of <b>食べる</b>)</i>", note: "verb (ichidan, tr.); polite <i>JLPT N5</i>" }
+    kanji: "食べる/食べます",
+    kana: "たべる/たべます",
+    english: { main: "to eat", note: "verb (ichidan, tr.); JLPT N5" }
   },
   {
-    kanji: "飲みます",
-    kana: "のみます",
-    english: { main: "to drink <i>(masu-form of <b>飲む</b>)</i>", note: "verb (godan, tr.); polite <i>JLPT N4</i>" }
+    kanji: "飲む/飲みます",
+    kana: "のむ/のみます",
+    english: { main: "to drink", note: "verb (godan, tr.); JLPT N4" }
   },
   {
     kana: "まいにち",
@@ -743,17 +748,17 @@ window.WORDS = [
   {
     kanji: "八",
     kana: "はち",
-    english: { main: "eight", note: "numeric <i>JLPT N5</i>" }
+    english: { main: "eight", note: "numeric; JLPT N5" }
   },
   {
     kanji: "九",
     kana: "く, きゅう",
-    english: { main: "nine", note: "numeric <i>JLPT N5</i>" }
+    english: { main: "nine", note: "numeric; JLPT N5" }
   },
   {
     kanji: "十",
     kana: "じゅう",
-    english: { main: "ten", note: "numeric <i>JLPT N5</i>" }
+    english: { main: "ten", note: "numeric; JLPT N5" }
   },
   {
     kanji: "十一",
@@ -793,7 +798,7 @@ window.WORDS = [
   {
     kanji: "古い",
     kana: "ふるい",
-    english: { main: "old", note: "i-adjective <i>JLPT N4</i>" }
+    english: { main: "old", note: "i-adjective; JLPT N4" }
   },
   {
     kana: "ダサい",
@@ -802,12 +807,12 @@ window.WORDS = [
   {
     kanji: "新しい",
     kana: "あたらしい",
-    english: { main: "new", note: "i-adjective <i>JLPT N4</i>" }
+    english: { main: "new", note: "i-adjective; JLPT N4" }
   },
   {
     kanji: "欲しい",
     kana: "ほしい",
-    english: { main: "wanting (to have); desiring <i>(with が)</i>", note: "i-adjective <i>JLPT N3</i>", example: "あかいスカートが<b>ほしい</b>です (i want a red skirt)" }
+    english: { main: "wanting (to have); desiring <i>(with が)</i>", note: "i-adjective; JLPT N3", example: "あかいスカートが<b>ほしい</b>です (i want a red skirt)" }
   },
   {
     kana: "あおい",
@@ -857,7 +862,7 @@ window.WORDS = [
   {
     kanji: "高い",
     kana: "たかい",
-    english: { main: "<i>1.</i> expensive; <i>2.</i> high; tall", note: "i-adjective <i>JLPT N5</i>" }
+    english: { main: "<i>1.</i> expensive; <i>2.</i> high; tall", note: "i-adjective; JLPT N5" }
   },
   {
     kana: "くろい",
@@ -875,13 +880,13 @@ window.WORDS = [
   {
     kanji: "百",
     kana: "ひゃく",
-    english: { main: "hundred", note: "numeric <i>JLPT N5</i>", example: "五<b>百</b> (five hundred)" },
+    english: { main: "hundred", note: "numeric; JLPT N5", example: "五<b>百</b> (five hundred)" },
     audio: "hundred"
   },
   {
     kanji: "千",
     kana: "せん",
-    english: { main: "thousand", note: "numeric <i>JLPT N5</i>" }
+    english: { main: "thousand", note: "numeric; JLPT N5" }
   },
   {
     kana: "レストラン",
@@ -945,7 +950,7 @@ window.WORDS = [
   {
     kanji: "少し",
     kana: "すこし",
-    english: { main: "a bit", note: "adverb <i>JLPT N4</i>", example: "<b>すこし</b>たかいですね (it's a bit expensive, isn't it)" }
+    english: { main: "a bit", note: "adverb; JLPT N4", example: "<b>すこし</b>たかいですね (it's a bit expensive, isn't it)" }
   },
   {
     kanji: "週末",
@@ -953,8 +958,8 @@ window.WORDS = [
     english: { main: "weekend", note: "adverb; noun", example: "<b>しゅうまつ</b>はおよぎます (i swim on the weekends)" }
   },
   {
-    kana: "およぎます",
-    english: { main: "to swim <i>(masu-form of <b>およぐ</b>)</i>", note: "verb (godan, intr.); polite" }
+    kana: "およぐ/およぎます",
+    english: { main: "to swim", note: "verb (godan, intr.)" }
   },
   {
     kana: "ひとりで",
@@ -966,12 +971,13 @@ window.WORDS = [
     english: { main: "drama", note: "noun" }
   },
   {
+    // kanji: "友達",
     kana: "ともだち",
     english: { main: "friend", note: "noun" }
   },
   {
-    kana: "あそびます",
-    english: { main: "to hang out <i>(masu-form of <b>あそぶ</b>)</i>", note: "verb (godan, intr.); polite" }
+    kana: "あそぶ/あそびます",
+    english: { main: "to hang out", note: "verb (godan, intr.)" }
   },
   {
     kana: "スポーツ",
@@ -1012,18 +1018,19 @@ window.WORDS = [
     english: { main: "video", note: "noun" }
   },
   {
-    kanji: "買います",
-    kana: "かいます",
-    english: { main: "to buy <i>(masu-form of <b>買う</b>)</i>", note: "verb (godan, tr.); polite <i>JLPT N4</i>" }
+    kanji: "買う/買います",
+    kana: "かう/かいます",
+    english: { main: "to buy", note: "verb (godan, tr.); JLPT N4" }
   },
   {
-    kana: "でかけます",
-    english: { main: "to go out; to leave <i>(masu-form of <b>でかける</b>)</i>", note: "verb (ichidan, intr.); polite" }
+    kanji: "出かける/出かけます",
+    kana: "でかける/でかけます",
+    english: { main: "to go out; to leave", note: "verb (ichidan, intr.); JLPT N5" }
   },
   {
-    kanji: "話します",
-    kana: "はなします",
-    english: { main: "to talk; to speak <i>(masu-form of <b>話す</b>)</i>", note: "verb (godan, tr.); polite <i>JLPT N5</i>" }
+    kanji: "話す/話します",
+    kana: "はなす/はなします",
+    english: { main: "to talk; to speak", note: "verb (godan, tr.); JLPT N5" }
   },
   {
     kana: "ホーム",
@@ -1099,14 +1106,9 @@ window.WORDS = [
     english: { main: "storage (coin) locker", note: "noun" }
   },
   {
-    kanji: "有ります",
-    kana: "あります",
-    english: { main: "to be; to exist <i>(of inanimate objects, concepts)</i> <i>(masu-form of <b>有る</b>)</i>", note: "verb (godan, intr.); polite <i>JLPT N4</i>", example: "ちずは<b>あります</b>か (do you have a map?)" }
-  },
-  {
-    kanji: "有りません",
-    kana: "ありません",
-    english: { main: "not to be; not to exist <i>(masen-form of <b>有る</b>)</i>", note: "verb (godan, intr.); polite; negative <i>JLPT N4</i>" }
+    kanji: "有る/有ります",
+    kana: "ある/あります",
+    english: { main: "to be; to exist <i>(of inanimate objects, concepts)</i>", note: "verb (godan, intr.); JLPT N4", example: "ちずは<b>あります</b>か (do you have a map?)" }
   },
   {
     kana: "とおい",
@@ -1131,8 +1133,8 @@ window.WORDS = [
     english: { main: "radio", note: "noun" }
   },
   {
-    kana: "おきます",
-    english: { main: "<i>1.</i> to get up; <i>2.</i> to wake up <i>(masu-form of <b>おきる</b>)</i>", note: "verb (ichidan, intr.); polite" }
+    kana: "おきる/おきます",
+    english: { main: "<i>1.</i> to get up; <i>2.</i> to wake up", note: "verb (ichidan, intr.)" }
   },
   {
     kana: "いつも",
@@ -1143,9 +1145,9 @@ window.WORDS = [
     english: { main: "volleyball", note: "noun" }
   },
   {
-    kanji: "作ります",
-    kana: "つくります",
-    english: { main: "<i>1.</i> to make; <i>2.</i> to prepare <i>(food)</i> <i>(masu-form of <b>作る</b>)</i>", note: "verb (godan, tr.); polite <i>JLPT N4</i>" }
+    kanji: "作る/作ります",
+    kana: "つくる/つくります",
+    english: { main: "<i>1.</i> to make; <i>2.</i> to prepare <i>(food)</i>", note: "verb (godan, tr.); JLPT N4" }
   },
   {
     kana: "まいしゅう",
@@ -1153,8 +1155,9 @@ window.WORDS = [
     audio: "every-week"
   },
   {
+    kanji: "明日",
     kana: "あした",
-    english: { main: "tomorrow", note: "noun; adverb" }
+    english: { main: "tomorrow <i>(also literary <b>あす</b>)</i>", note: "noun; adverb" }
   },
   {
     kana: "メール",
@@ -1165,12 +1168,12 @@ window.WORDS = [
     english: { main: "shower", note: "noun" }
   },
   {
-    kana: "ねます",
-    english: { main: "to sleep <i>(masu-form of <b>ねる</b>)</i>", note: "verb (ichidan, intr.); polite" }
+    kana: "ねる/ねます",
+    english: { main: "<i>1.</i> to sleep; <i>2.</i> to go to bed", note: "verb (ichidan, intr.)" }
   },
   {
-    kana: "あびます",
-    english: { main: "to take (e.g. shower) <i>(masu-form of <b>あびる</b>)</i>", note: "verb (ichidan, tr.); polite" }
+    kana: "あびる/あびます",
+    english: { main: "to take <i>(e.g. shower)</i>", note: "verb (ichidan, tr.)" }
   },
   {
     kana: "らいしゅう",
@@ -1181,9 +1184,9 @@ window.WORDS = [
     english: { main: "pasta", note: "noun" }
   },
   {
-    kanji: "走ります",
-    kana: "はしります",
-    english: { main: "to run <i>(masu-form of <b>走る</b>)</i>", note: "verb (godan, intr.); polite <i>JLPT N4</i>" }
+    kanji: "走る/走ります",
+    kana: "はしる/はしります",
+    english: { main: "to run", note: "verb (godan, intr.); JLPT N4" }
   },
   {
     kana: "かれし",
@@ -1234,9 +1237,9 @@ window.WORDS = [
     english: { main: "fantasy", note: "noun" }
   },
   {
-    kanji: "言います",
-    kana: "いいます",
-    english: { main: "<i>1.</i> to say; <i>2.</i> to name <i>(masu-form of <b>言う</b>)</i>", note: "verb (godan, tr.); polite <i>JLPT N4</i>", example: "田中と<b>言います</b> (my name is tanaka (lit. i say 'tanaka'))" }
+    kanji: "言う/言います",
+    kana: "いう/いいます",
+    english: { main: "<i>1.</i> to say; <i>2.</i> to name", note: "verb (godan, tr.); JLPT N4", example: "田中と<b>言います</b> (my name is tanaka (lit. i say 'tanaka'))" }
   },
   {
     kana: "すき",
@@ -1266,9 +1269,9 @@ window.WORDS = [
   },
   {
     kanji: "家",
-    kana: "いえ",
-    english: { main: "house", note: "noun" },
-    audio: "house"
+    kana: "いえ | うち",
+    english: { main: "house; home | one's house; one's home", note: "noun; JLPT N4", example: "<b>おうち</b>はどちらですか ([honorific] where is your house?)" },
+    audio: "house, one-s-house"
   },
   {
     kana: "アパート",
@@ -1317,8 +1320,8 @@ window.WORDS = [
     english: { main: "microwave", note: "noun" }
   },
   {
-    kana: "ひっこします",
-    english: { main: "to move (house) <i>(masu-form of <b>ひっこす</b>)</i>", note: "verb (godan, intr.); polite" }
+    kana: "ひっこす/ひっこします",
+    english: { main: "to move (house)", note: "verb (godan, intr.)" }
   },
   {
     kana: "ひろい",
@@ -1379,9 +1382,9 @@ window.WORDS = [
     audio: "next"
   },
   {
-    kanji: "行きます",
-    kana: "いきます",
-    english: { main: "to go; to move (toward) <i>(masu-form of <b>行く</b>)</i>", note: "verb (godan, intr.); polite <i>JLPT N5</i>", example: "このでんしゃはしぶやえきに<b>行きます</b> (this train goes to shibuya station)" }
+    kanji: "行く/行きます",
+    kana: "いく/いきます",
+    english: { main: "to go; to move (toward)", note: "verb (godan, intr.); JLPT N5", example: "このでんしゃはしぶやえきに<b>行きます</b> (this train goes to shibuya station)" }
   },
   {
     kana: "うえの",
@@ -1396,18 +1399,18 @@ window.WORDS = [
     english: { main: "Asakusa <i>(district in Tokyo)</i>", note: "proper noun" }
   },
   {
-    kanji: "来ます",
-    kana: "きます",
-    english: { main: "to come <i>(masu-form of <b>来る (くる)</b>)</i>", note: "verb (kuru, intr.); polite <i>JLPT N5</i>" }
+    kanji: "来る/来ます",
+    kana: "くる/きます",
+    english: { main: "to come", note: "verb (kuru, intr.); JLPT N5" }
   },
   {
     kana: "もうすぐ",
-    english: { main: "soon", note: "adverb; expression", example: "つぎのでんしゃは<b>もうすぐ</b>ですか (is the next train [coming] soon?)" }
+    english: { main: "soon; almost​", note: "adverb; expression", example: "つぎのでんしゃは<b>もうすぐ</b>ですか (is the next train [coming] soon?)" }
   },
   {
     kanji: "分",
     kana: "ふん",
-    english: { main: "minute", note: "noun; counter-like <i>JLPT N5</i>", example: "に<b>ふん</b> (2 minutes); じゅっ<b>ぷん</b> (10 minutes)" }
+    english: { main: "minute", note: "noun; counter-like; JLPT N5", example: "に<b>ふん</b> (2 minutes); じゅっ<b>ぷん</b> (10 minutes)" }
   },
   {
     kanji: "十分",
@@ -1416,8 +1419,8 @@ window.WORDS = [
     audio: "10-minutes, enough"
   },
   {
-    kana: "かかります",
-    english: { main: "to take (e.g. time, money) <i>(masu-form of <b>かかる</b>)</i>", note: "verb (godan, intr.); polite", example: "十分ぐらい<b>かかります</b> (it takes about 10 minutes)" }
+    kana: "かかる/かかります",
+    english: { main: "to take <i>(e.g. time, money)</i>", note: "verb (godan, intr.)", example: "十分ぐらい<b>かかります</b> (it takes about 10 minutes)" }
   },
   {
     kana: "はやい",
@@ -1449,8 +1452,9 @@ window.WORDS = [
     english: { main: "long (time)", note: "i-adjective", example: "三時間は<b>ながい</b>ですね (3 hours is long, isn't it?)" }
   },
   {
+    kanji: "所",
     kana: "ところ",
-    english: { main: "place", note: "noun; adverb; suffix", example: "このまちはにぎやかな<b>ところ</b>です (this town is a lively place)" }
+    english: { main: "place; spot", note: "noun; adverb; suffix; JLPT N3", example: "このまちはにぎやかな<b>ところ</b>です (this town is a lively place)" }
   },
   {
     kana: "ほんとうに",
@@ -1463,7 +1467,7 @@ window.WORDS = [
   {
     kanji: "何",
     kana: "なん | なに",
-    english: { main: "what | what", note: "pronoun <i>JLPT N5</i>" }
+    english: { main: "what | what", note: "pronoun; JLPT N5" }
   },
   {
     kana: "あれ",
@@ -1493,7 +1497,7 @@ window.WORDS = [
   {
     kanji: "山",
     kana: "やま",
-    english: { main: "mountain", note: "noun; counter <i>JLPT N5</i>" },
+    english: { main: "mountain", note: "noun; counter; JLPT N5" },
     audio: "mountain"
   },
   {
@@ -1531,8 +1535,8 @@ window.WORDS = [
     english: { main: "okay; alright", note: "na-adjective" }
   },
   {
-    kana: "すわります",
-    english: { main: "to sit (down) <i>(masu-form of <b>すわる</b>)</i>", note: "verb (godan, intr.); polite" }
+    kana: "すわる/すわります",
+    english: { main: "to sit (down)", note: "verb (godan, intr.)" }
   },
   {
     kana: "びょういん",
@@ -1561,9 +1565,9 @@ window.WORDS = [
     english: { main: "phone number", note: "noun", example: "私の<b>でんわばんごう</b>は〇八の三四五六です (my phone number is 08-3456)" }
   },
   {
-    kanji: "何さい",
+    // kanji: "何才/何歳",
     kana: "なんさい",
-    english: { main: "how old; what age", note: "noun <i>JLPT N5</i>" }
+    english: { main: "how old; what age", note: "noun" }
   },
   {
     kana: "ご",
@@ -1584,17 +1588,18 @@ window.WORDS = [
     audio: "allergy"
   },
   {
-    kanji: "休みます",
-    kana: "やすみます",
-    english: { main: "to rest <i>(masu-form of <b>休む</b>)</i>", note: "verb (godan, intr.); polite <i>JLPT N5</i>" }
+    kanji: "休む/休みます",
+    kana: "やすむ/やすみます",
+    english: { main: "to rest", note: "verb (godan, intr.); JLPT N5" }
   },
   {
     kana: "くすり",
     english: { main: "medicine", note: "noun" }
   },
   {
+    kanji: "今日",
     kana: "きょう",
-    english: { main: "today", note: "noun; adverb" }
+    english: { main: "today <i>(also literary <b>こんにち</b>)</i>", note: "noun; adverb" }
   },
   {
     kana: "ちゃんと",
@@ -1635,7 +1640,7 @@ window.WORDS = [
   {
     kanji: "日",
     kana: "ひ | にち",
-    english: { main: "day | <i>counter for days</i>", note: "noun; counter <i>JLPT N5</i>", example: "はれの<b>日</b>はスポーツをします (on sunny days, i play sports)" }
+    english: { main: "day | <i>counter for days</i>", note: "noun; counter; JLPT N5", example: "はれの<b>日</b>はスポーツをします (on sunny days, i play sports)" }
   },
   {
     kana: "プール",
@@ -1650,7 +1655,7 @@ window.WORDS = [
   {
     kanji: "休み",
     kana: "やすみ",
-    english: { main: "<i>1.</i> rest; break; <i>2.</i> vacation", note: "noun <i>JLPT N5</i>", example: "なつ<b>休み</b>はいいですね (summer break is nice, isn't it?);<br><b>休み</b>の日は何をしますか (what do you do on days off?)" }
+    english: { main: "<i>1.</i> rest; break; <i>2.</i> vacation", note: "noun; JLPT N5", example: "なつ<b>休み</b>はいいですね (summer break is nice, isn't it?);<br><b>休み</b>の日は何をしますか (what do you do on days off?)" }
   },
   {
     kana: "はなび",
@@ -1715,8 +1720,8 @@ window.WORDS = [
     english: { main: "siblings", note: "noun" }
   },
   {
-    kana: "います",
-    english: { main: "to be; to exist <i>(of animate objects)</i> <i>(masu-form of <b>いる</b>)</i>", note: "verb (ichidan, intr.); polite", example: "きょうだいは<b>います</b>か (do you have siblings?);<br>ゆうめいなおとうとが<b>います</b> (i have a famous younger brother)" }
+    kana: "いる/います",
+    english: { main: "to be; to exist <i>(of animate objects)</i>", note: "verb (ichidan, intr.)", example: "きょうだいは<b>います</b>か (do you have siblings?);<br>ゆうめいなおとうとが<b>います</b> (i have a famous younger brother)" }
   },
   {
     kanji: "日本ご",
@@ -1744,14 +1749,15 @@ window.WORDS = [
     english: { main: "younger sister", note: "noun; honorific" }
   },
   {
-    kana: "できます",
-    english: { main: "to be good at; to do well <i>(masu-form of <b>できる</b>)</i>", note: "verb (ichidan, intr.); polite", example: "私も日本ごが<b>できます</b> (i also know japanese)" }
+    kana: "できる/できます",
+    english: { main: "to be good at; to do well", note: "verb (ichidan, intr.)", example: "私も日本ごが<b>できます</b> (i also know japanese)" }
   },
   {
     kana: "たいわん",
     english: { main: "Taiwan", note: "proper noun" }
   },
   {
+    // kanji: "英語",
     kana: "えいご",
     english: { main: "English (language)", note: "noun" }
   },
@@ -1797,13 +1803,8 @@ window.WORDS = [
     audio: "work-job"
   },
   {
-    kana: "うち",
-    english: { main: "one's house; one's home", note: "noun" },
-    audio: "one-s-house"
-  },
-  {
-    kana: "かえります",
-    english: { main: "to return <i>(masu-form of <b>かえる</b>)</i>", note: "verb (godan, intr.); polite", example: "しごとのあと、うちに<b>かえります</b> (after work, i return home)" },
+    kana: "かえる/かえります",
+    english: { main: "to return", note: "verb (godan, intr.)", example: "しごとのあと、うちに<b>かえります</b> (after work, i return home)" },
     audio: "to-return"
   },
   {
@@ -1820,8 +1821,8 @@ window.WORDS = [
     audio: "school"
   },
   {
-    kana: "てつだいます",
-    english: { main: "to help <i>(masu-form of <b>てつだう</b>)</i>", note: "verb (godan, tr.); polite", example: "いつもおとうとのしゅくだいを<b>てつだいます</b> (i always help with my younger brother's homework)" },
+    kana: "てつだう/てつだいます",
+    english: { main: "to help", note: "verb (godan, tr.)", example: "いつもおとうとのしゅくだいを<b>てつだいます</b> (i always help with my younger brother's homework)" },
     audio: "to-help"
   },
   {
@@ -1862,8 +1863,8 @@ window.WORDS = [
     english: { main: "then; and then", note: "conjunction" }
   },
   {
-    kana: "はいります",
-    english: { main: "<i>1.</i> to enter; <i>2.</i> to join <i>(a club, company, etc.)</i> <i>(masu-form of <b>はいる</b>)</i>", note: "verb (godan, intr.); polite", example: "(1) まいばんおふろに<b>はいります</b> (i take a bath (lit. 'enter a bath') every night);<br>(2) アンドリューさんも日本ごサークルに<b>はいりません</b>か (would you also like to join the japanese club, andrew?)" },
+    kana: "はいる/はいります",
+    english: { main: "<i>1.</i> to enter; <i>2.</i> to join <i>(a club, company, etc.)</i>", note: "verb (godan, intr.)", example: "(1) まいばんおふろに<b>はいります</b> (i take a bath (lit. 'enter a bath') every night);<br>(2) アンドリューさんも日本ごサークルに<b>はいりません</b>か (would you also like to join the japanese club, andrew?)" },
     audio: "to-enter"
   },
   {
@@ -1906,9 +1907,9 @@ window.WORDS = [
     audio: "trip"
   },
   {
-    kanji: "会います",
-    kana: "あいます",
-    english: { main: "to meet <i>(masu-form of <b>会う</b>)</i>", note: "verb (godan, intr.); polite <i>JLPT N4</i>" }
+    kanji: "会う/会います",
+    kana: "あう/あいます",
+    english: { main: "to meet", note: "verb (godan, intr.); JLPT N4" }
   },
   {
     kana: "スーツケース",
@@ -1949,8 +1950,8 @@ window.WORDS = [
     english: { main: "lion", note: "noun" }
   },
   {
-    kana: "とります",
-    english: { main: "to take (a photo) <i>(masu-form of <b>とる</b>)</i>", note: "verb (godan, tr.); polite" }
+    kana: "とる/とります",
+    english: { main: "to take (a photo)", note: "verb (godan, tr.)" }
   },
   {
     kana: "ひろば",
@@ -1964,7 +1965,7 @@ window.WORDS = [
   {
     kanji: "お父さん",
     kana: "おとうさん",
-    english: { main: "father; dad", note: "noun; honorific <i>JLPT N5</i>" }
+    english: { main: "father; dad", note: "noun; honorific; JLPT N5" }
   },
   {
     kana: "ロビー",
@@ -1978,7 +1979,7 @@ window.WORDS = [
   {
     kanji: "お母さん",
     kana: "おかあさん",
-    english: { main: "mother; mom", note: "noun; honorific <i>JLPT N5</i>" }
+    english: { main: "mother; mom", note: "noun; honorific; JLPT N5" }
   },
   {
     kana: "せき",
@@ -1995,8 +1996,8 @@ window.WORDS = [
     audio: "bullet-train"
   },
   {
-    kana: "のります",
-    english: { main: "to ride; to get on; to take <i>(train, etc.)</i> <i>(masu-form of <b>のる</b>)</i>", note: "verb (godan, intr.); polite", example: "しんかんせんに<b>のります</b> (we're going to ride the bullet train)" }
+    kana: "のる/のります",
+    english: { main: "to ride; to get on; to take <i>(train, etc.)</i>", note: "verb (godan, intr.)", example: "しんかんせんに<b>のります</b> (we're going to ride the bullet train)" }
   },
   {
     kana: "なごや",
@@ -2031,8 +2032,8 @@ window.WORDS = [
     english: { main: "short", note: "i-adjective" }
   },
   {
-    kana: "まちます",
-    english: { main: "to wait <i>(masu-form of <b>まつ</b>)</i>", note: "verb (godan, tr., intr.); polite" }
+    kana: "まつ/まちます",
+    english: { main: "to wait", note: "verb (godan, tr., intr.)" }
   },
   {
     kana: "たのしみ",
@@ -2109,7 +2110,7 @@ window.WORDS = [
   {
     kanji: "卵",
     kana: "たまご",
-    english: { main: "egg", note: "noun <i>JLPT N2</i>" }
+    english: { main: "egg", note: "noun; JLPT N2" }
   },
   {
     kana: "やさい",
@@ -2132,7 +2133,7 @@ window.WORDS = [
   {
     kanji: "魚",
     kana: "さかな",
-    english: { main: "fish", note: "noun <i>JLPT N4</i>" },
+    english: { main: "fish", note: "noun; JLPT N4" },
     audio: "fish"
   },
   {
@@ -2142,11 +2143,6 @@ window.WORDS = [
   {
     kana: "ぎゅうどん",
     english: { main: "gyudon <i>(rice covered with sliced beef)</i>; beef bowl", note: "noun" }
-  },
-  {
-    kanji: "食べません",
-    kana: "たべません",
-    english: { main: "not to eat <i>(masen-form of <b>食べる</b>)</i>", note: "verb (ichidan, tr.); polite; negative <i>JLPT N5</i>" }
   },
   {
     kana: "でも",
@@ -2191,11 +2187,6 @@ window.WORDS = [
     kana: "しょっぱい",
     english: { main: "salty", note: "i-adjective" },
     audio: "salty"
-  },
-  {
-    kanji: "飲みません",
-    kana: "のみません",
-    english: { main: "not to drink <i>(masen-form of <b>飲む</b>)</i>", note: "verb (godan, tr.); polite; negative <i>JLPT N4</i>" }
   },
   {
     kana: "きょうしつ",
@@ -2248,7 +2239,7 @@ window.WORDS = [
   {
     kanji: "五つ",
     kana: "いつつ",
-    english: { main: "five", note: "numeric <i>JLPT N5</i>" },
+    english: { main: "five", note: "numeric; JLPT N5" },
     audio: "5-itsutsu"
   },
   {
@@ -2259,16 +2250,21 @@ window.WORDS = [
   {
     kanji: "六つ",
     kana: "むっつ",
-    english: { main: "six", note: "numeric <i>JLPT N5</i>", example: "金曜日はテストが<b>むっつ</b>あります (on friday, i have six tests)" }
+    english: { main: "six", note: "numeric; JLPT N5", example: "金曜日はテストが<b>むっつ</b>あります (on friday, i have six tests)" }
   },
   {
-    kana: "おわります",
-    english: { main: "to end <i>(masu-form of <b>おわる</b>)</i>", note: "verb (godan, intr.); polite", example: "じゅぎょうは何時に<b>おわります</b>か (what time does class end?)" }
+    kana: "おわる/おわります",
+    english: { main: "to end", note: "verb (godan, intr.)", example: "じゅぎょうは何時に<b>おわります</b>か (what time does class end?)" }
   },
   {
     kanji: "水曜日",
     kana: "すいようび",
     english: { main: "Wednesday", note: "noun; adverb" }
+  },
+  {
+    kana: "いくつ",
+    english: { main: "<i>1.</i> how many; <i>2.</i> how old", note: "adverb", example: "(2) (お)<b>いくつ</b>ですか (how old are you?)" },
+    audio: "how-many-how-old"
   },
   {
     kana: "しめきり",
@@ -2280,11 +2276,169 @@ window.WORDS = [
     english: { main: "project", note: "noun" }
   },
   {
+    kana: "あなた",
+    english: { main: "you", note: "pronoun; oft. regarded as rude/distant" }
+  },
+  {
+    kanji: "中国人",
+    kana: "ちゅうごくじん",
+    english: { main: "Chinese (person)", note: "noun" }
+  },
+  // {
+  //   kanji: "国籍",
+  //   kana: "こくせき",
+  //   english: { main: "nationality", note: "noun" }
+  // },
+  {
+    kana: "ちゃん",
+    english: { main: "<i>suffix for familiar person</i>", note: "suffix; familiar" }
+  },
+  {
+    kana: "かれ",
+    english: { main: "he; him", note: "pronoun" },
+    audio: "he-him"
+  },
+  // {
+  //   kanji: "韓国人",
+  //   kana: "かんこくじん",
+  //   english: { main: "(South) Korean (person)", note: "noun" }
+  // },
+  {
+    // kanji: "二十歳",
+    kana: "はたち",
+    english: { main: "20 years old", note: "noun" },
+    audio: "20-years-old"
+  },
+  {
+    // kanji: "年齢",
+    kana: "ねんれい",
+    english: { main: "age", note: "noun" },
+    audio: "age"
+  },
+  {
+    kanji: "失礼ですが",
+    kana: "しつれいですが",
+    english: { main: "excuse me, but...", note: "expression" },
+    audio: "excuse-me-but"
+  },
+  {
+    // kanji: "鉛筆",
+    kana: "えんぴつ",
+    english: { main: "pencil", note: "noun" }
+  },
+  {
+    kanji: "色",
+    kana: "いろ",
+    english: { main: "color", note: "noun" },
+    audio: "color"
+  },
+  {
+    // kanji: "鍵",
+    kana: "かぎ",
+    english: { main: "key", note: "noun" },
+    audio: "key"
+  },
+  {
+    kana: "ボールペン",
+    english: { main: "ballpoint pen", note: "noun" }
+  },
+  {
+    kana: "ノート",
+    english: { main: "notebook", note: "noun" }
+  },
+  {
+    kanji: "時計",
+    kana: "とけい",
+    english: { main: "clock; watch", note: "noun" },
+    audio: "clock-watch"
+  },
+  {
+    // kanji: "丸",
+    kana: "まる",
+    english: { main: "circle; <i>used to indicate correctness</i>", note: "noun" },
+    audio: "circle"
+  },
+  {
+    kana: "ばつ",
+    english: { main: "X mark; cross; <i>used to indicate incorrectness</i>", note: "noun" },
+    audio: "x-mark-cross"
+  },
+  {
+    // kanji: "場所",
+    kana: "ばしょ",
+    english: { main: "place; location", note: "noun" },
+    audio: "place-location"
+  },
+  {
+    // kanji: "部屋",
+    kana: "へや",
+    english: { main: "room", note: "noun" },
+    audio: "room"
+  },
+  {
+    kanji: "絵本",
+    kana: "えほん",
+    english: { main: "picture book", note: "noun" }
+  },
+  {
+    kanji: "国",
+    kana: "くに",
+    english: { main: "country; state", note: "noun; JLPT N5", example: "<b>お国</b>はどちらですか ([honorific] where is your native country?)" },
+    audio: "country-state"
+  },
+  {
+    kanji: "方",
+    kana: "かた",
+    english: { main: "person; lady; gentleman", note: "noun; honorific; JLPT N4" },
+    audio: "person-lady-gent"
+  },
+  {
+    kana: "どなた",
+    english: { main: "who <i>(honorific version of <b>だれ</b>)</i>", note: "pronoun; honorific" }
+  },
+  {
+    kana: "(お)つり",
+    english: { main: "change <i>(for a purchase)</i>", note: "noun; polite", example: "20円の<b>おつり</b>です (the change is 20 yen)" },
+    audio: "change-for-purchase"
+  },
+  {
     kanji: "七つ",
     kana: "ななつ",
-    english: { main: "seven", note: "numeric <i>JLPT N5</i>" },
+    english: { main: "seven", note: "numeric; JLPT N5" },
     audio: "7-nanatsu"
   },
+  {
+    kanji: "一万",
+    kana: "いちまん",
+    english: { main: "10,000", note: "numeric" },
+    audio: "10000"
+  },
+  {
+    kanji: "十万",
+    kana: "じゅうまん",
+    english: { main: "100,000", note: "numeric" },
+    audio: "100000"
+  },
+  {
+    kanji: "百万",
+    kana: "ひゃくまん",
+    english: { main: "1,000,000", note: "numeric" },
+    audio: "1000000"
+  },
+  {
+    kana: "ワイン",
+    english: { main: "wine", note: "noun" }
+  },
+  {
+    kana: "オリーブオイル",
+    english: { main: "olive oil", note: "noun" }
+  },
+  {
+    kanji: "昨日",
+    kana: "きのう",
+    english: { main: "yesterday <i>(also literary <b>さくじつ</b>)</i>", note: "noun; adverb" }
+  },
+  // continue with file:///E:/Japanese/library/lessons/all/yesterday-today-tomorrow-lily.html
   {
     kana: "どうりょう",
     english: { main: "coworker", note: "noun" },
@@ -2296,6 +2450,7 @@ window.WORDS = [
     audio: "manager"
   },
   {
+    // kanji: "会社",
     kana: "かいしゃ",
     english: { main: "company; corporation; firm", note: "noun" }
   },
@@ -2304,6 +2459,7 @@ window.WORDS = [
     english: { main: "library", note: "noun" }
   },
   {
+    // kanji: "辞書",
     kana: "じしょ",
     english: { main: "dictionary", note: "noun" },
     audio: "dictionary"
@@ -2324,7 +2480,7 @@ window.WORDS = [
   },
   {
     kana: "うんてん",
-    english: { main: "driving (a vehicle)", note: "noun; verb (suru, tr.)" },
+    english: { main: "driving <i>(a vehicle)</i>", note: "noun; verb (suru, tr.)" },
     audio: "driving"
   },
   {
@@ -2332,8 +2488,8 @@ window.WORDS = [
     english: { main: "a.m.; morning", note: "noun; adverb", example: "<b>ごぜん</b>八時ごろおきます (i wake up around 8 a.m.)" }
   },
   {
-    kana: "あらいます",
-    english: { main: "to wash <i>(masu-form of <b>あらう</b>)</i>", note: "verb (godan, tr.); polite" }
+    kana: "あらう/あらいます",
+    english: { main: "to wash", note: "verb (godan, tr.)" }
   },
   {
     kana: "うんてんしゅ",
@@ -2465,8 +2621,8 @@ window.WORDS = [
     english: { main: "mint chocolate chip <i>(flavor)</i>", note: "noun" }
   },
   {
-    kana: "あきます",
-    english: { main: "<i>1.</i> to open <i>(e.g. door)</i>; <i>2.</i> to open <i>(e.g. business)</i> <i>(masu-form of <b>あく</b>)</i>", note: "verb (godan, intr.); polite", example: "ケーキやは十時に<b>あきます</b> (the cake shop opens at 10 o'clock)" }
+    kana: "あく/あきます",
+    english: { main: "<i>1.</i> to open <i>(e.g. door)</i>; <i>2.</i> to open <i>(e.g. business)</i>", note: "verb (godan, intr.)", example: "ケーキやは十時に<b>あきます</b> (the cake shop opens at 10 o'clock)" }
   },
   {
     kana: "ぜんぶ",
@@ -2478,6 +2634,7 @@ window.WORDS = [
     english: { main: "in total", note: "expression", example: "<b>ぜんぶで</b>いくらですか (how much is it in total?)" }
   },
   {
+    kanji: "元気",
     kana: "げんき",
     english: { main: "<i>1.</i> lively; energetic; <i>2.</i> healthy", note: "na-adjective; noun" }
   },
@@ -2534,9 +2691,9 @@ window.WORDS = [
     english: { main: "suit <i>(clothing)</i>", note: "noun" }
   },
   {
-    kanji: "着ます",
-    kana: "きます",
-    english: { main: "to wear <i>(from the shoulders down)</i> <i>(masu-form of <b>着る</b>)</i>", note: "verb (ichidan, tr.); polite <i>JLPT N4</i>" }
+    kanji: "着る/着ます",
+    kana: "きる/きます",
+    english: { main: "to wear <i>(from the shoulders down)</i>", note: "verb (ichidan, tr.); JLPT N4" }
   },
   {
     kana: "かんとく",
@@ -2596,7 +2753,7 @@ window.WORDS = [
   {
     kanji: "話",
     kana: "はなし | わ",
-    english: { main: "<i>1.</i> talk; <i>2.</i> tale; story; fable | <i>counter for stories, episodes of TV series, etc.</i>", note: "noun; counter <i>JLPT N5</i>" }
+    english: { main: "<i>1.</i> talk; <i>2.</i> tale; story; fable | <i>counter for stories, episodes of TV series, etc.</i>", note: "noun; counter; JLPT N5" }
   },
   {
     kana: "ノンフィクション",
@@ -2615,8 +2772,8 @@ window.WORDS = [
     english: { main: "computer", note: "noun" }
   },
   {
-    kana: "うたいます",
-    english: { main: "to sing <i>(masu-form of <b>うたう</b>)</i>", note: "verb (godan, tr., intr.); polite" }
+    kana: "うたう/うたいます",
+    english: { main: "to sing", note: "verb (godan, tr., intr.)" }
   },
   {
     kana: "プリンター",
@@ -2645,7 +2802,7 @@ window.WORDS = [
   {
     kanji: "階",
     kana: "かい",
-    english: { main: "<i>1.</i> storey; floor; <i>2. counter for storeys and floors of a building</i>", note: "noun; noun, used as a suffix; counter <i>JLPT N2</i>", example: "いっ<b>かい</b> (first floor); に<b>かい</b> (second floor)" }
+    english: { main: "<i>1.</i> storey; floor; <i>2. counter for storeys and floors of a building</i>", note: "noun; noun, used as a suffix; counter; JLPT N2", example: "いっ<b>かい</b> (first floor); に<b>かい</b> (second floor)" }
   },
   {
     kana: "しょくどう",
@@ -2666,7 +2823,7 @@ window.WORDS = [
     english: { main: "karaoke", note: "noun" }
   },
   {
-    kana: "よろしくおねがいします",
+    kana: "(どうぞ)よろしく(おねがいします)",
     english: { main: "please remember me; please treat me favorably; I appreciate the help; looking forward to working with you", note: "expression; polite" }
   },
   {
@@ -2715,8 +2872,8 @@ window.WORDS = [
     audio: "headphone"
   },
   {
-    kana: "わたります",
-    english: { main: "to cross over; to go across <i>(masu-form of <b>わたる</b>)</i>", note: "verb (godan, intr.); polite" }
+    kana: "わたる/わたります",
+    english: { main: "to cross over; to go across", note: "verb (godan, intr.)" }
   },
   {
     kana: "いらっしゃい",
@@ -2734,8 +2891,8 @@ window.WORDS = [
     audio: "how-in-what-way"
   },
   {
-    kana: "あるきます",
-    english: { main: "to walk <i>(masu-form of <b>あるく</b>)</i>", note: "verb (godan, intr.); polite" }
+    kana: "あるく/あるきます",
+    english: { main: "to walk", note: "verb (godan, intr.)" }
   },
   {
     kana: "みち",
@@ -2752,9 +2909,9 @@ window.WORDS = [
     english: { main: "fried chicken", note: "noun" }
   },
   {
-    kanji: "切ります",
-    kana: "きります",
-    english: { main: "to cut <i>(masu-form of <b>切る</b>)</i>", note: "verb (godan, tr.); polite" }
+    kanji: "切る/切ります",
+    kana: "きる/きります",
+    english: { main: "to cut", note: "verb (godan, tr.)" }
   },
   {
     kanji: "八月",

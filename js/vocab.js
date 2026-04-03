@@ -75,9 +75,21 @@ function render(list) {
     englishEl.className = "english";
 
     let englishHTML = `<div class="main">${word.english.main}</div>`;
+
+    // either display as they are with ;
     if (word.english.note) {
       englishHTML += ` <span class="note">${word.english.note}</span>`;
     }
+    // or remove the ; and split into <i></i>s
+    // if (word.english.note) {
+    //   const formattedNote = word.english.note
+    //     .split(";")
+    //     .map(part => `<i>${part.trim()}</i>`)
+    //     .join(" ");
+
+    //   englishHTML += ` <span class="note">${formattedNote}</span>`;
+    // }
+
     if (word.english.example) {
       englishHTML += `<div class="example">${word.english.example}</div>`;
     }
