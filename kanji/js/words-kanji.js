@@ -178,6 +178,23 @@ window.WORDS = [
     ]
   },
   {
+    kanji: "住",
+    kana: "す、ず、ジュウ、ヂュウ、チュウ",
+    english: "dwell, reside, live, inhabit",
+    note: "JLPT N4",
+    parts: "radical: <b>人</b> (亻、⺅、𠆢) (man, human)",
+    examples: [
+    {
+      word: "<ruby><b>住</b><rt><b>じゅう</b></rt>所<rt>しょ</rt></ruby>",
+      trans: "address"
+    },
+    {
+      word: "<ruby><b>住</b><rt><b>す</b></rt>む</ruby>",
+      trans: "to live; to reside"
+    }
+    ]
+  },
+  {
     kanji: "母",
     kana: "はは、も、ボ",
     english: "mother",
@@ -549,6 +566,23 @@ window.WORDS = [
     ]
   },
   {
+    kanji: "出",
+    kana: "で、だ、い、シュツ、スイ",
+    english: "exit, leave, go out, come out, put out, protrude",
+    note: "JLPT N5",
+    parts: "radical: <b>凵</b> (container, open mouth)",
+    examples: [
+    {
+      word: "<ruby><b>出</b><rt><b>で</b></rt>かける</ruby>",
+      trans: "to go out"
+    },
+    {
+      word: "<ruby><b>出</b><rt><b>で</b></rt>足<rt>あし</rt>払<rt>ばら</rt>い</ruby>",
+      trans: "advancing foot sweep​"
+    }
+    ]
+  },
+  {
     kanji: "話",
     kana: "はな、はなし、ワ",
     english: "tale, talk",
@@ -860,6 +894,103 @@ window.WORDS = [
     {
       word: "<ruby><b>魚</b><rt><b>さかな</b></rt></ruby>",
       trans: "fish"
+    }
+    ]
+  },
+  {
+    kanji: "色",
+    kana: "いろ、ショク、シキ",
+    english: "color",
+    note: "JLPT N4",
+    parts: "radical: <b>色</b> (color, prettiness)",
+    examples: [
+    {
+      word: "<ruby>黄<rt>き</rt><b>色</b><rt><b>いろ</b></rt></ruby>",
+      trans: "yellow"
+    },
+    {
+      word: "<ruby><b>色</b><rt><b>いろ</b></rt><b>々</b><rt><b>いろ</b></rt></ruby>",
+      trans: "various"
+    }
+    ]
+  },
+  {
+    kanji: "名",
+    kana: "な、メイ、ミョウ",
+    english: "name, noted, distinguished, reputation",
+    note: "JLPT N5",
+    parts: "radical: <b>口</b> (品) (mouth, opening)",
+    examples: [
+    {
+      word: "<ruby><b>名</b><rt><b>な</b></rt>前<rt>まえ</rt></ruby>",
+      trans: "name"
+    },
+    {
+      word: "<ruby>有<rt>ゆう</rt><b>名</b><rt><b>めい</b></rt></ruby>",
+      trans: "famous"
+    },
+    {
+      word: "<ruby><b>名</b><rt><b>めい</b></rt>刺<rt>し</rt></ruby>",
+      trans: "business card"
+    },
+    {
+      word: "<ruby><b>名</b><rt><b>めい</b></rt>刺<rt>し</rt></ruby>",
+      trans: "noun"
+    }
+    ]
+  },
+  {
+    kanji: "国",
+    kana: "くに、コク",
+    english: "country",
+    note: "JLPT N5",
+    parts: "radical: <b>囗</b> (enclosure)",
+    examples: [
+    {
+      word: "<ruby><b>国</b><rt><b>くに</b></rt></ruby>",
+      trans: "country"
+    },
+    {
+      word: "<ruby>外<rt>がい</rt><b>国</b><rt><b>こく</b></rt>人<rt>じん</rt></ruby>",
+      trans: "foreigner"
+    },
+    {
+      word: "<ruby><b>国</b><rt><b>こく</b></rt>際<rt>さい</rt></ruby>",
+      trans: "international"
+    }
+    ]
+  },
+  {
+    kanji: "方",
+    kana: "かた、がた、ホウ",
+    english: "direction, person, alternative",
+    note: "JLPT N4",
+    parts: "radical: <b>方</b> (square, direction, locality)",
+    examples: [
+    {
+      word: "<ruby><b>方</b><rt><b>かた</b></rt></ruby>",
+      trans: "person; lady; gentleman"
+    }
+    ]
+  },
+  {
+    kanji: "万",
+    kana: "よろず、マン、バン",
+    english: "ten thousand, 10,000",
+    note: "JLPT N5",
+    parts: "radical: <b>一</b> (one)",
+    examples: [
+    {
+      word: "<ruby>一<rt>いち</rt><b>万</b><rt><b>まん</b></rt></ruby>",
+      trans: "10,000"
+    },
+    {
+      word: "<ruby>十<rt>じゅう</rt><b>万</b><rt><b>まん</b></rt></ruby>",
+      trans: "100,000"
+    },
+    {
+      word: "<ruby>百<rt>ひゃく</rt><b>万</b><rt><b>まん</b></rt></ruby>",
+      trans: "1,000,000"
     }
     ]
   },
