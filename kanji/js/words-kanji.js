@@ -995,6 +995,44 @@ window.WORDS = [
     ]
   },
   {
+    kanji: "朝",
+    kana: "あさ、チョウ",
+    english: "morning, dynasty, regime, epoch, period, (North) Korea",
+    note: "JLPT N4",
+    parts: "radical: <b>月</b> (⺝) (moon, month)",
+    examples: [
+    {
+      word: "<ruby>毎<rt>まい</rt><b>朝</b><rt><b>あさ</b></rt></ruby>",
+      trans: "every morning"
+    },
+    {
+      word: "<ruby>今<b>朝</b><rt>けさ</rt></ruby>",
+      trans: "this morning"
+    },
+    {
+      word: "<ruby><b>朝</b><rt><b>あさ</b></rt>ごはん</ruby>",
+      trans: "breakfast"
+    }
+    ]
+  },
+  {
+    kanji: "晩",
+    kana: "バン",
+    english: "nightfall, night",
+    note: "JLPT N3",
+    parts: "radical: <b>日</b> (sun, day)",
+    examples: [
+    {
+      word: "<ruby>毎<rt>まい</rt><b>晩</b><rt><b>ばん</b></rt></ruby>",
+      trans: "every night"
+    },
+    {
+      word: "<ruby>今<rt>こん</rt><b>晩</b><rt><b>ばん</b></rt></ruby>",
+      trans: "tonight"
+    }
+    ]
+  },
+  {
     kanji: "火",
     kana: "ひ、び、ほ、カ",
     english: "fire",
