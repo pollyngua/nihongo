@@ -126,7 +126,7 @@ body {
 @media (orientation: portrait) {
   #kanji {
     padding-bottom: 2rem;
-    font-size: 2.4rem;
+    font-size: 3.8rem;
   }
 }
 
@@ -241,11 +241,11 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  padding: .4rem;
+  padding: .25rem;
   background-color: #e34234;
   font-family: 'BIZ UDMincho', sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: .9rem;
+  /*font-weight: 700;*/
   color: #d8deeb;
   line-height: 1;
   text-align: right;
@@ -253,7 +253,6 @@ body {
 @media (orientation: portrait) {
   .note {
     right: -1rem;
-    font-size: .8rem;
   }
 }
 
