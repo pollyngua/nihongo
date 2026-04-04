@@ -2316,6 +2316,17 @@ window.WORDS = [
     audio: "age"
   },
   {
+    kanji: "名前",
+    kana: "なまえ",
+    english: { main: "name", note: "noun" }
+  },
+  {
+    // kanji: "職業",
+    kana: "しょくぎょう",
+    english: { main: "occupation; job", note: "noun" },
+    audio: "occupation"
+  },
+  {
     kanji: "失礼ですが",
     kana: "しつれいですが",
     english: { main: "excuse me, but...", note: "expression" },
@@ -2438,7 +2449,43 @@ window.WORDS = [
     kana: "きのう",
     english: { main: "yesterday <i>(also literary <b>さくじつ</b>)</i>", note: "noun; adverb" }
   },
-  // continue with file:///E:/Japanese/library/lessons/all/yesterday-today-tomorrow-lily.html
+  {
+    kanji: "働く/働きます",
+    kana: "はたらく/はたらきます",
+    english: { main: "to work", note: "verb (godan, intr.)", example: "昨日<b>働きました</b>か (did you work yesterday?)" },
+    audio: "to-work"
+  },
+  {
+    // kanji: "練習",
+    kana: "れんしゅう",
+    english: { main: "practice; training", note: "noun; verb (suru, tr.)" }
+  },
+  {
+    kanji: "勉強",
+    kana: "べんきょう",
+    english: { main: "study", note: "noun; verb (suru, tr.)" }
+  },
+  {
+    kanji: "毎",
+    kana: "まい",
+    english: { main: "every <i>(e.g. every day)</i>; each", note: "prefix​" }
+  },
+  {
+    kanji: "朝",
+    kana: "あさ",
+    english: { main: "morning", note: "noun; adverb; JLPT N4" }
+  },
+  {
+    kanji: "今朝",
+    kana: "けさ",
+    english: { main: "this morning", note: "noun; adverb" }
+  },
+  {
+    kanji: "晩",
+    kana: "ばん",
+    english: { main: "<i>1.</i> evening; night; <i>2. counter for nights</i>", note: "noun; adverb; counter" }
+  },
+  // continue at file:///E:/Japanese/library/lessons/all/movement-verbs-destination-direction-particles-lily.html
   {
     kana: "どうりょう",
     english: { main: "coworker", note: "noun" },
@@ -2484,6 +2531,7 @@ window.WORDS = [
     audio: "driving"
   },
   {
+    // kanji: "午前",
     kana: "ごぜん",
     english: { main: "a.m.; morning", note: "noun; adverb", example: "<b>ごぜん</b>八時ごろおきます (i wake up around 8 a.m.)" }
   },
@@ -2536,6 +2584,7 @@ window.WORDS = [
     audio: "museum"
   },
   {
+    // kanji: "午後",
     kana: "ごご",
     english: { main: "p.m.; afternoon", note: "noun; adverb" }
   },
