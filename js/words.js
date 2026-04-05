@@ -2485,7 +2485,6 @@ window.WORDS = [
     kana: "ばん",
     english: { main: "<i>1.</i> evening; night; <i>2. counter for nights</i>", note: "noun; adverb; counter" }
   },
-  // continue at file:///E:/Japanese/library/lessons/all/movement-verbs-destination-direction-particles-lily.html
   {
     kana: "どうりょう",
     english: { main: "coworker", note: "noun" },
@@ -2543,6 +2542,23 @@ window.WORDS = [
     kana: "うんてんしゅ",
     english: { main: "driver", note: "noun" },
     audio: "driver"
+  },
+  {
+    // kanji: "成功",
+    kana: "せいこう",
+    english: { main: "success", note: "noun; verb (suru, intr.)" },
+    audio: "success"
+  },
+  {
+    kanji: "行ってきます",
+    kana: "いってきます",
+    english: { main: "I'm off; see you later <i>(often has a response of いってらっしゃい)</i>", note: "expression; polite" },
+    audio: "i-m-off-see-you-later"
+  },
+  {
+    kana: "いってらっしゃい",
+    english: { main: "take care; see you <i>(often in response to 行ってきます)</i>" },
+    audio: "take-care"
   },
   {
     kana: "カメラ",
@@ -2944,8 +2960,9 @@ window.WORDS = [
     english: { main: "to walk", note: "verb (godan, intr.)" }
   },
   {
+    kanji: "道",
     kana: "みち",
-    english: { main: "road; path; street", note: "noun" },
+    english: { main: "<i>1.</i> road; path; street; <i>2.</i> route; way", note: "noun; JLPT N4" },
     audio: "road-path-street"
   },
   {
@@ -3122,5 +3139,9 @@ window.WORDS = [
   {
     kana: "フィリピン",
     english: { main: "Philippines", note: "proper noun" }
+  },
+  {
+    kana: "タブレット",
+    english: { main: "タブレット", note: "noun" }
   }
 ];
