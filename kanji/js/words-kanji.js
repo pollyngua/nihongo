@@ -1033,6 +1033,27 @@ window.WORDS = [
     ]
   },
   {
+    kanji: "道",
+    kana: "みち、いう、ドウ、トウ",
+    english: "road-way, street, district, journey, course, moral, teachings",
+    note: "JLPT N4",
+    parts: "radical: <b>辵</b> ((辶、⻌、⻍) (walk)",
+    examples: [
+    {
+      word: "<ruby>柔<rt>じゅう</rt><b>道</b><rt><b>どう</b></rt></ruby>",
+      trans: "judo"
+    },
+    {
+      word: "<ruby>書<rt>しょ</rt><b>道</b><rt><b>どう</b></rt></ruby>",
+      trans: "shodo"
+    },
+    {
+      word: "<ruby><b>道</b><rt><b>どう</b></rt>場<rt>じょう</rt></ruby>",
+      trans: "dojo"
+    }
+    ]
+  },
+  {
     kanji: "火",
     kana: "ひ、び、ほ、カ",
     english: "fire",
