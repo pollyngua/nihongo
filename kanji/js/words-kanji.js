@@ -1033,6 +1033,23 @@ window.WORDS = [
     ]
   },
   {
+    kanji: "歩",
+    kana: "ある、あゆ、ホ、ブ、フ",
+    english: "walk, counter for steps",
+    note: "JLPT N4",
+    parts: "radical: <b>止</b> (stop)",
+    examples: [
+    {
+      word: "<ruby><b>歩</b><rt><b>ある</b></rt>く</ruby>",
+      trans: "to walk"
+    },
+    {
+      word: "<ruby><b>歩</b><rt><b>ほ</b></rt></ruby>",
+      trans: "step"
+    }
+    ]
+  },
+  {
     kanji: "道",
     kana: "みち、いう、ドウ、トウ",
     english: "road-way, street, district, journey, course, moral, teachings",
@@ -1320,6 +1337,27 @@ window.WORDS = [
     {
       word: "<ruby>道<rt>どう</rt><b>着</b><rt><b>ぎ</b></rt></ruby>",
       trans: "dogi"
+    }
+    ]
+  },
+  {
+    kanji: "車",
+    kana: "くるま、シャ",
+    english: "car",
+    note: "JLPT N5",
+    parts: "radical: <b>車</b> (cart, car)",
+    examples: [
+    {
+      word: "<ruby>電<rt>でん</rt><b>車</b><rt><b>しゃ</b></rt></ruby>",
+      trans: "train"
+    },
+    {
+      word: "<ruby>自<rt>じ</rt>動<rt>どう</rt><b>車</b><rt><b>しゃ</b></rt></ruby>",
+      trans: "car"
+    },
+    {
+      word: "<ruby>自<rt>じ</rt>転<rt>てん</rt><b>車</b><rt><b>しゃ</b></rt></ruby>",
+      trans: "bicycle"
     }
     ]
   },
