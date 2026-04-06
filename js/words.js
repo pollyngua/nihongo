@@ -349,6 +349,7 @@ window.WORDS = [
     english: { main: "airport", note: "noun" }
   },
   {
+    // kanji: "地下鉄",
     kana: "ちかてつ",
     english: { main: "subway", note: "noun" }
   },
@@ -1357,8 +1358,9 @@ window.WORDS = [
     audio: "this-week"
   },
   {
+    kanji: "電車",
     kana: "でんしゃ",
-    english: { main: "train", note: "noun" }
+    english: { main: "train; electric train", note: "noun" }
   },
   {
     kana: "しぶや",
@@ -2595,6 +2597,65 @@ window.WORDS = [
     english: { main: "professional; pro​", note: "noun" }
   },
   {
+    kanji: "車",
+    kana: "くるま",
+    english: { main: "car", note: "noun; JLPT N5", example: "毎日<b>車</b>で仕事に行きます (every day i go to work by car)" },
+    audio: "car"
+  },
+  {
+    kanji: "自動車",
+    kana: "じどうしゃ",
+    english: { main: "automobile", note: "noun" },
+    audio: "automobile"
+  },
+  {
+    // kanji: "乗り物",
+    kana: "のりもの",
+    english: { main: "vehicle; (means of) transport", note: "noun" },
+    audio: "vehicle-means-of-transport"
+  },
+  {
+    // kanji: "俺",
+    kana: "おれ",
+    english: { main: "I; me", note: "pronoun; male; rough or arrogant" },
+    audio: "i-me-male"
+  },
+  {
+    kana: "ばか",
+    english: { main: "<i>1.</i> idiot; fool; <i>2.</i> stupid; foolish", note: "1. noun 2. na-adjective" }
+  },
+  {
+    kana: "あのう",
+    english: { main: "say; well; um; er" }
+  },
+  {
+    kana: "そうです",
+    english: { main: "that's right", note: "polite" }
+  },
+  {
+    kana: "そうですか",
+    english: { main: "I see; is that right?", note: "polite" }
+  },
+  {
+    // kanji: "留学生",
+    kana: "りゅうがくせい",
+    english: { main: "international student", note: "noun" },
+    audio: "international-student"
+  },
+  {
+    // kanji: "何番",
+    kana: "なんばん",
+    english: { main: "what number", note: "noun" },
+    audio: "what-number"
+  },
+  {
+    // kanji: "高校",
+    kana: "こうこう",
+    english: { main: "high school", note: "noun" },
+    audio: "high-school"
+  },
+  // continue at file:///E:/Japanese/library/lessons/all/noun-negation-misa.html
+  {
     kana: "はくぶつかん",
     english: { main: "museum", note: "noun" },
     audio: "museum"
@@ -2854,7 +2915,7 @@ window.WORDS = [
   },
   {
     kana: "から",
-    english: { main: "from <i>(time, place, numerical quantity)</i>; since", note: "particle", example: "さいごのミーティングは何時<b>から</b>ですか (what time does the last meeting start?)" }
+    english: { main: "from <i>(time, place, numerical quantity)</i>; since", note: "particle", example: "さいごのミーティングは何時<b>から</b>ですか (what time does the last meeting start?)<br>どこ<b>から</b>タクシーにのりますか (where are we taking a taxi from?)" }
   },
   {
     kana: "まで",
@@ -2952,12 +3013,13 @@ window.WORDS = [
   },
   {
     kana: "どうやって",
-    english: { main: "how; in what way; by what means​", note: "expression", example: "デパートまで<b>どうやって</b>行きましょうか (how should we get to the department store?)" },
+    english: { main: "how; in what way; by what means​", note: "expression", example: "デパートまで<b>どうやって</b>行きましょうか (how should we get to the department store?);<br><b>どうやって</b>来ましたか (how [by what means] did you come?)" },
     audio: "how-in-what-way"
   },
   {
+    kanji: "歩く/歩きます",
     kana: "あるく/あるきます",
-    english: { main: "to walk", note: "verb (godan, intr.)" }
+    english: { main: "to walk", note: "verb (godan, intr.); JLPT N4", example: "<b>歩いて</b>来ました (i came on foot. (lit. i walked and came.))" }
   },
   {
     kanji: "道",
@@ -3100,6 +3162,7 @@ window.WORDS = [
     english: { main: "roommate", note: "noun" }
   },
   {
+    // kanji: "専攻",
     kana: "せんこう",
     english: { main: "major <i>(as in college)</i>", note: "noun; verb (suru, tr.)" },
     audio: "major-college"
@@ -3143,5 +3206,9 @@ window.WORDS = [
   {
     kana: "タブレット",
     english: { main: "タブレット", note: "noun" }
+  },
+  {
+    kana: "ポテトチップス",
+    english: { main: "potato chips", note: "noun" }
   }
 ];
