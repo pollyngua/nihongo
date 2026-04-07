@@ -1244,6 +1244,10 @@ window.WORDS = [
     {
       word: "<ruby><b>公</b><rt><b>こう</b></rt>園<rt>えん</rt></ruby>",
       trans: "(public) park"
+    },
+    {
+      word: "<ruby><b>公</b><rt><b>こう</b></rt>衆<rt>しゅう</rt></ruby>",
+      trans: "the public"
     }
     ]
   },
@@ -1439,6 +1443,23 @@ window.WORDS = [
     {
       word: "<ruby><b>駅</b><rt><b>えき</b></rt></ruby>",
       trans: "train station"
+    }
+    ]
+  },
+  {
+    kanji: "犬",
+    kana: "いぬ、ケン",
+    english: "dog",
+    note: "JLPT N4",
+    parts: "radical: <b>犬</b> (犭) (dog)",
+    examples: [
+    {
+      word: "<ruby><b>犬</b><rt><b>いぬ</b></rt></ruby>",
+      trans: "dog"
+    },
+    {
+      word: "<ruby>子<rt>こ</rt><b>犬</b><rt><b>いぬ</b></rt></ruby>",
+      trans: "puppy"
     }
     ]
   }
