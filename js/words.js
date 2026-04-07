@@ -1936,7 +1936,7 @@ window.WORDS = [
   },
   {
     kana: "で",
-    english: { main: "at; in <i>(​indicates location of action)</i>", note: "particle", example: "コンビニ<b>で</b>おかしを買いましょう (we should buy snacks at the convenience store)" }
+    english: { main: "at; in <i>(​indicates location of action)</i>", note: "particle", example: "コンビニ<b>で</b>おかしを買いましょう (we should buy snacks at the convenience store);<br>ここ<b>で</b>みちをわたりましょう (we should cross the street here)" }
   },
   {
     kana: "どうぶつえん",
@@ -2654,7 +2654,59 @@ window.WORDS = [
     english: { main: "high school", note: "noun" },
     audio: "high-school"
   },
-  // continue at file:///E:/Japanese/library/lessons/all/noun-negation-misa.html
+  {
+    kanji: "先輩",
+    kana: "せんぱい",
+    english: { main: "senior <i>(at work or school)</i>; superior; elder", note: "noun" }
+  },
+  {
+    // kanji: "実は",
+    kana: "じつは",
+    english: { main: "as a matter of fact; by the way; to be honest", note: "expression; adverb" },
+    audio: "as-a-matter-of-fact"
+  },
+  {
+    kanji: "犬",
+    kana: "いぬ",
+    english: { main: "dog", note: "noun" },
+    audio: "dog"
+  },
+  {
+    // kanji: "簡単",
+    kana: "かんたん",
+    english: { main: "simple; easy; uncomplicated", note: "na-adjective; noun", example: "これは<b>かんたんな</b>かんじです (this is an easy kanji)" },
+    audio: "simple-easy"
+  },
+  {
+    // kanji: "漢字",
+    kana: "かんじ",
+    english: { main: "kanji; Chinese character", note: "noun" }
+  },
+  {
+    // kanji: "公衆",
+    kana: "こうしゅう",
+    english: { main: "the public; general public", note: "noun", example: "<b>こうしゅう</b>トイレはきれいじゃないです (public bathrooms are not clean)" },
+    audio: "the-public"
+  },
+  {
+    // kanji: "眠い",
+    kana: "ねむい",
+    english: { main: "sleepy; drowsy", note: "i-adjective" },
+    audio: "sleepy"
+  },
+  {
+    // kanji: "真剣",
+    kana: "しんけん",
+    english: { main: "serious; earnest", note: "na-adjective" },
+    audio: "serious-earnest"
+  },
+  {
+    // kanji: "試験",
+    kana: "しけん",
+    english: { main: "exam", note: "noun; verb (suru, tr.)", example: "<b>しけん</b>はかんたんでした (the exam was easy)" },
+    audio: "exam"
+  },
+  // continue at file:///E:/Japanese/library/lessons/all/shopping-genki-1.html
   {
     kana: "はくぶつかん",
     english: { main: "museum", note: "noun" },
@@ -3195,6 +3247,7 @@ window.WORDS = [
     english: { main: "campus", note: "noun" }
   },
   {
+    // kanji: "難しい",
     kana: "むずかしい",
     english: { main: "difficult; hard", note: "i-adjective" },
     audio: "difficult-hard"
