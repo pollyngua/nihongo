@@ -27,22 +27,26 @@ function render(list) {
     kanaEl.className = "kana";
 
     if (word.audio) {
-      // If word.audio is a string with commas, split it
-      const audioFiles = typeof word.audio === "string" ? word.audio.split(",") : word.audio;
+      const audioFiles = typeof word.audio === "string"
+        ? word.audio.split(",").map(a => a.trim())
+        : word.audio;
 
-      // Split kana by " / " if multiple readings
-      const kanaParts = word.kana.split(" | ");
+      // split kana into parts (only kana)
+      const kanaParts = word.kana.split(/\s*[|/]\s*/);
 
-      const count = Math.max(kanaParts.length, audioFiles.length);
+      // split separators (keep them)
+      const separators = word.kana.match(/\s*[|/]\s*/g) || [];
+
+      const count = kanaParts.length;
 
       for (let i = 0; i < count; i++) {
-        // kana span
+        // kana
         const span = document.createElement("span");
         span.className = "kanaText";
-        span.textContent = kanaParts[i] || kanaParts[0];
+        span.textContent = kanaParts[i];
         kanaEl.appendChild(span);
 
-        // audio button if audio exists
+        // audio button
         if (audioFiles[i]) {
           const btn = document.createElement("button");
           btn.className = "audioBtn";
@@ -55,9 +59,9 @@ function render(list) {
           kanaEl.appendChild(btn);
         }
 
-        // optional separator between readings (can be removed if not needed)
-        if (i < count - 1) {
-          kanaEl.appendChild(document.createTextNode("\u00A0|\u00A0")); // space on each side
+        // separator (if exists)
+        if (separators[i]) {
+          kanaEl.appendChild(document.createTextNode(separators[i]));
         }
       }
     } else {
