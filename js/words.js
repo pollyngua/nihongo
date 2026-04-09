@@ -73,10 +73,6 @@ window.WORDS = [
     audio: "hello"
   },
   {
-    kana: "どうぞよろしく",
-    english: { main: "nice to meet you; how do you do", note: "expression" }
-  },
-  {
     kana: "こんばんは",
     english: { main: "good evening" }
   },
@@ -577,7 +573,7 @@ window.WORDS = [
   },
   {
     kanji: "四",
-    kana: "よん, よ, し",
+    kana: "よん | よ | し",
     english: { main: "four", note: "numeric; JLPT N5", example: "まいにち<b>よ</b>じにおよぎます (i swim every day at four o'clock)" }
   },
   {
@@ -598,8 +594,9 @@ window.WORDS = [
   },
   {
     kanji: "七",
-    kana: "なな, しち",
-    english: { main: "seven", note: "numeric; JLPT N5", example: "<b>しち</b>じはん (seven thirty)" }
+    kana: "なな | しち",
+    english: { main: "seven", note: "numeric; JLPT N5", example: "<b>しち</b>じはん (seven thirty)" },
+    audio: ",7-shichi"
   },
   {
     kana: "バスケットボール",
@@ -749,11 +746,12 @@ window.WORDS = [
   {
     kanji: "八",
     kana: "はち",
-    english: { main: "eight", note: "numeric; JLPT N5" }
+    english: { main: "eight", note: "numeric; JLPT N5" },
+    audio: "8-hachi"
   },
   {
     kanji: "九",
-    kana: "く, きゅう",
+    kana: "く | きゅう",
     english: { main: "nine", note: "numeric; JLPT N5" }
   },
   {
@@ -1807,7 +1805,7 @@ window.WORDS = [
   {
     kana: "かえる/かえります",
     english: { main: "to return", note: "verb (godan, intr.)", example: "しごとのあと、うちに<b>かえります</b> (after work, i return home)" },
-    audio: "to-return"
+    audio: "to-return,to-return-polite"
   },
   {
     kana: "かじ",
@@ -1825,7 +1823,7 @@ window.WORDS = [
   {
     kana: "てつだう/てつだいます",
     english: { main: "to help", note: "verb (godan, tr.)", example: "いつもおとうとのしゅくだいを<b>てつだいます</b> (i always help with my younger brother's homework)" },
-    audio: "to-help"
+    audio: ",to-help-polite"
   },
   {
     kana: "そうじ",
@@ -1867,7 +1865,7 @@ window.WORDS = [
   {
     kana: "はいる/はいります",
     english: { main: "<i>1.</i> to enter; <i>2.</i> to join <i>(a club, company, etc.)</i>", note: "verb (godan, intr.)", example: "(1) まいばんおふろに<b>はいります</b> (i take a bath (lit. 'enter a bath') every night);<br>(2) アンドリューさんも日本ごサークルに<b>はいりません</b>か (would you also like to join the japanese club, andrew?)" },
-    audio: "to-enter"
+    audio: ",to-enter-polite"
   },
   {
     kana: "ストレッチ",
@@ -2211,8 +2209,7 @@ window.WORDS = [
   },
   {
     kana: "スミス",
-    english: { main: "Smith", note: "proper noun" },
-    audio: "smith"
+    english: { main: "Smith", note: "proper noun" }
   },
   {
     kana: "たくさん",
@@ -2342,7 +2339,7 @@ window.WORDS = [
   {
     kanji: "色",
     kana: "いろ",
-    english: { main: "color", note: "noun" },
+    english: { main: "color", note: "noun; JLPT N4" },
     audio: "color"
   },
   {
@@ -2455,7 +2452,7 @@ window.WORDS = [
     kanji: "働く/働きます",
     kana: "はたらく/はたらきます",
     english: { main: "to work", note: "verb (godan, intr.)", example: "昨日<b>働きました</b>か (did you work yesterday?)" },
-    audio: "to-work"
+    audio: "to-work,"
   },
   {
     // kanji: "練習",
@@ -2470,7 +2467,7 @@ window.WORDS = [
   {
     kanji: "毎",
     kana: "まい",
-    english: { main: "every <i>(e.g. every day)</i>; each", note: "prefix​" }
+    english: { main: "every <i>(e.g. every day)</i>; each", note: "prefix​; JLPT N5" }
   },
   {
     kanji: "朝",
@@ -2485,7 +2482,7 @@ window.WORDS = [
   {
     kanji: "晩",
     kana: "ばん",
-    english: { main: "<i>1.</i> evening; night; <i>2. counter for nights</i>", note: "noun; adverb; counter" }
+    english: { main: "<i>1.</i> evening; night; <i>2. counter for nights</i>", note: "noun; adverb; counter; JLPT N3" }
   },
   {
     kana: "どうりょう",
@@ -2554,7 +2551,7 @@ window.WORDS = [
   {
     kanji: "行ってきます",
     kana: "いってきます",
-    english: { main: "I'm off; see you later <i>(often has a response of いってらっしゃい)</i>", note: "expression; polite" },
+    english: { main: "I'm off; see you later <i>(often has a response of いってらっしゃい)</i>", note: "expression; polite; JLPT N5" },
     audio: "i-m-off-see-you-later"
   },
   {
@@ -2668,7 +2665,7 @@ window.WORDS = [
   {
     kanji: "犬",
     kana: "いぬ",
-    english: { main: "dog", note: "noun" },
+    english: { main: "dog", note: "noun; JLPT N4" },
     audio: "dog"
   },
   {
@@ -2706,7 +2703,84 @@ window.WORDS = [
     english: { main: "exam", note: "noun; verb (suru, tr.)", example: "<b>しけん</b>はかんたんでした (the exam was easy)" },
     audio: "exam"
   },
-  // continue at file:///E:/Japanese/library/lessons/all/shopping-genki-1.html
+  {
+    kana: "どうぞ",
+    english: { main: "<i>1.</i> please; kindly; <i>2.</i> here you are <i>(when handing something to someone)</i>", note: "adverb", example: "(2) いらっしゃいませ。メニューを<b>どうぞ</b>。 (welcome. here's the menu.)" }
+  },
+  {
+    kana: "どうも",
+    english: { main: "thank you; thanks" },
+    audio: "thank-you-2"
+  },
+  {
+    // kanji: "郵便局",
+    kana: "ゆうびんきょく",
+    english: { main: "post office" },
+    audio: "post-office"
+  },
+  {
+    kana: "でもある/でもあります",
+    english: { main: "to also be <i>(implies that as well as the earlier stated this is also the case)​</i>", note: "verb (godan); formal; literary", example: "田中さんは学生です。日本人<b>でもあります</b>。 (tanaka is a student. he is also japanese.)" },
+    audio: "to-also-be,"
+  },
+  {
+    kana: "よ",
+    english: { main: "hey; you <i>(at sentence-end; indicates certainty, emphasis, contempt, request, warning, etc.)</i>", note: "particle", example: "とんかつは魚じゃないです<b>よ</b> ((let me assure you,) tonkatsu is not fish);<br>スミスさんはイギリス人です<b>よ</b> ((in case you're wondering,) mr. smith is british)" }
+  },
+  {
+    kana: "ゆっくり",
+    english: { main: "slowly; unhurriedly", note: "adverb; verb (suru)", example: "<b>ゆっくり</b>言ってください (please say it slowly)" },
+    audio: "slowly"
+  },
+  {
+    kanji: "もう一度",
+    kana: "もういちど",
+    english: { main: "once more; again", note: "expression; adverb", example: "<b>もう一度</b>言ってください (please say it again)" },
+    audio: "once-more-again"
+  },
+  {
+    // kanji: "自転車",
+    kana: "じてんしゃ",
+    english: { main: "bicycle", note: "noun" }
+  },
+  {
+    // kanji: "銀行",
+    kana: "ぎんこう",
+    english: { main: "bank", note: "noun" },
+    audio: "bank"
+  },
+  {
+    // kanji: "歴史",
+    kana: "れきし",
+    english: { main: "history", note: "noun" },
+    audio: "history"
+  },
+  {
+    kana: "～にする",
+    english: { main: "I'll have...; I choose... <i>(in a restaurant)</i>", note: "expression", example: "パスタ<b>にする</b> (i'll have the pasta)" }
+  },
+  {
+    // kanji: "牛乳",
+    kana: "ぎゅうにゅう",
+    english: { main: "(cow's) milk", note: "noun" },
+    audio: "cows-milk"
+  },
+  {
+    kana: "ミルク",
+    english: { main: "milk <i>(that you order in a café)</i>", note: "noun" }
+  },
+  {
+    // kanji: "手紙",
+    kana: "てがみ",
+    english: { main: "letter; note", note: "noun" },
+    audio: "letter-note"
+  },
+  {
+    // kanji: "連濁",
+    kana: "れんだく",
+    english: { main: "rendaku; sequential voicing <i>(an unvoiced sound becoming voiced when it is the initial consonant of the non-initial portion of a compound or prefixed word)</i>", note: "noun; verb (suru, intr.)" }
+  },
+  // continue at file:///E:/Japanese/library/lessons/all/noun-ing-verbs-with-no-misa.html
   {
     kana: "はくぶつかん",
     english: { main: "museum", note: "noun" },
@@ -3002,7 +3076,7 @@ window.WORDS = [
   },
   {
     kana: "(どうぞ)よろしく(おねがいします)",
-    english: { main: "please remember me; please treat me favorably; I appreciate the help; looking forward to working with you", note: "expression; polite" }
+    english: { main: "nice to meet you; how do you do; please remember me; please treat me favorably; I appreciate the help; looking forward to working with you", note: "expression; polite" }
   },
   {
     kana: "チャーハン",
@@ -3222,7 +3296,7 @@ window.WORDS = [
   {
     kana: "サークル",
     english: { main: "club; group with a common interest <i>(e.g. students)</i>", note: "noun" },
-    audio: "club"
+    audio: "club-group"
   },
   {
     kana: "げんご",
@@ -3258,7 +3332,7 @@ window.WORDS = [
   },
   {
     kana: "タブレット",
-    english: { main: "タブレット", note: "noun" }
+    english: { main: "tablet", note: "noun" }
   },
   {
     kana: "ポテトチップス",
