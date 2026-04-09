@@ -180,45 +180,40 @@ function displayWord(word) {
   kanaEl.innerHTML = "";
 
   if (word.audio) {
-    // split kana into parts for multiple readings (separated by " | ")
-    const kanaParts = word.kana.split(" | ").map(s => s.trim());
+    const audioFiles = typeof word.audio === "string"
+      ? word.audio.split(",").map(a => a.trim())
+      : word.audio;
 
-    // split audio string by commas into multiple files
-    const audioFiles = Array.isArray(word.audio)
-      ? word.audio.map(a => a.file) // backwards compatibility
-      : word.audio.split(",").map(s => s.trim());
+    const kanaParts = word.kana.split(/\s*[|/]\s*/);
+    const separators = word.kana.match(/\s*[|/]\s*/g) || [];
 
-    const count = Math.max(kanaParts.length, audioFiles.length);
+    const count = kanaParts.length;
 
     for (let i = 0; i < count; i++) {
-      // create kana span
       const span = document.createElement("span");
       span.className = "kanaText";
-      span.textContent = kanaParts[i] || kanaParts[0]; // fallback to first kana
+      span.textContent = kanaParts[i];
       kanaEl.appendChild(span);
 
-      // create audio button if file exists
       if (audioFiles[i]) {
         const btn = document.createElement("button");
         btn.className = "audioBtn";
         btn.type = "button";
+
         btn.addEventListener("click", e => {
           e.stopPropagation();
-
-          // play the file directly using your existing audioPlayer
-          audioPlayer.src = `audio/${audioFiles[i]}.mp3`;
-          audioPlayer.currentTime = 0;
-          audioPlayer.play().catch(() => {});
+          const audio = new Audio(`audio/${audioFiles[i]}.mp3`);
+          audio.play().catch(() => {});
         });
+
         kanaEl.appendChild(btn);
       }
-      // add separator between pairs, except after the last one
-      if (i < count - 1) {
-        kanaEl.appendChild(document.createTextNode("\u00A0|\u00A0"));
+
+      if (separators[i]) {
+        kanaEl.appendChild(document.createTextNode(separators[i].replace(/ /g, "\u00A0")));
       }
     }
   } else {
-    // no audio → just show kana text
     const span = document.createElement("span");
     span.className = "kanaText";
     span.textContent = word.kana;
