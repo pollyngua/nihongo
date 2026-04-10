@@ -558,7 +558,7 @@ window.WORDS = [
     english: { main: "<i>1.</i> noisy; <i>2.</i> annoying", note: "i-adjective" }
   },
   {
-    // kanji: "有名",
+    kanji: "有名",
     kana: "ゆうめい",
     english: { main: "famous", note: "na-adjective" }
   },
@@ -2780,7 +2780,6 @@ window.WORDS = [
     kana: "れんだく",
     english: { main: "rendaku; sequential voicing <i>(an unvoiced sound becoming voiced when it is the initial consonant of the non-initial portion of a compound or prefixed word)</i>", note: "noun; verb (suru, intr.)" }
   },
-  // continue at file:///E:/Japanese/library/lessons/all/noun-ing-verbs-with-no-misa.html
   {
     kana: "はくぶつかん",
     english: { main: "museum", note: "noun" },
@@ -3024,8 +3023,21 @@ window.WORDS = [
     english: { main: "computer", note: "noun" }
   },
   {
+    // kanji: "歌う/歌います",
     kana: "うたう/うたいます",
     english: { main: "to sing", note: "verb (godan, tr., intr.)" }
+  },
+  {
+    // kanji: "教える/教えます",
+    kana: "おしえる/おしえます",
+    english: { main: "<i>1.</i> to teach; to instruct; <i>2.</i> to tell (something new<i>, e.g. information, secret, directions)</i>", note: "verb (ichidan, tr.)" },
+    audio: "to-teach,to-teach-polite"
+  },
+  {
+    // kanji: "嫌い",
+    kana: "きらい",
+    english: { main: "disliked; hated", note: "na-adjective; noun" },
+    audio: "disliked"
   },
   {
     kana: "プリンター",
@@ -3231,12 +3243,13 @@ window.WORDS = [
   {
     kanji: "十月",
     kana: "じゅうがつ",
-    english: { main: "October", note: "noun" },
+    english: { main: "October", note: "noun", example: "<b>十月</b>三十一日 (october 31st)" },
     audio: "october"
   },
   {
+    kanji: "お祭り",
     kana: "おまつり",
-    english: { main: "festival", note: "noun; polite" },
+    english: { main: "festival", note: "noun; polite; JLPT N2" },
     audio: "festival"
   },
   {
@@ -3329,6 +3342,54 @@ window.WORDS = [
   {
     kana: "フィリピン",
     english: { main: "Philippines", note: "proper noun" }
+  },
+  {
+    kana: "たいてい",
+    english: { main: "usually", note: "na-adjective; adverb; noun" },
+    audio: "usually"
+  },
+  {
+    kana: "そうですね",
+    english: { main: "that's so, isn't it; that's right; let's see", note: "expression" }
+  },
+  {
+    // kanji: "全然",
+    kana: "ぜんぜん",
+    english: { main: "(not) at all <i>(with negative sentence, 全然〜ません)</i>", note: "adverb", example: "私は<b>ぜんぜん</b>テレビを見ません (i do not watch tv at all)" },
+    audio: "not-at-all"
+  },
+  {
+    kana: "ええ",
+    english: { main: "yes; that is correct; right" }
+  },
+  {
+    kanji: "書く/書きます",
+    kana: "かく/かきます",
+    english: { main: "<i>1.</i> to write; <i>2.</i> to draw", note: "verb (godan, tr.); JLPT N5", example: "てがみを<b>書きます</b> (i will write a letter)" },
+    audio: ",to-write-polite"
+  },
+  {
+    kanji: "吸う/吸います",
+    kana: "すう/すいます",
+    english: { main: "to breathe in; to smoke", note: "verb (godan, tr.); JLPT N3", example: "タバコを<b>吸います</b>か (do you smoke?)" },
+    audio: "to-breathe-in,to-breathe-in-polite"
+  },
+  {
+    kanji: "息",
+    kana: "いき",
+    english: { main: "breath; breathing", note: "noun; JLPT N3" },
+    audio: "breath"
+  },
+  {
+    // kanji: "お酒",
+    kana: "おさけ",
+    english: { main: "<i>(all kinds of)</i> alcohol; sake", note: "noun; polite" }
+  },
+  {
+    kanji: "日記",
+    kana: "にっき",
+    english: { main: "diary", note: "noun" },
+    audio: "diary"
   },
   {
     kana: "タブレット",
