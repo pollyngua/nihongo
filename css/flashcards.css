@@ -108,7 +108,7 @@ body {
 }
 
 #kanji {
-  height: 30%;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -121,7 +121,7 @@ body {
 @media (orientation: portrait) {
   #kanji {
     padding-bottom: 2rem;
-    font-size: 3.8rem;
+    font-size: 2.4rem;
   }
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 #kana {
-  height: 30%;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
