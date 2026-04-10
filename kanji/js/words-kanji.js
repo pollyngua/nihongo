@@ -202,7 +202,7 @@ window.WORDS = [
     parts: "radical: <b>⽏</b> (母、⺟) (mother)",
     examples: [
     {
-      word: "<ruby>お<rt></rt><b>母</b><rt><b>かあ</b></rt>さん</ruby>",
+      word: "<ruby>(お)<rt></rt><b>母</b><rt><b>かあ</b></rt>さん</ruby>",
       trans: "mother; mom"
     }
     ]
@@ -215,7 +215,7 @@ window.WORDS = [
     parts: "radical: <b>父</b> (father)",
     examples: [
     {
-      word: "<ruby>お<rt></rt><b>父</b><rt><b>とう</b></rt>さん</ruby>",
+      word: "<ruby>(お)<rt></rt><b>父</b><rt><b>とう</b></rt>さん</ruby>",
       trans: "father; dad"
     }
     ]
@@ -424,7 +424,7 @@ window.WORDS = [
       trans: "old"
     },
     {
-      word: "<ruby>お<rt></rt>稽<rt>けい</rt><b>古</b><rt><b>こ</b></rt></ruby>",
+      word: "<ruby>(お)<rt></rt>稽<rt>けい</rt><b>古</b><rt><b>こ</b></rt></ruby>",
       trans: "practice"
     }
     ]
@@ -543,7 +543,7 @@ window.WORDS = [
       trans: "saturday"
     },
     {
-      word: "<ruby>お<rt></rt><b>土</b>産<rt>みやげ</rt></ruby>",
+      word: "<ruby>(お)<rt></rt><b>土</b>産<rt>みやげ</rt></ruby>",
       trans: "souvenir"
     }
     ]
@@ -836,7 +836,7 @@ window.WORDS = [
       trans: "friday"
     },
     {
-      word: "<ruby>お<rt></rt><b>金</b><rt><b>かね</b></rt></ruby>",
+      word: "<ruby>(お)<rt></rt><b>金</b><rt><b>かね</b></rt></ruby>",
       trans: "money"
     }
     ]
@@ -1460,6 +1460,23 @@ window.WORDS = [
     {
       word: "<ruby>子<rt>こ</rt><b>犬</b><rt><b>いぬ</b></rt></ruby>",
       trans: "puppy"
+    }
+    ]
+  },
+  {
+    kanji: "祭",
+    kana: "まつ、まつり、サイ",
+    english: "ritual, offer prayers, celebrate, deify, enshrine, worship",
+    note: "JLPT N2",
+    parts: "radical: <b>示</b> (礻) (sign, altar, display, spiritual, ancestor)",
+    examples: [
+    {
+      word: "<ruby>(お)<rt></rt><b>祭</b><rt><b>まつ</b></rt>り</ruby>",
+      trans: "festival"
+    },
+    {
+      word: "<ruby><b>祭</b><rt><b>まつ</b></rt>る</ruby>",
+      trans: "to worship"
     }
     ]
   }
