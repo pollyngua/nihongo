@@ -154,12 +154,21 @@ body {
   cursor: pointer;
   opacity: .5;
 }
-.audioBtn:not(:last-of-type) {
-  margin-right: 0;
+.audioBtn:last-of-type {
+  margin-right: -.6em;
 }
 .audioBtn:hover,
 .audioBtn:active {
   opacity: 1;
+}
+@media (orientation: portrait) {
+  .audioBtn {
+    width: .5em;
+    height: .5em;
+  }
+  .audioBtn:last-of-type {
+    margin-right: -.7em;
+  }
 }
 
 #english {
