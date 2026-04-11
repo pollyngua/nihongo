@@ -193,7 +193,6 @@ function displayWord(word) {
       const span = document.createElement("span");
       span.className = "kanaText";
       span.textContent = kanaParts[i];
-      kanaEl.appendChild(span);
 
       if (audioFiles[i]) {
         const btn = document.createElement("button");
@@ -206,8 +205,10 @@ function displayWord(word) {
           audio.play().catch(() => {});
         });
 
-        kanaEl.appendChild(btn);
+        span.appendChild(btn);
       }
+
+      kanaEl.appendChild(span);
 
       if (separators[i]) {
         kanaEl.appendChild(document.createTextNode(separators[i].replace(/ /g, "\u00A0")));

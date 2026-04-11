@@ -44,20 +44,23 @@ function render(list) {
         const span = document.createElement("span");
         span.className = "kanaText";
         span.textContent = kanaParts[i];
-        kanaEl.appendChild(span);
 
         // audio button
         if (audioFiles[i]) {
           const btn = document.createElement("button");
           btn.className = "audioBtn";
           btn.type = "button";
+
           btn.addEventListener("click", e => {
             e.stopPropagation();
             const audioPlayer = new Audio(`audio/${audioFiles[i].trim()}.mp3`);
             audioPlayer.play().catch(() => {});
           });
-          kanaEl.appendChild(btn);
+
+          span.appendChild(btn); // ✅ key change
         }
+
+        kanaEl.appendChild(span);
 
         // separator (if exists)
         if (separators[i]) {
