@@ -132,6 +132,7 @@ body {
 #kana {
   height: 20%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   font-size: 3.8rem;
@@ -144,31 +145,23 @@ body {
 }
 
 .audioBtn {
-  width: .4em;
-  height: .4em;
-  margin: -.8em 0 0 .2em;
+  width: .5em;
+  height: .5em;
+  margin: -1em 0 0 .2em;
   background-image: url("../img/audio.svg");
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: contain;
+  vertical-align: middle;
   cursor: pointer;
   opacity: .5;
 }
-.audioBtn:last-of-type {
+.kanaText:last-of-type .audioBtn {
   margin-right: -.6em;
 }
 .audioBtn:hover,
 .audioBtn:active {
   opacity: 1;
-}
-@media (orientation: portrait) {
-  .audioBtn {
-    width: .5em;
-    height: .5em;
-  }
-  .audioBtn:last-of-type {
-    margin-right: -.7em;
-  }
 }
 
 #english {
