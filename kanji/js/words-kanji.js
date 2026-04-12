@@ -8,7 +8,7 @@ window.WORDS = [
     examples: [
     {
       word: "<ruby><b>水</b><rt><b>すい</b></rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
-      trans: "wednesday"
+      trans: "Wednesday"
     }
     ]
   },
@@ -540,7 +540,7 @@ window.WORDS = [
     examples: [
     {
       word: "<ruby><b>土</b><rt><b>ど</b></rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
-      trans: "saturday"
+      trans: "Saturday"
     },
     {
       word: "<ruby>(お)<rt></rt><b>土</b>産<rt>みやげ</rt></ruby>",
@@ -745,6 +745,10 @@ window.WORDS = [
     {
       word: "<ruby><b>何</b><rt><b>なに</b></rt></ruby>",
       trans: "what"
+    },
+    {
+      word: "<ruby><b>何</b><rt><b>なん</b></rt>時<rt>じ</rt></ruby>",
+      trans: "what time"
     }
     ]
   },
@@ -803,7 +807,7 @@ window.WORDS = [
     },
     {
       word: "<ruby><b>日</b><rt><b>にち</b></rt>曜<rt>よう</rt><b>日</b><rt><b>び</b></rt></ruby>",
-      trans: "sunday"
+      trans: "Sunday"
     }
     ]
   },
@@ -833,7 +837,7 @@ window.WORDS = [
     examples: [
     {
       word: "<ruby><b>金</b><rt><b>きん</b></rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
-      trans: "friday"
+      trans: "Friday"
     },
     {
       word: "<ruby>(お)<rt></rt><b>金</b><rt><b>かね</b></rt></ruby>",
@@ -850,7 +854,7 @@ window.WORDS = [
     examples: [
     {
       word: "<ruby><b>月</b><rt><b>げつ</b></rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
-      trans: "monday"
+      trans: "Monday"
     },
     {
       word: "<ruby>三<rt>み</rt>日<rt>か</rt><b>月</b><rt><b>づき</b></rt></ruby>",
@@ -867,7 +871,7 @@ window.WORDS = [
     examples: [
     {
       word: "<ruby><b>木</b><rt><b>もく</b></rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
-      trans: "thursday"
+      trans: "Thursday"
     }
     ]
   },
@@ -1054,7 +1058,7 @@ window.WORDS = [
     kana: "みち、いう、ドウ、トウ",
     english: "road-way, street, district, journey, course, moral, teachings",
     note: "JLPT N4",
-    parts: "radical: <b>辵</b> ((辶、⻌、⻍) (walk)",
+    parts: "radical: <b>辵</b> (辶、⻌、⻍) (walk)",
     examples: [
     {
       word: "<ruby>柔<rt>じゅう</rt><b>道</b><rt><b>どう</b></rt></ruby>",
@@ -1079,7 +1083,7 @@ window.WORDS = [
     examples: [
     {
       word: "<ruby><b>火</b><rt><b>か</b></rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
-      trans: "tuesday"
+      trans: "Tuesday"
     },
     {
       word: "<ruby><b>火</b><rt><b>か</b></rt>山<rt>ざん</rt></ruby>",
@@ -1357,7 +1361,7 @@ window.WORDS = [
     },
     {
       word: "<ruby>自<rt>じ</rt>動<rt>どう</rt><b>車</b><rt><b>しゃ</b></rt></ruby>",
-      trans: "car"
+      trans: "automobile"
     },
     {
       word: "<ruby>自<rt>じ</rt>転<rt>てん</rt><b>車</b><rt><b>しゃ</b></rt></ruby>",
@@ -1477,6 +1481,629 @@ window.WORDS = [
     {
       word: "<ruby><b>祭</b><rt><b>まつ</b></rt>る</ruby>",
       trans: "to worship"
+    }
+    ]
+  },
+  {
+    kanji: "学",
+    kana: "まな、ガク",
+    english: "study, learning, science",
+    note: "JLPT N5",
+    parts: "radical: <b>子</b> (孑) (child, seed)",
+    examples: [
+    {
+      word: "<ruby><b>学</b><rt><b>がく</b></rt>生<rt>せい</rt></ruby>",
+      trans: "student"
+    },
+    {
+      word: "<ruby><b>学</b><rt><b>がっ</b></rt>校<rt>こう</rt></ruby>",
+      trans: "school"
+    }
+    ]
+  },
+  {
+    kanji: "生",
+    kana: "い、う、うま、うまれ、お、は、き、なま、な、む、セイ、ショウ",
+    english: "life, genuine, birth",
+    note: "JLPT N5",
+    parts: "radical: <b>生</b> (life)",
+    examples: [
+    {
+      word: "<ruby>学<rt>がく</rt><b>生</b><rt><b>せい</b></rt></ruby>",
+      trans: "student"
+    },
+    {
+      word: "<ruby>先<rt>せん</rt><b>生</b><rt><b>せい</b></rt></ruby>",
+      trans: "teacher"
+    },
+    {
+      word: "<ruby>誕<rt>たん</rt><b>生</b><rt><b>じょう</b></rt>日<rt>び</rt></ruby>",
+      trans: "birthday"
+    },
+    {
+      word: "<ruby><b>生</b><rt><b>なま</b></rt></ruby>",
+      trans: "raw"
+    }
+    ]
+  },
+  {
+    kanji: "田",
+    kana: "た、デン",
+    english: "rice field, rice paddy",
+    note: "JLPT N4",
+    parts: "radical: <b>田</b> (field)",
+    examples: [
+    {
+      word: "<ruby><b>田</b><rt><b>た</b></rt></ruby>",
+      trans: "rice field"
+    }
+    ]
+  },
+  {
+    kanji: "中",
+    kana: "なか、うち、あた、チュウ",
+    english: "in, inside, middle, mean, center",
+    note: "JLPT N5",
+    parts: "radical: <b>丨</b> (｜) (line)",
+    examples: [
+    {
+      word: "<ruby>背<rt>せ</rt><b>中</b><rt><b>なか</b></rt></ruby>",
+      trans: "back (of body)"
+    },
+    {
+      word: "<ruby><b>中</b><rt><b>なか</b></rt>指<rt>ゆび</rt></ruby>",
+      trans: "middle finger"
+    },
+    {
+      word: "<ruby><b>中</b><rt><b>ちゅう</b></rt>段<rt>だん</rt></ruby>",
+      trans: "middle level"
+    }
+    ]
+  },
+  {
+    kanji: "口",
+    kana: "くち、コウ、ク",
+    english: "mouth",
+    note: "JLPT N4",
+    parts: "radical: <b>口</b> (品) (mouth, opening)",
+    examples: [
+    {
+      word: "<ruby><b>口</b><rt><b>くち</b></rt></ruby>",
+      trans: "mouth"
+    },
+    {
+      word: "<ruby>出<rt>で</rt><b>口</b><rt><b>ぐち</b></rt></ruby>",
+      trans: "exit"
+    },
+    {
+      word: "<ruby>入<rt>い</rt>り<rt></rt><b>口</b><rt><b>ぐち</b></rt></ruby>",
+      trans: "entrance"
+    }
+    ]
+  },
+  {
+    kanji: "週",
+    kana: "シュウ",
+    english: "week",
+    note: "JLPT N4",
+    parts: "radical: <b>辵</b> (辶、⻌、⻍) (walk)",
+    examples: [
+    {
+      word: "<ruby>来<rt>らい</rt><b>週</b><rt><b>しゅう</b></rt></ruby>",
+      trans: "next week"
+    },
+    {
+      word: "<ruby><b>週</b><rt><b>しゅう</b></rt>末<rt>まつ</rt></ruby>",
+      trans: "weekend"
+    }
+    ]
+  },
+  {
+    kanji: "末",
+    kana: "すえ、うら、うれ、マツ、バツ",
+    english: "end, close, tip, powder, posterity",
+    note: "JLPT N3",
+    parts: "radical: <b>木</b> (tree, wood)",
+    examples: [
+    {
+      word: "<ruby>週<rt>しゅう</rt><b>末</b><rt><b>まつ</b></rt></ruby>",
+      trans: "weekend"
+    }
+    ]
+  },
+  {
+    kanji: "曜",
+    kana: "ヨウ",
+    english: "weekday",
+    note: "JLPT N4",
+    parts: "radical: <b>日</b> (sun, day)",
+    examples: [
+    {
+      word: "<ruby>水<rt>すい</rt><b>曜</b><rt><b>よう</b></rt>日<rt>び</rt></ruby>",
+      trans: "Wednesday"
+    },
+    {
+      word: "<ruby>何<rt>なん</rt><b>曜</b><rt><b>よう</b></rt>日<rt>び</rt></ruby>",
+      trans: "what day"
+    }
+    ]
+  },
+  {
+    kanji: "明",
+    kana: "あ、あか、あき、メイ、ミョウ、ミン",
+    english: "bright, light",
+    note: "JLPT N4",
+    parts: "radical: <b>日</b> (sun, day)",
+    examples: [
+    {
+      word: "<ruby><b>明</b><rt><b>あ</b></rt>日<rt>した</rt></ruby>",
+      trans: "tomorrow"
+    },
+    {
+      word: "<ruby><b>明</b><rt><b>あか</b></rt>るい</ruby>",
+      trans: "well-lit; cheerful"
+    }
+    ]
+  },
+  {
+    kanji: "物",
+    kana: "もの、ブツ、モツ",
+    english: "thing, object, matter",
+    note: "JLPT N4",
+    parts: "radical: <b>牛</b> (牜、⺧) (cow)",
+    examples: [
+    {
+      word: "<ruby>買<rt>か</rt>い<rt></rt><b>物</b><rt><b>もの</b></rt></ruby>",
+      trans: "shopping"
+    },
+    {
+      word: "<ruby>動<rt>どう</rt><b>物</b><rt><b>ぶつ</b></rt></ruby>",
+      trans: "animal"
+    },
+    {
+      word: "<ruby>乗<rt>の</rt>り<rt></rt><b>物</b><rt><b>もの</b></rt></ruby>",
+      trans: "vehicle"
+    },
+    {
+      word: "<ruby><b>物</b><rt><b>もの</b></rt>語<rt>がたり</rt></ruby>",
+      trans: "story"
+    }
+    ]
+  },
+  {
+    kanji: "前",
+    kana: "まえ、ゼン",
+    english: "in front, before",
+    note: "JLPT N5",
+    parts: "radical: <b>刀</b> (刂、⺉、⺈) (knife, sword)",
+    examples: [
+    {
+      word: "<ruby>名<rt>な</rt><b>前</b><rt><b>まえ</b></rt></ruby>",
+      trans: "name"
+    },
+    {
+      word: "<ruby>午<rt>ご</rt><b>前</b><rt><b>ぜん</b></rt></ruby>",
+      trans: "a.m."
+    }
+    ]
+  },
+  {
+    kanji: "東",
+    kana: "ひがし、トウ",
+    english: "east",
+    note: "JLPT N5",
+    parts: "radical: <b>木</b> (tree, wood)",
+    examples: [
+    {
+      word: "<ruby><b>東</b><rt><b>ひがし</b></rt></ruby>",
+      trans: "east"
+    },
+    {
+      word: "<ruby><b>東</b><rt><b>とう</b></rt>京<rt>きょう</rt></ruby>",
+      trans: "Tokyo"
+    }
+    ]
+  },
+  {
+    kanji: "京",
+    kana: "みやこ、キョウ、ケイ、キン",
+    english: "capital, 10^16",
+    note: "JLPT N4",
+    parts: "radical: <b>亠</b> (head, above, lid)",
+    examples: [
+    {
+      word: "<ruby>東<rt>とう</rt><b>京</b><rt><b>きょう</b></rt></ruby>",
+      trans: "Tokyo"
+    },
+    {
+      word: "<ruby><b>京</b><rt><b>きょう</b></rt>都<rt>と</rt></ruby>",
+      trans: "Kyoto"
+    }
+    ]
+  },
+  {
+    kanji: "都",
+    kana: "みやこ、ト、ツ",
+    english: "metropolis, capital, all, everything",
+    note: "JLPT N3",
+    parts: "radical: <b>阝</b> (邑) (town, village)",
+    examples: [
+    {
+      word: "<ruby>京<rt>きょう</rt><b>都</b><rt><b>と</b></rt></ruby>",
+      trans: "Kyoto"
+    },
+    {
+      word: "<ruby><b>都</b><rt><b>と</b></rt>市<rt>し</rt></ruby>",
+      trans: "city"
+    }
+    ]
+  },
+  {
+    kanji: "失",
+    kana: "うしな、う、シツ",
+    english: "lose, error, fault, disadvantage, loss",
+    note: "JLPT N3",
+    parts: "radical: <b>大</b> (big, very)",
+    examples: [
+    {
+      word: "<ruby><b>失</b><rt><b>しつ</b></rt>礼<rt>れい</rt>ですが</ruby>",
+      trans: "excuse me, but..."
+    },
+    {
+      word: "<ruby><b>失</b><rt><b>しっ</b></rt>格<rt>かく</rt></ruby>",
+      trans: "disqualification"
+    },
+    {
+      word: "<ruby><b>失</b><rt><b>しっ</b></rt></ruby>",
+      trans: "loss; mistake"
+    }
+    ]
+  },
+  {
+    kanji: "礼",
+    kana: "レイ、ライ",
+    english: "salute, bow, ceremony, thanks, remuneration",
+    note: "JLPT N3",
+    parts: "radical: <b>示</b> (礻) (sign, altar, display, spiritual, ancestor)",
+    examples: [
+    {
+      word: "<ruby><b>礼</b><rt><b>れい</b></rt>三<rt>さん</rt>息<rt>そく</rt></ruby>",
+      trans: "bow w/ 3 breaths"
+    }
+    ]
+  },
+  {
+    kanji: "計",
+    kana: "はか、ケイ",
+    english: "plot, plan, scheme, measure",
+    note: "JLPT N4",
+    parts: "radical: <b>言</b> (訁) (speech)",
+    examples: [
+    {
+      word: "<ruby>時<b>計</b><rt>とけい</rt></ruby>",
+      trans: "clock; watch"
+    }
+    ]
+  },
+  {
+    kanji: "絵",
+    kana: "カイ、エ",
+    english: "picture, drawing, painting, sketch",
+    note: "JLPT N3",
+    parts: "radical: <b>糸</b> (糹) (silk, thread, fabric)",
+    examples: [
+    {
+      word: "<ruby><b>絵</b><rt><b>え</b></rt>本<rt>ほん</rt></ruby>",
+      trans: "picture book"
+    }
+    ]
+  },
+  {
+    kanji: "昨",
+    kana: "サク",
+    english: "yesterday, previous",
+    note: "JLPT N3",
+    parts: "radical: <b>日</b> (sun, day)",
+    examples: [
+    {
+      word: "<ruby><b>昨</b>日<rt>きのう</rt></ruby>",
+      trans: "yesterday"
+    },
+    {
+      word: "<ruby><b>昨</b><rt><b>さく</b></rt>年<rt>ねん</rt></ruby>",
+      trans: "last year"
+    }
+    ]
+  },
+  {
+    kanji: "働",
+    kana: "はたら、ドウ",
+    english: "work, labor",
+    note: "JLPT N3",
+    parts: "radical: <b>人</b> (亻、⺅、𠆢) (man, human)",
+    examples: [
+    {
+      word: "<ruby><b>働</b><rt><b>はたら</b></rt>く</ruby>",
+      trans: "to work"
+    }
+    ]
+  },
+  {
+    kanji: "勉",
+    kana: "つと、ベン",
+    english: "exertion, endeavour, encourage, strive, make effort, diligent",
+    note: "JLPT N4",
+    parts: "radical: <b>力</b> (power, force)",
+    examples: [
+    {
+      word: "<ruby><b>勉</b><rt><b>べん</b></rt>強<rt>きょう</rt></ruby>",
+      trans: "study"
+    }
+    ]
+  },
+  {
+    kanji: "強",
+    kana: "つよ、し、こわ、キョウ、ゴウ",
+    english: "strong",
+    note: "JLPT N4",
+    parts: "radical: <b>弓</b> (bow)",
+    examples: [
+    {
+      word: "<ruby>勉<rt>べん</rt><b>強</b><rt><b>きょう</b></rt></ruby>",
+      trans: "study"
+    },
+    {
+      word: "<ruby><b>強</b><rt><b>つよ</b></rt>い</ruby>",
+      trans: "strong"
+    }
+    ]
+  },
+  {
+    kanji: "自",
+    kana: "みずか、おの、ジ、シ",
+    english: "oneself",
+    note: "JLPT N4",
+    parts: "radical: <b>自</b> (self)",
+    examples: [
+    {
+      word: "<ruby><b>自</b><rt><b>じ</b></rt>転<rt>てん</rt>車<rt>しゃ</rt></ruby>",
+      trans: "bicycle"
+    },
+    {
+      word: "<ruby><b>自</b><rt><b>じ</b></rt>動<rt>どう</rt>車<rt>しゃ</rt></ruby>",
+      trans: "automobile"
+    },
+    {
+      word: "<ruby><b>自</b><rt><b>し</b></rt>然<rt>ぜん</rt></ruby>",
+      trans: "nature"
+    },
+    {
+      word: "<ruby><b>自</b><rt><b>じ</b></rt>由<rt>ゆう</rt></ruby>",
+      trans: "freedom"
+    }
+    ]
+  },
+  {
+    kanji: "動",
+    kana: "うご、ドウ",
+    english: "move, motion, change, confusion, shift, shake",
+    note: "JLPT N4",
+    parts: "radical: <b>力</b> (power, force)",
+    examples: [
+    {
+      word: "<ruby><b>動</b><rt><b>どう</b></rt>物<rt>ぶつ</rt></ruby>",
+      trans: "animal"
+    },
+    {
+      word: "<ruby>自<rt>じ</rt><b>動</b><rt><b>どう</b></rt>車<rt>しゃ</rt></ruby>",
+      trans: "automobile"
+    },
+    {
+      word: "<ruby>運<rt>うん</rt><b>動</b><rt><b>どう</b></rt></ruby>",
+      trans: "exercise"
+    },
+    {
+      word: "<ruby>不<rt>ふ</rt><b>動</b><rt><b>どう</b></rt></ruby>",
+      trans: "immovable"
+    }
+    ]
+  },
+  {
+    kanji: "先",
+    kana: "さき、ま、セン",
+    english: "before, ahead, previous, future, precedence",
+    note: "JLPT N4",
+    parts: "radical: <b>儿</b> (legs)",
+    examples: [
+    {
+      word: "<ruby><b>先</b><rt><b>せん</b></rt>生<rt>せい</rt></ruby>",
+      trans: "teacher"
+    },
+    {
+      word: "<ruby><b>先</b><rt><b>せん</b></rt>輩<rt>ぱい</rt></ruby>",
+      trans: "senior"
+    },
+    {
+      word: "<ruby><b>先</b><rt><b>せん</b></rt>週<rt>しゅう</rt></ruby>",
+      trans: "last week"
+    }
+    ]
+  },
+  {
+    kanji: "輩",
+    kana: "ばら、やから、やかい、ともがら、ハイ",
+    english: "comrade, fellow, people, companions",
+    note: "JLPT N1",
+    parts: "radical: <b>車</b> (cart, car)",
+    examples: [
+    {
+      word: "<ruby>先<rt>せん</rt><b>輩</b><rt><b>ぱい</b></rt></ruby>",
+      trans: "senior"
+    },
+    {
+      word: "<ruby>後<rt>こう</rt><b>輩</b><rt><b>はい</b></rt></ruby>",
+      trans: "junior"
+    }
+    ]
+  },
+  {
+    kanji: "度",
+    kana: "たび、た、ド、ト、タク",
+    english: "degrees, occurrence, time, counter for occurrences, consider, attitude",
+    note: "JLPT N4",
+    parts: "radical: <b>广</b> (house on cliff)",
+    examples: [
+    {
+      word: "<ruby>もう<rt></rt>一<rt>いち</rt><b>度</b><rt><b>ど</b></rt></ruby>",
+      trans: "once more"
+    }
+    ]
+  },
+  {
+    kanji: "元",
+    kana: "もと、ゲン、ガン",
+    english: "beginning, former time, origin",
+    note: "JLPT N4",
+    parts: "radical: <b>儿</b> (legs)",
+    examples: [
+    {
+      word: "<ruby><b>元</b><rt><b>もと</b></rt></ruby>",
+      trans: "beginning​"
+    },
+    {
+      word: "<ruby><b>元</b><rt><b>げん</b></rt>気<rt>き</rt></ruby>",
+      trans: "lively; healthy"
+    }
+    ]
+  },
+  {
+    kanji: "気",
+    kana: "いき、き、キ、ケ",
+    english: "spirit, mind, air, atmosphere, mood",
+    note: "JLPT N5",
+    parts: "radical: <b>气</b> (steam, air, breath)",
+    examples: [
+    {
+      word: "<ruby>電<rt>でん</rt><b>気</b><rt><b>き</b></rt></ruby>",
+      trans: "electricity"
+    },
+    {
+      word: "<ruby>天<rt>てん</rt><b>気</b><rt><b>き</b></rt></ruby>",
+      trans: "weather"
+    },
+    {
+      word: "<ruby>元<rt>げん</rt><b>気</b><rt><b>き</b></rt></ruby>",
+      trans: "lively; healthy"
+    }
+    ]
+  },
+  {
+    kanji: "年",
+    kana: "とし、ネン",
+    english: "year, counter for years",
+    note: "JLPT N5",
+    parts: "radical: <b>干</b> (pestle)",
+    examples: [
+    {
+      word: "<ruby>今<b>年</b><rt>ことし</rt></ruby>",
+      trans: "this year"
+    },
+    {
+      word: "<ruby>去<rt>きょ</rt><b>年</b><rt><b>ねん</b></rt></ruby>",
+      trans: "last year"
+    },
+    {
+      word: "<ruby>毎<rt>まい</rt><b>年</b><rt><b>とし</b></rt></ruby>",
+      trans: "every year"
+    }
+    ]
+  },
+  {
+    kanji: "書",
+    kana: "か、が、がき、ショ",
+    english: "write",
+    note: "JLPT N5",
+    parts: "radical: <b>曰</b> (say, speaking)",
+    examples: [
+    {
+      word: "<ruby>図<rt>と</rt><b>書</b><rt><b>しょ</b></rt>館<rt>かん</rt></ruby>",
+      trans: "library"
+    },
+    {
+      word: "<ruby><b>書</b><rt><b>か</b></rt>く</ruby>",
+      trans: "to write"
+    }
+    ]
+  },
+  {
+    kanji: "吸",
+    kana: "す、キュウ",
+    english: "suck, imbibe, inhale, sip",
+    note: "JLPT N3",
+    parts: "radical: <b>口</b> (品) (mouth, opening)",
+    examples: [
+    {
+      word: "<ruby>呼<rt>こ</rt><b>吸</b><rt><b>きゅう</b></rt></ruby>",
+      trans: "breathing"
+    },
+    {
+      word: "<ruby><b>吸</b><rt><b>す</b></rt>う</ruby>",
+      trans: "to breathe in"
+    }
+    ]
+  },
+  {
+    kanji: "息",
+    kana: "いき、ソク",
+    english: "breath, respiration, son, interest (on money), rest, coming to an end",
+    note: "JLPT N3",
+    parts: "radical: <b>心</b> (忄、⺗) (heart)",
+    examples: [
+    {
+      word: "<ruby><b>息</b><rt><b>いき</b></rt></ruby>",
+      trans: "breath"
+    },
+    {
+      word: "<ruby>礼<rt>れい</rt>三<rt>さん</rt><b>息</b><rt><b>そく</b></rt></ruby>",
+      trans: "bow w/ 3 breaths"
+    },
+    {
+      word: "<ruby><b>息</b>子<rt>むすこ</rt></ruby>",
+      trans: "son"
+    }
+    ]
+  },
+  {
+    kanji: "記",
+    kana: "しる、キ",
+    english: "scribe, account, narrative",
+    note: "JLPT N3",
+    parts: "radical: <b>言</b> (訁) (speech)",
+    examples: [
+    {
+      word: "<ruby>日<b>記</b><rt>にっき</rt></ruby>",
+      trans: "diary"
+    }
+    ]
+  },
+  {
+    kanji: "語",
+    kana: "かた、ゴ",
+    english: "word, speech, language",
+    note: "JLPT N5",
+    parts: "radical: <b>言</b> (訁) (speech)",
+    examples: [
+    {
+      word: "<ruby>物<rt>もの</rt><b>語</b><rt><b>がたり</b></rt></ruby>",
+      trans: "story"
+    },
+    {
+      word: "<ruby>英<rt>えい</rt><b>語</b><rt><b>ご</b></rt></ruby>",
+      trans: "English"
+    },
+    {
+      word: "<ruby>言<rt>げん</rt><b>語</b><rt><b>ご</b></rt></ruby>",
+      trans: "language"
     }
     ]
   }
