@@ -209,7 +209,7 @@ window.WORDS = [
   {
     kanji: "駅",
     kana: "えき",
-    english: { main: "<i>1.</i> train station; <i>2. counter for railway stations and bus stations</i>", note: "noun; counter" }
+    english: { main: "<i>1.</i> train station; <i>2. counter for railway stations and bus stations</i>", note: "noun; counter; JLPT N4" }
   },
   {
     kana: "だいがく",
@@ -424,7 +424,7 @@ window.WORDS = [
   {
     kanji: "住む/住みます",
     kana: "すむ/すみます",
-    english: { main: "to live <i>(of humans)</i>; to reside", note: "verb (godan, intr.)", example: "東京に<b>すんでいます</b> (i live in tokyo)" }
+    english: { main: "to live <i>(of humans)</i>; to reside", note: "verb (godan, intr.); JLPT N4", example: "東京に<b>すんでいます</b> (i live in tokyo)" }
   },
   {
     kana: "にぎやか",
@@ -628,7 +628,7 @@ window.WORDS = [
     english: { main: "TV", note: "noun" }
   },
   {
-    kanji: "映画",
+    // kanji: "映画",
     kana: "えいが",
     english: { main: "movie", note: "noun" },
     audio: "movie"
@@ -1724,7 +1724,7 @@ window.WORDS = [
     english: { main: "to be; to exist <i>(of animate objects)</i>", note: "verb (ichidan, intr.)", example: "きょうだいは<b>います</b>か (do you have siblings?);<br>ゆうめいなおとうとが<b>います</b> (i have a famous younger brother)" }
   },
   {
-    kanji: "日本ご",
+    kanji: "日本語",
     kana: "にほんご",
     english: { main: "Japanese (language)", note: "noun" }
   },
@@ -2451,7 +2451,7 @@ window.WORDS = [
   {
     kanji: "働く/働きます",
     kana: "はたらく/はたらきます",
-    english: { main: "to work", note: "verb (godan, intr.)", example: "昨日<b>働きました</b>か (did you work yesterday?)" },
+    english: { main: "to work", note: "verb (godan, intr.); JLPT N3", example: "昨日<b>働きました</b>か (did you work yesterday?)" },
     audio: "to-work,"
   },
   {
@@ -3177,7 +3177,7 @@ window.WORDS = [
   {
     kanji: "切る/切ります",
     kana: "きる/きります",
-    english: { main: "to cut", note: "verb (godan, tr.)" }
+    english: { main: "to cut", note: "verb (godan, tr.); JLPT N4" }
   },
   {
     kanji: "八月",
