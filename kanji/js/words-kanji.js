@@ -825,6 +825,10 @@ window.WORDS = [
     {
       word: "<ruby><b>会</b><rt><b>かい</b></rt>社<rt>しゃ</rt></ruby>",
       trans: "company; firm"
+    },
+    {
+      word: "<ruby>誕<rt>たん</rt>生<rt>じょう</rt>日<rt>び</rt><b>会</b><rt><b>かい</b></rt></ruby>",
+      trans: "birthday party"
     }
     ]
   },
@@ -2104,6 +2108,19 @@ window.WORDS = [
     {
       word: "<ruby>言<rt>げん</rt><b>語</b><rt><b>ご</b></rt></ruby>",
       trans: "language"
+    }
+    ]
+  },
+  {
+    kanji: "始",
+    kana: "はじ、シ",
+    english: "commence, begin",
+    note: "JLPT N4",
+    parts: "radical: <b>女</b> (woman, female)",
+    examples: [
+    {
+      word: "<ruby><b>始</b><rt><b>はじ</b></rt>める</ruby>",
+      trans: "to begin"
     }
     ]
   }
