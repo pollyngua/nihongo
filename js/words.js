@@ -1909,7 +1909,7 @@ window.WORDS = [
   {
     kanji: "会う/会います",
     kana: "あう/あいます",
-    english: { main: "to meet", note: "verb (godan, intr.); JLPT N4" }
+    english: { main: "to meet <i>(if preceded by a noun, always [noun]に～)</i>", note: "verb (godan, intr.); JLPT N4", example: "ともだちに<b>会います</b> (i'm going to see my friend)" }
   },
   {
     kana: "スーツケース",
@@ -1997,7 +1997,7 @@ window.WORDS = [
   },
   {
     kana: "のる/のります",
-    english: { main: "to ride; to get on; to take <i>(train, etc.)</i>", note: "verb (godan, intr.)", example: "しんかんせんに<b>のります</b> (we're going to ride the bullet train)" }
+    english: { main: "to ride; to get on; to take <i>(train, etc.)</i> <i>(always に～)</i>", note: "verb (godan, intr.)", example: "しんかんせんに<b>のります</b> (we're going to ride the bullet train)" }
   },
   {
     kana: "なごや",
@@ -2252,8 +2252,9 @@ window.WORDS = [
     english: { main: "six", note: "numeric; JLPT N5", example: "金曜日はテストが<b>むっつ</b>あります (on friday, i have six tests)" }
   },
   {
+    // kanji: "終わる/終わります",
     kana: "おわる/おわります",
-    english: { main: "to end", note: "verb (godan, intr.)", example: "じゅぎょうは何時に<b>おわります</b>か (what time does class end?)" }
+    english: { main: "to end; to finish", note: "verb (godan, intr.)", example: "じゅぎょうは何時に<b>おわります</b>か (what time does class end?)" }
   },
   {
     kanji: "水曜日",
@@ -2933,6 +2934,7 @@ window.WORDS = [
     english: { main: "wine", note: "noun" }
   },
   {
+    // kanji: "誕生日",
     kana: "たんじょうび",
     english: { main: "birthday", note: "noun", example: "日曜日は私の<b>たんじょうび</b>です (sunday is my birthday)" },
     audio: "birthday"
@@ -3398,5 +3400,22 @@ window.WORDS = [
   {
     kana: "ポテトチップス",
     english: { main: "potato chips", note: "noun" }
+  },
+  {
+    kana: "りんご",
+    english: { main: "apple", note: "noun" },
+    audio: "apple"
+  },
+  {
+    kanji: "始める/始めます",
+    kana: "はじめる/はじめます",
+    english: { main: "to start; to begin", note: "verb (ichidan, tr.); JLPT N4" },
+    audio: "to-begin,to-begin-polite"
+  },
+  {
+    // kanji: "誕生日会",
+    kana: "たんじょうびかい",
+    english: { main: "birthday party", note: "noun; verb (suru)" },
+    audio: "birthday-party"
   }
 ];
