@@ -2123,5 +2123,22 @@ window.WORDS = [
       trans: "to begin"
     }
     ]
+  },
+  {
+    kanji: "肉",
+    kana: "しし、ニク",
+    english: "meat",
+    note: "JLPT N4",
+    parts: "radical: <b>肉</b> (⺼、月) (meat, organs of the body)",
+    examples: [
+    {
+      word: "<ruby>筋<rt>きん</rt><b>肉</b><rt><b>にく</b></rt></ruby>",
+      trans: "muscle"
+    },
+    {
+      word: "<ruby>豚<rt>ぶた</rt><b>肉</b><rt><b>にく</b></rt></ruby>",
+      trans: "pork"
+    }
+    ]
   }
 ];
