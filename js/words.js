@@ -1149,6 +1149,7 @@ window.WORDS = [
     english: { main: "<i>1.</i> to make; <i>2.</i> to prepare <i>(food)</i>", note: "verb (godan, tr.); JLPT N4" }
   },
   {
+    kanji: "毎週",
     kana: "まいしゅう",
     english: { main: "every week", note: "noun; adverb" },
     audio: "every-week"
@@ -1175,6 +1176,7 @@ window.WORDS = [
     english: { main: "to take <i>(e.g. shower)</i>", note: "verb (ichidan, tr.)" }
   },
   {
+    kanji: "来週",
     kana: "らいしゅう",
     english: { main: "next week", note: "noun; adverb" }
   },
@@ -1351,6 +1353,7 @@ window.WORDS = [
     english: { main: "washing machine", note: "noun" }
   },
   {
+    kanji: "今週",
     kana: "こんしゅう",
     english: { main: "this week", note: "noun; adverb" },
     audio: "this-week"
@@ -1934,7 +1937,7 @@ window.WORDS = [
   },
   {
     kana: "で",
-    english: { main: "at; in <i>(​indicates location of action)</i>", note: "particle", example: "コンビニ<b>で</b>おかしを買いましょう (we should buy snacks at the convenience store);<br>ここ<b>で</b>みちをわたりましょう (we should cross the street here)" }
+    english: { main: "<i>1.</i> at; in <i>(​indicates location of action)</i>; <i>2.</i> at; when <i>(indicates time of action)</i>; <i>3.</i> by; with <i>(indicates means of action)</i>", note: "particle", example: "(1) コンビニ<b>で</b>おかしを買いましょう (we should buy snacks at the convenience store);<br>(1) ここ<b>で</b>みちをわたりましょう (we should cross the street here)" }
   },
   {
     kana: "どうぶつえん",
@@ -1959,6 +1962,7 @@ window.WORDS = [
     audio: "plaza"
   },
   {
+    kanji: "肉",
     kana: "にく",
     english: { main: "meat", note: "noun" }
   },
@@ -3417,5 +3421,22 @@ window.WORDS = [
     kana: "たんじょうびかい",
     english: { main: "birthday party", note: "noun; verb (suru)" },
     audio: "birthday-party"
+  },
+  {
+    // kanji: "居酒屋",
+    kana: "いざかや",
+    english: { main: "izakaya; Japanese-style pub", note: "noun" },
+    audio: "izakaya"
+  },
+  {
+    kanji: "先週",
+    kana: "せんしゅう",
+    english: { main: "last week", note: "noun; adverb" }
+  },
+  {
+    // kanji: "洋服",
+    kana: "ようふく",
+    english: { main: "Western-style clothes", note: "noun" },
+    audio: "western-clothes"
   }
 ];
