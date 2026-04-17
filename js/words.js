@@ -3289,7 +3289,7 @@ window.WORDS = [
   },
   {
     kana: "ボランティア",
-    english: { main: "volunteer", note: "noun" }
+    english: { main: "volunteer", note: "noun", example: "まいしゅうまちで<b>ボランティア</b>をします (every week i volunteer in town)" }
   },
   {
     kanji: "-年生",
@@ -3438,5 +3438,23 @@ window.WORDS = [
     kana: "ようふく",
     english: { main: "Western-style clothes", note: "noun" },
     audio: "western-clothes"
+  },
+  {
+    kanji: "何も",
+    kana: "なにも",
+    english: { main: "(not) anything; (nothing) at all; (not) any; nothing <i>(with negative verb)</i>", note: "expression", example: "今朝<b>何も</b>食べませんでした (i didn't eat anything this morning)" }
+  },
+  {
+    // kanji: "誰も",
+    kana: "だれも",
+    english: { main: "no one; nobody <i>(with negative verb)</i>", note: "expression", example: "昨日<b>だれも</b>来ませんでした (yesterday, nobody came);<br>昨日<b>だれにも</b>会いませんでした (i didn't meet anyone yesterday [会う requires に])" }
+  },
+  {
+    kana: "どこも",
+    english: { main: "nowhere <i>(with negative verb)</i>", note: "conjunction", example: "明日<b>どこも</b>行きません/明日<b>どこにも</b>行きません (i'm not going anywhere tomorrow [both correct]); " }
+  },
+  {
+    kana: "いつもどうもありがとう(ございます)",
+    english: { main: "thank you (very much) as always", note: "polite" }
   }
 ];
