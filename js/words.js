@@ -1863,7 +1863,7 @@ window.WORDS = [
   },
   {
     kana: "そして",
-    english: { main: "then; and then", note: "conjunction" }
+    english: { main: "and; and then", note: "conjunction" }
   },
   {
     kana: "はいる/はいります",
@@ -2117,6 +2117,7 @@ window.WORDS = [
     english: { main: "egg", note: "noun; JLPT N2" }
   },
   {
+    // kanji: "野菜",
     kana: "やさい",
     english: { main: "vegetable", note: "noun" }
   },
@@ -3456,5 +3457,34 @@ window.WORDS = [
   {
     kana: "いつもどうもありがとう(ございます)",
     english: { main: "thank you (very much) as always", note: "polite" }
+  },
+  {
+    kanji: "何か",
+    kana: "なにか",
+    english: { main: "something", note: "pronoun; JLPT N5", example: "昨日デパートで<b>何か</b>買いましたか (did you buy something at the department store yesterday?)" }
+  },
+  {
+    // kanji: "誰か",
+    kana: "だれか",
+    english: { main: "someone; somebody", note: "pronoun", example: "昨日<b>だれか</b>に会いましたか (did you meet anyone yesterday?)" }
+  },
+  {
+    // kanji: "助ける/助けます",
+    kana: "たすける/たすけます",
+    english: { main: "<i>1.</i> to save; to rescue; <i>2.</i> to help; to assist", note: "verb (ichidan, tr.)", example: "だれか<b>たすけて</b>！ (someone, help!)" },
+    audio: "to-save-to-help,to-save-to-help-polite"
+  },
+  {
+    kana: "どこか",
+    english: { main: "somewhere", note: "noun; adverb", example: "<b>どこか</b>でいっしょに食べませんか (would you like to eat together somewhere?)" }
+  },
+  {
+    kana: "いつか",
+    english: { main: "sometime; someday", note: "adverb", example: "<b>いつか</b>日本に行きます (i will go to japan someday)" }
+  },
+  {
+    kana: "また",
+    english: { main: "again; once more", note: "adverb", example: "いつか<b>また</b>会いましょう (let's meet again someday)" },
+    audio: "again-once-more"
   }
 ];
