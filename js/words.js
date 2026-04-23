@@ -1867,7 +1867,7 @@ window.WORDS = [
   },
   {
     kana: "はいる/はいります",
-    english: { main: "<i>1.</i> to enter; <i>2.</i> to join <i>(a club, company, etc.)</i>", note: "verb (godan, intr.)", example: "(1) まいばんおふろに<b>はいります</b> (i take a bath (lit. 'enter a bath') every night);<br>(2) アンドリューさんも日本ごサークルに<b>はいりません</b>か (would you also like to join the japanese club, andrew?)" },
+    english: { main: "<i>1.</i> to enter; <i>2.</i> to join <i>(a club, company, etc.)</i>", note: "verb (godan, intr.)", example: "(1) まいばんおふろに<b>はいります</b> (i take a bath (lit. enter a bath) every night);<br>(2) アンドリューさんも日本ごサークルに<b>はいりません</b>か (would you also like to join the japanese club, andrew?)" },
     audio: ",to-enter-polite"
   },
   {
@@ -3486,5 +3486,30 @@ window.WORDS = [
     kana: "また",
     english: { main: "again; once more", note: "adverb", example: "いつか<b>また</b>会いましょう (let's meet again someday)" },
     audio: "again-once-more"
+  },
+  {
+    // kanji: "果物",
+    kana: "くだもの",
+    english: { main: "fruit", note: "noun", example: "やさいと<b>くだもの</b>を買いました。 (i bought some vegetables and fruits)" },
+    audio: "fruit"
+  },
+  {
+    kana: "それから",
+    english: { main: "and then; after that", note: "expression", example: "犬とさんぽしました。<b>それから</b>、朝ごはんを食べました。 (i took the dog for a walk. after that, i ate breakfast.)" }
+  },
+  {
+    // kanji: "散歩",
+    kana: "さんぽ",
+    english: { main: "walk; stroll", note: "noun; verb (suru, intr.)", example: "犬と<b>さんぽしました</b> (i took the dog for a walk)" },
+    audio: "walk-stroll"
+  },
+  {
+    kana: "これから",
+    english: { main: "<i>1.</i> from now on; after this; in the future; <i>2.</i> from here; from this point", note: "expression", example: "もうしゅくだいをしましたか。いいえ、<b>これから</b>します。 (did you do your homework yet? no, i'll do it now (lit. after this/starting now).)" }
+  },
+  {
+    kana: "もう",
+    english: { main: "already; yet", note: "adverb", example: "<b>もう</b>しゅくだいをしましたか (did you do your homework yet?)" },
+    audio: "already-yet"
   }
 ];
