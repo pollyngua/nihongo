@@ -125,6 +125,7 @@ body {
 }
 
 .english {
+  max-width: 44rem;
   font-size: 1.2rem;
   color: #a2a9ba;
 }
