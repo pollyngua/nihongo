@@ -1271,7 +1271,7 @@ window.WORDS = [
   {
     kanji: "家",
     kana: "いえ | うち",
-    english: { main: "house; home | one's house; one's home", note: "noun; JLPT N4", example: "<b>おうち</b>はどちらですか ([honorific] where is your house?)" },
+    english: { main: "house; home | one's house; one's home <i>[kana]</i>", note: "noun; JLPT N4", example: "<b>おうち</b>はどちらですか ([honorific] where is your house?)" },
     audio: "house, one-s-house"
   },
   {
@@ -1806,6 +1806,7 @@ window.WORDS = [
     audio: "work-job"
   },
   {
+    // kanji: "帰る/帰ります",
     kana: "かえる/かえります",
     english: { main: "to return", note: "verb (godan, intr.)", example: "しごとのあと、うちに<b>かえります</b> (after work, i return home)" },
     audio: "to-return,to-return-polite"
@@ -2102,6 +2103,7 @@ window.WORDS = [
     english: { main: "Thursday", note: "noun; adverb" }
   },
   {
+    // kanji: "暇",
     kana: "ひま",
     english: { main: "free", note: "na-adjective", example: "いま<b>ひま</b>ですか (are you free now?)" },
     audio: "free"
@@ -3373,7 +3375,7 @@ window.WORDS = [
     kanji: "書く/書きます",
     kana: "かく/かきます",
     english: { main: "<i>1.</i> to write; <i>2.</i> to draw", note: "verb (godan, tr.); JLPT N5", example: "てがみを<b>書きます</b> (i will write a letter)" },
-    audio: ",to-write-polite"
+    audio: "to-write,to-write-polite"
   },
   {
     kanji: "吸う/吸います",
@@ -3511,5 +3513,34 @@ window.WORDS = [
     kana: "もう",
     english: { main: "already; yet", note: "adverb", example: "<b>もう</b>しゅくだいをしましたか (did you do your homework yet?)" },
     audio: "already-yet"
+  },
+  {
+    kanji: "猫",
+    kana: "ねこ",
+    english: { main: "cat", note: "noun", example: "<b>猫</b>は毎日うちに来ます (the cats come to the house every day)" }
+  },
+  {
+    kanji: "今年",
+    kana: "ことし",
+    english: { main: "this year", note: "noun; adverb", example: "<b>今年</b>日本にかえります (this year, i'll go back to japan)" },
+    audio: "this-year"
+  },
+  {
+    // kanji: "和食",
+    kana: "わしょく",
+    english: { main: "Japanese food", note: "noun" },
+    audio: "japanese-food"
+  },
+  {
+    kanji: "描く/描きます",
+    kana: "かく/かきます",
+    english: { main: "to draw; to paint", note: "verb (godan, tr.)", example: "ペンで絵を<b>描きます</b> (i draw pictures with a pen)" },
+    audio: "to-draw-to-paint,to-draw-to-paint-polite"
+  },
+  {
+    // kanji: "箸",
+    kana: "はし",
+    english: { main: "chopsticks", note: "noun" },
+    audio: "chopsticks"
   }
 ];
