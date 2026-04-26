@@ -2140,5 +2140,31 @@ window.WORDS = [
       trans: "pork"
     }
     ]
+  },
+  {
+    kanji: "猫",
+    kana: "ねこ、ビョウ",
+    english: "cat",
+    note: "JLPT N3",
+    parts: "radical: <b>犬</b> (犭) (dog)",
+    examples: [
+    {
+      word: "<ruby><b>猫</b><rt><b>ねこ</b></rt></ruby>",
+      trans: "cat"
+    }
+    ]
+  },
+  {
+    kanji: "描",
+    kana: "えが、か、ビョウ",
+    english: "sketch, compose, write, draw, paint",
+    note: "JLPT N1",
+    parts: "radical: <b>手</b> (扌、龵) (hand)",
+    examples: [
+    {
+      word: "<ruby><b>描</b><rt><b>か</b></rt>く</ruby>",
+      trans: "to draw"
+    }
+    ]
   }
 ];
