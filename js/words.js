@@ -2270,7 +2270,7 @@ window.WORDS = [
   },
   {
     kana: "いくつ",
-    english: { main: "<i>1.</i> how many; <i>2.</i> how old", note: "adverb", example: "(2) (お)<b>いくつ</b>ですか (how old are you?)" },
+    english: { main: "<i>1.</i> how many; <i>2.</i> how old", note: "adverb", example: "(1) いちごを<b>いくつ</b>食べますか (how many strawberries will you eat?);<br>(2) <b>(お)いくつ</b>ですか (how old are you?)" },
     audio: "how-many-how-old"
   },
   {
@@ -3542,5 +3542,34 @@ window.WORDS = [
     kana: "はし",
     english: { main: "chopsticks", note: "noun" },
     audio: "chopsticks"
+  },
+  {
+    kana: "すいえい",
+    english: { main: "swimming", note: "noun; verb (suru, intr.)" },
+    audio: "swimming"
+  },
+  {
+    kanji: "大会",
+    kana: "たいかい",
+    english: { main: "tournament; competition", note: "noun", example: "からての<b>大会</b>にでます (i will participate in a karate tournament)" },
+    audio: "tournament"
+  },
+  {
+    kanji: "出る/出ます",
+    kana: "でる/でます",
+    english: { main: "to participate; to attend", note: "verb (ichidan, intr.)", example: "からての大会に<b>でます</b> (i will participate in a karate tournament)" },
+    audio: "to-participate,to-participate-polite"
+  },
+  {
+    kana: "マラソン",
+    english: { main: "marathon", note: "noun", example: "いつ<b>マラソン</b>を走りますか (when will you run the marathon?)" }
+  },
+  {
+    kana: "ジム",
+    english: { main: "gym", note: "noun" }
+  },
+  {
+    kana: "プロテインバー",
+    english: { main: "protein bar", note: "noun" }
   }
 ];
