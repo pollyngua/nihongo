@@ -14,7 +14,7 @@ window.WORDS = [
     english: { main: "<i>1.</i> cooked rice; <i>2.</i> meal", note: "noun" }
   },
   {
-    kana: "おちゃ",
+    kana: "(お)ちゃ",
     english: { main: "green tea", note: "noun; polite" }
   },
   {
@@ -1478,7 +1478,7 @@ window.WORDS = [
     audio: "that-over-there"
   },
   {
-    kana: "おてら",
+    kana: "(お)てら",
     english: { main: "(Buddhist) temple", note: "noun; honorific; polite" }
   },
   {
@@ -1512,11 +1512,11 @@ window.WORDS = [
     english: { main: "shop; restaurant <i>(as a suffix)</i>", note: "suffix", example: "いつもこのピザ<b>や</b>に行きます (i always go to this pizza shop)" }
   },
   {
-    kana: "おみやげ",
+    kana: "(お)みやげ",
     english: { main: "souvenir", note: "noun; polite" }
   },
   {
-    kana: "おかし",
+    kana: "(お)かし",
     english: { main: "confection; pastry; snack", note: "noun" }
   },
   {
@@ -1854,7 +1854,7 @@ window.WORDS = [
     english: { main: "easy", note: "i-adjective" }
   },
   {
-    kana: "おふろ",
+    kana: "(お)ふろ",
     english: { main: "bath", note: "noun" }
   },
   {
@@ -3256,8 +3256,8 @@ window.WORDS = [
     audio: "october"
   },
   {
-    kanji: "お祭り",
-    kana: "おまつり",
+    kanji: "(お)祭り",
+    kana: "(お)まつり",
     english: { main: "festival", note: "noun; polite; JLPT N2" },
     audio: "festival"
   },
@@ -3390,8 +3390,8 @@ window.WORDS = [
     audio: "breath"
   },
   {
-    // kanji: "お酒",
-    kana: "おさけ",
+    // kanji: "(お)酒",
+    kana: "(お)さけ",
     english: { main: "<i>(all kinds of)</i> alcohol; sake", note: "noun; polite" }
   },
   {
@@ -3445,7 +3445,7 @@ window.WORDS = [
   {
     kanji: "何も",
     kana: "なにも",
-    english: { main: "(not) anything; (nothing) at all; (not) any; nothing <i>(with negative verb)</i>", note: "expression", example: "今朝<b>何も</b>食べませんでした (i didn't eat anything this morning)" }
+    english: { main: "(not) anything; (nothing) at all; (not) any; nothing <i>(with negative verb)</i>", note: "expression; JLPT N5", example: "今朝<b>何も</b>食べませんでした (i didn't eat anything this morning)" }
   },
   {
     // kanji: "誰も",
@@ -3517,7 +3517,7 @@ window.WORDS = [
   {
     kanji: "猫",
     kana: "ねこ",
-    english: { main: "cat", note: "noun", example: "<b>猫</b>は毎日うちに来ます (the cats come to the house every day)" }
+    english: { main: "cat", note: "noun; JLPT N3", example: "<b>猫</b>は毎日うちに来ます (the cats come to the house every day)" }
   },
   {
     kanji: "今年",
@@ -3534,7 +3534,7 @@ window.WORDS = [
   {
     kanji: "描く/描きます",
     kana: "かく/かきます",
-    english: { main: "to draw; to paint", note: "verb (godan, tr.)", example: "ペンで絵を<b>描きます</b> (i draw pictures with a pen)" },
+    english: { main: "to draw; to paint", note: "verb (godan, tr.); JLPT N1", example: "ペンで絵を<b>描きます</b> (i draw pictures with a pen)" },
     audio: "to-draw-to-paint,to-draw-to-paint-polite"
   },
   {
@@ -3557,7 +3557,7 @@ window.WORDS = [
   {
     kanji: "出る/出ます",
     kana: "でる/でます",
-    english: { main: "to participate; to attend", note: "verb (ichidan, intr.)", example: "からての大会に<b>でます</b> (i will participate in a karate tournament)" },
+    english: { main: "to participate; to attend", note: "verb (ichidan, intr.); JLPT N5", example: "からての大会に<b>でます</b> (i will participate in a karate tournament)" },
     audio: "to-participate,to-participate-polite"
   },
   {
@@ -3571,5 +3571,35 @@ window.WORDS = [
   {
     kana: "プロテインバー",
     english: { main: "protein bar", note: "noun" }
+  },
+  {
+    kana: "ヨーグルト",
+    english: { main: "yogurt", note: "noun" }
+  },
+  {
+    kana: "けんこうてき",
+    english: { main: "hygienic; healthy <i>(e.g. food, lifestyle)</i>", note: "na-adjective", example: "りんごは<b>けんこうてき</b>な食べ物です (apples are a healthy food)" },
+    audio: "hygienic-healthy"
+  },
+  {
+    kanji: "八つ",
+    kana: "やっつ",
+    english: { main: "eight", note: "numeric; JLPT N5" },
+    audio: "8-yattsu"
+  },
+  {
+    kana: "オレンジ",
+    english: { main: "orange <i>(fruit, color)</i>", note: "noun" },
+    audio: "orange"
+  },
+  {
+    kana: "ブロッコリー",
+    english: { main: "broccoli", note: "noun" }
+  },
+  {
+    kanji: "九つ",
+    kana: "ここのつ",
+    english: { main: "nine", note: "numeric; JLPT N5" },
+    audio: "9-kokonotsu"
   }
 ];
