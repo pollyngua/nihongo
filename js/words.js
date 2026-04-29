@@ -3507,7 +3507,7 @@ window.WORDS = [
   },
   {
     kana: "これから",
-    english: { main: "<i>1.</i> from now on; after this; in the future; <i>2.</i> from here; from this point", note: "expression", example: "もうしゅくだいをしましたか。いいえ、<b>これから</b>します。 (did you do your homework yet? no, i'll do it now (lit. after this/starting now).)" }
+    english: { main: "from now on; after this; in the future", note: "expression", example: "もうしゅくだいをしましたか。いいえ、<b>これから</b>します。 (did you do your homework yet? no, i'll do it now (lit. after this/starting now).);<br><b>これから</b>おかしは買いません (from now on i won't buy snacks)" }
   },
   {
     kana: "もう",
@@ -3601,5 +3601,51 @@ window.WORDS = [
     kana: "ここのつ",
     english: { main: "nine", note: "numeric; JLPT N5" },
     audio: "9-kokonotsu"
+  },
+  {
+    kana: "さとう",
+    english: { main: "sugar", note: "noun" },
+    audio: "sugar"
+  },
+  {
+    kana: "スープ",
+    english: { main: "(Western) soup", note: "noun" }
+  },
+  {
+    kana: "あぶらっこい",
+    english: { main: "greasy; fatty; oily", note: "i-adjective" },
+    audio: "greasy"
+  },
+  {
+    kana: "とうにゅう",
+    english: { main: "soy milk", note: "noun" },
+    audio: "soy-milk"
+  },
+  {
+    kana: "あげる/あげます",
+    english: { main: "to give", note: "verb (ichidan, tr.); polite", example: "私はあなたにプレゼントを<b>あげます</b> (i give you a present)" },
+    audio: "to-give,to-give-polite"
+  },
+  {
+    // kanji: "孫",
+    kana: "まご",
+    english: { main: "grandchild", note: "noun" },
+    audio: "grandchild"
+  },
+  {
+    kana: "ぬいぐるみ",
+    english: { main: "stuffed toy", note: "noun" },
+    audio: "stuffed-toy"
+  },
+  {
+    // kanji: "柿",
+    kana: "かき",
+    english: { main: "kaki <i>(fruit)</i>", note: "noun" },
+    audio: "kaki-fruit"
+  },
+  {
+    kana: "もらう/もらいます",
+    english: { main: "to receive", note: "verb (godan, tr.)", example: "ともだちにかきを<b>もらいました</b> (i received a kaki from my friend)" },
+    audio: "to-receive,to-receive-polite"
   }
 ];
