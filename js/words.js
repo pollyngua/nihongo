@@ -1431,7 +1431,7 @@ window.WORDS = [
   },
   {
     kana: "どの",
-    english: { main: "which", note: "pre-noun adjectival" }
+    english: { main: "which", note: "pre-noun adjectival", example: "<b>どの</b>ステーキがおいしいですか (which steak is tasty?)" }
   },
   {
     kana: "ぐらい/くらい",
@@ -2921,7 +2921,7 @@ window.WORDS = [
   },
   {
     kana: "ステーキ",
-    english: { main: "steak", note: "noun" }
+    english: { main: "steak", note: "noun", example: "どの<b>ステーキ</b>がおいしいですか (which steak is tasty?)" }
   },
   {
     kana: "ポップコーン",
@@ -3647,5 +3647,11 @@ window.WORDS = [
     kana: "もらう/もらいます",
     english: { main: "to receive", note: "verb (godan, tr.)", example: "ともだちにかきを<b>もらいました</b> (i received a kaki from my friend)" },
     audio: "to-receive,to-receive-polite"
+  },
+  {
+    kanji: "高",
+    kana: "こう",
+    english: { main: "high", note: "prefix​; noun" },
+    audio: "high"
   }
 ];
