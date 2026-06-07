@@ -2174,8 +2174,8 @@ window.WORDS = [
     audio: "raw-uncooked"
   },
   {
-    kana: "つかいます",
-    english: { main: "to use <i>(masu-form of <b>つかう</b>)</i>", note: "verb (godan, tr.); polite" }
+    kana: "つかう/つかいます",
+    english: { main: "to use", note: "verb (godan, tr.)" }
   },
   {
     kana: "コーラ",
@@ -3653,5 +3653,9 @@ window.WORDS = [
     kana: "こう",
     english: { main: "high", note: "prefix​; noun" },
     audio: "high"
+  },
+  {
+    kana: "スペインご",
+    english: { main: "Spanish (language)", note: "noun" }
   }
 ];
