@@ -756,7 +756,7 @@ window.WORDS = [
   },
   {
     kanji: "十",
-    kana: "じゅう",
+    kana: "じゅう | とお",
     english: { main: "ten", note: "numeric; JLPT N5" }
   },
   {
@@ -3657,5 +3657,22 @@ window.WORDS = [
   {
     kana: "スペインご",
     english: { main: "Spanish (language)", note: "noun" }
+  },
+  {
+    kana: "バドミントン",
+    english: { main: "badminton", note: "noun" }
+  },
+  {
+    kana: "しあい",
+    english: { main: "match; game; bout", note: "noun; verb (suru, intr.)" }
+  },
+  {
+    kana: "チームメイト",
+    english: { main: "teammate", note: "noun" }
+  },
+  {
+    // kanji: "今夜",
+    kana: "こんや",
+    english: { main: "this evening; tonight", note: "noun; adverb" }
   }
 ];
