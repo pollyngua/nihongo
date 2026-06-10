@@ -3674,5 +3674,37 @@ window.WORDS = [
     // kanji: "今夜",
     kana: "こんや",
     english: { main: "this evening; tonight", note: "noun; adverb" }
+  },
+  {
+    kana: "バレエ",
+    english: { main: "ballet", note: "noun" },
+    audio: "ballet"
+  },
+  {
+    kana: "パフォーマンス",
+    english: { main: "performance <i>(e.g. music, dance, drama)</i>", note: "noun" }
+  },
+  {
+    kana: "おどる/おどります",
+    english: { main: "to dance", note: "verb (godan, intr.)" }
+  },
+  {
+    kana: "レッスン",
+    english: { main: "lesson", note: "noun" }
+  },
+  {
+    kanji: "始まる/始まります",
+    kana: "はじまる/はじまります",
+    english: { main: "to begin; to start", note: "verb (godan, intr.)" },
+    audio: "to-begin-intr,to-begin-intr-polite"
+  },
+  {
+    kana: "ブログ",
+    english: { main: "blog", note: "noun" }
+  },
+  {
+    kana: "きじ",
+    english: { main: "article; news story; report", note: "noun", example: "こんやはつぎの<b>きじ</b>をかきます (tonight i will write the next post)" },
+    audio: "article"
   }
 ];
