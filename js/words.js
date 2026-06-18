@@ -3686,7 +3686,7 @@ window.WORDS = [
   },
   {
     kana: "おどる/おどります",
-    english: { main: "to dance", note: "verb (godan, intr.)" }
+    english: { main: "to dance", note: "verb (godan, intr.)", example: "一時間半ぐらい<b>おどります</b> (i'm going to dance for about an hour and a half)" }
   },
   {
     kana: "レッスン",
@@ -3706,5 +3706,77 @@ window.WORDS = [
     kana: "きじ",
     english: { main: "article; news story; report", note: "noun", example: "こんやはつぎの<b>きじ</b>をかきます (tonight i will write the next post)" },
     audio: "article"
+  },
+  {
+    kana: "ショッピングセンター",
+    english: { main: "shopping center", note: "noun" }
+  },
+  {
+    kana: "ジーンズ",
+    english: { main: "jeans", note: "noun" }
+  },
+  {
+    // kanji: "靴下",
+    kana: "くつした",
+    english: { main: "sock", note: "noun" },
+    audio: "sock"
+  },
+  {
+    kana: "セーター",
+    english: { main: "sweater", note: "noun" }
+  },
+  {
+    kana: "ボロボロ",
+    english: { main: "worn-out; ragged; tattered", note: "noun; na-adjective; onomatopoeic/mimetic", example: "<b>ボロボロ</b>のジーンズはおしゃれです (worn-out jeans are stylish)" },
+    audio: "worn-out"
+  },
+  {
+    kana: "パーカー",
+    english: { main: "<i>1.</i> hoodie; <i>2.</i> parka; anorak", note: "noun" }
+  },
+  {
+    kana: "メンズ",
+    english: { main: "men's <i>(fashion, wear, etc.)</i>", note: "noun" }
+  },
+  {
+    kana: "むらさき",
+    english: { main: "purple; violet", note: "noun" },
+    audio: "purple"
+  },
+  {
+    kana: "まず",
+    english: { main: "first (of all); to begin with", note: "adverb" },
+    audio: "first-of-all"
+  },
+  {
+    kanji: "左",
+    kana: "ひだり",
+    english: { main: "left; left-hand side", note: "noun", example: "セーターはTシャツの<b>左</b>です (the sweater is to the left of the t-shirt)" }
+  },
+  {
+    kana: "Ｍサイズ",
+    english: { main: "size M; medium size", note: "noun" }
+  },
+  {
+    kana: "レディース",
+    english: { main: "women's (fashion, wear, etc.)", note: "noun" },
+    audio: "women-s"
+  },
+  {
+    kana: "ふわふわ",
+    english: { main: "soft; fluffy​", note: "noun; na-adjective; adverb; verb (suru); onomatopoeic/mimetic" },
+    audio: "soft-fluffy"
+  },
+  {
+    kanji: "上がる/上がります",
+    kana: "あがる/あがります",
+    english: { main: "to rise; to go up; to ascend", note: "verb (godan, intr.)", example: "二階に<b>上がります</b>か (are you going up to the second floor?)" },
+    audio: "to-rise,to-rise-polite"
+  },
+  {
+    kanji: "右",
+    kana: "みぎ",
+    english: { main: "right; right-hand side", note: "noun", example: "かばんはさいふの<b>右</b>です (the bags are to the right of the wallets)" },
+    audio: "right-direction"
   }
 ];
