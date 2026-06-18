@@ -481,6 +481,10 @@ window.WORDS = [
     {
       word: "<ruby><b>高</b><rt><b>たか</b></rt>い</ruby>",
       trans: "tall; expensive"
+    },
+    {
+      word: "<ruby><b>高</b><rt><b>こう</b></rt></ruby>",
+      trans: "high"
     }
     ]
   },
@@ -2121,6 +2125,10 @@ window.WORDS = [
     {
       word: "<ruby><b>始</b><rt><b>はじ</b></rt>める</ruby>",
       trans: "to begin"
+    },
+    {
+      word: "<ruby><b>始</b><rt><b>はじ</b></rt>まる</ruby>",
+      trans: "to begin"
     }
     ]
   },
@@ -2164,6 +2172,65 @@ window.WORDS = [
     {
       word: "<ruby><b>描</b><rt><b>か</b></rt>く</ruby>",
       trans: "to draw"
+    }
+    ]
+  },
+  {
+    kanji: "左",
+    kana: "ひだり、サ、シャ",
+    english: "left",
+    note: "JLPT N5",
+    parts: "radical: <b>工</b> (work)",
+    examples: [
+    {
+      word: "<ruby><b>左</b><rt><b>ひだり</b></rt></ruby>",
+      trans: "left"
+    },
+    {
+      word: "<ruby><b>左</b><rt><b>ひだり</b></rt>手<rt>て</rt></ruby>",
+      trans: "left hand"
+    },
+    {
+      word: "<ruby><b>左</b><rt><b>ひだり</b></rt>足<rt>あし</rt></ruby>",
+      trans: "left leg/foot"
+    }
+    ]
+  },
+  {
+    kanji: "上",
+    kana: "うえ、うわ、かみ、あ、のぼ、たてまつ、ジョウ、ショウ、シャン",
+    english: "above, up",
+    note: "JLPT N5",
+    parts: "radical: <b>一</b> (one)",
+    examples: [
+    {
+      word: "<ruby><b>上</b><rt><b>うえ</b></rt></ruby>",
+      trans: "above; up"
+    },
+    {
+      word: "<ruby><b>上</b><rt><b>あ</b></rt>がる</ruby>",
+      trans: "to rise"
+    }
+    ]
+  },
+  {
+    kanji: "右",
+    kana: "みぎ、ウ、ユウ",
+    english: "right",
+    note: "JLPT N5",
+    parts: "radical: <b>口</b> (品) (mouth, opening)",
+    examples: [
+    {
+      word: "<ruby><b>右</b><rt><b>みぎ</b></rt></ruby>",
+      trans: "right"
+    },
+    {
+      word: "<ruby><b>右</b><rt><b>みぎ</b></rt>手<rt>て</rt></ruby>",
+      trans: "right hand"
+    },
+    {
+      word: "<ruby><b>右</b><rt><b>みぎ</b></rt>足<rt>あし</rt></ruby>",
+      trans: "right leg/foot"
     }
     ]
   }
