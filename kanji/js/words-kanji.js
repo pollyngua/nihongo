@@ -2233,5 +2233,22 @@ window.WORDS = [
       trans: "right leg/foot"
     }
     ]
+  },
+  {
+    kanji: "棚",
+    kana: "たな、だな、ホウ",
+    english: "shelf, ledge, rack, mount, mantle, trellis",
+    note: "JLPT N1",
+    parts: "radical: <b>木</b> (tree, wood)",
+    examples: [
+    {
+      word: "<ruby>本<rt>ほん</rt><b>棚</b><rt><b>だな</b></rt></ruby>",
+      trans: "bookshelf"
+    },
+    {
+      word: "<ruby>神<rt>かみ</rt><b>棚</b><rt><b>だな</b></rt></ruby>",
+      trans: "kamidana"
+    }
+    ]
   }
 ];
