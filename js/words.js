@@ -3827,5 +3827,23 @@ window.WORDS = [
     kana: "こんど",
     english: { main: "<i>1.</i> this time; <i>2.</i> next time; another time", note: "noun; adverb; JLPT N4", example: "(2) <b>こんど</b>もっと買います (next time i will buy more)" },
     audio: "this-time-next-time"
+  },
+  {
+    kanji: "一日",
+    kana: "ついたち | いちにち",
+    english: { main: "the first of the month | <i>1.</i> one day; <i>2.</i> all day (long)", note: "noun | noun; adverb; JLPT N5", example: "十二月<b>一日(ついたち)</b> (december 1st) | <b>一日(いちにち)</b>休みました (i rested for one day)" },
+    audio: "1st-of-month,one-day-all-day"
+  },
+  {
+    kana: "ネット",
+    english: { main: "internet", note: "noun", example: "<b>ネット</b>でホテルをよやくします (i will reserve a hotel online)" }
+  },
+  {
+    kana: "とまる/とまります",
+    english: { main: "to stay at <i>(e.g. hotel)</i>", note: "verb (godan, intr.); JLPT N4" }
+  },
+  {
+    kana: "さがす/さがします",
+    english: { main: "to search for; to look for", note: "verb (godan, tr.); JLPT N4", example: "いいホテルを<b>さがしましょう</b> (we should look for a nice hotel)" }
   }
 ];
