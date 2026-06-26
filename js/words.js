@@ -1471,7 +1471,7 @@ window.WORDS = [
   {
     kanji: "何",
     kana: "なん | なに",
-    english: { main: "what | what", note: "pronoun; JLPT N5" }
+    english: { main: "what", note: "pronoun; JLPT N5" }
   },
   {
     kana: "あれ",
@@ -3845,5 +3845,32 @@ window.WORDS = [
   {
     kana: "さがす/さがします",
     english: { main: "to search for; to look for", note: "verb (godan, tr.); JLPT N4", example: "いいホテルを<b>さがしましょう</b> (we should look for a nice hotel)" }
+  },
+  {
+    kana: "クレジットカード",
+    english: { main: "credit card", note: "noun" }
+  },
+  {
+    kana: "チェックイン",
+    english: { main: "check-in", note: "noun; verb (suru, intr.)" }
+  },
+  {
+    kana: "となり",
+    english: { main: "next (to); adjoining; adjacent", note: "noun; JLPT N5", example: "ロビーの<b>となり</b>でまちます (i'll wait next to the lobby)" },
+    audio: "next-to"
+  },
+  {
+    kana: "ばんごう",
+    english: { main: "number", note: "noun; JLPT N5" },
+    audio: "number"
+  },
+  {
+    kana: "パスワード",
+    english: { main: "password", note: "noun" }
+  },
+  {
+    kanji: "前",
+    kana: "まえ",
+    english: { main: "in front (of)", note: "noun; JLPT N5", example: "ATMはジムの<b>まえ</b>です (the atm is in front of the gym)" }
   }
 ];
