@@ -1964,6 +1964,10 @@ window.WORDS = [
     {
       word: "<ruby>もう<rt></rt>一<rt>いち</rt><b>度</b><rt><b>ど</b></rt></ruby>",
       trans: "once more"
+    },
+    {
+      word: "<ruby>今<rt>こん</rt><b>度</b><rt><b>ど</b></rt></ruby>",
+      trans: "this time"
     }
     ]
   },
@@ -2248,6 +2252,85 @@ window.WORDS = [
     {
       word: "<ruby>神<rt>かみ</rt><b>棚</b><rt><b>だな</b></rt></ruby>",
       trans: "kamidana"
+    }
+    ]
+  },
+  {
+    kanji: "忙",
+    kana: "いそが、せわ、おそ、うれえるさま、ボウ、モウ",
+    english: "busy, occupied, restless",
+    note: "JLPT N3",
+    parts: "radical: <b>心</b> (忄、⺗) (heart)",
+    examples: [
+    {
+      word: "<ruby><b>忙</b><rt><b>いそが</b></rt>しい</ruby>",
+      trans: "busy"
+    }
+    ]
+  },
+  {
+    kanji: "無",
+    kana: "な、ム、ブ",
+    english: "nothingness, none, ain't, nothing, nil, not",
+    parts: "radical: <b>火</b> (灬) (fire)",
+    examples: [
+    {
+      word: "<ruby><b>無</b><rt><b>む</b></rt></ruby>",
+      trans: "nothing"
+    },
+    {
+      word: "<ruby><b>無</b><rt><b>む</b></rt>料<rt>りょう</rt></ruby>",
+      trans: "free"
+    },
+    {
+      word: "<ruby><b>無</b><rt><b>む</b></rt>心<rt>しん</rt></ruby>",
+      trans: "no-mind"
+    }
+    ]
+  },
+  {
+    kanji: "料",
+    kana: "リョウ",
+    english: "fee, materials",
+    note: "JLPT N4",
+    parts: "radical: <b>斗</b> (dipper, a kind of volume measure)",
+    examples: [
+    {
+      word: "<ruby><b>料</b><rt><b>りょう</b></rt>理<rt>り</rt></ruby>",
+      trans: "cooking"
+    },
+    {
+      word: "<ruby>無<rt>む</rt><b>料</b><rt><b>りょう</b></rt></ruby>",
+      trans: "free"
+    }
+    ]
+  },
+  {
+    kanji: "後",
+    kana: "のち、うし、うしろ、あと、おく、ゴ、コウ",
+    english: "behind, back, later",
+    note: "JLPT N5",
+    parts: "radical: <b>彳</b> (step, walking slowly)",
+    examples: [
+    {
+      word: "<ruby><b>後</b><rt><b>うし</b></rt>ろ</ruby>",
+      trans: "back"
+    },
+    {
+      word: "<ruby>午<rt>ご</rt><b>後</b><rt><b>ご</b></rt></ruby>",
+      trans: "p.m."
+    },
+    {
+      word: "<ruby>最<rt>さい</rt><b>後</b><rt><b>ご</b></rt></ruby>",
+      trans: "last"
+    },
+    {
+      word: "<ruby><b>後</b><rt><b>こう</b></rt>輩<rt>はい</rt></ruby>",
+      trans: "junior"
+    },
+    {
+      word: "<ruby><b>後</b><rt><b>あと</b></rt></ruby>",
+      trans: "after"
     }
     ]
   }
