@@ -3872,5 +3872,48 @@ window.WORDS = [
     kanji: "前",
     kana: "まえ",
     english: { main: "in front (of)", note: "noun; JLPT N5", example: "ATMはジムの<b>まえ</b>です (the atm is in front of the gym)" }
+  },
+  {
+    kana: "スパ",
+    english: { main: "spa", note: "noun" }
+  },
+  {
+    kana: "タオル",
+    english: { main: "towel", note: "noun; JLPT N3" }
+  },
+  {
+    kanji: "三階",
+    kana: "さんがい",
+    english: { main: "third floor", note: "noun" },
+    audio: "third-floor"
+  },
+  {
+    kanji: "無料",
+    kana: "むりょう",
+    english: { main: "free (of charge)", note: "noun; JLPT N3" },
+    audio: "free-of-charge"
+  },
+  {
+    kanji: "後ろ",
+    kana: "うしろ",
+    english: { main: "back; behind; rear", note: "noun; JLPT N5", example: "スパはプールの<b>うしろ</b>ですか (is the spa behind the pool?)" }
+  },
+  {
+    kana: "トースト",
+    english: { main: "toast <i>(bread)</i>", note: "noun; verb (suru, tr.)" }
+  },
+  {
+    kana: "コーヒーメーカー",
+    english: { main: "coffee maker; coffee machine", note: "noun" }
+  },
+  {
+    kanji: "四階",
+    kana: "よんかい",
+    english: { main: "fourth floor", note: "noun" },
+    audio: "fourth-floor"
+  },
+  {
+    kana: "チェックアウト",
+    english: { main: "checking out <i>(of a hotel)</i>; check-out", note: "noun; verb (suru, intr.)" }
   }
 ];
