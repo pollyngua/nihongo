@@ -493,14 +493,15 @@ window.WORDS = [
   {
     kanji: "母",
     kana: "はは",
-    english: { main: "mother; mom <i>(one's own, when referring to her)</i>", note: "noun; humble; JLPT N3" }
+    english: { main: "mother; mom <i>(one's own, when referring to her)</i>", note: "noun; humble" }
   },
   {
     kanji: "父",
     kana: "ちち",
-    english: { main: "father; dad <i>(one's own, when referring to him)</i>", note: "noun; humble; JLPT N3" }
+    english: { main: "father; dad <i>(one's own, when referring to him)</i>", note: "noun; humble" }
   },
   {
+    kanji: "忙しい",
     kana: "いそがしい",
     english: { main: "busy", note: "i-adjective; JLPT N5" },
     audio: "busy"
@@ -664,7 +665,7 @@ window.WORDS = [
   },
   {
     kana: "する/します",
-    english: { main: "to do, to carry out, to perform", note: "verb (suru); JLPT N5" }
+    english: { main: "to do; to carry out; to perform", note: "verb (suru); JLPT N5" }
   },
   {
     kanji: "聞く/聞きます",
