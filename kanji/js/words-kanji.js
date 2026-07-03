@@ -1442,6 +1442,10 @@ window.WORDS = [
     {
       word: "<ruby><b>切</b><rt><b>き</b></rt>り<rt></rt>返<rt>かえ</rt>し</ruby>",
       trans: "counterattack"
+    },
+    {
+      word: "<ruby>腹<rt>はら</rt><b>切</b><rt><b>き</b></rt>り</ruby>",
+      trans: "harakiri"
     }
     ]
   },
@@ -2331,6 +2335,56 @@ window.WORDS = [
     {
       word: "<ruby><b>後</b><rt><b>あと</b></rt></ruby>",
       trans: "after"
+    }
+    ]
+  },
+  {
+    kanji: "腹",
+    kana: "はら、フク",
+    english: "abdomen, belly, stomach",
+    note: "JLPT N3",
+    parts: "radical: <b>肉</b> (⺼、月) (meat, organs of the body)",
+    examples: [
+    {
+      word: "<ruby><b>腹</b><rt><b>はら</b></rt></ruby>",
+      trans: "belly"
+    },
+    {
+      word: "<ruby>お<rt></rt><b>腹</b><rt><b>なか</b></rt></ruby>",
+      trans: "belly"
+    },
+    {
+      word: "<ruby><b>腹</b><rt><b>はら</b></rt>切<rt>き</rt>り</ruby>",
+      trans: "harakiri"
+    }
+    ]
+  },
+  {
+    kanji: "空",
+    kana: "そら、あ、から、す、むな、クウ",
+    english: "empty, sky, void, vacant, vacuum",
+    note: "JLPT N4",
+    parts: "radical: <b>穴</b> (cave, hollow, hidden)",
+    examples: [
+    {
+      word: "<ruby><b>空</b><rt><b>くう</b></rt>港<rt>こう</rt></ruby>",
+      trans: "airport"
+    },
+    {
+      word: "<ruby><b>空</b><rt><b>そら</b></rt></ruby>",
+      trans: "sky"
+    },
+    {
+      word: "<ruby><b>空</b><rt><b>くう</b></rt>気<rt>き</rt></ruby>",
+      trans: "atmosphere"
+    },
+    {
+      word: "<ruby><b>空</b><rt><b>す</b></rt>く</ruby>",
+      trans: "to get empty"
+    },
+    {
+      word: "<ruby><b>空</b><rt><b>から</b></rt>手<rt>て</rt></ruby>",
+      trans: "karate"
     }
     ]
   }
