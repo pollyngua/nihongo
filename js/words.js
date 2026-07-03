@@ -3916,5 +3916,32 @@ window.WORDS = [
   {
     kana: "チェックアウト",
     english: { main: "checking out <i>(of a hotel)</i>; check-out", note: "noun; verb (suru, intr.)" }
+  },
+  {
+    kana: "ビーフシチュー",
+    english: { main: "beef stew", note: "noun" },
+    audio: "beef-stew"
+  },
+  {
+    kana: "たまねぎ",
+    english: { main: "onion", note: "noun" },
+    audio: "onion"
+  },
+  {
+    kana: "にんじん",
+    english: { main: "carrot", note: "noun" },
+    audio: "carrot"
+  },
+  {
+    kanji: "(お)腹",
+    kana: "(お)なか | はら",
+    english: { main: "belly; abdomen; stomach", note: "noun; polite; JLPT N5; JLPT N3", example: "<b>おなか</b>がすきました (i'm hungry (lit. my stomach became empty))" },
+    audio: "belly-onaka,belly-hara"
+  },
+  {
+    kanji: "空く/空きます",
+    kana: "すく/すきます",
+    english: { main: "<i>1.</i> to become less crowded; to get empty; <i>2.</i> to be hungry", note: "verb (godan, intr.); JLPT N3", example: "(2) おなかが<b>すきました</b> (i'm hungry (lit. my stomach became empty))" },
+    audio: "to-become-less-crowded-hungry,to-become-less-crowded-hungry-polite"
   }
 ];
