@@ -2154,6 +2154,10 @@ window.WORDS = [
     {
       word: "<ruby>豚<rt>ぶた</rt><b>肉</b><rt><b>にく</b></rt></ruby>",
       trans: "pork"
+    },
+    {
+      word: "<ruby>牛<rt>ぎゅう</rt><b>肉</b><rt><b>にく</b></rt></ruby>",
+      trans: "beef"
     }
     ]
   },
@@ -2385,6 +2389,56 @@ window.WORDS = [
     {
       word: "<ruby><b>空</b><rt><b>から</b></rt>手<rt>て</rt></ruby>",
       trans: "karate"
+    }
+    ]
+  },
+  {
+    kanji: "下",
+    kana: "した、しも、もと、さ、くだ、お、カ、ゲ",
+    english: "below, down, descend, give, low, inferior",
+    note: "JLPT N5",
+    parts: "radical: <b>一</b> (one)",
+    examples: [
+    {
+      word: "<ruby>地<rt>ち</rt><b>下</b><rt><b>か</b></rt>鉄<rt>てつ</rt></ruby>",
+      trans: "subway"
+    },
+    {
+      word: "<ruby>靴<rt>くつ</rt><b>下</b><rt><b>した</b></rt></ruby>",
+      trans: "sock"
+    },
+    {
+      word: "<ruby><b>下</b><rt><b>げ</b></rt>痢<rt>り</rt></ruby>",
+      trans: "diarrhea"
+    },
+    {
+      word: "<ruby><b>下</b><rt><b>げ</b></rt>段<rt>だん</rt></ruby>",
+      trans: "low level"
+    }
+    ]
+  },
+  {
+    kanji: "牛",
+    kana: "うし、ギュウ",
+    english: "cow",
+    note: "JLPT N4",
+    parts: "radical: <b>牛</b> (牜、⺧) (cow)",
+    examples: [
+    {
+      word: "<ruby><b>牛</b><rt><b>ぎゅう</b></rt>肉<rt>にく</rt></ruby>",
+      trans: "beef"
+    },
+    {
+      word: "<ruby><b>牛</b><rt><b>うし</b></rt></ruby>",
+      trans: "cow"
+    },
+    {
+      word: "<ruby><b>牛</b><rt><b>ぎゅう</b></rt>乳<rt>にゅう</rt></ruby>",
+      trans: "(cow's) milk"
+    },
+    {
+      word: "<ruby><b>牛</b><rt><b>ぎゅう</b></rt>丼<rt>どん</rt></ruby>",
+      trans: "gyudon"
     }
     ]
   }
