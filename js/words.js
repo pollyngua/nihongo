@@ -3807,7 +3807,7 @@ window.WORDS = [
   {
     kanji: "上",
     kana: "うえ",
-    english: { main: "<i>1.</i> above; over; up; <i>2.</i> on (top of)", note: "noun; JLPT N5", example: "ネックレスはたなの<b>上</b>です (the necklace is on the shelf)" },
+    english: { main: "<i>1.</i> above; over; up; <i>2.</i> top; upper part; <i>3.</i> on (top of)", note: "noun; JLPT N5", example: "ネックレスはたなの<b>上</b>です (the necklace is on the shelf)" },
     audio: "above-over-up-on"
   },
   {
@@ -3943,5 +3943,42 @@ window.WORDS = [
     kana: "すく/すきます",
     english: { main: "<i>1.</i> to become less crowded; to get empty; <i>2.</i> to be hungry", note: "verb (godan, intr.); JLPT N3", example: "(2) おなかが<b>すきました</b> (i'm hungry (lit. my stomach became empty))" },
     audio: "to-become-less-crowded-hungry,to-become-less-crowded-hungry-polite"
+  },
+  {
+    kana: "じゃがいも",
+    english: { main: "potato", note: "noun", example: "<b>じゃがいも</b>のスープを飲みましょう (let's eat potato soup)" },
+    audio: "potato"
+  },
+  {
+    kana: "かご",
+    english: { main: "basket <i>(shopping, etc.)</i>", note: "noun; JLPT N3" },
+    audio: "basket"
+  },
+  {
+    kana: "くろこしょう",
+    english: { main: "black pepper", note: "noun" },
+    audio: "black-pepper"
+  },
+  {
+    kanji: "下",
+    kana: "した",
+    english: { main: "<i>1.</i> below; down; under; <i>2.</i> bottom; <i>3.</i> beneath; underneath", note: "noun; JLPT N5" },
+    audio: "below-under-bottom"
+  },
+  {
+    kanji: "牛肉",
+    kana: "ぎゅうにく",
+    english: { main: "beef", note: "noun; JLPT N5" },
+    audio: "beef"
+  },
+  {
+    kana: "グラム",
+    english: { main: "gram", note: "noun; JLPT N5", example: "パスタを五百<b>グラム</b>買います (i will buy 500 grams of pasta)" },
+    audio: "gram"
+  },
+  {
+    kana: "すぐ",
+    english: { main: "right (near); directly; just", note: "adverb; noun; JLPT N1", example: "肉は魚の<b>すぐ</b>上です (the meat is directly above the fish);<br>ぶた肉はぎゅう肉の<b>すぐ</b>となりです (pork is right next to beef)" },
+    audio: "right-directly-just"
   }
 ];
