@@ -2441,5 +2441,72 @@ window.WORDS = [
       trans: "gyudon"
     }
     ]
+  },
+  {
+    kanji: "番",
+    kana: "つが、バン",
+    english: "turn, number in a series",
+    note: "JLPT N3",
+    parts: "radical: <b>田</b> (field)",
+    examples: [
+    {
+      word: "<ruby><b>番</b><rt><b>ばん</b></rt>号<rt>ごう</rt></ruby>",
+      trans: "number"
+    },
+    {
+      word: "<ruby>一<rt>いち</rt><b>番</b><rt><b>ばん</b></rt></ruby>",
+      trans: "number one"
+    }
+    ]
+  },
+  {
+    kanji: "引",
+    kana: "ひ、イン",
+    english: "pull, tug, jerk, admit, install, quote, refer to",
+    note: "JLPT N3",
+    parts: "radical: <b>弓</b> (bow)",
+    examples: [
+    {
+      word: "<ruby><b>引</b><rt><b>ひ</b></rt>く</ruby>",
+      trans: "to pull"
+    },
+    {
+      word: "<ruby><b>引</b><rt><b>ひ</b></rt>き<rt></rt>分<rt>わ</rt>け</ruby>",
+      trans: "draw; tie"
+    },
+    {
+      word: "<ruby><b>引</b><rt><b>ひ</b></rt>っ<rt></rt>越<rt>こ</rt>す</ruby>",
+      trans: "to move (house)"
+    },
+    {
+      word: "<ruby><b>引</b><rt><b>ひ</b></rt>き<rt></rt>出<rt>だ</rt>し</ruby>",
+      trans: "drawer"
+    }
+    ]
+  },
+  {
+    kanji: "中",
+    kana: "なか、うち、あた、チュウ",
+    english: "in, inside, middle, mean, center",
+    note: "JLPT N5",
+    parts: "radical: <b>丨</b> (｜) (line)",
+    examples: [
+    {
+      word: "<ruby>背<rt>せ</rt><b>中</b><rt><b>なか</b></rt></ruby>",
+      trans: "back (of the body)"
+    },
+    {
+      word: "<ruby><b>中</b><rt><b>なか</b></rt>指<rt>ゆび</rt></ruby>",
+      trans: "middle finger"
+    },
+    {
+      word: "<ruby><b>中</b><rt><b>ちゅう</b></rt>段<rt>だん</rt></ruby>",
+      trans: "mid level"
+    },
+    {
+      word: "<ruby>正<rt>せい</rt><b>中</b><rt><b>ちゅう</b></rt>線<rt>せん</rt></ruby>",
+      trans: "body axis"
+    }
+    ]
   }
 ];
