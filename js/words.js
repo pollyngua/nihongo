@@ -3980,5 +3980,46 @@ window.WORDS = [
     kana: "すぐ",
     english: { main: "right (near); directly; just", note: "adverb; noun; JLPT N1", example: "肉は魚の<b>すぐ</b>上です (the meat is directly above the fish);<br>ぶた肉はぎゅう肉の<b>すぐ</b>となりです (pork is right next to beef)" },
     audio: "right-directly-just"
+  },
+  {
+    kana: "バター",
+    english: { main: "butter", note: "noun; JLPT N5" }
+  },
+  {
+    kana: "こむぎこ",
+    english: { main: "wheat flour", note: "noun" },
+    audio: "wheat-flour"
+  },
+  {
+    kanji: "一番",
+    kana: "いちばん",
+    english: { main: "number one; first; first place", note: "noun; JLPT N5", example: "棚の<b>一番</b>上 (top(most) shelf);<br>棚の<b>一番</b>下 (the very bottom shelf);<br>ひきだしの<b>一番</b>左です (it's the leftmost drawer)" },
+    audio: "number-one-first"
+  },
+  {
+    // kanji: "奥",
+    kana: "おく",
+    english: { main: "inner part; interior; back <i>(of a drawer, one's throat, etc.)</i>", note: "noun; JLPT N3", example: "れいぞうこの一番<b>おく</b>です (it's in the (very) back of the fridge)" },
+    audio: "interior-back"
+  },
+  {
+    kana: "スプーン",
+    english: { main: "spoon", note: "noun; JLPT N5" }
+  },
+  {
+    kanji: "引き出し",
+    kana: "ひきだし",
+    english: { main: "drawer", note: "noun; JLPT N4" },
+    audio: "drawer"
+  },
+  {
+    kanji: "中",
+    kana: "なか",
+    english: { main: "inside; interior", note: "noun; JLPT N5", example: "ひきだしの<b>中</b>のフォークをつかいましょう (let's use the fork in the drawer)" }
+  },
+  {
+    kana: "ちゃわん",
+    english: { main: "rice bowl; tea cup", note: "noun; JLPT N5", example: "テーブルの上の<b>ちゃわん</b>をつかいませんか (shall we use the tea bowl on the table?)" },
+    audio: "rice-bowl"
   }
 ];
