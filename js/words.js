@@ -1726,7 +1726,7 @@ window.WORDS = [
   },
   {
     kana: "いる/います",
-    english: { main: "to be; to exist <i>(of animate objects)</i>", note: "verb (ichidan, intr.); JLPT N5", example: "きょうだいは<b>います</b>か (do you have siblings?);<br>ゆうめいなおとうとが<b>います</b> (i have a famous younger brother)" }
+    english: { main: "to be; to exist <i>(of animate objects)</i>", note: "verb (ichidan, intr.); JLPT N5", example: "きょうだいは<b>います</b>か (do you have siblings?);<br>ゆうめいなおとうとが<b>います</b> (i have a famous younger brother);<br>家のちかくに<b>います</b> (i'm near my house)" }
   },
   {
     kanji: "日本語",
@@ -2003,8 +2003,9 @@ window.WORDS = [
     audio: "bullet-train"
   },
   {
+    kanji: "乗る/乗ります",
     kana: "のる/のります",
-    english: { main: "to ride; to get on; to take <i>(train, etc.)</i> <i>(always に～)</i>", note: "verb (godan, intr.); JLPT N5", example: "しんかんせんに<b>のります</b> (we're going to ride the bullet train)" }
+    english: { main: "to ride; to get on; to take <i>(train, etc.)</i> <i>(always に～)</i>", note: "verb (godan, intr.); JLPT N5", example: "しんかんせんに<b>のります</b> (we're going to ride the bullet train);<br>ちかてつに<b>乗ります</b> (i'll take the subway)" }
   },
   {
     kana: "なごや",
@@ -3557,7 +3558,7 @@ window.WORDS = [
   {
     kanji: "出る/出ます",
     kana: "でる/でます",
-    english: { main: "to participate; to attend", note: "verb (ichidan, intr.); JLPT N5", example: "からての大会に<b>でます</b> (i will participate in a karate tournament)" },
+    english: { main: "<i>1.</i> to leave; to exit; <i>2.</i> to participate; to attend", note: "verb (ichidan, intr.); JLPT N5", example: "(1) いまから家を<b>出ます</b> (i'm leaving the house now);<br>(2) からての大会に<b>でます</b> (i will participate in a karate tournament)" },
     audio: "to-participate,to-participate-polite"
   },
   {
@@ -4021,5 +4022,44 @@ window.WORDS = [
     kana: "ちゃわん",
     english: { main: "rice bowl; tea cup", note: "noun; JLPT N5", example: "テーブルの上の<b>ちゃわん</b>をつかいませんか (shall we use the tea bowl on the table?)" },
     audio: "rice-bowl"
+  },
+  {
+    kana: "よてい",
+    english: { main: "plans", note: "noun; verb (suru, tr.); JLPT N4", example: "火曜日に<b>よてい</b>はありますか (do you have plans on tuesday?)" },
+    audio: "plans"
+  },
+  {
+    kana: "みな | みんな",
+    english: { main: "everyone; everybody <i>(みんな is less formal and more emphatic)</i>", note: "noun; pronoun; adverb; JLPT N5" },
+    audio: "everyone-mina,everyone-minna"
+  },
+  {
+    kana: "しんじゅく",
+    english: { main: "Shinjuku <i>(special ward of Tokyo)</i>", note: "proper noun", example: "<b>しんじゅく</b>のどこに行きますか (where in shinjuku are you going?)" }
+  },
+  {
+    kana: "はらじゅく",
+    english: { main: "Harajuku <i>(district in Shibuya)</i>", note: "proper noun" }
+  },
+  {
+    kanji: "今から",
+    kana: "いまから",
+    english: { main: "from now; from this moment", note: "adverb", example: "<b><ruby>今<rt>いま</rt>から</ruby></b><ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt>ます</ruby> (i'm leaving the house now)" },
+    audio: "from-now"
+  },
+  {
+    kanji: "着く/着きます",
+    kana: "つく/つきます",
+    english: { main: "to arrive at; to reach", note: "verb (godan, intr.); JLPT N5", example: "もうすぐ<ruby>駅<rt>えき</rt></ruby>に<b><ruby>着<rt>つ</rt>きます</ruby></b> (soon i will arrive at the station)" }
+  },
+  {
+    kanji: "遅い",
+    kana: "おそい",
+    english: { main: "<i>1.</i> slow; <i>2.</i> late", note: "i-adjective; JLPT N5" },
+    audio: "slow-late"
+  },
+  {
+    kana: "アレックス",
+    english: { main: "Alex", note: "proper noun" }
   }
 ];
