@@ -42,6 +42,11 @@ body {
   background-color: #2b303b;
 }
 
+rt {
+  font-size: 50%;
+  user-select: none;
+}
+
 ::selection {
   background-color: #d8deeb;
   color: #e34234;
