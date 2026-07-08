@@ -583,6 +583,10 @@ window.WORDS = [
     {
       word: "<ruby><b>出</b><rt><b>で</b></rt>足<rt>あし</rt>払<rt>ばら</rt>い</ruby>",
       trans: "advancing foot sweep​"
+    },
+    {
+      word: "<ruby><b>出</b><rt><b>で</b></rt>る</ruby>",
+      trans: "to leave"
     }
     ]
   },
@@ -1353,6 +1357,10 @@ window.WORDS = [
     {
       word: "<ruby>道<rt>どう</rt><b>着</b><rt><b>ぎ</b></rt></ruby>",
       trans: "dogi"
+    },
+    {
+      word: "<ruby><b>着</b><rt><b>つ</b></rt>く</ruby>",
+      trans: "to arrive at"
     }
     ]
   },
@@ -2506,6 +2514,40 @@ window.WORDS = [
     {
       word: "<ruby>正<rt>せい</rt><b>中</b><rt><b>ちゅう</b></rt>線<rt>せん</rt></ruby>",
       trans: "body axis"
+    }
+    ]
+  },
+  {
+    kanji: "乗",
+    kana: "の、ジョウ、ショウ",
+    english: "ride, power, multiplication, record, counter for vehicles, board, mount, join",
+    note: "JLPT N3",
+    parts: "radical: <b>丿</b> (ノ) (slash, stroke curved to left)",
+    examples: [
+    {
+      word: "<ruby><b>乗</b><rt><b>の</b></rt>る</ruby>",
+      trans: "to get on"
+    },
+    {
+      word: "<ruby><b>乗</b><rt><b>の</b></rt>り<rt></rt>物<rt>もの</rt></ruby>",
+      trans: "vehicle"
+    },
+    {
+      word: "<ruby><b>乗</b><rt><b>の</b></rt>り<rt></rt>換<rt>か</rt>え</ruby>",
+      trans: "transfer"
+    }
+    ]
+  },
+  {
+    kanji: "遅",
+    kana: "おく、おそ、チ",
+    english: "slow, late, back, later",
+    note: "JLPT N3",
+    parts: "radical: <b>辵</b> (辶、⻌、⻍) (walk)",
+    examples: [
+    {
+      word: "<ruby><b>遅</b><rt><b>おそ</b></rt>い</ruby>",
+      trans: "slow; late"
     }
     ]
   }
