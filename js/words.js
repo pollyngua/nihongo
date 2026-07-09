@@ -1726,7 +1726,7 @@ window.WORDS = [
   },
   {
     kana: "いる/います",
-    english: { main: "to be; to exist <i>(of animate objects)</i>", note: "verb (ichidan, intr.); JLPT N5", example: "きょうだいは<b>います</b>か (do you have siblings?);<br>ゆうめいなおとうとが<b>います</b> (i have a famous younger brother);<br>家のちかくに<b>います</b> (i'm near my house)" }
+    english: { main: "to be; to exist <i>(of animate objects)</i>", note: "verb (ichidan, intr.); JLPT N5", example: "ゆうめいなおとうとが<b>います</b> (i have a famous younger brother);<br>家のちかくに<b>います</b> (i'm near my house);<br>かいさんはまだ<b>いません</b> (kai isn't here yet)" }
   },
   {
     kanji: "日本語",
@@ -1904,7 +1904,7 @@ window.WORDS = [
     english: { main: "next month", note: "noun; adverb; JLPT N5" }
   },
   {
-    kana: "-ましょう",
+    kana: "～ましょう",
     english: { main: "let's [verb] <i>(used to make an invitation, request, etc.)</i>", note: "expression", example: "行き<b>ましょう</b>! (let's go!/we should go!);<br>何をし<b>ましょう</b>か? (what should we do?);<br>九時に会い<b>ましょう</b> (we should meet at 9 o'clock)" }
   },
   {
@@ -3296,8 +3296,8 @@ window.WORDS = [
     english: { main: "volunteer", note: "noun", example: "まいしゅうまちで<b>ボランティア</b>をします (every week i volunteer in town)" }
   },
   {
-    kanji: "-年生",
-    kana: "-ねんせい",
+    kanji: "～年生",
+    kana: "～ねんせい",
     english: { main: "nth-year student", note: "suffix; JLPT N1", example: "なおみさんは三<b>年生</b>ですか (are you a junior, naomi?)" },
     audio: "nth-year-student"
   },
@@ -4061,5 +4061,50 @@ window.WORDS = [
   {
     kana: "アレックス",
     english: { main: "Alex", note: "proper noun" }
+  },
+  {
+    kana: "～たち",
+    english: { main: "<i>pluralizing suffix (esp. for people and animals)</i>", note: "suffix", example: "中山さん<b>たち</b> (ms. nakayama and the others)" }
+  },
+  {
+    kanji: "私たち",
+    kana: "わたしたち",
+    english: { main: "we; us", note: "pronoun" },
+    audio: "we-us"
+  },
+  {
+    kana: "メッセージ",
+    english: { main: "message", note: "noun; JLPT N1" },
+    audio: "message"
+  },
+  {
+    kanji: "送る/送ります",
+    kana: "おくる/おくります",
+    english: { main: "to send; to dispatch", note: "verb (godan, tr.); JLPT N4", example: "メッセージを<b>送ります</b> (i will send a message)" }
+  },
+  {
+    kana: "ぱんや",
+    english: { main: "bakery", note: "noun" }
+  },
+  {
+    kana: "ターミナル",
+    english: { main: "terminal", note: "noun" }
+  },
+  {
+    kanji: "遅れる/遅れます",
+    kana: "おくれる/おくれます",
+    english: { main: "to be late", note: "verb (ichidan, intr.); JLPT N4" },
+    audio: "to-be-late,to-be-late-polite"
+  },
+  {
+    kanji: "急ぐ/急ぎます",
+    kana: "いそぐ/いそぎます",
+    english: { main: "to hurry", note: "verb (godan, intr., tr.); JLPT N4" }
+  },
+  {
+    kanji: "西口",
+    kana: "にしぐち",
+    english: { main: "west entrance; west exit", note: "noun" },
+    audio: "west-entrance-exit"
   }
 ];
