@@ -2548,6 +2548,69 @@ window.WORDS = [
     {
       word: "<ruby><b>遅</b><rt><b>おそ</b></rt>い</ruby>",
       trans: "slow; late"
+    },
+    {
+      word: "<ruby><b>遅</b><rt><b>おく</b></rt>れる</ruby>",
+      trans: "to be late"
+    }
+    ]
+  },
+  {
+    kanji: "送",
+    kana: "おく、ソウ",
+    english: "escort, send",
+    note: "JLPT N4",
+    parts: "radical: <b>辵</b> (辶、⻌、⻍) (walk)",
+    examples: [
+    {
+      word: "<ruby><b>送</b><rt><b>おく</b></rt>る</ruby>",
+      trans: "to send"
+    },
+    {
+      word: "<ruby><b>送</b><rt><b>おく</b></rt>り<rt></rt>仮<rt>が</rt>名<rt>な</rt></ruby>",
+      trans: "okurigana"
+    }
+    ]
+  },
+  {
+    kanji: "急",
+    kana: "いそ、せ、キュウ",
+    english: "hurry, emergency, sudden, steep",
+    note: "JLPT N4",
+    parts: "radical: <b>心</b> (忄、⺗) (heart)",
+    examples: [
+    {
+      word: "<ruby><b>急</b><rt><b>いそ</b></rt>ぐ</ruby>",
+      trans: "to hurry"
+    },
+    {
+      word: "<ruby>救<rt>きゅう</rt><b>急</b><rt><b>きゅう</b></rt>車<rt>しゃ</rt></ruby>",
+      trans: "ambulance"
+    },
+    {
+      word: "<ruby><b>急</b><rt><b>きゅう</b></rt>所<rt>しょ</rt></ruby>",
+      trans: "vital point"
+    },
+    {
+      word: "<ruby>緩<rt>かん</rt><b>急</b><rt><b>きゅう</b></rt></ruby>",
+      trans: "fast & slow"
+    }
+    ]
+  },
+  {
+    kanji: "西",
+    kana: "にし、セイ、サイ、ス",
+    english: "west, Spain",
+    note: "JLPT N5",
+    parts: "radical: <b>西</b> (襾、覀) (west)",
+    examples: [
+    {
+      word: "<ruby><b>西</b><rt><b>にし</b></rt></ruby>",
+      trans: "west"
+    },
+    {
+      word: "<ruby>東<rt>とう</rt><b>西</b><rt><b>ざい</b></rt></ruby>",
+      trans: "east & west"
     }
     ]
   }
