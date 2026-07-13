@@ -4106,5 +4106,25 @@ window.WORDS = [
     kana: "にしぐち",
     english: { main: "west entrance; west exit", note: "noun" },
     audio: "west-entrance-exit"
+  },
+  {
+    kana: "つかれる/つかれます",
+    english: { main: "to get tired", note: "verb (ichidan, intr.); JLPT N5" }
+  },
+  {
+    kana: "ちょうし",
+    english: { main: "condition; state of health", note: "noun; JLPT N3", example: "<b>ちょうし</b>がわるいです (i feel unwell)" },
+    audio: "condition-health"
+  },
+  {
+    kanji: "悪い",
+    kana: "わるい",
+    english: { main: "bad; poor; undesirable", note: "i-adjective; JLPT N5", example: "ちょうしが<b>わるい</b>です (i feel unwell)" }
+  },
+  {
+    kanji: "知る/知ります",
+    kana: "しる/しります",
+    english: { main: "to know; to be aware (of)", note: "verb (godan, tr.); JLPT N5", example: "いいいしゃを<b>しっています</b> (i know a good doctor)" },
+    audio: "to-know-to-be-aware,to-know-to-be-aware-polite"
   }
 ];
