@@ -24,7 +24,7 @@ window.WORDS = [
   },
   {
     kana: "と",
-    english: { main: "<i>1.</i> and <i>(links nouns, not clauses)</i>; <i>2.</i> with; <i>3.</i> <i>quote marker</i>", note: "particle; conjunction; JLPT N3", example: "(2) ライオン<b>と</b>しゃしんをとりましょう (we should take a photo with the lion);<br>(3) 田中<b>と</b>言います (my name is tanaka (lit. i say 'tanaka'))" }
+    english: { main: "<i>1.</i> and <i>(links nouns, not clauses)</i>; <i>2.</i> with; <i>3.</i> <i>quote marker</i>", note: "particle; conjunction; JLPT N3", example: "(2) ライオン<b>と</b>しゃしんをとりましょう (we should take a photo with the lion);<br>(3) <ruby>田<rt>た</rt>中<rt>なか</rt></ruby><b>と</b><ruby>言<rt>い</rt>います</ruby> (my name is tanaka (lit. i say 'tanaka'))" }
   },
   {
     kana: "だ/です",
@@ -102,7 +102,7 @@ window.WORDS = [
   },
   {
     kana: "は",
-    english: { main: "<i>topic marker</i> | and you?; what about you?", note: "particle", example: "私はトロントしゅっしんです。はなさん<b>は</b>? (i'm from toronto. and you, hana?)" }
+    english: { main: "<i>topic marker</i> | and you?; what about you?", note: "particle", example: "<ruby>私<rt>わたし</rt></ruby>はトロントしゅっしんです。はなさん<b>は</b>? (i'm from toronto. and you, hana?)" }
   },
   {
     kana: "それ",
@@ -338,7 +338,7 @@ window.WORDS = [
   },
   {
     kana: "ごろ",
-    english: { main: "about; around <i>(for clock time or dates)</i>", note: "noun; adverb; noun, used as a suffix; JLPT N3", example: "いまにじ<b>ごろ</b>です (it's about two o'clock now);<br>十二時半<b>ごろ</b>ひるごはんをつくります (i make lunch around twelve thirty)" }
+    english: { main: "about; around <i>(for clock time or dates)</i>", note: "noun; adverb; noun, used as a suffix; JLPT N3", example: "いまにじ<b>ごろ</b>です (it's about two o'clock now);<br><ruby>十<rt>じゅう</rt>二<rt>に</rt></ruby><ruby>時<rt>じ</rt></ruby><ruby>半<rt>はん</rt></ruby><b>ごろ</b>ひるごはんをつくります (i make lunch around twelve thirty)" }
   },
   {
     kana: "くうこう",
@@ -424,7 +424,7 @@ window.WORDS = [
   {
     kanji: "住む/住みます",
     kana: "すむ/すみます",
-    english: { main: "to live <i>(of humans)</i>; to reside", note: "verb (godan, intr.); JLPT N5", example: "東京に<b>すんでいます</b> (i live in tokyo)" }
+    english: { main: "to live <i>(of humans)</i>; to reside", note: "verb (godan, intr.); JLPT N5", example: "<ruby>東<rt>とう</rt>京<rt>きょう</rt></ruby>に<b>すんでいます</b> (i live in tokyo)" }
   },
   {
     kana: "にぎやか",
@@ -580,7 +580,7 @@ window.WORDS = [
   {
     kanji: "四つ",
     kana: "よっつ",
-    english: { main: "four", note: "numeric; JLPT N5", example: "水を<b>よっつ</b>ください (four waters, please)" },
+    english: { main: "four", note: "numeric; JLPT N5", example: "<ruby>水<rt>みず</rt></ruby>を<b>よっつ</b>ください (four waters, please)" },
     audio: "4-yottsu"
   },
   {
@@ -679,7 +679,7 @@ window.WORDS = [
   },
   {
     kana: "よく",
-    english: { main: "often", note: "adverb; JLPT N5", example: "<b>よく</b>テレビを見ます (i watch tv often)" }
+    english: { main: "often", note: "adverb; JLPT N5", example: "<b>よく</b>テレビを<ruby>見<rt>み</rt>ます</ruby> (i watch tv often)" }
   },
   {
     kana: "ときどき",
@@ -687,7 +687,7 @@ window.WORDS = [
   },
   {
     kana: "を",
-    english: { main: "<i>direct object marker</i>", note: "particle", example: "えいが<b>を</b>見ます (i watch movies);<br>うどん<b>を</b>ください (udon, please)" }
+    english: { main: "<i>direct object marker</i>", note: "particle", example: "えいが<b>を</b><ruby>見<rt>み</rt>ます</ruby> (i watch movies);<br>うどん<b>を</b>ください (udon, please)" }
   },
   {
     kana: "パン",
@@ -880,7 +880,7 @@ window.WORDS = [
   {
     kanji: "百",
     kana: "ひゃく",
-    english: { main: "hundred", note: "numeric; JLPT N5", example: "五<b>百</b> (five hundred)" },
+    english: { main: "hundred", note: "numeric; JLPT N5", example: "<ruby>五<rt>ご</rt></ruby><b><ruby>百<rt>ひゃく</rt></ruby></b> (five hundred)" },
     audio: "hundred"
   },
   {
@@ -963,7 +963,7 @@ window.WORDS = [
   },
   {
     kana: "ひとりで",
-    english: { main: "by oneself; on one's own", note: "expression", example: "<b>ひとりで</b>本を読みます (i read books by myself)" },
+    english: { main: "by oneself; on one's own", note: "expression", example: "<b>ひとりで</b><ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt>みます</ruby> (i read books by myself)" },
     audio: "by-oneself"
   },
   {
@@ -1202,7 +1202,7 @@ window.WORDS = [
   },
   {
     kana: "こちら",
-    english: { main: "this", note: "pronoun; polite; JLPT N5", example: "<b>こちら</b>は田中さんです (this is mr. tanaka)" },
+    english: { main: "this", note: "pronoun; polite; JLPT N5", example: "<b>こちら</b>は<ruby>田<rt>た</rt>中<rt>なか</rt></ruby>さんです (this is mr. tanaka)" },
     audio: "this-polite"
   },
   {
@@ -1241,11 +1241,11 @@ window.WORDS = [
   {
     kanji: "言う/言います",
     kana: "いう/いいます",
-    english: { main: "<i>1.</i> to say; <i>2.</i> to name", note: "verb (godan, tr.); JLPT N5", example: "田中と<b>言います</b> (my name is tanaka (lit. i say 'tanaka'))" }
+    english: { main: "<i>1.</i> to say; <i>2.</i> to name", note: "verb (godan, tr.); JLPT N5", example: "<ruby>田<rt>た</rt>中<rt>なか</rt></ruby>と<b><ruby>言<rt>い</rt>います</ruby></b> (my name is tanaka (lit. i say 'tanaka'))" }
   },
   {
     kana: "すき",
-    english: { main: "likeable; to one's liking; favorite", note: "na-adjective; JLPT N5", example: "まんがが<b>すき</b>です (i like manga);<br>ケーキは<b>すき</b>ですか (do you like cake?);<br>これは私の<b>すきな</b>本です (this is my favorite book)" },
+    english: { main: "likeable; to one's liking; favorite", note: "na-adjective; JLPT N5", example: "まんがが<b>すき</b>です (i like manga);<br>ケーキは<b>すき</b>ですか (do you like cake?);<br>これは<ruby>私<rt>わたし</rt></ruby>の<b>すきな</b><ruby>本<rt>ほん</rt></ruby>です (this is my favorite book)" },
     audio: "liked"
   },
   {
@@ -1383,13 +1383,13 @@ window.WORDS = [
   },
   {
     kana: "つぎ",
-    english: { main: "next", note: "noun; JLPT N5", example: "<b>つぎ</b>のでんしゃはもうすぐ来ます (the next train will come soon);<br><b>つぎ</b>はあきはばらです (next is akihabara)" },
+    english: { main: "next", note: "noun; JLPT N5", example: "<b>つぎ</b>のでんしゃはもうすぐ<ruby>来<rt>き</rt>ます</ruby> (the next train will come soon);<br><b>つぎ</b>はあきはばらです (next is akihabara)" },
     audio: "next"
   },
   {
     kanji: "行く/行きます",
     kana: "いく/いきます",
-    english: { main: "to go; to move (toward)", note: "verb (godan, intr.); JLPT N5", example: "このでんしゃはしぶやえきに<b>行きます</b> (this train goes to shibuya station)" }
+    english: { main: "to go; to move (toward)", note: "verb (godan, intr.); JLPT N5", example: "このでんしゃはしぶやえきに<b><ruby>行<rt>い</rt>きます</ruby></b> (this train goes to shibuya station)" }
   },
   {
     kana: "うえの",
@@ -1425,7 +1425,7 @@ window.WORDS = [
   },
   {
     kana: "かかる/かかります",
-    english: { main: "to take <i>(e.g. time, money)</i>", note: "verb (godan, intr.); JLPT N5", example: "十分ぐらい<b>かかります</b> (it takes about 10 minutes)" }
+    english: { main: "to take <i>(e.g. time, money)</i>", note: "verb (godan, intr.); JLPT N5", example: "<ruby>十分<rt>じっぷん</rt></ruby>ぐらい<b>かかります</b> (it takes about 10 minutes)" }
   },
   {
     kana: "はやい",
@@ -1437,7 +1437,7 @@ window.WORDS = [
   },
   {
     kana: "ぐらい/くらい",
-    english: { main: "about; approximately", note: "suffix; particle; JLPT N1", example: "十分<b>ぐらい</b>です (it's about 10 minutes)" }
+    english: { main: "about; approximately", note: "suffix; particle; JLPT N1", example: "<ruby>十分<rt>じっぷん</rt></ruby><b>ぐらい</b>です (it's about 10 minutes)" }
   },
   {
     kana: "どのぐらい/どのくらい",
@@ -1446,7 +1446,7 @@ window.WORDS = [
   {
     kanji: "時間",
     kana: "じかん",
-    english: { main: "hour", note: "noun; JLPT N5", example: "たぶん五<b>時間</b>ぐらいかかります (it probably takes about 5 hours)" }
+    english: { main: "hour", note: "noun; JLPT N5", example: "たぶん<ruby>五<rt>ご</rt></ruby><b><ruby>時<rt>じ</rt>間<rt>かん</rt></ruby></b>ぐらいかかります (it probably takes about 5 hours)" }
   },
   {
     kana: "しゅうてん",
@@ -1454,7 +1454,7 @@ window.WORDS = [
   },
   {
     kana: "ながい",
-    english: { main: "<i>1.</i> long (distance, length)​; <i>2.</i> long (time)", note: "i-adjective; JLPT N5", example: "(2) 三時間は<b>ながい</b>ですね (3 hours is long, isn't it?)" }
+    english: { main: "<i>1.</i> long (distance, length)​; <i>2.</i> long (time)", note: "i-adjective; JLPT N5", example: "(2) <ruby>三<rt>さん</rt><ruby><ruby>時<rt>じ</rt>間<rt>かん</rt></ruby>は<b>ながい</b>ですね (3 hours is long, isn't it?)" }
   },
   {
     kanji: "所",
@@ -1463,7 +1463,7 @@ window.WORDS = [
   },
   {
     kana: "ほんとうに",
-    english: { main: "really; truly", note: "adverb", example: "京都えきは<b>ほんとうに</b>きれいなえきです (kyoto station is a really pretty station)" }
+    english: { main: "really; truly", note: "adverb", example: "<ruby>京<rt>きょう</rt>都<rt>と</rt></ruby>えきは<b>ほんとうに</b>きれいなえきです (kyoto station is a really pretty station)" }
   },
   {
     kana: "たてもの",
@@ -1511,7 +1511,7 @@ window.WORDS = [
   },
   {
     kana: "や",
-    english: { main: "shop; restaurant <i>(as a suffix)</i>", note: "suffix", example: "いつもこのピザ<b>や</b>に行きます (i always go to this pizza shop)" }
+    english: { main: "shop; restaurant <i>(as a suffix)</i>", note: "suffix", example: "いつもこのピザ<b>や</b>に<ruby>行<rt>い</rt>きます</ruby> (i always go to this pizza shop)" }
   },
   {
     kana: "(お)みやげ",
@@ -1563,11 +1563,11 @@ window.WORDS = [
   {
     kanji: "〇",
     kana: "ゼロ",
-    english: { main: "zero", note: "noun; numeric; JLPT N5", example: "私のでんわばんごうは<b>〇</b>八の三四五六です (my phone number is 08-3456)" }
+    english: { main: "zero", note: "noun; numeric; JLPT N5", example: "<ruby>私<rt>わたし</rt></ruby>のでんわばんごうは<b>〇</b><ruby>八<rt>はち</rt></ruby>の<ruby>三<rt>さん</rt>四<rt>よん</rt>五<rt>ご</rt>六<rt>ろく</rt></ruby>です (my phone number is 08-3456)" }
   },
   {
     kana: "でんわばんごう",
-    english: { main: "phone number", note: "noun", example: "私の<b>でんわばんごう</b>は〇八の三四五六です (my phone number is 08-3456)" }
+    english: { main: "phone number", note: "noun", example: "<ruby>私<rt>わたし</rt></ruby>の<b>でんわばんごう</b>は〇<ruby>八<rt>はち</rt></ruby>の<ruby>三<rt>さん</rt>四<rt>よん</rt>五<rt>ご</rt>六<rt>ろく</rt></ruby>です (my phone number is 08-3456)" }
   },
   {
     // kanji: "何才/何歳",
@@ -1608,11 +1608,11 @@ window.WORDS = [
   },
   {
     kana: "ちゃんと",
-    english: { main: "'make sure' <i>(lit. <b>diligently; seriously; earnestly</b>)</i>", note: "adverb; JLPT N3", example: "<b>ちゃんと</b>水を飲みます (i'll make sure to drink water)" }
+    english: { main: "'make sure' <i>(lit. <b>diligently; seriously; earnestly</b>)</i>", note: "adverb; JLPT N3", example: "<b>ちゃんと</b><ruby>水<rt>みず</rt></ruby>を<ruby>飲<rt>の</rt>みます</ruby> (i'll make sure to drink water)" }
   },
   {
     kana: "はる",
-    english: { main: "spring <i>(season)</i>", note: "noun; adverb; JLPT N5", example: "<b>はる</b>はよくともだちとこうえんに行きます (in the spring, i often go to the park with friends)" },
+    english: { main: "spring <i>(season)</i>", note: "noun; adverb; JLPT N5", example: "<b>はる</b>はよくともだちとこうえんに<ruby>行<rt>い</rt>きます</ruby> (in the spring, i often go to the park with friends)" },
     audio: "spring-season"
   },
   {
@@ -1626,7 +1626,7 @@ window.WORDS = [
   },
   {
     kana: "あたたかい",
-    english: { main: "warm", note: "i-adjective; JLPT N5", example: "ふゆはまいにち<b>あたたかい</b>ココアを飲みます (in the winter, i drink warm cocoa every day)" }
+    english: { main: "warm", note: "i-adjective; JLPT N5", example: "ふゆはまいにち<b>あたたかい</b>ココアを<ruby>飲<rt>の</rt>みます</ruby> (in the winter, i drink warm cocoa every day)" }
   },
   {
     kana: "はれ",
@@ -1645,7 +1645,7 @@ window.WORDS = [
   {
     kanji: "日",
     kana: "ひ | にち",
-    english: { main: "day | <i>counter for days</i>", note: "noun; JLPT N4 | counter; JLPT N3", example: "はれの<b>日</b>はスポーツをします (on sunny days, i play sports)" }
+    english: { main: "day | <i>counter for days</i>", note: "noun; JLPT N4 | counter; JLPT N3", example: "はれの<b><ruby>日<rt>ひ</rt></ruby></b>はスポーツをします (on sunny days, i play sports)" }
   },
   {
     kana: "プール",
@@ -1660,7 +1660,7 @@ window.WORDS = [
   {
     kanji: "休み",
     kana: "やすみ",
-    english: { main: "<i>1.</i> rest; break; <i>2.</i> vacation", note: "noun; JLPT N5", example: "なつ<b>休み</b>はいいですね (summer break is nice, isn't it?);<br><b>休み</b>の日は何をしますか (what do you do on days off?)" }
+    english: { main: "<i>1.</i> rest; break; <i>2.</i> vacation", note: "noun; JLPT N5", example: "なつ<b><ruby>休<rt>やす</rt>み</ruby></b>はいいですね (summer break is nice, isn't it?);<br><b><ruby>休<rt>やす</rt>み</ruby></b>の<ruby>日<rt>ひ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか (what do you do on days off?)" }
   },
   {
     kana: "はなび",
@@ -1726,7 +1726,7 @@ window.WORDS = [
   },
   {
     kana: "いる/います",
-    english: { main: "to be; to exist <i>(of animate objects)</i>", note: "verb (ichidan, intr.); JLPT N5", example: "ゆうめいなおとうとが<b>います</b> (i have a famous younger brother);<br>家のちかくに<b>います</b> (i'm near my house);<br>かいさんはまだ<b>いません</b> (kai isn't here yet)" }
+    english: { main: "to be; to exist <i>(of animate objects)</i>", note: "verb (ichidan, intr.); JLPT N5", example: "ゆうめいなおとうとが<b>います</b> (i have a famous younger brother);<br><ruby>家<rt>いえ</rt></ruby>のちかくに<b>います</b> (i'm near my house);<br>かいさんはまだ<b>いません</b> (kai isn't here yet)" }
   },
   {
     kanji: "日本語",
@@ -1755,7 +1755,7 @@ window.WORDS = [
   },
   {
     kana: "できる/できます",
-    english: { main: "to be good at; to do well", note: "verb (ichidan, intr.); JLPT N5", example: "私も日本ごが<b>できます</b> (i also know japanese)" }
+    english: { main: "to be good at; to do well", note: "verb (ichidan, intr.); JLPT N5", example: "<ruby>私<rt>わたし</rt></ruby>も<ruby>日本<rt>にほん</rt></ruby>ごが<b>できます</b> (i also know japanese)" }
   },
   {
     kana: "たいわん",
@@ -1870,7 +1870,7 @@ window.WORDS = [
   },
   {
     kana: "はいる/はいります",
-    english: { main: "<i>1.</i> to enter; <i>2.</i> to join <i>(a club, company, etc.)</i>", note: "verb (godan, intr.); JLPT N5", example: "(1) まいばんおふろに<b>はいります</b> (i take a bath (lit. enter a bath) every night);<br>(2) アンドリューさんも日本ごサークルに<b>はいりません</b>か (would you also like to join the japanese club, andrew?)" },
+    english: { main: "<i>1.</i> to enter; <i>2.</i> to join <i>(a club, company, etc.)</i>", note: "verb (godan, intr.); JLPT N5", example: "(1) まいばんおふろに<b>はいります</b> (i take a bath (lit. enter a bath) every night);<br>(2) アンドリューさんも<ruby>日本<rt>にほん</rt></ruby>ごサークルに<b>はいりません</b>か (would you also like to join the japanese club, andrew?)" },
     audio: ",to-enter-polite"
   },
   {
@@ -1888,7 +1888,7 @@ window.WORDS = [
   },
   {
     kana: "りょうり",
-    english: { main: "cooking; food", note: "noun; verb (suru, tr.); JLPT N5", example: "うちにかえります。そして、<b>りょうり</b>をします (i return home. then, i do the cooking);<br>フランス<b>りょうり</b>、日本<b>りょうり</b> (french food, japanese food)" }
+    english: { main: "cooking; food", note: "noun; verb (suru, tr.); JLPT N5", example: "うちにかえります。そして、<b>りょうり</b>をします (i return home. then, i do the cooking);<br>フランス<b>りょうり</b>、<ruby>日本<rt>にほん</rt></ruby><b>りょうり</b> (french food, japanese food)" }
   },
   {
     kana: "ガーデニング",
@@ -1905,7 +1905,7 @@ window.WORDS = [
   },
   {
     kana: "～ましょう",
-    english: { main: "let's [verb] <i>(used to make an invitation, request, etc.)</i>", note: "expression", example: "行き<b>ましょう</b>! (let's go!/we should go!);<br>何をし<b>ましょう</b>か? (what should we do?);<br>九時に会い<b>ましょう</b> (we should meet at 9 o'clock)" }
+    english: { main: "let's [verb] <i>(used to make an invitation, request, etc.)</i>", note: "expression", example: "<ruby>行<rt>い</rt>き</ruby><b>ましょう</b>! (let's go!/we should go!);<br><ruby>何<rt>なに</rt></ruby>をし<b>ましょう</b>か? (what should we do?);<br><ruby>九<rt>く</rt>時<rt>じ</rt></ruby>に<ruby>会<rt>あ</rt>い</ruby><b>ましょう</b> (we should meet at 9 o'clock)" }
   },
   {
     kana: "りょこう",
@@ -1915,7 +1915,7 @@ window.WORDS = [
   {
     kanji: "会う/会います",
     kana: "あう/あいます",
-    english: { main: "to meet <i>(if preceded by a noun, always [noun]に～)</i>", note: "verb (godan, intr.); JLPT N5", example: "ともだちに<b>会います</b> (i'm going to see my friend)" }
+    english: { main: "to meet <i>(if preceded by a noun, always [noun]に～)</i>", note: "verb (godan, intr.); JLPT N5", example: "ともだちに<b><ruby>会<rt>あ</rt>います</ruby></b> (i'm going to see my friend)" }
   },
   {
     kana: "スーツケース",
@@ -1940,7 +1940,7 @@ window.WORDS = [
   },
   {
     kana: "で",
-    english: { main: "<i>1.</i> at; in <i>(​indicates location of action)</i>; <i>2.</i> at; when <i>(indicates time of action)</i>; <i>3.</i> by; with <i>(indicates means of action)</i>", note: "particle", example: "(1) コンビニ<b>で</b>おかしを買いましょう (we should buy snacks at the convenience store);<br>(1) ここ<b>で</b>みちをわたりましょう (we should cross the street here)" }
+    english: { main: "<i>1.</i> at; in <i>(​indicates location of action)</i>; <i>2.</i> at; when <i>(indicates time of action)</i>; <i>3.</i> by; with <i>(indicates means of action)</i>", note: "particle", example: "(1) コンビニ<b>で</b>おかしを<ruby>買<rt>か</rt>いましょう</ruby> (we should buy snacks at the convenience store);<br>(1) ここ<b>で</b>みちをわたりましょう (we should cross the street here)" }
   },
   {
     kana: "どうぶつえん",
@@ -1981,7 +1981,7 @@ window.WORDS = [
   {
     kanji: "金曜日",
     kana: "きんようび",
-    english: { main: "Friday", note: "noun; adverb; JLPT N5", example: "<b>金曜日</b>にどこで食べますか (where are you going to eat on friday?)" }
+    english: { main: "Friday", note: "noun; adverb; JLPT N5", example: "<b><ruby>金<rt>きん</rt>曜<rt>よう</rt>日<rt>び</rt></ruby></b>にどこで<ruby>食<rt>た</rt>べます</ruby>か (where are you going to eat on friday?)" }
   },
   {
     kanji: "お母さん",
@@ -2005,7 +2005,7 @@ window.WORDS = [
   {
     kanji: "乗る/乗ります",
     kana: "のる/のります",
-    english: { main: "to ride; to get on; to take <i>(train, etc.)</i> <i>(always に～)</i>", note: "verb (godan, intr.); JLPT N5", example: "しんかんせんに<b>のります</b> (we're going to ride the bullet train);<br>ちかてつに<b>乗ります</b> (i'll take the subway)" }
+    english: { main: "to ride; to get on; to take <i>(train, etc.)</i> <i>(always に～)</i>", note: "verb (godan, intr.); JLPT N5", example: "しんかんせんに<b>のります</b> (we're going to ride the bullet train);<br>ちかてつに<b><ruby>乗<rt>の</rt>ります</ruby></b> (i'll take the subway)" }
   },
   {
     kana: "なごや",
@@ -2045,7 +2045,7 @@ window.WORDS = [
   },
   {
     kana: "たのしみ",
-    english: { main: "anticipation; looking forward to", note: "noun; na-adjective; JLPT N4", example: "何が<b>たのしみ</b>ですか (what are you looking forward to?);<br>つぎのりょこうが<b>たのしみ</b>です (i'm looking forward to the next trip)" },
+    english: { main: "anticipation; looking forward to", note: "noun; na-adjective; JLPT N4", example: "<ruby>何<rt>なに</rt></ruby>が<b>たのしみ</b>ですか (what are you looking forward to?);<br>つぎのりょこうが<b>たのしみ</b>です (i'm looking forward to the next trip)" },
     audio: "anticipation"
   },
   {
@@ -2068,7 +2068,7 @@ window.WORDS = [
   },
   {
     kana: "みどり",
-    english: { main: "green", note: "noun; JLPT N5", example: "あの<b>みどり</b>のおかしは何ですか (what is that green snack over there?)" }
+    english: { main: "green", note: "noun; JLPT N5", example: "あの<b>みどり</b>のおかしは<ruby>何<rt>なん</rt></ruby>ですか (what is that green snack over there?)" }
   },
   {
     kana: "カップケーキ",
@@ -2113,7 +2113,7 @@ window.WORDS = [
   },
   {
     kana: "いっしょに",
-    english: { main: "together (with)", note: "adverb", example: "<b>いっしょに</b>レストランに行きましょう (we should go to a restaurant together)" },
+    english: { main: "together (with)", note: "adverb", example: "<b>いっしょに</b>レストランに<ruby>行<rt>い</rt>きましょう</ruby> (we should go to a restaurant together)" },
     audio: "together"
   },
   {
@@ -2137,7 +2137,7 @@ window.WORDS = [
   },
   {
     kana: "もっと",
-    english: { main: "(some) more", note: "adverb; JLPT N5", example: "スーパーで<b>もっと</b>パンを買いましょう (we should buy more bread at the supermaket)" },
+    english: { main: "(some) more", note: "adverb; JLPT N5", example: "スーパーで<b>もっと</b>パンを<ruby>買<rt>か</rt>いましょう</ruby> (we should buy more bread at the supermaket)" },
     audio: "more"
   },
   {
@@ -2173,7 +2173,7 @@ window.WORDS = [
   },
   {
     kana: "なま",
-    english: { main: "raw; uncooked", note: "noun; JLPT N3", example: "<b>なま</b>の卵は食べません (i don't eat raw eggs)" },
+    english: { main: "raw; uncooked", note: "noun; JLPT N3", example: "<b>なま</b>の<ruby>卵<rt>たまご</rt></ruby>は<ruby>食<rt>た</rt>べません</ruby> (i don't eat raw eggs)" },
     audio: "raw-uncooked"
   },
   {
@@ -2259,12 +2259,12 @@ window.WORDS = [
   {
     kanji: "六つ",
     kana: "むっつ",
-    english: { main: "six", note: "numeric; JLPT N5", example: "金曜日はテストが<b>むっつ</b>あります (on friday, i have six tests)" }
+    english: { main: "six", note: "numeric; JLPT N5", example: "<ruby>金<rt>か</rt>曜<rt>よう</rt>日<rt>び</rt></ruby>はテストが<b>むっつ</b>あります (on friday, i have six tests)" }
   },
   {
     // kanji: "終わる/終わります",
     kana: "おわる/おわります",
-    english: { main: "to end; to finish", note: "verb (godan, intr.); JLPT N5", example: "じゅぎょうは何時に<b>おわります</b>か (what time does class end?)" }
+    english: { main: "to end; to finish", note: "verb (godan, intr.); JLPT N5", example: "じゅぎょうは<ruby>何<rt>なん</rt>時<rt>じ</rt></ruby>に<b>おわります</b>か (what time does class end?)" }
   },
   {
     kanji: "水曜日",
@@ -2273,7 +2273,7 @@ window.WORDS = [
   },
   {
     kana: "いくつ",
-    english: { main: "<i>1.</i> how many; <i>2.</i> how old", note: "adverb; JLPT N5", example: "(1) いちごを<b>いくつ</b>食べますか (how many strawberries will you eat?);<br>(2) <b>(お)いくつ</b>ですか (how old are you?)" },
+    english: { main: "<i>1.</i> how many; <i>2.</i> how old", note: "adverb; JLPT N5", example: "(1) いちごを<b>いくつ</b><ruby>食<rt>た</rt>べます</ruby>か (how many strawberries will you eat?);<br>(2) <b>(お)いくつ</b>ですか (how old are you?)" },
     audio: "how-many-how-old"
   },
   {
@@ -2404,7 +2404,7 @@ window.WORDS = [
   {
     kanji: "国",
     kana: "くに",
-    english: { main: "country; state", note: "noun; JLPT N5", example: "<b>お国</b>はどちらですか ([honorific] where is your native country?)" },
+    english: { main: "country; state", note: "noun; JLPT N5", example: "<b>お<ruby>国<rt>くに</rt></ruby></b>はどちらですか ([honorific] where is your native country?)" },
     audio: "country-state"
   },
   {
@@ -2419,7 +2419,7 @@ window.WORDS = [
   },
   {
     kana: "(お)つり",
-    english: { main: "change <i>(for a purchase)</i>", note: "noun; polite; JLPT N4", example: "20円の<b>おつり</b>です (the change is 20 yen)" },
+    english: { main: "change <i>(for a purchase)</i>", note: "noun; polite; JLPT N4", example: "20<ruby>円<rt>えん</rt></ruby>の<b>おつり</b>です (the change is 20 yen)" },
     audio: "change-for-purchase"
   },
   {
@@ -2462,7 +2462,7 @@ window.WORDS = [
   {
     kanji: "働く/働きます",
     kana: "はたらく/はたらきます",
-    english: { main: "to work", note: "verb (godan, intr.); JLPT N5", example: "昨日<b>働きました</b>か (did you work yesterday?)" },
+    english: { main: "to work", note: "verb (godan, intr.); JLPT N5", example: "<ruby>昨日<rt>きのう</rt></ruby><b><ruby>働<rt>はたら</rt>きました</ruby></b>か (did you work yesterday?)" },
     audio: "to-work,"
   },
   {
@@ -2543,7 +2543,7 @@ window.WORDS = [
   {
     // kanji: "午前",
     kana: "ごぜん",
-    english: { main: "a.m.; morning", note: "noun; adverb; JLPT N5", example: "<b>ごぜん</b>八時ごろおきます (i wake up around 8 a.m.)" }
+    english: { main: "a.m.; morning", note: "noun; adverb; JLPT N5", example: "<b>ごぜん</b><ruby>八<rt>はち</rt>時<rt>じ</rt></ruby>ごろおきます (i wake up around 8 a.m.)" }
   },
   {
     kana: "あらう/あらいます",
@@ -2608,7 +2608,7 @@ window.WORDS = [
   {
     kanji: "車",
     kana: "くるま",
-    english: { main: "car", note: "noun; JLPT N5", example: "毎日<b>車</b>で仕事に行きます (every day i go to work by car)" },
+    english: { main: "car", note: "noun; JLPT N5", example: "<ruby>毎<rt>まい</rt>日<rt>にち</rt></ruby><b><ruby>車<rt>くるま</rt></ruby></b>で<ruby>仕<rt>し</rt>事<rt>ごと</rt></ruby>に<ruby>行<rt>い</rt>きます</ruby> (every day i go to work by car)" },
     audio: "car"
   },
   {
@@ -2732,22 +2732,22 @@ window.WORDS = [
   },
   {
     kana: "でもある/でもあります",
-    english: { main: "to also be <i>(implies that as well as the earlier stated this is also the case)​</i>", note: "verb (godan); formal; literary", example: "田中さんは学生です。日本人<b>でもあります</b>。 (tanaka is a student. he is also japanese.)" },
+    english: { main: "to also be <i>(implies that as well as the earlier stated this is also the case)​</i>", note: "verb (godan); formal; literary", example: "<ruby>田<rt>た</rt>中<rt>なか</rt></ruby>さんは<ruby>学<rt>がく</rt>生<rt>せい</rt></ruby>です。<ruby>日本<rt>にほん</rt>人<rt>じん</rt></ruby><b>でもあります</b>。 (tanaka is a student. he is also japanese.)" },
     audio: "to-also-be,"
   },
   {
     kana: "よ",
-    english: { main: "hey; you <i>(at sentence-end; indicates certainty, emphasis, contempt, request, warning, etc.)</i>", note: "particle", example: "とんかつは魚じゃないです<b>よ</b> ((let me assure you,) tonkatsu is not fish);<br>スミスさんはイギリス人です<b>よ</b> ((in case you're wondering,) mr. smith is british)" }
+    english: { main: "hey; you <i>(at sentence-end; indicates certainty, emphasis, contempt, request, warning, etc.)</i>", note: "particle", example: "とんかつは<ruby>魚<rt>さかな</rt></ruby>じゃないです<b>よ</b> ((let me assure you,) tonkatsu is not fish);<br>スミスさんはイギリス人です<b>よ</b> ((in case you're wondering,) mr. smith is british)" }
   },
   {
     kana: "ゆっくり",
-    english: { main: "slowly; unhurriedly", note: "adverb; verb (suru); JLPT N5", example: "<b>ゆっくり</b>言ってください (please say it slowly)" },
+    english: { main: "slowly; unhurriedly", note: "adverb; verb (suru); JLPT N5", example: "<b>ゆっくり</b><ruby>言<rt>い</rt>って</ruby>ください (please say it slowly)" },
     audio: "slowly"
   },
   {
     kanji: "もう一度",
     kana: "もういちど",
-    english: { main: "once more; again", note: "expression; adverb; JLPT N5", example: "<b>もう一度</b>言ってください (please say it again)" },
+    english: { main: "once more; again", note: "expression; adverb; JLPT N5", example: "<b><ruby>もう<rt></rt>一<rt>いち</rt>度<rt>ど</rt></ruby></b><ruby>言<rt>い</rt>って</ruby>ください (please say it again)" },
     audio: "once-more-again"
   },
   {
@@ -2877,7 +2877,7 @@ window.WORDS = [
   },
   {
     kana: "あじ",
-    english: { main: "flavor", note: "noun; JLPT N4", example: "すきな<b>あじ</b>は何ですか (what's your favorite flavor?);<br>すきなアイスクリームの<b>あじ</b>はチョコレートです (my favorite ice cream flavor is chocolate)" },
+    english: { main: "flavor", note: "noun; JLPT N4", example: "すきな<b>あじ</b>は<ruby>何<rt>なん</rt></ruby>ですか (what's your favorite flavor?);<br>すきなアイスクリームの<b>あじ</b>はチョコレートです (my favorite ice cream flavor is chocolate)" },
     audio: "flavor"
   },
   {
@@ -2886,7 +2886,7 @@ window.WORDS = [
   },
   {
     kana: "あく/あきます",
-    english: { main: "<i>1.</i> to open <i>(e.g. door)</i>; <i>2.</i> to open <i>(e.g. business)</i>", note: "verb (godan, intr.); JLPT N5", example: "ケーキやは十時に<b>あきます</b> (the cake shop opens at 10 o'clock)" }
+    english: { main: "<i>1.</i> to open <i>(e.g. door)</i>; <i>2.</i> to open <i>(e.g. business)</i>", note: "verb (godan, intr.); JLPT N5", example: "ケーキやは<ruby>十<rt>じゅう</rt>時<rt>じ</rt></ruby>に<b>あきます</b> (the cake shop opens at 10 o'clock)" }
   },
   {
     kana: "ぜんぶ",
@@ -2917,7 +2917,7 @@ window.WORDS = [
   },
   {
     kana: "デート",
-    english: { main: "date <i>(with someone)</i>", note: "noun; JLPT N3", example: "ダニエルさんと<b>デート</b>に行きます (i'm going on a date with daniel)" }
+    english: { main: "date <i>(with someone)</i>", note: "noun; JLPT N3", example: "ダニエルさんと<b>デート</b>に<ruby>行<rt>い</rt>きます</ruby> (i'm going on a date with daniel)" }
   },
   {
     kana: "えいがかん",
@@ -2944,7 +2944,7 @@ window.WORDS = [
   {
     // kanji: "誕生日",
     kana: "たんじょうび",
-    english: { main: "birthday", note: "noun; JLPT N5", example: "日曜日は私の<b>たんじょうび</b>です (sunday is my birthday)" },
+    english: { main: "birthday", note: "noun; JLPT N5", example: "<ruby>日<rt>にち</rt>曜<rt>よう</rt>日<rt>び</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>の<b>たんじょうび</b>です (sunday is my birthday)" },
     audio: "birthday"
   },
   {
@@ -2992,7 +2992,7 @@ window.WORDS = [
   },
   {
     kana: "あまり",
-    english: { main: "(not) very; (not) much <i>(with negative sentence, あまり〜ません)</i>", note: "adverb; JLPT N5", example: "ホラーまんがは<b>あまり</b>読みません (i don't read horror manga very much)" },
+    english: { main: "(not) very; (not) much <i>(with negative sentence, あまり〜ません)</i>", note: "adverb; JLPT N5", example: "ホラーまんがは<b>あまり</b><ruby>読<rt>よ</rt>みません</ruby> (i don't read horror manga very much)" },
     audio: "not-very-not-much"
   },
   {
@@ -3059,11 +3059,11 @@ window.WORDS = [
   },
   {
     kana: "さいご",
-    english: { main: "last; final", note: "noun; JLPT N4", example: "<b>さいご</b>のミーティングは何時からですか (what time does the last meeting start?)" }
+    english: { main: "last; final", note: "noun; JLPT N4", example: "<b>さいご</b>のミーティングは<ruby>何<rt>なん</rt>時<rt>じ</rt></ruby>からですか (what time does the last meeting start?)" }
   },
   {
     kana: "から",
-    english: { main: "from <i>(time, place, numerical quantity)</i>; since", note: "particle", example: "さいごのミーティングは何時<b>から</b>ですか (what time does the last meeting start?)<br>どこ<b>から</b>タクシーにのりますか (where are we taking a taxi from?)" }
+    english: { main: "from <i>(time, place, numerical quantity)</i>; since", note: "particle", example: "さいごのミーティングは<ruby>何<rt>なん</rt>時<rt>じ</rt></ruby><b>から</b>ですか (what time does the last meeting start?)<br>どこ<b>から</b>タクシーにのりますか (where are we taking a taxi from?)" }
   },
   {
     kana: "まで",
@@ -3119,7 +3119,7 @@ window.WORDS = [
   },
   {
     kana: "とちゅう",
-    english: { main: "on the way; en route <i>(with で)</i>", note: "noun; adverb; JLPT N4", example: "<b>とちゅう</b>でワインを買います (we're going to buy wine on the way)" },
+    english: { main: "on the way; en route <i>(with で)</i>", note: "noun; adverb; JLPT N4", example: "<b>とちゅう</b>でワインを<ruby>買<rt>か</rt>います</ruby> (we're going to buy wine on the way)" },
     audio: "on-the-way"
   },
   {
@@ -3161,13 +3161,13 @@ window.WORDS = [
   },
   {
     kana: "どうやって",
-    english: { main: "how; in what way; by what means​", note: "expression", example: "デパートまで<b>どうやって</b>行きましょうか (how should we get to the department store?);<br><b>どうやって</b>来ましたか (how [by what means] did you come?)" },
+    english: { main: "how; in what way; by what means​", note: "expression", example: "デパートまで<b>どうやって</b><ruby>行<rt>い</rt>きましょう</ruby>か (how should we get to the department store?);<br><b>どうやって</b><ruby>来<rt>き</rt>ました</ruby>か (how [by what means] did you come?)" },
     audio: "how-in-what-way"
   },
   {
     kanji: "歩く/歩きます",
     kana: "あるく/あるきます",
-    english: { main: "to walk", note: "verb (godan, intr.); JLPT N5", example: "<b>歩いて</b>来ました (i came on foot. (lit. i walked and came.))" }
+    english: { main: "to walk", note: "verb (godan, intr.); JLPT N5", example: "<b><ruby>歩<rt>ある</rt>いて</ruby></b><ruby>来<rt>き</rt>ました</ruby> (i came on foot. (lit. i walked and came.))" }
   },
   {
     kanji: "道",
@@ -3253,7 +3253,7 @@ window.WORDS = [
   {
     kanji: "十月",
     kana: "じゅうがつ",
-    english: { main: "October", note: "noun", example: "<b>十月</b>三十一日 (october 31st)" },
+    english: { main: "October", note: "noun", example: "<b><ruby>十<rt>じゅう</rt>月<rt>がつ</rt></ruby></b><ruby>三<rt>さん</rt>十<rt>じゅう</rt>一<rt>いち</rt>日<rt>にち</rt></ruby> (october 31st)" },
     audio: "october"
   },
   {
@@ -3298,7 +3298,7 @@ window.WORDS = [
   {
     kanji: "～年生",
     kana: "～ねんせい",
-    english: { main: "nth-year student", note: "suffix; JLPT N1", example: "なおみさんは三<b>年生</b>ですか (are you a junior, naomi?)" },
+    english: { main: "nth-year student", note: "suffix; JLPT N1", example: "なおみさんは<ruby>三<rt>さん</rt></ruby><b><ruby>年<rt>ねん</rt>生<rt>せい</rt></ruby></b>ですか (are you a junior, naomi?)" },
     audio: "nth-year-student"
   },
   {
@@ -3365,7 +3365,7 @@ window.WORDS = [
   {
     // kanji: "全然",
     kana: "ぜんぜん",
-    english: { main: "(not) at all <i>(with negative sentence, 全然〜ません)</i>", note: "adverb; JLPT N3", example: "私は<b>ぜんぜん</b>テレビを見ません (i do not watch tv at all)" },
+    english: { main: "(not) at all <i>(with negative sentence, 全然〜ません)</i>", note: "adverb; JLPT N3", example: "<ruby>私<rt>わたし</rt></ruby>は<b>ぜんぜん</b>テレビを<ruby>見<rt>み</rt>ません</ruby> (i do not watch tv at all)" },
     audio: "not-at-all"
   },
   {
@@ -3375,13 +3375,13 @@ window.WORDS = [
   {
     kanji: "書く/書きます",
     kana: "かく/かきます",
-    english: { main: "<i>1.</i> to write; <i>2.</i> to draw", note: "verb (godan, tr.); JLPT N5", example: "てがみを<b>書きます</b> (i will write a letter)" },
+    english: { main: "<i>1.</i> to write; <i>2.</i> to draw", note: "verb (godan, tr.); JLPT N5", example: "てがみを<b><ruby>書<rt>か</rt>きます</ruby></b> (i will write a letter)" },
     audio: "to-write,to-write-polite"
   },
   {
     kanji: "吸う/吸います",
     kana: "すう/すいます",
-    english: { main: "to breathe in; to smoke", note: "verb (godan, tr.); JLPT N5", example: "タバコを<b>吸います</b>か (do you smoke?)" },
+    english: { main: "to breathe in; to smoke", note: "verb (godan, tr.); JLPT N5", example: "タバコを<b><ruby>吸<rt>す</rt>います</ruby></b>か (do you smoke?)" },
     audio: "to-breathe-in,to-breathe-in-polite"
   },
   {
@@ -3446,16 +3446,16 @@ window.WORDS = [
   {
     kanji: "何も",
     kana: "なにも",
-    english: { main: "(not) anything; (nothing) at all; (not) any; nothing <i>(with negative verb)</i>", note: "expression; JLPT N3", example: "今朝<b>何も</b>食べませんでした (i didn't eat anything this morning)" }
+    english: { main: "(not) anything; (nothing) at all; (not) any; nothing <i>(with negative verb)</i>", note: "expression; JLPT N3", example: "<ruby>今朝<rt>けさ</rt></ruby><b><ruby>何<rt>なに</rt>も</ruby></b><ruby>食<rt>た</rt>べませんでした</ruby> (i didn't eat anything this morning)" }
   },
   {
     // kanji: "誰も",
     kana: "だれも",
-    english: { main: "no one; nobody <i>(with negative verb)</i>", note: "expression", example: "昨日<b>だれも</b>来ませんでした (yesterday, nobody came);<br>昨日<b>だれにも</b>会いませんでした (i didn't meet anyone yesterday [会う requires に])" }
+    english: { main: "no one; nobody <i>(with negative verb)</i>", note: "expression", example: "<ruby>昨日<rt>きのう</rt></ruby><b>だれも</b><ruby>来<rt>き</rt>ませんでした</ruby> (yesterday, nobody came);<br><ruby>昨日<rt>きのう</rt></ruby><b>だれにも</b><ruby>会<rt>あ</rt>いませんでした</ruby> (i didn't meet anyone yesterday [会う requires に])" }
   },
   {
     kana: "どこも",
-    english: { main: "nowhere <i>(with negative verb)</i>", note: "conjunction", example: "明日<b>どこも</b>行きません/明日<b>どこにも</b>行きません (i'm not going anywhere tomorrow [both correct]); " }
+    english: { main: "nowhere <i>(with negative verb)</i>", note: "conjunction", example: "<ruby>明<rt>あ</rt>日<rt>した</rt></ruby><b>どこも</b><ruby>行<rt>い</rt>きません</ruby>/<ruby>明<rt>あ</rt>日<rt>した</rt></ruby><b>どこにも</b><ruby>行<rt>い</rt>きません</ruby> (i'm not going anywhere tomorrow [both correct]); " }
   },
   {
     kana: "いつもどうもありがとう(ございます)",
@@ -3464,12 +3464,12 @@ window.WORDS = [
   {
     kanji: "何か",
     kana: "なにか",
-    english: { main: "something", note: "pronoun; JLPT N3", example: "昨日デパートで<b>何か</b>買いましたか (did you buy something at the department store yesterday?)" }
+    english: { main: "something", note: "pronoun; JLPT N3", example: "<ruby>昨日<rt>きのう</rt></ruby>デパートで<b><ruby>何<rt>なに</rt>か</ruby></b><ruby>買<rt>か</rt>いました</ruby>か (did you buy something at the department store yesterday?)" }
   },
   {
     // kanji: "誰か",
     kana: "だれか",
-    english: { main: "someone; somebody", note: "pronoun; JLPT N5", example: "昨日<b>だれか</b>に会いましたか (did you meet anyone yesterday?)" }
+    english: { main: "someone; somebody", note: "pronoun; JLPT N5", example: "<ruby>昨日<rt>きのう</rt></ruby><b>だれか</b>に<ruby>会<rt>あ</rt>いました</ruby>か (did you meet anyone yesterday?)" }
   },
   {
     // kanji: "助ける/助けます",
@@ -3479,36 +3479,36 @@ window.WORDS = [
   },
   {
     kana: "どこか",
-    english: { main: "somewhere", note: "noun; adverb; JLPT N3", example: "<b>どこか</b>でいっしょに食べませんか (would you like to eat together somewhere?)" }
+    english: { main: "somewhere", note: "noun; adverb; JLPT N3", example: "<b>どこか</b>でいっしょに<ruby>食<rt>た</rt>べません</ruby>か (would you like to eat together somewhere?)" }
   },
   {
     kana: "いつか",
-    english: { main: "sometime; someday", note: "adverb; JLPT N3", example: "<b>いつか</b>日本に行きます (i will go to japan someday)" }
+    english: { main: "sometime; someday", note: "adverb; JLPT N3", example: "<b>いつか</b><ruby>日本<rt>にほん</rt></ruby>に<ruby>行<rt>い</rt>きます</ruby> (i will go to japan someday)" }
   },
   {
     kana: "また",
-    english: { main: "again; once more", note: "adverb; JLPT N5", example: "いつか<b>また</b>会いましょう (let's meet again someday)" },
+    english: { main: "again; once more", note: "adverb; JLPT N5", example: "いつか<b>また</b><ruby>会<rt>あ</rt>いましょう</ruby> (let's meet again someday)" },
     audio: "again-once-more"
   },
   {
     // kanji: "果物",
     kana: "くだもの",
-    english: { main: "fruit", note: "noun; JLPT N5", example: "やさいと<b>くだもの</b>を買いました。 (i bought some vegetables and fruits)" },
+    english: { main: "fruit", note: "noun; JLPT N5", example: "やさいと<b>くだもの</b>を<ruby>買<rt>か</rt>いました</ruby>。 (i bought some vegetables and fruits)" },
     audio: "fruit"
   },
   {
     kana: "それから",
-    english: { main: "and then; after that", note: "expression; JLPT N5", example: "犬とさんぽしました。<b>それから</b>、朝ごはんを食べました。 (i took the dog for a walk. after that, i ate breakfast.)" }
+    english: { main: "and then; after that", note: "expression; JLPT N5", example: "<ruby>犬<rt>いぬ</rt></ruby>とさんぽしました。<b>それから</b>、<ruby>朝<rt>あさ</rt></ruby>ごはんを<ruby>食<rt>た</rt>べました</ruby>。 (i took the dog for a walk. after that, i ate breakfast.)" }
   },
   {
     // kanji: "散歩",
     kana: "さんぽ",
-    english: { main: "walk; stroll", note: "noun; verb (suru, intr.); JLPT N5", example: "犬と<b>さんぽしました</b> (i took the dog for a walk)" },
+    english: { main: "walk; stroll", note: "noun; verb (suru, intr.); JLPT N5", example: "<ruby>犬<rt>いぬ</rt></ruby>と<b>さんぽしました</b> (i took the dog for a walk)" },
     audio: "walk-stroll"
   },
   {
     kana: "これから",
-    english: { main: "from now on; after this; in the future", note: "expression; JLPT N4", example: "もうしゅくだいをしましたか。いいえ、<b>これから</b>します。 (did you do your homework yet? no, i'll do it now (lit. after this/starting now).);<br><b>これから</b>おかしは買いません (from now on i won't buy snacks)" }
+    english: { main: "from now on; after this; in the future", note: "expression; JLPT N4", example: "もうしゅくだいをしましたか。いいえ、<b>これから</b>します。 (did you do your homework yet? no, i'll do it now (lit. after this/starting now).);<br><b>これから</b>おかしは<ruby>買<rt>か</rt>いません</ruby> (from now on i won't buy snacks)" }
   },
   {
     kana: "もう",
@@ -3518,12 +3518,12 @@ window.WORDS = [
   {
     kanji: "猫",
     kana: "ねこ",
-    english: { main: "cat", note: "noun; JLPT N5", example: "<b>猫</b>は毎日うちに来ます (the cats come to the house every day)" }
+    english: { main: "cat", note: "noun; JLPT N5", example: "<b><ruby>猫<rt>ねこ</rt></ruby></b>は<ruby>毎<rt>まい</rt>日<rt>にち</rt></ruby>うちに<ruby>来<rt>き</rt>ます</ruby> (the cats come to the house every day)" }
   },
   {
     kanji: "今年",
     kana: "ことし",
-    english: { main: "this year", note: "noun; adverb; JLPT N5", example: "<b>今年</b>日本にかえります (this year, i'll go back to japan)" },
+    english: { main: "this year", note: "noun; adverb; JLPT N5", example: "<b><ruby>今年<rt>ことし</rt></ruby></b><ruby>日本<rt>にほん</rt></ruby>にかえります (this year, i'll go back to japan)" },
     audio: "this-year"
   },
   {
@@ -3535,7 +3535,7 @@ window.WORDS = [
   {
     kanji: "描く/描きます",
     kana: "かく/かきます",
-    english: { main: "to draw; to paint", note: "verb (godan, tr.); JLPT N3", example: "ペンで絵を<b>描きます</b> (i draw pictures with a pen)" },
+    english: { main: "to draw; to paint", note: "verb (godan, tr.); JLPT N3", example: "ペンで<ruby>絵<rt>え</rt></ruby>を<b><ruby>描<rt>か</rt>きます</ruby></b> (i draw pictures with a pen)" },
     audio: "to-draw-to-paint,to-draw-to-paint-polite"
   },
   {
@@ -3552,18 +3552,18 @@ window.WORDS = [
   {
     kanji: "大会",
     kana: "たいかい",
-    english: { main: "tournament; competition", note: "noun; JLPT N3", example: "からての<b>大会</b>にでます (i will participate in a karate tournament)" },
+    english: { main: "tournament; competition", note: "noun; JLPT N3", example: "からての<b><ruby>大<rt>たい</rt>会<rt>かい</rt></ruby></b>にでます (i will participate in a karate tournament)" },
     audio: "tournament"
   },
   {
     kanji: "出る/出ます",
     kana: "でる/でます",
-    english: { main: "<i>1.</i> to leave; to exit; <i>2.</i> to participate; to attend", note: "verb (ichidan, intr.); JLPT N5", example: "(1) いまから家を<b>出ます</b> (i'm leaving the house now);<br>(2) からての大会に<b>でます</b> (i will participate in a karate tournament)" },
+    english: { main: "<i>1.</i> to leave; to exit; <i>2.</i> to participate; to attend", note: "verb (ichidan, intr.); JLPT N5", example: "(1) いまから<ruby>家<rt>いえ</rt></ruby>を<b><ruby>出<rt>で</rt>ます</ruby></b> (i'm leaving the house now);<br>(2) からての<ruby>大<rt>たい</rt>会<rt>かい</rt></ruby>に<b>でます</b> (i will participate in a karate tournament)" },
     audio: "to-participate,to-participate-polite"
   },
   {
     kana: "マラソン",
-    english: { main: "marathon", note: "noun; JLPT N2", example: "いつ<b>マラソン</b>を走りますか (when will you run the marathon?)" }
+    english: { main: "marathon", note: "noun; JLPT N2", example: "いつ<b>マラソン</b>を<ruby>走<rt>はし</rt>ります</ruby>か (when will you run the marathon?)" }
   },
   {
     kana: "ジム",
@@ -3579,7 +3579,7 @@ window.WORDS = [
   },
   {
     kana: "けんこうてき",
-    english: { main: "hygienic; healthy <i>(e.g. food, lifestyle)</i>", note: "na-adjective", example: "りんごは<b>けんこうてき</b>な食べ物です (apples are a healthy food)" },
+    english: { main: "hygienic; healthy <i>(e.g. food, lifestyle)</i>", note: "na-adjective", example: "りんごは<b>けんこうてき</b>な<ruby>食<rt>た</rt>べ<rt></rt>物<rt>もの</rt></ruby>です (apples are a healthy food)" },
     audio: "hygienic-healthy"
   },
   {
@@ -3624,7 +3624,7 @@ window.WORDS = [
   },
   {
     kana: "あげる/あげます",
-    english: { main: "to give", note: "verb (ichidan, tr.); JLPT N5", example: "私はあなたにプレゼントを<b>あげます</b> (i give you a present)" },
+    english: { main: "to give", note: "verb (ichidan, tr.); JLPT N5", example: "<ruby>私<rt>わたし</rt></ruby>はあなたにプレゼントを<b>あげます</b> (i give you a present)" },
     audio: "to-give,to-give-polite"
   },
   {
@@ -3687,7 +3687,7 @@ window.WORDS = [
   },
   {
     kana: "おどる/おどります",
-    english: { main: "to dance", note: "verb (godan, intr.); JLPT N4", example: "一時間半ぐらい<b>おどります</b> (i'm going to dance for about an hour and a half)" }
+    english: { main: "to dance", note: "verb (godan, intr.); JLPT N4", example: "<ruby>一<rt>いち</rt>時<rt>じ</rt>間<rt>かん</rt>半<rt>はん</rt></ruby>ぐらい<b>おどります</b> (i'm going to dance for about an hour and a half)" }
   },
   {
     kana: "レッスン",
@@ -3752,7 +3752,7 @@ window.WORDS = [
   {
     kanji: "左",
     kana: "ひだり",
-    english: { main: "left; left-hand side", note: "noun; JLPT N5", example: "セーターはTシャツの<b>左</b>です (the sweater is to the left of the t-shirt)" }
+    english: { main: "left; left-hand side", note: "noun; JLPT N5", example: "セーターはTシャツの<b><ruby>左<rt>ひだり</rt></ruby></b>です (the sweater is to the left of the t-shirt)" }
   },
   {
     kana: "Ｍサイズ",
@@ -3771,13 +3771,13 @@ window.WORDS = [
   {
     kanji: "上がる/上がります",
     kana: "あがる/あがります",
-    english: { main: "to rise; to go up; to ascend", note: "verb (godan, intr.); JLPT N4", example: "二階に<b>上がります</b>か (are you going up to the second floor?)" },
+    english: { main: "to rise; to go up; to ascend", note: "verb (godan, intr.); JLPT N4", example: "<ruby>二<rt>に</rt>階<rt>かい</rt></ruby>に<b><ruby>上<rt>あ</rt>がります</ruby></b>か (are you going up to the second floor?)" },
     audio: "to-rise,to-rise-polite"
   },
   {
     kanji: "右",
     kana: "みぎ",
-    english: { main: "right; right-hand side", note: "noun; JLPT N5", example: "かばんはさいふの<b>右</b>です (the bags are to the right of the wallets)" },
+    english: { main: "right; right-hand side", note: "noun; JLPT N5", example: "かばんはさいふの<b><ruby>右<rt>みぎ</rt></ruby></b>です (the bags are to the right of the wallets)" },
     audio: "right-direction"
   },
   {
@@ -3808,7 +3808,7 @@ window.WORDS = [
   {
     kanji: "上",
     kana: "うえ",
-    english: { main: "<i>1.</i> above; over; up; <i>2.</i> top; upper part; <i>3.</i> on (top of)", note: "noun; JLPT N5", example: "ネックレスはたなの<b>上</b>です (the necklace is on the shelf)" },
+    english: { main: "<i>1.</i> above; over; up; <i>2.</i> top; upper part; <i>3.</i> on (top of)", note: "noun; JLPT N5", example: "ネックレスはたなの<b><ruby>上<rt>うえ</rt></ruby></b>です (the necklace is on the shelf)" },
     audio: "above-over-up-on"
   },
   {
@@ -3827,13 +3827,13 @@ window.WORDS = [
   {
     kanji: "今度",
     kana: "こんど",
-    english: { main: "<i>1.</i> this time; <i>2.</i> next time; another time", note: "noun; adverb; JLPT N4", example: "(2) <b>こんど</b>もっと買います (next time i will buy more)" },
+    english: { main: "<i>1.</i> this time; <i>2.</i> next time; another time", note: "noun; adverb; JLPT N4", example: "(2) <b>こんど</b>もっと<ruby>買<rt>か</rt>います</ruby> (next time i will buy more)" },
     audio: "this-time-next-time"
   },
   {
     kanji: "一日",
     kana: "ついたち | いちにち",
-    english: { main: "the first of the month | <i>1.</i> one day; <i>2.</i> all day (long)", note: "noun | noun; adverb; JLPT N5", example: "十二月<b>一日(ついたち)</b> (december 1st) | <b>一日(いちにち)</b>休みました (i rested for one day)" },
+    english: { main: "the first of the month | <i>1.</i> one day; <i>2.</i> all day (long)", note: "noun | noun; adverb; JLPT N5", example: "<ruby>十<rt>じゅう</rt>二<rt>に</rt>月<rt>がつ</rt></ruby><b><ruby>一日<rt>ついたち</rt></ruby></b> (december 1st) | <b><ruby>一<rt>いち</rt>日<rt>にち</rt></ruby></b><ruby>休<rt>やす</rt>みました</ruby> (i rested for one day)" },
     audio: "1st-of-month,one-day-all-day"
   },
   {
@@ -3919,6 +3919,10 @@ window.WORDS = [
     english: { main: "checking out <i>(of a hotel)</i>; check-out", note: "noun; verb (suru, intr.)" }
   },
   {
+    kana: "パンケーキ",
+    english: { main: "pancake", note: "noun" }
+  },
+  {
     kana: "ビーフシチュー",
     english: { main: "beef stew", note: "noun" },
     audio: "beef-stew"
@@ -3947,7 +3951,7 @@ window.WORDS = [
   },
   {
     kana: "じゃがいも",
-    english: { main: "potato", note: "noun", example: "<b>じゃがいも</b>のスープを飲みましょう (let's eat potato soup)" },
+    english: { main: "potato", note: "noun", example: "<b>じゃがいも</b>のスープを<ruby>飲<rt>の</rt>みましょう</ruby> (let's eat potato soup)" },
     audio: "potato"
   },
   {
@@ -3974,12 +3978,12 @@ window.WORDS = [
   },
   {
     kana: "グラム",
-    english: { main: "gram", note: "noun; JLPT N5", example: "パスタを五百<b>グラム</b>買います (i will buy 500 grams of pasta)" },
+    english: { main: "gram", note: "noun; JLPT N5", example: "パスタを<ruby>五<rt>ご</rt>百<rt>ひゃく</rt></ruby><b>グラム</b><ruby>買<rt>か</rt>います</ruby> (i will buy 500 grams of pasta)" },
     audio: "gram"
   },
   {
     kana: "すぐ",
-    english: { main: "right (near); directly; just", note: "adverb; noun; JLPT N1", example: "肉は魚の<b>すぐ</b>上です (the meat is directly above the fish);<br>ぶた肉はぎゅう肉の<b>すぐ</b>となりです (pork is right next to beef)" },
+    english: { main: "right (near); directly; just", note: "adverb; noun; JLPT N1", example: "<ruby>肉<rt>にく</rt></ruby>は<ruby>魚<rt>さかな</rt></ruby>の<b>すぐ</b><ruby>上<rt>うえ</rt></ruby>です (the meat is directly above the fish);<br><ruby>ぶた<rt></rt>肉<rt>にく</rt></ruby>は<ruby>ぎゅう<rt></rt>肉<rt>にく</rt></ruby>の<b>すぐ</b>となりです (pork is right next to beef)" },
     audio: "right-directly-just"
   },
   {
@@ -3994,13 +3998,13 @@ window.WORDS = [
   {
     kanji: "一番",
     kana: "いちばん",
-    english: { main: "number one; first; first place", note: "noun; JLPT N5", example: "棚の<b>一番</b>上 (top(most) shelf);<br>棚の<b>一番</b>下 (the very bottom shelf);<br>ひきだしの<b>一番</b>左です (it's the leftmost drawer)" },
+    english: { main: "number one; first; first place", note: "noun; JLPT N5", example: "<ruby>棚<rt>たな</rt></ruby>の<b><ruby>一<rt>いち</rt>番<rt>ばん</rt></ruby></b><ruby>上<rt>うえ</rt></ruby> (top(most) shelf);<br><ruby>棚<rt>たな</rt></ruby>の<b><ruby>一<rt>いち</rt>番<rt>ばん</rt></ruby></b><ruby>下<rt>した</rt></ruby> (the very bottom shelf);<br>ひきだしの<b><ruby>一<rt>いち</rt>番<rt>ばん</rt></ruby></b><ruby>左<rt>ひだり</rt></ruby>です (it's the leftmost drawer)" },
     audio: "number-one-first"
   },
   {
     // kanji: "奥",
     kana: "おく",
-    english: { main: "inner part; interior; back <i>(of a drawer, one's throat, etc.)</i>", note: "noun; JLPT N3", example: "れいぞうこの一番<b>おく</b>です (it's in the (very) back of the fridge)" },
+    english: { main: "inner part; interior; back <i>(of a drawer, one's throat, etc.)</i>", note: "noun; JLPT N3", example: "れいぞうこの<ruby>一<rt>いち</rt>番<rt>ばん</rt></ruby><b>おく</b>です (it's in the (very) back of the fridge)" },
     audio: "interior-back"
   },
   {
@@ -4016,16 +4020,16 @@ window.WORDS = [
   {
     kanji: "中",
     kana: "なか",
-    english: { main: "inside; interior", note: "noun; JLPT N5", example: "ひきだしの<b>中</b>のフォークをつかいましょう (let's use the fork in the drawer)" }
+    english: { main: "inside; interior", note: "noun; JLPT N5", example: "ひきだしの<b><ruby>中<rt>なか</rt></ruby></b>のフォークをつかいましょう (let's use the fork in the drawer)" }
   },
   {
     kana: "ちゃわん",
-    english: { main: "rice bowl; tea cup", note: "noun; JLPT N5", example: "テーブルの上の<b>ちゃわん</b>をつかいませんか (shall we use the tea bowl on the table?)" },
+    english: { main: "rice bowl; tea cup", note: "noun; JLPT N5", example: "テーブルの<ruby>上<rt>うえ</rt></ruby>の<b>ちゃわん</b>をつかいませんか (shall we use the tea bowl on the table?)" },
     audio: "rice-bowl"
   },
   {
     kana: "よてい",
-    english: { main: "plans", note: "noun; verb (suru, tr.); JLPT N4", example: "火曜日に<b>よてい</b>はありますか (do you have plans on tuesday?)" },
+    english: { main: "plans", note: "noun; verb (suru, tr.); JLPT N4", example: "<ruby>火<rt>か</rt>曜<rt>よう</rt>日<rt>び</rt></ruby>に<b>よてい</b>はありますか (do you have plans on tuesday?)" },
     audio: "plans"
   },
   {
@@ -4035,7 +4039,7 @@ window.WORDS = [
   },
   {
     kana: "しんじゅく",
-    english: { main: "Shinjuku <i>(special ward of Tokyo)</i>", note: "proper noun", example: "<b>しんじゅく</b>のどこに行きますか (where in shinjuku are you going?)" }
+    english: { main: "Shinjuku <i>(special ward of Tokyo)</i>", note: "proper noun", example: "<b>しんじゅく</b>のどこに<ruby>行<rt>い</rt>きます</ruby>か (where in shinjuku are you going?)" }
   },
   {
     kana: "はらじゅく",
@@ -4064,7 +4068,7 @@ window.WORDS = [
   },
   {
     kana: "～たち",
-    english: { main: "<i>pluralizing suffix (esp. for people and animals)</i>", note: "suffix", example: "中山さん<b>たち</b> (ms. nakayama and the others)" }
+    english: { main: "<i>pluralizing suffix (esp. for people and animals)</i>", note: "suffix", example: "<ruby>中<rt>なか</rt>山<rt>やま</rt></ruby>さん<b>たち</b> (ms. nakayama and the others)" }
   },
   {
     kanji: "私たち",
@@ -4080,7 +4084,7 @@ window.WORDS = [
   {
     kanji: "送る/送ります",
     kana: "おくる/おくります",
-    english: { main: "to send; to dispatch", note: "verb (godan, tr.); JLPT N4", example: "メッセージを<b>送ります</b> (i will send a message)" }
+    english: { main: "to send; to dispatch", note: "verb (godan, tr.); JLPT N4", example: "メッセージを<b><ruby>送<rt>おく</rt>ります</ruby></b> (i will send a message)" }
   },
   {
     kana: "ぱんや",
