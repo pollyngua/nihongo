@@ -2613,5 +2613,39 @@ window.WORDS = [
       trans: "east & west"
     }
     ]
+  },
+  {
+    kanji: "悪",
+    kana: "わる、あ、ああ、いずくに、いずくんぞ、にく、アク、オ",
+    english: "bad, vice, rascal, false, evil, wrong",
+    note: "JLPT N4",
+    parts: "radical: <b>心</b> (忄、⺗) (heart)",
+    examples: [
+    {
+      word: "<ruby><b>悪</b><rt><b>わる</b></rt>い</ruby>",
+      trans: "bad"
+    }
+    ]
+  },
+  {
+    kanji: "知",
+    kana: "し、チ",
+    english: "know, wisdom",
+    note: "JLPT N4",
+    parts: "radical: <b>矢</b> (arrow)",
+    examples: [
+    {
+      word: "<ruby><b>知</b><rt><b>し</b></rt>る</ruby>",
+      trans: "to know"
+    },
+    {
+      word: "<ruby><b>知</b><rt><b>ち</b></rt>識<rt>しき</rt></ruby>",
+      trans: "knowledge"
+    },
+    {
+      word: "<ruby>無<rt>む</rt><b>知</b><rt><b>ち</b></rt></ruby>",
+      trans: "ignorance"
+    }
+    ]
   }
 ];
