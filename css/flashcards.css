@@ -276,6 +276,7 @@ rt {
 
 .example,
 .kanji-explanations {
+  overflow-y: auto;
   font-family: 'BIZ UDMincho', sans-serif;
   font-size: 1.3rem;
   color: #e34234;
@@ -284,7 +285,7 @@ rt {
 @media (orientation: portrait) {
   .example,
   .kanji-explanations {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
 }
 
