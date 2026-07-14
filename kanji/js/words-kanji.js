@@ -2647,5 +2647,22 @@ window.WORDS = [
       trans: "ignorance"
     }
     ]
+  },
+  {
+    kanji: "入",
+    kana: "い、はい、ニュウ、ジュ",
+    english: "enter, insert",
+    note: "JLPT N5",
+    parts: "radical: <b>入</b> (enter)",
+    examples: [
+    {
+      word: "<ruby><b>入</b><rt><b>はい</b></rt>る</ruby>",
+      trans: "to enter; to join"
+    },
+    {
+      word: "<ruby><b>入</b><rt><b>い</b></rt>れる</ruby>",
+      trans: "to put in"
+    }
+    ]
   }
 ];
