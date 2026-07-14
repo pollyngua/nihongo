@@ -1077,8 +1077,9 @@ window.WORDS = [
     audio: "outlet-electrical"
   },
   {
+    kanji: "電話",
     kana: "でんわ",
-    english: { main: "telephone", note: "noun; JLPT N5" }
+    english: { main: "telephone", note: "noun; verb (suru, tr., intr.); JLPT N5" }
   },
   {
     kanji: "二階",
@@ -1869,9 +1870,10 @@ window.WORDS = [
     english: { main: "and; and then", note: "conjunction; JLPT N5" }
   },
   {
+    kanji: "入る/入ります",
     kana: "はいる/はいります",
     english: { main: "<i>1.</i> to enter; <i>2.</i> to join <i>(a club, company, etc.)</i>", note: "verb (godan, intr.); JLPT N5", example: "(1) まいばんおふろに<b>はいります</b> (i take a bath (lit. enter a bath) every night);<br>(2) アンドリューさんも<ruby>日本<rt>にほん</rt></ruby>ごサークルに<b>はいりません</b>か (would you also like to join the japanese club, andrew?)" },
-    audio: ",to-enter-polite"
+    audio: "to-enter,to-enter-polite"
   },
   {
     kana: "ストレッチ",
@@ -4130,5 +4132,23 @@ window.WORDS = [
     kana: "しる/しります",
     english: { main: "to know; to be aware (of)", note: "verb (godan, tr.); JLPT N5", example: "いいいしゃを<b>しっています</b> (i know a good doctor)" },
     audio: "to-know-to-be-aware,to-know-to-be-aware-polite"
+  },
+  {
+    // kanji: "駐車場",
+    kana: "ちゅうしゃじょう",
+    english: { main: "parking lot", note: "noun; JLPT N4" },
+    audio: "parking-lot"
+  },
+  {
+    kanji: "二日",
+    kana: "ふつか",
+    english: { main: "<i>1.</i> second day of the month; <i>2.</i> two days", note: "noun; JLPT N5", example: "(1) <ruby>七<rt>しち</rt>月<rt>がつ</rt></ruby><b><ruby>二日<rt>ふつか</rt></ruby></b>はひまです (i'm free on july second)" },
+    audio: "2nd-of-month"
+  },
+  {
+    kanji: "入れる/入れます",
+    kana: "いれる/いれます",
+    english: { main: "to put in; to insert", note: "verb (ichidan, tr.); JLPT N5", example: "<ruby>二<rt>に</rt>時<rt>じ</rt></ruby>によやくを<b><ruby>入<rt>い</rt>れます</ruby></b> (i will make a reservation for 2 o'clock)" },
+    audio: "to-put-in,to-put-in-polite"
   }
 ];
