@@ -35,8 +35,9 @@ window.WORDS = [
     english: { main: "mr.; mrs.; ms.", note: "suffix after first/last name; honorific; familiar; JLPT N1" }
   },
   {
+    kanji: "先生",
     kana: "せんせい",
-    english: { main: "teacher", note: "noun; suffix; JLPT N5" },
+    english: { main: "<i>1.</i> teacher; <i>2. title or form of address for a teacher, master, doctor, lawyer, etc.​</i>", note: "noun; noun, used as a suffix; honorific (2); JLPT N5" },
     audio: "teacher"
   },
   {
@@ -1203,7 +1204,7 @@ window.WORDS = [
   },
   {
     kana: "こちら",
-    english: { main: "this", note: "pronoun; polite; JLPT N5", example: "<b>こちら</b>は<ruby>田<rt>た</rt>中<rt>なか</rt></ruby>さんです (this is mr. tanaka)" },
+    english: { main: "<i>1.</i> this way <i>(direction close to/towards the speaker)</i>; <i>2.</i> here; <i>3.</i> this (one); <i>4.</i> this person <i>(physically close to the speaker and of equal/higher status)</i>", note: "pronoun; polite; JLPT N5", example: "(4) <b>こちら</b>は<ruby>田<rt>た</rt>中<rt>なか</rt></ruby>さんです (this is mr. tanaka)" },
     audio: "this-polite"
   },
   {
@@ -2636,7 +2637,7 @@ window.WORDS = [
     english: { main: "<i>1.</i> idiot; fool; <i>2.</i> stupid; foolish", note: "1. noun 2. na-adjective; JLPT N3" }
   },
   {
-    kana: "あのう",
+    kana: "あのう、あの",
     english: { main: "say; well; um; er", note: "JLPT N5" }
   },
   {
@@ -4150,5 +4151,18 @@ window.WORDS = [
     kana: "いれる/いれます",
     english: { main: "to put in; to insert", note: "verb (ichidan, tr.); JLPT N5", example: "<ruby>二<rt>に</rt>時<rt>じ</rt></ruby>によやくを<b><ruby>入<rt>い</rt>れます</ruby></b> (i will make a reservation for 2 o'clock)" },
     audio: "to-put-in,to-put-in-polite"
+  },
+  {
+    kana: "しんさつしつ",
+    english: { main: "examining room", note: "noun" },
+    audio: "examining-room"
+  },
+  {
+    kana: "ファーストフード",
+    english: { main: "fast food", note: "noun" }
+  },
+  {
+    kana: "タバコ/たばこ",
+    english: { main: "tobacco; cigarette; cigar​", note: "noun; JLPT N5", example: "<b>タバコ</b>を<ruby>吸<rt>す</rt>います</ruby>か (do you smoke?)" }
   }
 ];
