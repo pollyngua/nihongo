@@ -256,7 +256,7 @@ window.WORDS = [
   },
   {
     kana: "の",
-    english: { main: "<i>possessive/attributive particle</i>; 's; of", note: "particle", example: "日本<b>の</b>ゲームがすきです (i like japanese video games)" }
+    english: { main: "<i>1. possessive/attributive particle</i>; 's; of; <i>2. nominalizes verbs and adjectives</i>; <i>3. (at sentence end) (often のだ for males) adds an explanatory tone</i> <i>4. (at sentence end) emphasizes a question</i>", note: "particle", example: "(1) 日本<b>の</b>ゲームがすきです (i like japanese video games);<br>(2) <ruby>勉<rt>べん</rt>強<rt>きょう</rt>する</ruby><b>の</b>が<ruby>好<rt>す</rt>き</ruby>です (i like studying);<br>(3) <ruby>今<rt>いま</rt></ruby>は<ruby>忙<rt>いそが</rt>しい</ruby><b>の</b> ((the thing is that) i'm busy now.);<br>(4) <ruby>今<rt>いま</rt></ruby>は<ruby>忙<rt>いそが</rt>しい</ruby><b>の</b>？ ((is it that) you're busy now?)" }
   },
   {
     kana: "この",
@@ -4164,5 +4164,76 @@ window.WORDS = [
   {
     kana: "タバコ/たばこ",
     english: { main: "tobacco; cigarette; cigar​", note: "noun; JLPT N5", example: "<b>タバコ</b>を<ruby>吸<rt>す</rt>います</ruby>か (do you smoke?)" }
+  },
+  {
+    kanji: "虫",
+    kana: "むし",
+    english: { main: "insect; bug", note: "noun; JLPT N4", example: "<ruby>全<rt>ぜん</rt>然<rt>ぜん</rt></ruby><b><ruby>虫<rt>むし</rt></ruby></b>が<ruby>好<rt>す</rt>き</ruby>じゃないです (i don't like insects at all)" },
+    audio: "insect"
+  },
+  {
+    kanji: "引きこもり",
+    kana: "ひきこもり",
+    english: { main: "shut-in; hikikomori", note: "noun" },
+    audio: "shut-in-hikikomori"
+  },
+  {
+    kanji: "強い",
+    kana: "つよい",
+    english: { main: "<i>1.</i> strong; <i>2.</i> skilled", note: "i-adjective; JLPT N5" },
+    audio: "strong-skilled"
+  },
+  {
+    kanji: "弱い",
+    kana: "よわい",
+    english: { main: "weak; unskilled", note: "i-adjective; JLPT N5" },
+    audio: "weak-unskilled"
+  },
+  {
+    kanji: "一週間",
+    kana: "いっしゅうかん",
+    english: { main: "one week", note: "noun" },
+    audio: "1-week"
+  },
+  {
+    kana: "え",
+    english: { main: "eh?; what?; oh?", example: "<b>え</b>？" }
+  },
+  {
+    kana: "いや",
+    english: { main: "no <i>(informal)</i>", example: "<b>いや</b>、まだ<ruby>見<rt>み</rt>てません</ruby> (no, i haven't seen it yet)" },
+    audio: "no-informal"
+  },
+  {
+    kana: "もらえる/もらえます",
+    english: { main: "<i>1.</i> to be able to receive; <i>2.</i> could you (give me); would you <i>(after the -te form of a verb as もらえないか, もらえますか, もらえませんか, etc.)</i>", note: "verb (ichidan); verb (ichidan, auxiliary) (2)", example: "<ruby>読<rt>よ</rt>んで</ruby><b>もらえません</b>か (would you mind reading?)" }
+  },
+  {
+    kana: "すごい",
+    english: { main: "amazing; great; cool", note: "i-adjective; JLPT N4" },
+    audio: "amazing-cool"
+  },
+  {
+    kana: "すげー",
+    english: { main: "amazing; great; cool <i>(colloquial/rude version of <b>すごい</b>)</i>", note: "expression; colloquial" }
+  },
+  {
+    kana: "なんでも",
+    english: { main: "any; anything; whatever; everything; all", note: "expression; JLPT N3", example: "<b>なんでも</b><ruby>知<rt>し</rt>らない</ruby> (i don't know everything)" },
+    audio: "anything-everything"
+  },
+  {
+    kana: "わ",
+    english: { main: "<i>indicates emotion or admiration (at sentence end)</i>", note: "particle", example: "なんでも<ruby>知<rt>し</rt>らない</ruby><b>わ</b>よ (i don't know everything)" }
+  },
+  {
+    kana: "こと",
+    english: { main: "<i>1.</i> thing; matter; <i>2. nominalizing suffix</i>", note: "noun; noun, used as a suffix; JLPT N3", example: "(2) なんでも<ruby>知<rt>し</rt>らない</ruby>わよ、<ruby>知<rt>し</rt>ってる</ruby><b>こと</b>だけ (i don't know everything. i only know what i know.)" },
+    audio: "thing-nominalizing-suffix"
+  },
+  {
+    kana: "だけ",
+    english: { main: "only; just; merely; simply; no more than", note: "particle; JLPT N1", example: "なんでも<ruby>知<rt>し</rt>らない</ruby>わよ、<ruby>知<rt>し</rt>ってる</ruby>こと<b>だけ</b> (i don't know everything. i only know what i know.)" },
+    audio: "only-just-merely"
   }
 ];
