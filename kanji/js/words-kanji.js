@@ -2664,5 +2664,31 @@ window.WORDS = [
       trans: "to put in"
     }
     ]
+  },
+  {
+    kanji: "虫",
+    kana: "むし、チュウ、キ",
+    english: "insect, bug, temper",
+    note: "JLPT N2",
+    parts: "radical: <b>虫</b> (insect)",
+    examples: [
+    {
+      word: "<ruby><b>虫</b><rt><b>むし</b></rt></ruby>",
+      trans: "insect"
+    }
+    ]
+  },
+  {
+    kanji: "弱",
+    kana: "よわ、ジャク",
+    english: "weak, frail",
+    note: "JLPT N2",
+    parts: "radical: <b>弓</b> (bow)",
+    examples: [
+    {
+      word: "<ruby><b>弱</b><rt><b>よわ</b></rt>い</ruby>",
+      trans: "weak"
+    }
+    ]
   }
 ];
