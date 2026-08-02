@@ -1488,6 +1488,23 @@ window.WORDS = [
     ]
   },
   {
+    kanji: "背",
+    kana: "せ、せい、そむ、ハイ",
+    english: "stature, height, back, behind, disobey, defy, go back on, rebel",
+    note: "JLPT N3",
+    parts: "radical: <b>肉</b> (⺼、月) (meat, organs of the body)",
+    examples: [
+    {
+      word: "<ruby><b>背</b><rt><b>せ</b></rt>が<rt></rt>高<rt>たか</rt>い</ruby>",
+      trans: "tall (person)"
+    },
+    {
+      word: "<ruby><b>背</b><rt><b>せ</b></rt>中<rt>なか</rt></ruby>",
+      trans: "back (of body)"
+    }
+    ]
+  },
+  {
     kanji: "祭",
     kana: "まつ、まつり、サイ",
     english: "ritual, offer prayers, celebrate, deify, enshrine, worship",
@@ -2688,6 +2705,134 @@ window.WORDS = [
     {
       word: "<ruby><b>弱</b><rt><b>よわ</b></rt>い</ruby>",
       trans: "weak"
+    }
+    ]
+  },
+  {
+    kanji: "赤",
+    kana: "あか、セキ、シャク",
+    english: "red",
+    note: "JLPT N4",
+    parts: "radical: <b>赤</b> (red, naked)",
+    examples: [
+    {
+      word: "<ruby><b>赤</b><rt><b>あか</b></rt></ruby>",
+      trans: "red"
+    },
+    {
+      word: "<ruby><b>赤</b><rt><b>あか</b></rt>ちゃん</ruby>",
+      trans: "baby"
+    }
+    ]
+  },
+  {
+    kanji: "正",
+    kana: "ただ、まさ、セイ、ショウ",
+    english: "correct, justice, righteous, 10^40",
+    note: "JLPT N4",
+    parts: "radical: <b>止</b> (stop)",
+    examples: [
+    {
+      word: "<ruby><b>正</b><rt><b>せい</b></rt>中<rt>ちゅう</rt>線<rt>せん</rt></ruby>",
+      trans: "body axis"
+    },
+    {
+      word: "<ruby>(お)<rt></rt><b>正</b><rt><b>しょう</b></rt>月<rt>がつ</rt></ruby>",
+      trans: "New Year"
+    },
+    {
+      word: "<ruby><b>正</b><rt><b>ただ</b></rt>しい</ruby>",
+      trans: "correct"
+    }
+    ]
+  },
+  {
+    kanji: "個",
+    kana: "コ、カ",
+    english: "individual, counter for articles",
+    note: "JLPT N2",
+    parts: "radical: <b>人</b> (亻、⺅、𠆢) (man, human)",
+    examples: [
+    {
+      word: "<ruby><b>個</b><rt><b>こ</b></rt></ruby>",
+      trans: "counter for small things"
+    },
+    {
+      word: "<ruby>何<rt>なん</rt><b>個</b><rt><b>こ</b></rt></ruby>",
+      trans: "how many pieces"
+    }
+    ]
+  },
+  {
+    kanji: "徒",
+    kana: "いたずら、あだ、ト",
+    english: "on foot, junior, emptiness, vanity, futility, uselessness, ephemeral thing, gang, set, party, people",
+    note: "JLPT N3",
+    parts: "radical: <b>彳</b> (step, walking slowly)",
+    examples: [
+    {
+      word: "<ruby>生<rt>せい</rt><b>徒</b><rt><b>と</b></rt></ruby>",
+      trans: "pupil"
+    }
+    ]
+  },
+  {
+    kanji: "皆",
+    kana: "みな、みんな、カイ",
+    english: "all, everything",
+    note: "JLPT N3",
+    parts: "radical: <b>白</b> (white)",
+    examples: [
+    {
+      word: "<ruby><b>皆</b><rt><b>みな</b></rt>さん</ruby>",
+      trans: "everyone"
+    }
+    ]
+  },
+  {
+    kanji: "習",
+    kana: "なら、シュウ、ジュ",
+    english: "learn",
+    note: "JLPT N4",
+    parts: "radical: <b>羽</b> (feather, wings)",
+    examples: [
+    {
+      word: "<ruby>練<rt>れん</rt><b>習</b><rt><b>しゅう</b></rt></ruby>",
+      trans: "practice"
+    },
+    {
+      word: "<ruby><b>習</b><rt><b>なら</b></rt>う</ruby>",
+      trans: "to take lessons in"
+    }
+    ]
+  },
+  {
+    kanji: "借",
+    kana: "か、シャク",
+    english: "borrow, rent",
+    note: "JLPT N4",
+    parts: "radical: <b>人</b> (亻、⺅、𠆢) (man, human)",
+    examples: [
+    {
+      word: "<ruby><b>借</b><rt><b>か</b></rt>りる</ruby>",
+      trans: "to borrow"
+    },
+    {
+      word: "<ruby><b>借</b><rt><b>しゃっ</b></rt>金<rt>きん</rt></ruby>",
+      trans: "debt"
+    }
+    ]
+  },
+  {
+    kanji: "貸",
+    kana: "か、かし、タイ",
+    english: "lend",
+    note: "JLPT N4",
+    parts: "radical: <b>貝</b> (shell, property, wealth)",
+    examples: [
+    {
+      word: "<ruby><b>貸</b><rt><b>か</b></rt>す</ruby>",
+      trans: "to lend"
     }
     ]
   }
