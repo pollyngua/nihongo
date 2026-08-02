@@ -1338,7 +1338,7 @@ window.WORDS = [
   },
   {
     kana: "まだ",
-    english: { main: "still", note: "adverb; JLPT N5" }
+    english: { main: "<i>1.</i> still; <i>2.</i> (not) yet​ <i>(with negative verb)</i>", note: "adverb; JLPT N5" }
   },
   {
     kana: "たぶん",
@@ -2719,6 +2719,12 @@ window.WORDS = [
     audio: "exam"
   },
   {
+    kanji: "背が高い",
+    kana: "せがたかい",
+    english: { main: "tall <i>(of a person)​</i>", note: "expression; i-adjective", example: "<ruby>姉<rt>あね</rt></ruby>は<b><ruby>背<rt>せ</rt>が<rt></rt>高<rt>たか</rt>い</ruby></b>です (my older sister is tall)" },
+    audio: "tall-of-person"
+  },
+  {
     kana: "どうぞ",
     english: { main: "<i>1.</i> please; kindly; <i>2.</i> here you are <i>(when handing something to someone)</i>", note: "adverb; JLPT N5", example: "(2) いらっしゃいませ。メニューを<b>どうぞ</b>。 (welcome. here's the menu.)" }
   },
@@ -3648,9 +3654,27 @@ window.WORDS = [
     audio: "kaki-fruit"
   },
   {
+    // kanji: "義理",
+    kana: "ぎり",
+    english: { main: "<i>1.</i> duty; social obligation; <i>2.</i> in-law; relation by marriage", note: "noun; JLPT N1", example: "(2) <b>ぎり</b>の<ruby>息子<rt>むすこ</rt></ruby>がこのテーブルゲームをくれました (my son-in-law gave me this tabletop game)" },
+    audio: "duty-in-law"
+  },
+  {
+    kana: "テーブルゲーム",
+    english: { main: "tabletop game; table game", note: "noun" }
+  },
+  {
+    kana: "ケータイ",
+    english: { main: "mobile phone; cell phone", note: "noun; JLPT N1" }
+  },
+  {
     kana: "もらう/もらいます",
     english: { main: "to receive", note: "verb (godan, tr.); JLPT N3", example: "ともだちにかきを<b>もらいました</b> (i received a kaki from my friend)" },
     audio: "to-receive,to-receive-polite"
+  },
+  {
+    kana: "くれる/くれます",
+    english: { main: "to give me/us <i>(the recipient is the speaker or someone close to the speaker)</i>", note: "verb (ichidan, tr.); JLPT N4", example: "お<ruby>母<rt>かあ</rt>さん</ruby>はネックレスを<b>くれます</b> (my mother gives me a necklace)" }
   },
   {
     kanji: "高",
@@ -4235,5 +4259,121 @@ window.WORDS = [
     kana: "だけ",
     english: { main: "only; just; merely; simply; no more than", note: "particle; JLPT N1", example: "なんでも<ruby>知<rt>し</rt>らない</ruby>わよ、<ruby>知<rt>し</rt>ってる</ruby>こと<b>だけ</b> (i don't know everything. i only know what i know.)" },
     audio: "only-just-merely"
+  },
+  {
+    kana: "ございます",
+    english: { main: "to be; to exist", note: "expression; polite; JLPT N1", example: "エレベーターはこちらで<b>ございます</b> (the elevator is this way)" }
+  },
+  {
+    // kanji: "社会人",
+    kana: "しゃかいじん",
+    english: { main: "working adult; full-fledged member of society", note: "noun" }
+  },
+  {
+    kana: "サラリーマン",
+    english: { main: "salaryman​; office worker; company employee", note: "noun; JLPT N2" },
+    audio: "salaryman"
+  },
+  {
+    kanji: "赤ちゃん",
+    kana: "あかちゃん",
+    english: { main: "baby; infant", note: "noun; JLPT N4" }
+  },
+  {
+    kana: "クリスマスカード",
+    english: { main: "Christmas card", note: "noun" }
+  },
+  {
+    kana: "もちろん",
+    english: { main: "of course; certainly", note: "adverb; JLPT N3", example: "はい、<b>もちろん</b><ruby>書<rt>か</rt>きました</ruby> (yes, of course i wrote it)" },
+    audio: "of-course"
+  },
+  {
+    kanji: "(お)正月",
+    kana: "(お)しょうがつ",
+    english: { main: "New Year <i>(esp. first three days)</i>", note: "noun; polite" },
+    audio: "new-year"
+  },
+  {
+    // kanji: "準備",
+    kana: "じゅんび",
+    english: { main: "preparation; arrangements", note: "noun; verb (suru, tr.); JLPT N3", example: "もう<ruby>お<rt></rt>正<rt>しょう</rt>月<rt>がつ</rt></ruby>の<b>じゅんび</b>をしましたか (have you prepared for the new year yet?)" }
+  },
+  {
+    kana: "ごちそう",
+    english: { main: "feast; special dish; delicacy", note: "noun; verb (suru, tr.); polite; JLPT N4" },
+    audio: "feast-delicacy"
+  },
+  {
+    kana: "ごちそうさま",
+    english: { main: "thank you for the meal; that was a delicious meal", note: "expression; JLPT N2" },
+    audio: "thank-you-for-the-meal"
+  },
+  {
+    kana: "ごちそうさまでした",
+    english: { main: "thank you for the meal; that was a delicious meal", note: "expression; polite" },
+    audio: "thank-you-for-the-meal-polite"
+  },
+  {
+    kanji: "個",
+    kana: "こ",
+    english: { main: "<i>counter for (small) things or pieces</i>", note: "counter", example: "<ruby>八<rt>はち</rt>十<rt>じゅう</rt>八<rt>はっ</rt></ruby><b><ruby>個<rt>こ</rt></ruby></b> (88 pieces)" }
+  },
+  {
+    kanji: "何個",
+    kana: "なんこ",
+    english: { main: "how many pieces", note: "noun" }
+  },
+  {
+    // kanji: "数える/数えます",
+    kana: "かぞえる/かぞえます",
+    english: { main: "to count", note: "verb (ichidan, tr.); JLPT N3" },
+    audio: "to-count,to-count-polite"
+  },
+  {
+    kanji: "生徒",
+    kana: "せいと",
+    english: { main: "pupil; student", note: "noun; JLPT N5", example: "<b><ruby>生<rt>せい</rt>徒<rt>と</rt></ruby></b>に<ruby>日本<rt>にほん</rt>語<rt>ご</rt></ruby>をおしえます (i teach my students japanese)" },
+    audio: "pupil"
+  },
+  {
+    kanji: "皆さん",
+    kana: "みなさん",
+    english: { main: "all; everyone", note: "noun; honorific; JLPT N5" },
+    audio: "all-everyone"
+  },
+  {
+    kanji: "習う/習います",
+    kana: "ならう/ならいます",
+    english: { main: "to take lessons in; to be taught; to learn <i>(from a teacher)</i>", note: "verb (godan, tr.); JLPT N5" }
+  },
+  {
+    // kanji: "反対",
+    kana: "はんたい",
+    english: { main: "reverse; opposite", note: "noun; JLPT N4" }
+  },
+  {
+    kanji: "借りる/借ります",
+    kana: "かりる/かります",
+    english: { main: "<i>1.</i> to borrow; <i>2.</i> to rent", note: "verb (ichidan, tr.); JLPT N5", example: "(1) おとうとは<ruby>お<rt></rt>母<rt>かあ</rt>さん</ruby>に<ruby>お<rt></rt>金<rt>かね</rt></ruby>を<b><ruby>借<rt>か</rt>りました</ruby></b> (my younger brother borrowed money from my mother)" },
+    audio: "to-borrow-to-rent,to-borrow-to-rent-polite"
+  },
+  {
+    kanji: "貸す/貸します",
+    kana: "かす/かします",
+    english: { main: "<i>1.</i> to lend; to loan; <i>2.</i> to rent out", note: "verb (godan, tr.); JLPT N5", example: "(1) <ruby>お<rt></rt>母<rt>かあ</rt>さん</ruby>はおとうとに<ruby>お<rt></rt>金<rt>かね</rt></ruby>を<b><ruby>貸<rt>か</rt>しました</ruby></b> (my mother lent money to my younger brother)" },
+    audio: "to-lend-to-rent-out,to-lend-to-rent-out-polite"
+  },
+  {
+    // kanji: "返す/返します",
+    kana: "かえす/かえします",
+    english: { main: "to return <i>(something)</i>", note: "verb (godan, tr.); JLPT N5" },
+    audio: "to-return-something,to-return-something-polite"
+  },
+  {
+    kanji: "借金",
+    kana: "しゃっきん",
+    english: { main: "debt; loan", note: "noun; verb (suru, tr.); JLPT N3" },
+    audio: "debt-loan"
   }
 ];
