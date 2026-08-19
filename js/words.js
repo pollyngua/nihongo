@@ -1959,6 +1959,7 @@ window.WORDS = [
     english: { main: "lion", note: "noun" }
   },
   {
+    // kanji: "撮る/撮ります",
     kana: "とる/とります",
     english: { main: "to take (a photo)", note: "verb (godan, tr.); JLPT N5" }
   },
@@ -3072,7 +3073,7 @@ window.WORDS = [
   },
   {
     kana: "から",
-    english: { main: "from <i>(time, place, numerical quantity)</i>; since", note: "particle", example: "さいごのミーティングは<ruby>何<rt>なん</rt>時<rt>じ</rt></ruby><b>から</b>ですか (what time does the last meeting start?)<br>どこ<b>から</b>タクシーにのりますか (where are we taking a taxi from?)" }
+    english: { main: "<i>1.</i> from <i>(time, place, numerical quantity)</i>; since; <i>2.</i> because; since <i>(follows verbs, adjectives)</i>", note: "particle", example: "(1) さいごのミーティングは<ruby>何<rt>なん</rt>時<rt>じ</rt></ruby><b>から</b>ですか (what time does the last meeting start?)<br>(1) どこ<b>から</b>タクシーにのりますか (where are we taking a taxi from?)<br>(2) かわいい<b>から</b>、えらびました (i chose it because it's cute)" }
   },
   {
     kana: "まで",
@@ -4375,5 +4376,145 @@ window.WORDS = [
     kana: "しゃっきん",
     english: { main: "debt; loan", note: "noun; verb (suru, tr.); JLPT N3" },
     audio: "debt-loan"
+  },
+  {
+    kanji: "去年",
+    kana: "きょねん",
+    english: { main: "last year", note: "noun; adverb; JLPT N5" },
+    audio: "last-year"
+  },
+  {
+    kana: "どうして",
+    english: { main: "<i>1.</i> how; by what means; <i>2.</i> why", note: "adverb; JLPT N5", example: "(2) <b>どうして</b>これをえらびましたか (why did you choose this?)" },
+    audio: "how-why"
+  },
+  {
+    kana: "なんで",
+    english: { main: "<i>1.</i> why?; what for?; <i>2.</i> how?; by what means?", note: "adverb; casual; JLPT N3" },
+    audio: "why-how-casual"
+  },
+  {
+    // kanji: "選ぶ/選びます",
+    kana: "えらぶ/えらびます",
+    english: { main: "to choose; to select", note: "verb (godan, tr.); JLPT N4" },
+    audio: "to-choose,to-choose-polite"
+  },
+  {
+    kanji: "死ぬ/死にます",
+    kana: "しぬ/しにます",
+    english: { main: "to die", note: "verb (godan, intr.); JLPT N5" },
+    audio: "to-die,to-die-polite"
+  },
+  {
+    // kanji: "消す/消します",
+    kana: "けす/けします",
+    english: { main: "<i>1.</i> to erase; to delete; <i>2.</i> to turn off <i>(a light, TV, heater, etc.)</i>", note: "verb (godan, tr.); JLPT N5", example: "(2) <ruby>電<rt>でん</rt>気<rt>き</rt></ruby>を<b>けして</b>ください (please turn off the lights)" },
+    audio: "to-erase-to-turn-off,to-erase-to-turn-off-polite"
+  },
+  {
+    kanji: "押す/押します",
+    kana: "おす/おします",
+    english: { main: "to push", note: "verb (godan, tr.); JLPT N5", example: "ボタンを<b><ruby>押<rt>お</rt>している</ruby></b> (i'm pushing the button)" },
+    audio: "to-push,to-push-polite"
+  },
+  {
+    kanji: "もう一回",
+    kana: "もういっかい",
+    english: { main: "one more time; once again", note: "expression; adverb", example: "<b><ruby>もう<rt></rt>一<rt>いっ</rt>回<rt>かい</rt></ruby></b><ruby>言<rt>い</rt>って</ruby>ください (please say it one more time)" },
+    audio: "one-more-time"
+  },
+  {
+    kanji: "回",
+    kana: "かい",
+    english: { main: "<i>counter for occurrences</i>", note: "counter; JLPT N3", example: "<ruby>もう<rt></rt>一<rt>いっ</rt></ruby><b><ruby>回<rt>かい</rt></ruby></b><ruby>言<rt>い</rt>って</ruby>ください (please say it one more time)" }
+  },
+  {
+    kanji: "取る/取ります",
+    kana: "とる/とります",
+    english: { main: "<i>1.</i> to take; to grab; <i>2.</i> to pass; to hand", note: "verb (godan, tr.); JLPT N5", example: "(2) あの<ruby>本<rt>ほん</rt></ruby>を<b><ruby>取<rt>と</rt>って</ruby></b>ください (please pass me that book)" },
+    audio: "to-take-to-pass"
+  },
+  {
+    kanji: "曲がる/曲がります",
+    kana: "まがる/まがります",
+    english: { main: "<i>1.</i> to bend; to curve; <i>2.</i> to turn", note: "verb (godan, intr.); JLPT N5", example: "(2) <ruby>右<rt>みぎ</rt></ruby>に<b><ruby>曲<rt>な</rt>がって</ruby></b> (turn right)" }
+  },
+  {
+    kanji: "文",
+    kana: "ぶん",
+    english: { main: "sentence", note: "noun; JLPT N3", example: "この<b><ruby>文<rt>ぶん</rt></ruby></b>を<ruby>読<rt>よ</rt>んで</ruby>ください (please read this sentence)" }
+  },
+  {
+    kanji: "電気",
+    kana: "でんき",
+    english: { main: "<i>1.</i> electricity; <i>2.</i> (electric) light", note: "noun; JLPT N5", example: "(2) <b><ruby>電<rt>でん</rt>気<rt>き</rt></ruby></b>をけしてください (please turn off the lights)" }
+  },
+  {
+    kana: "こっち",
+    english: { main: "<i>more casual form of <b>こちら</b></i>", note: "pronoun; JLPT N5", example: "<b>こっち</b><ruby>来<rt>き</rt>て</ruby> (come here/this way)" },
+    audio: "casual-kochira"
+  },
+  {
+    kanji: "少々",
+    kana: "しょうしょう",
+    english: { main: "a little; a bit", note: "adverb; noun; JLPT N3", example: "<b><ruby>少<rt>しょう</rt>々<rt>しょう</rt></ruby></b><ruby>お<rt></rt>待<rt>ま</rt>ち</ruby>ください ([very formal] please wait a little)" },
+    audio: "a-little-a-bit"
+  },
+  {
+    kanji: "立つ/立ちます",
+    kana: "たつ/たちます",
+    english: { main: "<i>1.</i> to stand up; <i>2.</i> to stand <i>(in a position)</i>", note: "verb (godan, intr.); JLPT N5" }
+  },
+  {
+    // kanji: "持つ/持ちます",
+    kana: "もつ/もちます",
+    english: { main: "to hold <i>(in one's hand)</i>", note: "verb (godan, tr.); JLPT N5" }
+  },
+  {
+    // kanji: "持ってくる/持ってきます",
+    kana: "もってくる/もってきます",
+    english: { main: "to bring <i>(something)</i> <i>(もつ + 来る compound verb)</i>", note: "expression; verb (kuru)" },
+    audio: "to-bring-something"
+  },
+  {
+    // kanji: "持っていく/持っていきます",
+    kana: "もっていく/もっていきます",
+    english: { main: "to take <i>(something)</i> along; to carry <i>(something)</i> away <i>(もつ + 行く compound verb)</i>", note: "expression; verb (godan)" },
+    audio: "to-take-something-along"
+  },
+  {
+    // kanji: "最近",
+    kana: "さいきん",
+    english: { main: "recently; lately", note: "noun; adverb; JLPT N4", example: "<b>さいきん</b>「show name」を<ruby>見<rt>み</rt>ている</ruby> (i've been watching [show name] recently)" },
+    audio: "recently-lately"
+  },
+  {
+    // kanji: "痩せる/痩せます",
+    kana: "やせる/やせます",
+    english: { main: "to lose weight", note: "verb (ichidan, intr.); JLPT N4", example: "<b>やせている</b> (i'm (being) thin)" }
+  },
+  {
+    kana: "ボタン",
+    english: { main: "button", note: "noun; JLPT N5" }
+  },
+  {
+    // kanji: "窓",
+    kana: "まど",
+    english: { main: "window", note: "noun; JLPT N5" },
+    audio: "window"
+  },
+  {
+    // kanji: "開ける/開けます",
+    kana: "あける/あけます",
+    english: { main: "<i>1.</i> to open <i>(e.g. door)</i>; <i>2.</i> to open <i>(e.g. for business)</i>", note: "verb (ichidan, tr.); JLPT N5" }
+  },
+  {
+    kana: "って",
+    english: { main: "<i>more casual form of <b>と</b> as a quote marker</i>", note: "particle", example: "<ruby>名<rt>な</rt>前<rt>まえ</rt></ruby>はマイケルです。でも、マイク<b>って</b>よんでください。 (my name is michael, but please call me mike)" }
+  },
+  {
+    // kanji: "呼ぶ/呼びます",
+    kana: "よぶ/よびます",
+    english: { main: "to call <i>(someone by a name)</i>", note: "verb (godan, tr.); JLPT N5", example: "<ruby>名<rt>な</rt>前<rt>まえ</rt></ruby>はマイケルです。でも、マイクって<b>よんで</b>ください。 (my name is michael, but please call me mike)" }
   }
 ];
