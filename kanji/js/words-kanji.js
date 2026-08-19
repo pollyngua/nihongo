@@ -2835,5 +2835,133 @@ window.WORDS = [
       trans: "to lend"
     }
     ]
+  },
+  {
+    kanji: "去",
+    kana: "さ、キョ、コ",
+    english: "gone, past, quit, leave, elapse, eliminate, divorce",
+    note: "JLPT N4",
+    parts: "radical: <b>厶</b> (private, selt)",
+    examples: [
+    {
+      word: "<ruby><b>去</b><rt><b>きょ</b></rt>年<rt>ねん</rt></ruby>",
+      trans: "last year"
+    }
+    ]
+  },
+  {
+    kanji: "死",
+    kana: "し、シ",
+    english: "death, die",
+    note: "JLPT N4",
+    parts: "radical: <b>歹</b> (歺) (death, decay)",
+    examples: [
+    {
+      word: "<ruby><b>死</b><rt><b>し</b></rt>ぬ</ruby>",
+      trans: "to die"
+    }
+    ]
+  },
+  {
+    kanji: "押",
+    kana: "お、おさ、オウ",
+    english: "push, stop, check, subdue, attach, seize, weight, shove, press, seal, do in spite of",
+    note: "JLPT N3",
+    parts: "radical: <b>手</b> (扌、龵) (hand)",
+    examples: [
+    {
+      word: "<ruby><b>押</b><rt><b>お</b></rt>す</ruby>",
+      trans: "to push"
+    }
+    ]
+  },
+  {
+    kanji: "回",
+    kana: "まわ、もとお、か、カイ、エ",
+    english: "-times, round, game, revolve, counter for occurrences",
+    note: "JLPT N3",
+    parts: "radical: <b>囗</b> (enclosure)",
+    examples: [
+    {
+      word: "<ruby>もう<rt></rt>一<rt>いっ</rt><b>回</b><rt><b>かい</b></rt></ruby>",
+      trans: "one more time"
+    },
+    {
+      word: "<ruby><b>回</b><rt><b>かい</b></rt>転<rt>てん</rt></ruby>",
+      trans: "spin"
+    },
+    {
+      word: "<ruby><b>回</b><rt><b>まわ</b></rt>る</ruby>",
+      trans: "to turn"
+    },
+    {
+      word: "<ruby><b>回</b><rt><b>まわ</b></rt>す</ruby>",
+      trans: "to turn"
+    }
+    ]
+  },
+  {
+    kanji: "取",
+    kana: "と、とり、ど、シュ",
+    english: "take, fetch, take up",
+    note: "JLPT N3",
+    parts: "radical: <b>又</b> (right hand, grasping, further, again)",
+    examples: [
+    {
+      word: "<ruby><b>取</b><rt><b>と</b></rt>る</ruby>",
+      trans: "to take"
+    }
+    ]
+  },
+  {
+    kanji: "曲",
+    kana: "ま、くま、キョク",
+    english: "bend, music, melody, composition, pleasure, injustice, fault, curve, crooked, perverse, lean",
+    note: "JLPT N3",
+    parts: "radical: <b>曰</b> (say, speaking)",
+    examples: [
+    {
+      word: "<ruby><b>曲</b><rt><b>ま</b></rt>がる</ruby>",
+      trans: "to bend"
+    }
+    ]
+  },
+  {
+    kanji: "文",
+    kana: "ふみ、あや、ブン、モン",
+    english: "sentence, literature, style, art, decoration, figures, plan, literary radical (no. 67)",
+    note: "JLPT N4",
+    parts: "radical: <b>文</b> (script, literature)",
+    examples: [
+    {
+      word: "<ruby><b>文</b><rt><b>ぶん</b></rt></ruby>",
+      trans: "sentence"
+    },
+    {
+      word: "<ruby><b>文</b><rt><b>ぶん</b></rt>法<rt>ぽう</rt></ruby>",
+      trans: "grammar"
+    }
+    ]
+  },
+  {
+    kanji: "立",
+    kana: "た、だ、リツ、リュウ、リットル",
+    english: "stand up, rise, set up, erect",
+    note: "JLPT N4",
+    parts: "radical: <b>立</b> (stand, erect)",
+    examples: [
+    {
+      word: "<ruby><b>立</b><rt><b>た</b></rt>つ</ruby>",
+      trans: "to stand"
+    },
+    {
+      word: "<ruby><b>立</b><rt><b>りつ</b></rt>礼<rt>れい</rt></ruby>",
+      trans: "standing bow​"
+    },
+    {
+      word: "<ruby>起<rt>き</rt><b>立</b><rt><b>りつ</b></rt></ruby>",
+      trans: "standing up"
+    }
+    ]
   }
 ];
