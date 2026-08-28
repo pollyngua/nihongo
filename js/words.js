@@ -24,7 +24,7 @@ window.WORDS = [
   },
   {
     kana: "と",
-    english: { main: "<i>1.</i> and <i>(links nouns, not clauses)</i>; <i>2.</i> with; <i>3.</i> <i>quote marker</i>", note: "particle; conjunction; JLPT N3", example: "(2) ライオン<b>と</b>しゃしんをとりましょう (we should take a photo with the lion);<br>(3) <ruby>田<rt>た</rt>中<rt>なか</rt></ruby><b>と</b><ruby>言<rt>い</rt>います</ruby> (my name is tanaka (lit. i say 'tanaka'))" }
+    english: { main: "<i>1.</i> and <i>(links nouns, not clauses)</i>; <i>2.</i> with; <i>3.</i> <i>quote marker</i>; <i>4.</i> if; when", note: "particle; conjunction; JLPT N3", example: "(2) ライオン<b>と</b>しゃしんをとりましょう (we should take a photo with the lion);<br>(3) <ruby>田<rt>た</rt>中<rt>なか</rt></ruby><b>と</b><ruby>言<rt>い</rt>います</ruby> (my name is tanaka (lit. i say 'tanaka'));<br>(4) １８さいになる<b>と</b>「<ruby>大人<rt>おとな</rt></ruby>」です (when you turn 18, you're an 'adult')" }
   },
   {
     kana: "だ/です",
@@ -1038,11 +1038,6 @@ window.WORDS = [
     english: { main: "platform (train station)", note: "noun; JLPT N3" }
   },
   {
-    kanji: "一階",
-    kana: "いっかい",
-    english: { main: "first floor", note: "noun" }
-  },
-  {
     kana: "かいさつ",
     english: { main: "ticket gate", note: "noun; JLPT N2" }
   },
@@ -1081,11 +1076,6 @@ window.WORDS = [
     kanji: "電話",
     kana: "でんわ",
     english: { main: "telephone", note: "noun; verb (suru, tr., intr.); JLPT N5" }
-  },
-  {
-    kanji: "二階",
-    kana: "にかい",
-    english: { main: "second floor", note: "noun" }
   },
   {
     kana: "かいだん",
@@ -2510,9 +2500,9 @@ window.WORDS = [
     audio: "manager"
   },
   {
-    // kanji: "会社",
+    kanji: "会社",
     kana: "かいしゃ",
-    english: { main: "company; corporation; firm", note: "noun; JLPT N5" }
+    english: { main: "<i>1.</i> company; corporation; firm; <i>2.</i> one's workplace", note: "noun; JLPT N5", example: "(2) <ruby>電<rt>でん</rt>車<rt>しゃ</rt></ruby>で<b><ruby>会<rt>かい</rt>社<rt>しゃ</rt></ruby></b>に<ruby>行<rt>い</rt>きます</ruby> (i go to work by train)" }
   },
   {
     kanji: "図書館",
@@ -3912,12 +3902,6 @@ window.WORDS = [
     english: { main: "towel", note: "noun; JLPT N3" }
   },
   {
-    kanji: "三階",
-    kana: "さんがい",
-    english: { main: "third floor", note: "noun" },
-    audio: "third-floor"
-  },
-  {
     kanji: "無料",
     kana: "むりょう",
     english: { main: "free (of charge)", note: "noun; JLPT N3" },
@@ -3935,12 +3919,6 @@ window.WORDS = [
   {
     kana: "コーヒーメーカー",
     english: { main: "coffee maker; coffee machine", note: "noun" }
-  },
-  {
-    kanji: "四階",
-    kana: "よんかい",
-    english: { main: "fourth floor", note: "noun" },
-    audio: "fourth-floor"
   },
   {
     kana: "チェックアウト",
@@ -4515,6 +4493,94 @@ window.WORDS = [
   {
     // kanji: "呼ぶ/呼びます",
     kana: "よぶ/よびます",
-    english: { main: "to call <i>(someone by a name)</i>", note: "verb (godan, tr.); JLPT N5", example: "<ruby>名<rt>な</rt>前<rt>まえ</rt></ruby>はマイケルです。でも、マイクって<b>よんで</b>ください。 (my name is michael, but please call me mike)" }
+    english: { main: "to call <i>(someone by a name)</i>", note: "verb (godan, tr.); JLPT N5", example: "<ruby>名<rt>な</rt>前<rt>まえ</rt></ruby>はマイケルです。でも、マイクって<b>よんで</b>ください。 (my name is michael, but please call me mike)" },
+    audio: "to-call-by-name"
+  },
+  {
+    kana: "なる/なります",
+    english: { main: "to become", note: "verb (godan, intr.); JLPT N5", example: "１８さいに<b>なる</b>と「<ruby>大人<rt>おとな</rt></ruby>」です (when you turn 18, you're an 'adult')" },
+    audio: "to-become,to-become-polite"
+  },
+  {
+    kana: "ようになる/ようになります",
+    english: { main: "to reach the point where...; to come to be that...", note: "expression; verb (godan)" },
+    audio: "to-reach-point-where,to-reach-point-where-polite"
+  },
+  {
+    // kanji: "成人の日",
+    kana: "せいじんのひ",
+    english: { main: "Coming of Age Day", note: "expression; noun" },
+    audio: "coming-of-age-day"
+  },
+  {
+    // kanji: "喜び",
+    kana: "よろこび",
+    english: { main: "joy", note: "noun; JLPT N3" },
+    audio: "joy"
+  },
+  {
+    // kanji: "責任",
+    kana: "せきにん",
+    english: { main: "duty; responsibility", note: "noun; JLPT N3" },
+    audio: "duty-responsibility"
+  },
+  {
+    kanji: "考える/考えます",
+    kana: "かんがえる/かんがえます",
+    english: { main: "to think (about, of); to reflect (on)", note: "verb (ichidan, tr.); JLPT N4" },
+    audio: "to-think-about-of,to-think-about-of-polite"
+  },
+  {
+    kanji: "大切",
+    kana: "たいせつ",
+    english: { main: "important", note: "na-adjective; JLPT N5" },
+    audio: "important"
+  },
+  {
+    kana: "ずっと",
+    english: { main: "continuously; the whole time", note: "adverb; JLPT N3" },
+    audio: "continuously"
+  },
+  {
+    // kanji: "集中",
+    kana: "しゅうちゅう",
+    english: { main: "concentration <i>(on a task)</i>", note: "noun; verb (suru, tr., intr.); JLPT N3" },
+    audio: "concentration"
+  },
+  {
+    kana: "カプチーノ",
+    english: { main: "cappuccino", note: "noun" },
+    audio: "cappuccino"
+  },
+  {
+    kanji: "動物",
+    kana: "どうぶつ",
+    english: { main: "animal", note: "noun; JLPT N5" },
+    audio: "animal"
+  },
+  {
+    kanji: "人気",
+    kana: "にんき",
+    english: { main: "popularity", note: "noun; JLPT N3", example: "<b><ruby>人<rt>にん</rt>気<rt>き</rt></ruby></b>のカフェ (a popular café)" }
+  },
+  {
+    kana: "ハムスター",
+    english: { main: "hamster", note: "noun" }
+  },
+  {
+    // kanji: "茶色",
+    kana: "ちゃいろ",
+    english: { main: "brown", note: "noun; JLPT N5" },
+    audio: "brown"
+  },
+  {
+    kanji: "目",
+    kana: "め",
+    english: { main: "eye", note: "noun; JLPT N5" }
+  },
+  {
+    kanji: "匹",
+    kana: "ひき",
+    english: { main: "<i>counter for small animals</i>", note: "counter; JLPT N1", example: "<ruby>大<rt>おお</rt>きい</ruby><ruby>猫<rt>ねこ</rt></ruby>が<b><ruby>一<rt>いっ</rt>匹<rt>ぴき</rt></ruby></b>います (there is one big cat)" }
   }
 ];
