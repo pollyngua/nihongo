@@ -832,7 +832,7 @@ window.WORDS = [
     },
     {
       word: "<ruby><b>会</b><rt><b>かい</b></rt>社<rt>しゃ</rt></ruby>",
-      trans: "company; firm"
+      trans: "company"
     },
     {
       word: "<ruby>誕<rt>たん</rt>生<rt>じょう</rt>日<rt>び</rt><b>会</b><rt><b>かい</b></rt></ruby>",
@@ -2961,6 +2961,70 @@ window.WORDS = [
     {
       word: "<ruby>起<rt>き</rt><b>立</b><rt><b>りつ</b></rt></ruby>",
       trans: "standing up"
+    }
+    ]
+  },
+  {
+    kanji: "考",
+    kana: "かんが、コウ",
+    english: "consider, think over",
+    note: "JLPT N4",
+    parts: "radical: <b>老</b> (耂) (old)",
+    examples: [
+    {
+      word: "<ruby><b>考</b><rt><b>かんが</b></rt>える</ruby>",
+      trans: "to think"
+    }
+    ]
+  },
+  {
+    kanji: "社",
+    kana: "やしろ、シャ",
+    english: "company, firm, office, association, shrine",
+    note: "JLPT N4",
+    parts: "radical: <b>示</b> (礻) (sign, altar, display, spiritual, ancestor)",
+    examples: [
+    {
+      word: "<ruby>会<rt>かい</rt><b>社</b><rt><b>しゃ</b></rt></ruby>",
+      trans: "company"
+    },
+    {
+      word: "<ruby><b>社</b><rt><b>しゃ</b></rt>会<rt>かい</rt></ruby>",
+      trans: "society"
+    },
+    {
+      word: "<ruby>神<rt>じん</rt><b>社</b><rt><b>じゃ</b></rt></ruby>",
+      trans: "Shinto shrine"
+    }
+    ]
+  },
+  {
+    kanji: "目",
+    kana: "め、ま、モク、ボク",
+    english: "eye, class, look, insight, experience, care, favor",
+    note: "JLPT N4",
+    parts: "radical: <b>目</b> (eye)",
+    examples: [
+    {
+      word: "<ruby><b>目</b><rt><b>め</b></rt></ruby>",
+      trans: "eye"
+    }
+    ]
+  },
+  {
+    kanji: "匹",
+    kana: "ひき、ヒツ",
+    english: "equal, head, counter for small animals, roll of cloth",
+    note: "JLPT N2",
+    parts: "radical: <b>匸</b> (亡) (hiding enclosure, round box)",
+    examples: [
+    {
+      word: "<ruby>一<rt>いっ</rt><b>匹</b><rt><b>ぴき</b></rt></ruby>",
+      trans: "one small animal"
+    },
+    {
+      word: "<ruby>二<rt>に</rt><b>匹</b><rt><b>ひき</b></rt></ruby>",
+      trans: "two small animals"
     }
     ]
   }
