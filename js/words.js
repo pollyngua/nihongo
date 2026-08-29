@@ -977,8 +977,9 @@ window.WORDS = [
     english: { main: "friend", note: "noun; JLPT N5" }
   },
   {
+    // kanji: "遊ぶ/遊びます",
     kana: "あそぶ/あそびます",
-    english: { main: "to hang out", note: "verb (godan, intr.); JLPT N5" }
+    english: { main: "<i>1.</i> to hang out; <i>2.</i> to play", note: "verb (godan, intr.); JLPT N5" }
   },
   {
     kana: "スポーツ",
@@ -4582,5 +4583,11 @@ window.WORDS = [
     kanji: "匹",
     kana: "ひき",
     english: { main: "<i>counter for small animals</i>", note: "counter; JLPT N1", example: "<ruby>大<rt>おお</rt>きい</ruby><ruby>猫<rt>ねこ</rt></ruby>が<b><ruby>一<rt>いっ</rt>匹<rt>ぴき</rt></ruby></b>います (there is one big cat)" }
+  },
+  {
+    kanji: "耳",
+    kana: "みみ",
+    english: { main: "ear", note: "noun; JLPT N5" },
+    audio: "ear"
   }
 ];
