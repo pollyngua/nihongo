@@ -3027,5 +3027,18 @@ window.WORDS = [
       trans: "two small animals"
     }
     ]
+  },
+  {
+    kanji: "耳",
+    kana: "みみ、ジ",
+    english: "ear",
+    note: "JLPT N3",
+    parts: "radical: <b>耳</b> (ear)",
+    examples: [
+    {
+      word: "<ruby><b>耳</b><rt><b>みみ</b></rt></ruby>",
+      trans: "ear"
+    }
+    ]
   }
 ];
