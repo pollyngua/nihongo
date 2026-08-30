@@ -4589,5 +4589,15 @@ window.WORDS = [
     kana: "みみ",
     english: { main: "ear", note: "noun; JLPT N5" },
     audio: "ear"
+  },
+  {
+    kanji: "口",
+    kana: "くち",
+    english: { main: "mouth", note: "noun; JLPT N5" },
+    audio: "mouth"
+  },
+  {
+    kana: "トマト",
+    english: { main: "tomato", note: "noun" }
   }
 ];
