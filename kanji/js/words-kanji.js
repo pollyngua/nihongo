@@ -3040,5 +3040,39 @@ window.WORDS = [
       trans: "ear"
     }
     ]
+  },
+  {
+    kanji: "鼻",
+    kana: "はな、ビ",
+    english: "nose, snout",
+    note: "JLPT N2",
+    parts: "radical: <b>鼻</b> (nose, self)",
+    examples: [
+    {
+      word: "<ruby><b>鼻</b><rt><b>はな</b></rt></ruby>",
+      trans: "nose"
+    }
+    ]
+  },
+  {
+    kanji: "思",
+    kana: "おも、おもえら、おぼ、シ",
+    english: "think",
+    note: "JLPT N4",
+    parts: "radical: <b>心</b> (忄、⺗) (heart)",
+    examples: [
+    {
+      word: "<ruby><b>思</b><rt><b>おも</b></rt>う</ruby>",
+      trans: "to think"
+    },
+    {
+      word: "<ruby><b>思</b><rt><b>おも</b></rt>い</ruby>",
+      trans: "thought"
+    },
+    {
+      word: "<ruby><b>思</b><rt><b>おも</b></rt>い<rt></rt>出<rt>で</rt></ruby>",
+      trans: "memories"
+    }
+    ]
   }
 ];
