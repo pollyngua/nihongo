@@ -4528,7 +4528,7 @@ window.WORDS = [
   {
     kanji: "考える/考えます",
     kana: "かんがえる/かんがえます",
-    english: { main: "to think (about, of); to reflect (on)", note: "verb (ichidan, tr.); JLPT N4" },
+    english: { main: "to think (about, of); to contemplate", note: "verb (ichidan, tr.); JLPT N4" },
     audio: "to-think-about-of,to-think-about-of-polite"
   },
   {
@@ -4547,6 +4547,26 @@ window.WORDS = [
     kana: "しゅうちゅう",
     english: { main: "concentration <i>(on a task)</i>", note: "noun; verb (suru, tr., intr.); JLPT N3" },
     audio: "concentration"
+  },
+  {
+    kana: "くん",
+    english: { main: "Mr; master; boy <i>(after the name of a male of equal/lower status)</i>", note: "suffix; JLPT N4" }
+  },
+  {
+    kanji: "思う/思います",
+    kana: "おもう/おもいます",
+    english: { main: "to think; to believe; to reckon", note: "verb (godan, tr.); JLPT N4", example: "<ruby>明<rt>あ</rt>日<rt>した</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>だと<b><ruby>思<rt>おも</rt>う</ruby></b> (i think it will rain tomorrow)" }
+  },
+  {
+    kana: "けど",
+    english: { main: "but; however; although", note: "conjunction; particle; JLPT N4" },
+    audio: "but-kedo"
+  },
+  {
+    // kanji: "頑張る/頑張ります",
+    kana: "がんばる/がんばります",
+    english: { main: "to persevere; to do one's best", note: "verb (godan, intr.)" },
+    audio: "to-do-ones-best,to-do-ones-best-polite"
   },
   {
     kana: "カプチーノ",
@@ -4599,5 +4619,26 @@ window.WORDS = [
   {
     kana: "トマト",
     english: { main: "tomato", note: "noun" }
+  },
+  {
+    kanji: "鼻",
+    kana: "はな",
+    english: { main: "nose", note: "noun; JLPT N5" },
+    audio: "nose"
+  },
+  {
+    kana: "カメレオン",
+    english: { main: "chameleon", note: "noun" },
+    audio: "chameleon"
+  },
+  {
+    kana: "カラフル",
+    english: { main: "colorful", note: "na-adjective" }
+  },
+  {
+    // kanji: "隅",
+    kana: "すみ",
+    english: { main: "corner; nook", note: "noun; noun, used as a suffix; JLPT N4" },
+    audio: "corner-nook"
   }
 ];
