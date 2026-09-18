@@ -4640,5 +4640,32 @@ window.WORDS = [
     kana: "すみ",
     english: { main: "corner; nook", note: "noun; noun, used as a suffix; JLPT N4" },
     audio: "corner-nook"
+  },
+  {
+    kana: "パンダ",
+    english: { main: "panda", note: "noun" }
+  },
+  {
+    kanji: "五日",
+    kana: "いつか",
+    english: { main: "<i>1.</i> fifth day of the month; <i>2.</i> five days", note: "noun; JLPT N5", example: "<ruby>九月<rt>くがつ</rt></ruby><b><ruby>五日<rt>いつか</rt></ruby></b>はひまです (i'm free on september fifth)" },
+    audio: "5th-of-month"
+  },
+  {
+    kanji: "足",
+    kana: "あし",
+    english: { main: "leg; foot", note: "noun; JLPT N5" },
+    audio: "leg-foot"
+  },
+  {
+    kana: "きりん",
+    english: { main: "giraffe", note: "noun" },
+    audio: "giraffe"
+  },
+  {
+    kanji: "鳥",
+    kana: "とり",
+    english: { main: "bird", note: "noun; JLPT N5" },
+    audio: "bird"
   }
 ];
