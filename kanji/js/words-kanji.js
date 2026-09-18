@@ -3074,5 +3074,43 @@ window.WORDS = [
       trans: "memories"
     }
     ]
+  },
+  {
+    kanji: "足",
+    kana: "あし、た、ソク",
+    english: "leg, foot, be sufficient, counter for pairs of footwear",
+    note: "JLPT N4",
+    parts: "radical: <b>足</b> (⻊) (foot, leg, walking)",
+    examples: [
+    {
+      word: "<ruby><b>足</b><rt><b>あし</b></rt></ruby>",
+      trans: "leg; foot"
+    },
+    {
+      word: "<ruby><b>足</b><rt><b>あし</b></rt>首<rt>くび</rt></ruby>",
+      trans: "ankle"
+    },
+    {
+      word: "<ruby>運<rt>うん</rt><b>足</b><rt><b>そく</b></rt></ruby>",
+      trans: "footwork"
+    }
+    ]
+  },
+  {
+    kanji: "鳥",
+    kana: "とり、チョウ",
+    english: "bird, chicken",
+    note: "JLPT N4",
+    parts: "radical: <b>鳥</b> (bird)",
+    examples: [
+    {
+      word: "<ruby><b>鳥</b><rt><b>とり</b></rt></ruby>",
+      trans: "bird"
+    },
+    {
+      word: "<ruby><b>鳥</b><rt><b>とり</b></rt>居<rt>い</rt></ruby>",
+      trans: "torii (gate)"
+    }
+    ]
   }
 ];
