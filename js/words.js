@@ -4667,5 +4667,64 @@ window.WORDS = [
     kana: "とり",
     english: { main: "bird", note: "noun; JLPT N5" },
     audio: "bird"
+  },
+  {
+    kana: "さる",
+    english: { main: "monkey", note: "noun; JLPT N3" },
+    audio: "monkey"
+  },
+  {
+    kana: "ベンチ",
+    english: { main: "bench", note: "noun; JLPT N3" }
+  },
+  {
+    kana: "わたあめ",
+    english: { main: "cotton candy", note: "noun" },
+    audio: "cotton-candy"
+  },
+  {
+    kana: "スムージー",
+    english: { main: "smoothie", note: "noun" }
+  },
+  {
+    kana: "やぎ",
+    english: { main: "goat", note: "noun" },
+    audio: "goat"
+  },
+  {
+    kana: "ハンドジェル",
+    english: { main: "hand sanitizer", note: "noun" },
+    audio: "hand-sanitizer"
+  },
+  {
+    kana: "うさぎ",
+    english: { main: "rabbit", note: "noun; JLPT N3" },
+    audio: "rabbit"
+  },
+  {
+    kana: "フェンス",
+    english: { main: "fence", note: "noun" }
+  },
+  {
+    // kanji: "撫でる/撫でます",
+    kana: "なでる/なでます",
+    english: { main: "to caress; to pet", note: "verb (ichidan, tr.); JLPT N2" },
+    audio: "to-caress-to-pet,to-caress-to-pet-polite"
+  },
+  {
+    kana: "ピンク",
+    english: { main: "pink", note: "noun; JLPT N2" }
+  },
+  {
+    kana: "マグネット",
+    english: { main: "magnet", note: "noun" }
+  },
+  {
+    kana: "キーホルダー",
+    english: { main: "keychain", note: "noun" }
+  },
+  {
+    kana: "ギフトショップ",
+    english: { main: "gift shop", note: "noun" }
   }
 ];
