@@ -3112,5 +3112,43 @@ window.WORDS = [
       trans: "torii (gate)"
     }
     ]
+  },
+  {
+    kanji: "化",
+    kana: "ば、ふ、け、カ、ケ",
+    english: "change, take the form of, influence, enchant, delude, -﻿ization",
+    note: "JLPT N3",
+    parts: "radical: <b>匕</b> (spoon, ladle)",
+    examples: [
+    {
+      word: "<ruby>文<rt>ぶん</rt><b>化</b><rt><b>か</b></rt></ruby>",
+      trans: "culture"
+    }
+    ]
+  },
+  {
+    kanji: "初",
+    kana: "はじ、はつ、うい、そ、ぞ、ショ",
+    english: "first time, beginning",
+    note: "JLPT N3",
+    parts: "radical: <b>刀</b> (刂、⺉、⺈) (knife, sword)",
+    examples: [
+    {
+      word: "<ruby><b>初</b><rt><b>はじ</b></rt>めて</ruby>",
+      trans: "for the first time"
+    },
+    {
+      word: "<ruby><b>初</b><rt><b>しょ</b></rt>級<rt>きゅう</rt></ruby>",
+      trans: "beginner level"
+    },
+    {
+      word: "<ruby><b>初</b><rt><b>しょ</b></rt>心<rt>しん</rt>者<rt>しゃ</rt></ruby>",
+      trans: "beginner"
+    },
+    {
+      word: "<ruby><b>初</b><rt><b>しょ</b></rt>段<rt>だん</rt></ruby>",
+      trans: "beginner level"
+    }
+    ]
   }
 ];
