@@ -4416,7 +4416,7 @@ window.WORDS = [
   {
     kanji: "曲がる/曲がります",
     kana: "まがる/まがります",
-    english: { main: "<i>1.</i> to bend; to curve; <i>2.</i> to turn", note: "verb (godan, intr.); JLPT N5", example: "(2) <ruby>右<rt>みぎ</rt></ruby>に<b><ruby>曲<rt>な</rt>がって</ruby></b> (turn right)" }
+    english: { main: "<i>1.</i> to bend; to curve; <i>2.</i> to turn", note: "verb (godan, intr.); JLPT N5", example: "(2) <ruby>右<rt>みぎ</rt></ruby>に<b><ruby>曲<rt>ま</rt>がって</ruby></b> (turn right)" }
   },
   {
     kanji: "文",
@@ -4726,5 +4726,48 @@ window.WORDS = [
   {
     kana: "ギフトショップ",
     english: { main: "gift shop", note: "noun" }
+  },
+  {
+    kanji: "文化",
+    kana: "ぶんか",
+    english: { main: "culture; civilization", note: "noun; JLPT N4" },
+    audio: "culture-civilization"
+  },
+  {
+    kanji: "先月",
+    kana: "せんげつ",
+    english: { main: "last month", note: "noun; adverb; JLPT N5" },
+    audio: "last-month"
+  },
+  {
+    kana: "かぶき",
+    english: { main: "kabuki", note: "noun" },
+    audio: "kabuki"
+  },
+  {
+    kana: "ぎんざ",
+    english: { main: "Ginza <i>(district in Tokyo)</i>", note: "proper noun" },
+    audio: "ginza"
+  },
+  {
+    kanji: "初めて",
+    kana: "はじめて",
+    english: { main: "for the first time", note: "adverb; noun; JLPT N5", example: "<b><ruby>初<rt>はじ</rt>めて</ruby></b><ruby>日本<rt>にほん</rt></ruby>でかぶきを<ruby>見<rt>み</rt>ました</ruby> (i saw kabuki for the first time in japan)" },
+    audio: "for-the-first-time"
+  },
+  {
+    kana: "すいぞくかん",
+    english: { main: "aquarium", note: "noun" },
+    audio: "aquarium"
+  },
+  {
+    kana: "ちば",
+    english: { main: "Chiba <i>(city, prefecture)</i>", note: "proper noun" }
+  },
+  {
+    kanji: "見つける/見つけます",
+    kana: "みつける/みつけます",
+    english: { main: "to find; to discover", note: "verb (ichidan, tr.); JLPT N4" },
+    audio: "to-find-to-discover,to-find-to-discover-polite"
   }
 ];
