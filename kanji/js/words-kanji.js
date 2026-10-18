@@ -3150,5 +3150,68 @@ window.WORDS = [
       trans: "beginner level"
     }
     ]
+  },
+  {
+    kanji: "安",
+    kana: "やす、アン",
+    english: "relax, cheap, low, quiet, rested, contented, peaceful",
+    note: "JLPT N4",
+    parts: "radical: <b>宀</b> (roof)",
+    examples: [
+    {
+      word: "<ruby><b>安</b><rt><b>やす</b></rt>い</ruby>",
+      trans: "cheap"
+    },
+    {
+      word: "<ruby><b>安</b><rt><b>あん</b></rt>定<rt>てい</rt></ruby>",
+      trans: "stability"
+    },
+    {
+      word: "<ruby>平<rt>へい</rt><b>安</b><rt><b>あん</b></rt></ruby>",
+      trans: "peace"
+    },
+    {
+      word: "<ruby><b>安</b><rt><b>あん</b></rt>座<rt>ざ</rt></ruby>",
+      trans: "sitting cross-legged"
+    }
+    ]
+  },
+  {
+    kanji: "光",
+    kana: "ひか、ひかり、コウ",
+    english: "ray, light",
+    note: "JLPT N3",
+    parts: "radical: <b>儿</b> (legs)",
+    examples: [
+    {
+      word: "<ruby><b>光</b><rt><b>ひか</b></rt>る</ruby>",
+      trans: "to shine"
+    },
+    {
+      word: "<ruby><b>光</b><rt><b>ひかり</b></rt></ruby>",
+      trans: "light"
+    },
+    {
+      word: "<ruby>観<rt>かん</rt><b>光</b><rt><b>こう</b></rt></ruby>",
+      trans: "sightseeing"
+    }
+    ]
+  },
+  {
+    kanji: "重",
+    kana: "え、かさ、おも、ジュウ、チョウ",
+    english: "heavy, important, esteem, respect, heap up, pile up, nest of boxes, -fold",
+    note: "JLPT N4",
+    parts: "radical: <b>里</b> (village, mile)",
+    examples: [
+    {
+      word: "<ruby><b>重</b><rt><b>おも</b></rt>い</ruby>",
+      trans: "heavy"
+    },
+    {
+      word: "<ruby><b>重</b><rt><b>じゅう</b></rt>心<rt>しん</rt></ruby>",
+      trans: "center of gravity"
+    }
+    ]
   }
 ];
