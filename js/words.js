@@ -857,6 +857,7 @@ window.WORDS = [
     audio: "store"
   },
   {
+    kanji: "安い",
     kana: "やすい",
     english: { main: "cheap", note: "i-adjective; JLPT N5" }
   },
@@ -4769,5 +4770,73 @@ window.WORDS = [
     kana: "みつける/みつけます",
     english: { main: "to find; to discover", note: "verb (ichidan, tr.); JLPT N4" },
     audio: "to-find-to-discover,to-find-to-discover-polite"
+  },
+  {
+    kana: "モニター",
+    english: { main: "(computer) monitor; display", note: "noun; JLPT N1" }
+  },
+  {
+    kana: "ゲーミング",
+    english: { main: "(video) gaming <i>(usu. in compounds)</i>", note: "noun" }
+  },
+  {
+    kana: "インチ",
+    english: { main: "inch", note: "noun" }
+  },
+  {
+    // kanji: "軽い",
+    kana: "かるい",
+    english: { main: "light <i>(i.e. not heavy)</i>", note: "i-adjective; JLPT N5" }
+  },
+  {
+    kana: "キーボード",
+    english: { main: "keyboard", note: "noun" }
+  },
+  {
+    kana: "マウス",
+    english: { main: "(computer) mouse", note: "noun" }
+  },
+  {
+    kanji: "光る/光ります",
+    kana: "ひかる/ひかります",
+    english: { main: "to shine; to glitter; to be bright", note: "verb (godan, intr.); JLPT N4", example: "このきれいなマウスは<b><ruby>光<rt>ひか</rt>ります</ruby></b> (this pretty mouse lights up)" },
+    audio: "to-shine,to-shine-polite"
+  },
+  {
+    kana: "ケーブル",
+    english: { main: "cable", note: "noun" }
+  },
+  {
+    kana: "グレー",
+    english: { main: "gray", note: "noun; JLPT N1" }
+  },
+  {
+    kana: "ワイヤレス",
+    english: { main: "wireless", note: "noun" },
+    audio: "wireless"
+  },
+  {
+    kana: "スピーカー",
+    english: { main: "speaker", note: "noun; JLPT N2" }
+  },
+  {
+    kana: "レジぶくろ",
+    english: { main: "(disposable) shopping bag", note: "noun" },
+    audio: "disposable-shopping-bag"
+  },
+  {
+    kana: "レシート",
+    english: { main: "receipt", note: "noun" },
+    audio: "receipt"
+  },
+  {
+    // kanji: "電池",
+    kana: "でんち",
+    english: { main: "battery", note: "noun; JLPT N2" }
+  },
+  {
+    kanji: "重い",
+    kana: "おもい",
+    english: { main: "heavy", note: "i-adjective; JLPT N5" }
   }
 ];
