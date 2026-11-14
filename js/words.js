@@ -6,6 +6,7 @@ window.WORDS = [
   {
     kanji: "水",
     kana: "みず",
+    japanese: "<ruby>水<rt>みず</rt></ruby>",
     english: { main: "water", note: "noun; JLPT N5" },
     audio: "water"
   },
@@ -37,6 +38,7 @@ window.WORDS = [
   {
     kanji: "先生",
     kana: "せんせい",
+    japanese: "<ruby>先<rt>せん</rt>生<rt>せい</rt></ruby>",
     english: { main: "<i>1.</i> teacher; <i>2. title or form of address for a teacher, master, doctor, lawyer, etc.​</i>", note: "noun; noun, used as a suffix; honorific (2); JLPT N5" },
     audio: "teacher"
   },
@@ -59,12 +61,14 @@ window.WORDS = [
   {
     kanji: "学生",
     kana: "がくせい",
+    japanese: "<ruby>学<rt>がく</rt>生<rt>せい</rt></ruby>",
     english: { main: "student", note: "noun; JLPT N5" },
     audio: "student"
   },
   {
     kanji: "人",
     kana: "ひと | にん | じん",
+    japanese: "<ruby>人<rt>ひと</rt></ruby> | <ruby>人<rt>にん</rt></ruby> | <ruby>人<rt>じん</rt></ruby>",
     english: { main: "person | <i>counter for people</i> | -ian, -ite, <i>etc. (indicates nationality)</i>", note: "noun; counter; suffix; JLPT N5" },
     audio: "person,,"
   },
@@ -132,6 +136,7 @@ window.WORDS = [
   {
     kanji: "日本",
     kana: "にほん",
+    japanese: "<ruby>日本<rt>にほん</rt></ruby>",
     english: { main: "Japan", note: "proper noun; JLPT N3" }
   },
   {
@@ -159,11 +164,13 @@ window.WORDS = [
   {
     kanji: "大きい",
     kana: "おおきい",
+    japanese: "<ruby>大<rt>おお</rt>きい</ruby>",
     english: { main: "big; large", note: "i-adjective; JLPT N5" }
   },
   {
     kanji: "小さい",
     kana: "ちいさい",
+    japanese: "<ruby>小<rt>ちい</rt>さい</ruby>",
     english: { main: "small", note: "i-adjective; JLPT N5" }
   },
   {
@@ -210,6 +217,7 @@ window.WORDS = [
   {
     kanji: "駅",
     kana: "えき",
+    japanese: "<ruby>駅<rt>えき</rt></ruby>",
     english: { main: "<i>1.</i> train station; <i>2. counter for railway stations and bus stations</i>", note: "noun; counter; JLPT N5" }
   },
   {
@@ -290,47 +298,56 @@ window.WORDS = [
   {
     kanji: "何時",
     kana: "なんじ | いつ",
+    japanese: "<ruby>何<rt>なん</rt>時<rt>じ</rt></ruby> | <ruby>何時<rt>いつ</rt></ruby>",
     english: { main: "what time | when", note: "pronoun; JLPT N5" },
     audio: "what-time, when"
   },
   {
     kanji: "一",
     kana: "いち",
+    japanese: "<ruby>一<rt>いち</rt></ruby>",
     english: { main: "one", note: "numeric; JLPT N5" }
   },
   {
     kanji: "一つ",
     kana: "ひとつ",
+    japanese: "<ruby>一<rt>ひと</rt>つ</ruby>",
     english: { main: "one", note: "numeric; JLPT N5", example: "コーヒーを<b>ひとつ</b>ください (one coffee, please)" }
   },
   {
     kanji: "二",
     kana: "に",
+    japanese: "<ruby>二<rt>に</rt></ruby>",
     english: { main: "two", note: "numeric; JLPT N5" }
   },
   {
     kanji: "二つ",
     kana: "ふたつ",
+    japanese: "<ruby>二<rt>ふた</rt>つ</ruby>",
     english: { main: "two", note: "numeric; JLPT N5", example: "コーヒーを<b>ふたつ</b>ください (two coffees, please)" }
   },
   {
     kanji: "三",
     kana: "さん",
+    japanese: "<ruby>三<rt>さん</rt></ruby>",
     english: { main: "three", note: "numeric; JLPT N5" }
   },
   {
     kanji: "三つ",
     kana: "みっつ",
+    japanese: "<ruby>三<rt>みっ</rt>つ</ruby>",
     english: { main: "three", note: "numeric; JLPT N5", example: "これを<b>みっつ</b>ください (three of this, please)" }
   },
   {
     kanji: "時",
     kana: "じ",
+    japanese: "<ruby>時<rt>じ</rt></ruby>",
     english: { main: "o'clock", note: "suffix" }
   },
   {
     kanji: "半",
     kana: "はん",
+    japanese: "<ruby>半<rt>はん</rt></ruby>",
     english: { main: "<i>1.</i> half; <i>2.</i> half-past", note: "noun; noun, used as a prefix; noun, used as a suffix; JLPT N5", example: "いまにじ<b>はん</b>です (it's two thirty now)" }
   },
   {
@@ -374,26 +391,31 @@ window.WORDS = [
   {
     kanji: "田中",
     kana: "たなか",
+    japanese: "<ruby>田<rt>た</rt>中<rt>なか</rt></ruby>",
     english: { main: "Tanaka", note: "proper noun" }
   },
   {
     kanji: "山口",
     kana: "やまぐち",
+    japanese: "<ruby>山<rt>やま</rt>口<rt>ぐち</rt></ruby>",
     english: { main: "Yamaguchi", note: "proper noun" }
   },
   {
     kanji: "中山",
     kana: "なかやま",
+    japanese: "<ruby>中<rt>なか</rt>山<rt>やま</rt></ruby>",
     english: { main: "Nakayama", note: "proper noun" }
   },
   {
     kanji: "私",
     kana: "わたし",
+    japanese: "<ruby>私<rt>わたし</rt></ruby>",
     english: { main: "I; me", note: "pronoun; slightly formal or feminine; JLPT N5" }
   },
   {
     kanji: "東京",
     kana: "とうきょう",
+    japanese: "<ruby>東<rt>とう</rt>京<rt>きょう</rt></ruby>",
     english: { main: "Tokyo", note: "proper noun" }
   },
   {
@@ -407,6 +429,7 @@ window.WORDS = [
   {
     kanji: "京都",
     kana: "きょうと",
+    japanese: "<ruby>京<rt>きょう</rt>都<rt>と</rt></ruby>",
     english: { main: "Kyoto", note: "proper noun" }
   },
   {
@@ -425,6 +448,7 @@ window.WORDS = [
   {
     kanji: "住む/住みます",
     kana: "すむ/すみます",
+    japanese: "<ruby>住<rt>す</rt>む</ruby>/<ruby>住<rt>す</rt>みます</ruby>",
     english: { main: "to live <i>(of humans)</i>; to reside", note: "verb (godan, intr.); JLPT N5", example: "<ruby>東<rt>とう</rt>京<rt>きょう</rt></ruby>に<b>すんでいます</b> (i live in tokyo)" }
   },
   {
@@ -494,16 +518,19 @@ window.WORDS = [
   {
     kanji: "母",
     kana: "はは",
+    japanese: "<ruby>母<rt>はは</rt></ruby>",
     english: { main: "mother; mom <i>(one's own, when referring to her)</i>", note: "noun; humble" }
   },
   {
     kanji: "父",
     kana: "ちち",
+    japanese: "<ruby>父<rt>ちち</rt></ruby>",
     english: { main: "father; dad <i>(one's own, when referring to him)</i>", note: "noun; humble" }
   },
   {
     kanji: "忙しい",
     kana: "いそがしい",
+    japanese: "<ruby>忙<rt>いそが</rt>しい</ruby>",
     english: { main: "busy", note: "i-adjective; JLPT N5" },
     audio: "busy"
   },
@@ -562,6 +589,7 @@ window.WORDS = [
   {
     kanji: "有名",
     kana: "ゆうめい",
+    japanese: "<ruby>有<rt>ゆう</rt>名<rt>めい</rt></ruby>",
     english: { main: "famous", note: "na-adjective; JLPT N5" }
   },
   {
@@ -576,27 +604,32 @@ window.WORDS = [
   {
     kanji: "四",
     kana: "よん | よ | し",
+    japanese: "<ruby>四<rt>よん</rt></ruby> | <ruby>四<rt>よ</rt></ruby> | <ruby>四<rt>し</rt></ruby>",
     english: { main: "four", note: "numeric; JLPT N5", example: "まいにち<b>よ</b>じにおよぎます (i swim every day at four o'clock)" }
   },
   {
     kanji: "四つ",
     kana: "よっつ",
+    japanese: "<ruby>四<rt>よっ</rt>つ</ruby>",
     english: { main: "four", note: "numeric; JLPT N5", example: "<ruby>水<rt>みず</rt></ruby>を<b>よっつ</b>ください (four waters, please)" },
     audio: "4-yottsu"
   },
   {
     kanji: "五",
     kana: "ご",
+    japanese: "<ruby>五<rt>ご</rt></ruby>",
     english: { main: "five", note: "numeric; JLPT N5" }
   },
   {
     kanji: "六",
     kana: "ろく",
+    japanese: "<ruby>六<rt>ろく</rt></ruby>",
     english: { main: "six", note: "numeric; JLPT N5" }
   },
   {
     kanji: "七",
     kana: "なな | しち",
+    japanese: "<ruby>七<rt>なな</rt></ruby> | <ruby>七<rt>しち</rt></ruby>",
     english: { main: "seven", note: "numeric; JLPT N5", example: "<b>しち</b>じはん (seven thirty)" },
     audio: ",7-shichi"
   },
@@ -615,6 +648,7 @@ window.WORDS = [
   {
     kanji: "本",
     kana: "ほん",
+    japanese: "<ruby>本<rt>ほん</rt></ruby>",
     english: { main: "<i>1.</i> book; <i>2. counter for: long cylindrical things; films, TV shows; goals, home runs; telephone calls</i>", note: "noun; counter; JLPT N5" }
   },
   {
@@ -662,6 +696,7 @@ window.WORDS = [
   {
     kanji: "見る/見ます",
     kana: "みる/みます",
+    japanese: "<ruby>見<rt>み</rt>る</ruby>/<ruby>見<rt>み</rt>ます</ruby>",
     english: { main: "to see; to look; to watch", note: "verb (ichidan, tr.); JLPT N5" }
   },
   {
@@ -671,11 +706,13 @@ window.WORDS = [
   {
     kanji: "聞く/聞きます",
     kana: "きく/ききます",
+    japanese: "<ruby>聞<rt>き</rt>く</ruby>/<ruby>聞<rt>き</rt>きます</ruby>",
     english: { main: "<i>1.</i> to listen; <i>2.</i> to ask", note: "verb (godan, tr.); JLPT N5", example: "(2) なおみさんに<b>ききましょう</b>か (should we ask naomi?)" }
   },
   {
     kanji: "読む/読みます",
     kana: "よむ/よみます",
+    japanese: "<ruby>読<rt>よ</rt>む</ruby>/<ruby>読<rt>よ</rt>みます</ruby>",
     english: { main: "to read", note: "verb (godan, tr.); JLPT N5" }
   },
   {
@@ -725,11 +762,13 @@ window.WORDS = [
   {
     kanji: "食べる/食べます",
     kana: "たべる/たべます",
+    japanese: "<ruby>食<rt>た</rt>べる</ruby>/<ruby>食<rt>た</rt>べます</ruby>",
     english: { main: "to eat", note: "verb (ichidan, tr.); JLPT N5" }
   },
   {
     kanji: "飲む/飲みます",
     kana: "のむ/のみます",
+    japanese: "<ruby>飲<rt>の</rt>む</ruby>/<ruby>飲<rt>の</rt>みます</ruby>",
     english: { main: "to drink", note: "verb (godan, tr.); JLPT N5" }
   },
   {
@@ -748,27 +787,32 @@ window.WORDS = [
   {
     kanji: "八",
     kana: "はち",
+    japanese: "<ruby>八<rt>はち</rt></ruby>",
     english: { main: "eight", note: "numeric; JLPT N5" },
     audio: "8-hachi"
   },
   {
     kanji: "九",
     kana: "く | きゅう",
+    japanese: "<ruby>九<rt>く</rt></ruby> | <ruby>九<rt>きゅう</rt></ruby>",
     english: { main: "nine", note: "numeric; JLPT N5" }
   },
   {
     kanji: "十",
     kana: "じゅう | とお",
+    japanese: "<ruby>十<rt>じゅう</rt></ruby> | <ruby>十<rt>とお</rt></ruby>",
     english: { main: "ten", note: "numeric; JLPT N5" }
   },
   {
     kanji: "十一",
     kana: "じゅういち",
+    japanese: "<ruby>十<rt>じゅう</rt>一<rt>いち</rt></ruby>",
     english: { main: "eleven", note: "numeric" }
   },
   {
     kanji: "十二",
     kana: "じゅうに",
+    japanese: "<ruby>十<rt>じゅう</rt>二<rt>に</rt></ruby>",
     english: { main: "twelve", note: "numeric" }
   },
   {
@@ -799,6 +843,7 @@ window.WORDS = [
   {
     kanji: "古い",
     kana: "ふるい",
+    japanese: "<ruby>古<rt>ふる</rt>い</ruby>",
     english: { main: "old", note: "i-adjective; JLPT N5" }
   },
   {
@@ -808,11 +853,13 @@ window.WORDS = [
   {
     kanji: "新しい",
     kana: "あたらしい",
+    japanese: "<ruby>新<rt>あたら</rt>しい</ruby>",
     english: { main: "new", note: "i-adjective; JLPT N5" }
   },
   {
     kanji: "欲しい",
     kana: "ほしい",
+    japanese: "<ruby>欲<rt>ほ</rt>しい</ruby>",
     english: { main: "wanting (to have); desiring <i>(with が)</i>", note: "i-adjective; JLPT N5", example: "あかいスカートが<b>ほしい</b>です (i want a red skirt)" }
   },
   {
@@ -859,11 +906,13 @@ window.WORDS = [
   {
     kanji: "安い",
     kana: "やすい",
+    japanese: "<ruby>安<rt>やす</rt>い</ruby>",
     english: { main: "cheap", note: "i-adjective; JLPT N5" }
   },
   {
     kanji: "高い",
     kana: "たかい",
+    japanese: "<ruby>高<rt>たか</rt>い</ruby>",
     english: { main: "<i>1.</i> expensive; <i>2.</i> high; tall", note: "i-adjective; JLPT N5" }
   },
   {
@@ -882,12 +931,14 @@ window.WORDS = [
   {
     kanji: "百",
     kana: "ひゃく",
+    japanese: "<ruby>百<rt>ひゃく</rt></ruby>",
     english: { main: "hundred", note: "numeric; JLPT N5", example: "<ruby>五<rt>ご</rt></ruby><b><ruby>百<rt>ひゃく</rt></ruby></b> (five hundred)" },
     audio: "hundred"
   },
   {
     kanji: "千",
     kana: "せん",
+    japanese: "<ruby>千<rt>せん</rt></ruby>",
     english: { main: "thousand", note: "numeric; JLPT N5" }
   },
   {
@@ -952,11 +1003,13 @@ window.WORDS = [
   {
     kanji: "少し",
     kana: "すこし",
+    japanese: "<ruby>少<rt>すこ</rt>し</ruby>",
     english: { main: "a bit", note: "adverb; JLPT N5", example: "<b>すこし</b>たかいですね (it's a bit expensive, isn't it)" }
   },
   {
     kanji: "週末",
     kana: "しゅうまつ",
+    japanese: "<ruby>週<rt>しゅう</rt>末<rt>まつ</rt></ruby>",
     english: { main: "weekend", note: "adverb; noun", example: "<b>しゅうまつ</b>はおよぎます (i swim on the weekends)" }
   },
   {
@@ -993,11 +1046,13 @@ window.WORDS = [
   {
     kanji: "土曜日",
     kana: "どようび",
+    japanese: "<ruby>土<rt>ど</rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
     english: { main: "Saturday", note: "noun; adverb; JLPT N5" }
   },
   {
     kanji: "日曜日",
     kana: "にちようび",
+    japanese: "<ruby>日<rt>にち</rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
     english: { main: "Sunday", note: "noun; adverb; JLPT N5" }
   },
   {
@@ -1023,16 +1078,19 @@ window.WORDS = [
   {
     kanji: "買う/買います",
     kana: "かう/かいます",
+    japanese: "<ruby>買<rt>か</rt>う</ruby>/<ruby>買<rt>か</rt>います</ruby>",
     english: { main: "to buy", note: "verb (godan, tr.); JLPT N5" }
   },
   {
     kanji: "出かける/出かけます",
     kana: "でかける/でかけます",
+    japanese: "<ruby>出<rt>で</rt>かける</ruby>/<ruby>出<rt>で</rt>かけます</ruby>",
     english: { main: "to go out; to leave", note: "verb (ichidan, intr.); JLPT N5" }
   },
   {
     kanji: "話す/話します",
     kana: "はなす/はなします",
+    japanese: "<ruby>話<rt>はな</rt>す</ruby>/<ruby>話<rt>はな</rt>します</ruby>",
     english: { main: "to talk; to speak", note: "verb (godan, tr.); JLPT N5" }
   },
   {
@@ -1077,6 +1135,7 @@ window.WORDS = [
   {
     kanji: "電話",
     kana: "でんわ",
+    japanese: "<ruby>電<rt>でん</rt>話<rt>わ</rt></ruby>",
     english: { main: "telephone", note: "noun; verb (suru, tr., intr.); JLPT N5" }
   },
   {
@@ -1102,6 +1161,7 @@ window.WORDS = [
   {
     kanji: "有る/有ります",
     kana: "ある/あります",
+    japanese: "<ruby>有<rt>あ</rt>る</ruby>/<ruby>有<rt>あ</rt>ります</ruby>",
     english: { main: "to be; to exist <i>(of inanimate objects, concepts)</i>", note: "verb (godan, intr.); JLPT N5", example: "ちずは<b>あります</b>か (do you have a map?)" }
   },
   {
@@ -1120,6 +1180,7 @@ window.WORDS = [
   {
     kanji: "新聞",
     kana: "しんぶん",
+    japanese: "<ruby>新<rt>しん</rt>聞<rt>ぶん</rt></ruby>",
     english: { main: "newspaper", note: "noun; JLPT N5" }
   },
   {
@@ -1141,17 +1202,20 @@ window.WORDS = [
   {
     kanji: "作る/作ります",
     kana: "つくる/つくります",
+    japanese: "<ruby>作<rt>つく</rt>る</ruby>/<ruby>作<rt>つく</rt>ります</ruby>",
     english: { main: "<i>1.</i> to make; <i>2.</i> to prepare <i>(food)</i>", note: "verb (godan, tr.); JLPT N5" }
   },
   {
     kanji: "毎週",
     kana: "まいしゅう",
+    japanese: "<ruby>毎<rt>まい</rt>週<rt>しゅう</rt></ruby>",
     english: { main: "every week", note: "noun; adverb; JLPT N5" },
     audio: "every-week"
   },
   {
     kanji: "明日",
     kana: "あした",
+    japanese: "<ruby>明<rt>あ</rt>日<rt>した</rt></ruby>",
     english: { main: "tomorrow <i>(also literary <b>あす</b>)</i>", note: "noun; adverb; JLPT N5" }
   },
   {
@@ -1173,6 +1237,7 @@ window.WORDS = [
   {
     kanji: "来週",
     kana: "らいしゅう",
+    japanese: "<ruby>来<rt>らい</rt>週<rt>しゅう</rt></ruby>",
     english: { main: "next week", note: "noun; adverb; JLPT N5" }
   },
   {
@@ -1182,6 +1247,7 @@ window.WORDS = [
   {
     kanji: "走る/走ります",
     kana: "はしる/はしります",
+    japanese: "<ruby>走<rt>はし</rt>る</ruby>/<ruby>走<rt>はし</rt>ります</ruby>",
     english: { main: "to run", note: "verb (godan, intr.); JLPT N5" }
   },
   {
@@ -1235,10 +1301,13 @@ window.WORDS = [
   {
     kanji: "言う/言います",
     kana: "いう/いいます",
+    japanese: "<ruby>言<rt>い</rt>う</ruby>/<ruby>言<rt>い</rt>います</ruby>",
     english: { main: "<i>1.</i> to say; <i>2.</i> to name", note: "verb (godan, tr.); JLPT N5", example: "<ruby>田<rt>た</rt>中<rt>なか</rt></ruby>と<b><ruby>言<rt>い</rt>います</ruby></b> (my name is tanaka (lit. i say 'tanaka'))" }
   },
   {
+    kanji: "好き",
     kana: "すき",
+    japanese: "<ruby>好<rt>す</rt>き</ruby>",
     english: { main: "likeable; to one's liking; favorite", note: "na-adjective; JLPT N5", example: "まんがが<b>すき</b>です (i like manga);<br>ケーキは<b>すき</b>ですか (do you like cake?);<br>これは<ruby>私<rt>わたし</rt></ruby>の<b>すきな</b><ruby>本<rt>ほん</rt></ruby>です (this is my favorite book)" },
     audio: "liked"
   },
@@ -1266,6 +1335,7 @@ window.WORDS = [
   {
     kanji: "家",
     kana: "いえ | うち",
+    japanese: "<ruby>家<rt>いえ</rt></ruby> | <ruby>家<rt>うち</rt></ruby>",
     english: { main: "house; home | one's house; one's home <i>[kana]</i>", note: "noun; JLPT N5", example: "<b>おうち</b>はどちらですか ([honorific] where is your house?)" },
     audio: "house, one-s-house"
   },
@@ -1297,6 +1367,7 @@ window.WORDS = [
   {
     kanji: "本棚",
     kana: "ほんだな",
+    japanese: "<ruby>本<rt>ほん</rt>棚<rt>だな</rt></ruby>",
     english: { main: "bookshelf", note: "noun; JLPT N5" }
   },
   {
@@ -1351,12 +1422,14 @@ window.WORDS = [
   {
     kanji: "今週",
     kana: "こんしゅう",
+    japanese: "<ruby>今<rt>こん</rt>週<rt>しゅう</rt></ruby>",
     english: { main: "this week", note: "noun; adverb; JLPT N5" },
     audio: "this-week"
   },
   {
     kanji: "電車",
     kana: "でんしゃ",
+    japanese: "<ruby>電<rt>でん</rt>車<rt>しゃ</rt></ruby>",
     english: { main: "train; electric train", note: "noun; JLPT N5" }
   },
   {
@@ -1383,6 +1456,7 @@ window.WORDS = [
   {
     kanji: "行く/行きます",
     kana: "いく/いきます",
+    japanese: "<ruby>行<rt>い</rt>く</ruby>/<ruby>行<rt>い</rt>きます</ruby>",
     english: { main: "to go; to move (toward)", note: "verb (godan, intr.); JLPT N5", example: "このでんしゃはしぶやえきに<b><ruby>行<rt>い</rt>きます</ruby></b> (this train goes to shibuya station)" }
   },
   {
@@ -1400,6 +1474,7 @@ window.WORDS = [
   {
     kanji: "来る/来ます",
     kana: "くる/きます",
+    japanese: "<ruby>来<rt>く</rt>る</ruby>/<ruby>来<rt>き</rt>ます</ruby>",
     english: { main: "to come", note: "verb (kuru, intr.); JLPT N5" }
   },
   {
@@ -1409,11 +1484,13 @@ window.WORDS = [
   {
     kanji: "分",
     kana: "ふん",
+    japanese: "<ruby>分<rt>ふん</rt></ruby>",
     english: { main: "minute", note: "noun; counter-like; JLPT N1", example: "に<b>ふん</b> (2 minutes); じゅっ<b>ぷん</b> (10 minutes)" }
   },
   {
     kanji: "十分",
     kana: "じゅっぷん | じゅうぶん",
+    japanese: "<ruby>十分<rt>じゅっぷん</rt></ruby> | <ruby>十<rt>じゅう</rt>分<rt>ぶん</rt></ruby>",
     english: { main: "10 minutes | enough", note: "noun; JLPT N1 | na-adjective; JLPT N4", example: "<b>じゅっぷん</b>は<b>じゅうぶん</b>です (10 minutes is enough)" },
     audio: "10-minutes, enough"
   },
@@ -1440,6 +1517,7 @@ window.WORDS = [
   {
     kanji: "時間",
     kana: "じかん",
+    japanese: "<ruby>時<rt>じ</rt>間<rt>かん</rt></ruby>",
     english: { main: "hour", note: "noun; JLPT N5", example: "たぶん<ruby>五<rt>ご</rt></ruby><b><ruby>時<rt>じ</rt>間<rt>かん</rt></ruby></b>ぐらいかかります (it probably takes about 5 hours)" }
   },
   {
@@ -1453,6 +1531,7 @@ window.WORDS = [
   {
     kanji: "所",
     kana: "ところ",
+    japanese: "<ruby>所<rt>ところ</rt></ruby>",
     english: { main: "place; spot", note: "noun; adverb; suffix; JLPT N5", example: "このまちはにぎやかな<b>ところ</b>です (this town is a lively place)" }
   },
   {
@@ -1466,6 +1545,7 @@ window.WORDS = [
   {
     kanji: "何",
     kana: "なん | なに",
+    japanese: "<ruby>何<rt>なん</rt></ruby> | <ruby>何<rt>なに</rt></ruby>",
     english: { main: "what", note: "pronoun; JLPT N5" }
   },
   {
@@ -1496,6 +1576,7 @@ window.WORDS = [
   {
     kanji: "山",
     kana: "やま",
+    japanese: "<ruby>山<rt>やま</rt></ruby>",
     english: { main: "mountain", note: "noun; counter; JLPT N5" },
     audio: "mountain"
   },
@@ -1557,6 +1638,7 @@ window.WORDS = [
   {
     kanji: "〇",
     kana: "ゼロ",
+    japanese: "<ruby>〇<rt>ゼロ</rt></ruby>",
     english: { main: "zero", note: "noun; numeric; JLPT N5", example: "<ruby>私<rt>わたし</rt></ruby>のでんわばんごうは<b>〇</b><ruby>八<rt>はち</rt></ruby>の<ruby>三<rt>さん</rt>四<rt>よん</rt>五<rt>ご</rt>六<rt>ろく</rt></ruby>です (my phone number is 08-3456)" }
   },
   {
@@ -1589,6 +1671,7 @@ window.WORDS = [
   {
     kanji: "休む/休みます",
     kana: "やすむ/やすみます",
+    japanese: "<ruby>休<rt>やす</rt>む</ruby>/<ruby>休<rt>やす</rt>みます</ruby>",
     english: { main: "to rest", note: "verb (godan, intr.); JLPT N5" }
   },
   {
@@ -1598,6 +1681,7 @@ window.WORDS = [
   {
     kanji: "今日",
     kana: "きょう",
+    japanese: "<ruby>今日<rt>きょう</rt></ruby>",
     english: { main: "today <i>(also literary <b>こんにち</b>)</i>", note: "noun; adverb; JLPT N5" }
   },
   {
@@ -1639,6 +1723,7 @@ window.WORDS = [
   {
     kanji: "日",
     kana: "ひ | にち",
+    japanese: "<ruby>日<rt>ひ</rt></ruby> | <ruby>日<rt>にち</rt></ruby>",
     english: { main: "day | <i>counter for days</i>", note: "noun; JLPT N4 | counter; JLPT N3", example: "はれの<b><ruby>日<rt>ひ</rt></ruby></b>はスポーツをします (on sunny days, i play sports)" }
   },
   {
@@ -1648,12 +1733,14 @@ window.WORDS = [
   {
     kanji: "七月",
     kana: "しちがつ",
+    japanese: "<ruby>七<rt>しち</rt>月<rt>がつ</rt></ruby>",
     english: { main: "July", note: "noun" },
     audio: "july"
   },
   {
     kanji: "休み",
     kana: "やすみ",
+    japanese: "<ruby>休<rt>やす</rt>み</ruby>",
     english: { main: "<i>1.</i> rest; break; <i>2.</i> vacation", note: "noun; JLPT N5", example: "なつ<b><ruby>休<rt>やす</rt>み</ruby></b>はいいですね (summer break is nice, isn't it?);<br><b><ruby>休<rt>やす</rt>み</ruby></b>の<ruby>日<rt>ひ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか (what do you do on days off?)" }
   },
   {
@@ -1668,6 +1755,7 @@ window.WORDS = [
   {
     kanji: "九月",
     kana: "くがつ",
+    japanese: "<ruby>九<rt>く</rt>月<rt>がつ</rt></ruby>",
     english: { main: "September", note: "noun" },
     audio: "september"
   },
@@ -1725,6 +1813,7 @@ window.WORDS = [
   {
     kanji: "日本語",
     kana: "にほんご",
+    japanese: "<ruby>日本<rt>にほん</rt>語<rt>ご</rt></ruby>",
     english: { main: "Japanese (language)", note: "noun" }
   },
   {
@@ -1767,6 +1856,7 @@ window.WORDS = [
   {
     kanji: "二人",
     kana: "ふたり",
+    japanese: "<ruby>二<rt>ふた</rt>人<rt>り</rt></ruby>",
     english: { main: "two persons; pair; couple", note: "noun; JLPT N5", example: "いもうとが<b>ふたり</b>います (i have two younger sisters)" }
   },
   {
@@ -1784,6 +1874,7 @@ window.WORDS = [
   {
     kanji: "一人",
     kana: "ひとり",
+    japanese: "<ruby>一<rt>ひと</rt>人<rt>り</rt></ruby>",
     english: { main: "one person", note: "noun; JLPT N5" }
   },
   {
@@ -1865,6 +1956,7 @@ window.WORDS = [
   {
     kanji: "入る/入ります",
     kana: "はいる/はいります",
+    japanese: "<ruby>入<rt>はい</rt>る</ruby>/<ruby>入<rt>はい</rt>ります</ruby>",
     english: { main: "<i>1.</i> to enter; <i>2.</i> to join <i>(a club, company, etc.)</i>", note: "verb (godan, intr.); JLPT N5", example: "(1) まいばんおふろに<b>はいります</b> (i take a bath (lit. enter a bath) every night);<br>(2) アンドリューさんも<ruby>日本<rt>にほん</rt></ruby>ごサークルに<b>はいりません</b>か (would you also like to join the japanese club, andrew?)" },
     audio: "to-enter,to-enter-polite"
   },
@@ -1875,6 +1967,7 @@ window.WORDS = [
   {
     kanji: "買い物",
     kana: "かいもの",
+    japanese: "<ruby>買<rt>か</rt>い<rt></rt>物<rt>もの</rt></ruby>",
     english: { main: "shopping", note: "noun; verb (suru, intr.); JLPT N5" }
   },
   {
@@ -1882,6 +1975,7 @@ window.WORDS = [
     english: { main: "enjoyable; fun", note: "i-adjective; JLPT N5" }
   },
   {
+    // kanji: "料理",
     kana: "りょうり",
     english: { main: "cooking; food", note: "noun; verb (suru, tr.); JLPT N5", example: "うちにかえります。そして、<b>りょうり</b>をします (i return home. then, i do the cooking);<br>フランス<b>りょうり</b>、<ruby>日本<rt>にほん</rt></ruby><b>りょうり</b> (french food, japanese food)" }
   },
@@ -1896,6 +1990,7 @@ window.WORDS = [
   {
     kanji: "来月",
     kana: "らいげつ",
+    japanese: "<ruby>来<rt>らい</rt>月<rt>げつ</rt></ruby>",
     english: { main: "next month", note: "noun; adverb; JLPT N5" }
   },
   {
@@ -1910,6 +2005,7 @@ window.WORDS = [
   {
     kanji: "会う/会います",
     kana: "あう/あいます",
+    japanese: "<ruby>会<rt>あ</rt>う</ruby>/<ruby>会<rt>あ</rt>います</ruby>",
     english: { main: "to meet <i>(if preceded by a noun, always [noun]に～)</i>", note: "verb (godan, intr.); JLPT N5", example: "ともだちに<b><ruby>会<rt>あ</rt>います</ruby></b> (i'm going to see my friend)" }
   },
   {
@@ -1963,11 +2059,13 @@ window.WORDS = [
   {
     kanji: "肉",
     kana: "にく",
+    japanese: "<ruby>肉<rt>にく</rt></ruby>",
     english: { main: "meat", note: "noun; JLPT N5" }
   },
   {
     kanji: "お父さん",
     kana: "おとうさん",
+    japanese: "<ruby>お<rt></rt>父<rt>とう</rt>さん</ruby>",
     english: { main: "father; dad", note: "noun; honorific; JLPT N5" }
   },
   {
@@ -1977,11 +2075,13 @@ window.WORDS = [
   {
     kanji: "金曜日",
     kana: "きんようび",
+    japanese: "<ruby>金<rt>きん</rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
     english: { main: "Friday", note: "noun; adverb; JLPT N5", example: "<b><ruby>金<rt>きん</rt>曜<rt>よう</rt>日<rt>び</rt></ruby></b>にどこで<ruby>食<rt>た</rt>べます</ruby>か (where are you going to eat on friday?)" }
   },
   {
     kanji: "お母さん",
     kana: "おかあさん",
+    japanese: "<ruby>お<rt></rt>母<rt>おかあ</rt>さん</ruby>",
     english: { main: "mother; mom", note: "noun; honorific; JLPT N5" }
   },
   {
@@ -2001,6 +2101,7 @@ window.WORDS = [
   {
     kanji: "乗る/乗ります",
     kana: "のる/のります",
+    japanese: "<ruby>乗<rt>の</rt>る</ruby>/<ruby>乗<rt>の</rt>ります</ruby>",
     english: { main: "to ride; to get on; to take <i>(train, etc.)</i> <i>(always に～)</i>", note: "verb (godan, intr.); JLPT N5", example: "しんかんせんに<b>のります</b> (we're going to ride the bullet train);<br>ちかてつに<b><ruby>乗<rt>の</rt>ります</ruby></b> (i'll take the subway)" }
   },
   {
@@ -2029,6 +2130,7 @@ window.WORDS = [
   {
     kanji: "月曜日",
     kana: "げつようび",
+    japanese: "<ruby>月<rt>げつ</rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
     english: { main: "Monday", note: "noun; adverb; JLPT N5" }
   },
   {
@@ -2054,7 +2156,9 @@ window.WORDS = [
     english: { main: "sweet", note: "i-adjective; JLPT N5" }
   },
   {
+    kanji: "大好き",
     kana: "だいすき",
+    japanese: "<ruby>大<rt>だい</rt>好<rt>す</rt>き</ruby>",
     english: { main: "liking very much; to one's great liking", note: "na-adjective; JLPT N5", example: "ケーキが<b>だいすき</b>です (i love cake)" },
     audio: "greatly-liked"
   },
@@ -2099,6 +2203,7 @@ window.WORDS = [
   {
     kanji: "木曜日",
     kana: "もくようび",
+    japanese: "<ruby>木<rt>もく</rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
     english: { main: "Thursday", note: "noun; adverb; JLPT N5" }
   },
   {
@@ -2115,6 +2220,7 @@ window.WORDS = [
   {
     kanji: "卵",
     kana: "たまご",
+    japanese: "<ruby>卵<rt>たまご</rt></ruby>",
     english: { main: "egg", note: "noun; JLPT N5" }
   },
   {
@@ -2139,6 +2245,7 @@ window.WORDS = [
   {
     kanji: "魚",
     kana: "さかな",
+    japanese: "<ruby>魚<rt>さかな</rt></ruby>",
     english: { main: "fish", note: "noun; JLPT N5" },
     audio: "fish"
   },
@@ -2211,6 +2318,7 @@ window.WORDS = [
   {
     kanji: "山田",
     kana: "やまだ",
+    japanese: "<ruby>山<rt>やま</rt>田<rt>だ</rt></ruby>",
     english: { main: "Yamada", note: "proper noun" }
   },
   {
@@ -2225,6 +2333,7 @@ window.WORDS = [
   {
     kanji: "何曜日",
     kana: "なんようび",
+    japanese: "<ruby>何<rt>なん</rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
     english: { main: "what day (of the week)", note: "noun" }
   },
   {
@@ -2244,17 +2353,20 @@ window.WORDS = [
   {
     kanji: "五つ",
     kana: "いつつ",
+    japanese: "<ruby>五<rt>いつ</rt>つ</ruby>",
     english: { main: "five", note: "numeric; JLPT N5" },
     audio: "5-itsutsu"
   },
   {
     kanji: "火曜日",
     kana: "かようび",
+    japanese: "<ruby>火<rt>か</rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
     english: { main: "Tuesday", note: "noun; adverb; JLPT N5" }
   },
   {
     kanji: "六つ",
     kana: "むっつ",
+    japanese: "<ruby>六<rt>むっ</rt>つ</ruby>",
     english: { main: "six", note: "numeric; JLPT N5", example: "<ruby>金<rt>か</rt>曜<rt>よう</rt>日<rt>び</rt></ruby>はテストが<b>むっつ</b>あります (on friday, i have six tests)" }
   },
   {
@@ -2265,6 +2377,7 @@ window.WORDS = [
   {
     kanji: "水曜日",
     kana: "すいようび",
+    japanese: "<ruby>水<rt>すい</rt>曜<rt>よう</rt>日<rt>び</rt></ruby>",
     english: { main: "Wednesday", note: "noun; adverb; JLPT N5" }
   },
   {
@@ -2288,6 +2401,7 @@ window.WORDS = [
   {
     kanji: "中国人",
     kana: "ちゅうごくじん",
+    japanese: "<ruby>中<rt>ちゅう</rt>国<rt>ごく</rt>人<rt>じん</rt></ruby>",
     english: { main: "Chinese (person)", note: "noun" }
   },
   // {
@@ -2324,6 +2438,7 @@ window.WORDS = [
   {
     kanji: "名前",
     kana: "なまえ",
+    japanese: "<ruby>名<rt>な</rt>前<rt>まえ</rt></ruby>",
     english: { main: "name", note: "noun; JLPT N5" }
   },
   {
@@ -2335,6 +2450,7 @@ window.WORDS = [
   {
     kanji: "失礼ですが",
     kana: "しつれいですが",
+    japanese: "<ruby>失<rt>しつ</rt>礼<rt>れい</rt>ですが</ruby>",
     english: { main: "excuse me, but...", note: "expression" },
     audio: "excuse-me-but"
   },
@@ -2346,6 +2462,7 @@ window.WORDS = [
   {
     kanji: "色",
     kana: "いろ",
+    japanese: "<ruby>色<rt>いろ</rt></ruby>",
     english: { main: "color", note: "noun; JLPT N5" },
     audio: "color"
   },
@@ -2366,6 +2483,7 @@ window.WORDS = [
   {
     kanji: "時計",
     kana: "とけい",
+    japanese: "<ruby>時<rt>と</rt>計<rt>けい</rt></ruby>",
     english: { main: "clock; watch", note: "noun; JLPT N5" },
     audio: "clock-watch"
   },
@@ -2395,17 +2513,20 @@ window.WORDS = [
   {
     kanji: "絵本",
     kana: "えほん",
+    japanese: "<ruby>絵<rt>え</rt>本<rt>ほん</rt></ruby>",
     english: { main: "picture book", note: "noun" }
   },
   {
     kanji: "国",
     kana: "くに",
+    japanese: "<ruby>国<rt>くに</rt></ruby>",
     english: { main: "country; state", note: "noun; JLPT N5", example: "<b>お<ruby>国<rt>くに</rt></ruby></b>はどちらですか ([honorific] where is your native country?)" },
     audio: "country-state"
   },
   {
     kanji: "方",
     kana: "かた",
+    japanese: "<ruby>方<rt>かた</rt></ruby>",
     english: { main: "person; lady; gentleman", note: "noun; honorific; JLPT N5" },
     audio: "person-lady-gent"
   },
@@ -2421,24 +2542,28 @@ window.WORDS = [
   {
     kanji: "七つ",
     kana: "ななつ",
+    japanese: "<ruby>七<rt>なな</rt>つ</ruby>",
     english: { main: "seven", note: "numeric; JLPT N5" },
     audio: "7-nanatsu"
   },
   {
     kanji: "一万",
     kana: "いちまん",
+    japanese: "<ruby>一<rt>いち</rt>万<rt>まん</rt></ruby>",
     english: { main: "10,000", note: "numeric" },
     audio: "10000"
   },
   {
     kanji: "十万",
     kana: "じゅうまん",
+    japanese: "<ruby>十<rt>じゅう</rt>万<rt>まん</rt></ruby>",
     english: { main: "100,000", note: "numeric" },
     audio: "100000"
   },
   {
     kanji: "百万",
     kana: "ひゃくまん",
+    japanese: "<ruby>百<rt>ひゃく</rt>万<rt>まん</rt></ruby>",
     english: { main: "1,000,000", note: "numeric" },
     audio: "1000000"
   },
@@ -2453,11 +2578,13 @@ window.WORDS = [
   {
     kanji: "昨日",
     kana: "きのう",
+    japanese: "<ruby>昨日<rt>うきの</rt></ruby>",
     english: { main: "yesterday <i>(also literary <b>さくじつ</b>)</i>", note: "noun; adverb; JLPT N5" }
   },
   {
     kanji: "働く/働きます",
     kana: "はたらく/はたらきます",
+    japanese: "<ruby>働<rt>はたら</rt>く</ruby>/<ruby>働<rt>はたら</rt>きます</ruby>",
     english: { main: "to work", note: "verb (godan, intr.); JLPT N5", example: "<ruby>昨日<rt>きのう</rt></ruby><b><ruby>働<rt>はたら</rt>きました</ruby></b>か (did you work yesterday?)" },
     audio: "to-work,"
   },
@@ -2469,26 +2596,31 @@ window.WORDS = [
   {
     kanji: "勉強",
     kana: "べんきょう",
+    japanese: "<ruby>勉<rt>べん</rt>強<rt>きょう</rt></ruby>",
     english: { main: "study", note: "noun; verb (suru, tr.); JLPT N5" }
   },
   {
     kanji: "毎",
     kana: "まい",
+    japanese: "<ruby>毎<rt>まい</rt></ruby>",
     english: { main: "every <i>(e.g. every day)</i>; each", note: "prefix​" }
   },
   {
     kanji: "朝",
     kana: "あさ",
+    japanese: "<ruby>朝<rt>あさ</rt></ruby>",
     english: { main: "morning", note: "noun; adverb; JLPT N5" }
   },
   {
     kanji: "今朝",
     kana: "けさ",
+    japanese: "<ruby>今朝<rt>けさ</rt></ruby>",
     english: { main: "this morning", note: "noun; adverb; JLPT N5" }
   },
   {
     kanji: "晩",
     kana: "ばん",
+    japanese: "<ruby>晩<rt>ばん</rt></ruby>",
     english: { main: "<i>1.</i> evening; night; <i>2. counter for nights</i>", note: "noun; adverb; counter; JLPT N5" }
   },
   {
@@ -2504,11 +2636,13 @@ window.WORDS = [
   {
     kanji: "会社",
     kana: "かいしゃ",
+    japanese: "<ruby>会<rt>かい</rt>社<rt>しゃ</rt></ruby>",
     english: { main: "<i>1.</i> company; corporation; firm; <i>2.</i> one's workplace", note: "noun; JLPT N5", example: "(2) <ruby>電<rt>でん</rt>車<rt>しゃ</rt></ruby>で<b><ruby>会<rt>かい</rt>社<rt>しゃ</rt></ruby></b>に<ruby>行<rt>い</rt>きます</ruby> (i go to work by train)" }
   },
   {
     kanji: "図書館",
     kana: "としょかん",
+    japanese: "<ruby>図<rt>と</rt>書<rt>しょ</rt>館<rt>かん</rt></ruby>",
     english: { main: "library", note: "noun; JLPT N5" }
   },
   {
@@ -2559,6 +2693,7 @@ window.WORDS = [
   {
     kanji: "行ってきます",
     kana: "いってきます",
+    japanese: "<ruby>行<rt>い</rt>ってきます</ruby>",
     english: { main: "I'm off; see you later <i>(often has a response of いってらっしゃい)</i>", note: "expression; polite; JLPT N5" },
     audio: "i-m-off-see-you-later"
   },
@@ -2604,12 +2739,14 @@ window.WORDS = [
   {
     kanji: "車",
     kana: "くるま",
+    japanese: "<ruby>車<rt>くるま</rt></ruby>",
     english: { main: "car", note: "noun; JLPT N5", example: "<ruby>毎<rt>まい</rt>日<rt>にち</rt></ruby><b><ruby>車<rt>くるま</rt></ruby></b>で<ruby>仕<rt>し</rt>事<rt>ごと</rt></ruby>に<ruby>行<rt>い</rt>きます</ruby> (every day i go to work by car)" },
     audio: "car"
   },
   {
     kanji: "自動車",
     kana: "じどうしゃ",
+    japanese: "<ruby>自<rt>じ</rt>動<rt>どう</rt>車<rt>しゃ</rt></ruby>",
     english: { main: "automobile", note: "noun; JLPT N5" },
     audio: "automobile"
   },
@@ -2662,6 +2799,7 @@ window.WORDS = [
   {
     kanji: "先輩",
     kana: "せんぱい",
+    japanese: "<ruby>先<rt>せん</rt>輩<rt>ぱい</rt></ruby>",
     english: { main: "senior <i>(at work or school)</i>; superior; elder", note: "noun; JLPT N4" }
   },
   {
@@ -2673,6 +2811,7 @@ window.WORDS = [
   {
     kanji: "犬",
     kana: "いぬ",
+    japanese: "<ruby>犬<rt>いぬ</rt></ruby>",
     english: { main: "dog", note: "noun; JLPT N5" },
     audio: "dog"
   },
@@ -2714,6 +2853,7 @@ window.WORDS = [
   {
     kanji: "背が高い",
     kana: "せがたかい",
+    japanese: "<ruby>背<rt>せ</rt>が<rt></rt>高<rt>たか</rt>い</ruby>",
     english: { main: "tall <i>(of a person)​</i>", note: "expression; i-adjective", example: "<ruby>姉<rt>あね</rt></ruby>は<b><ruby>背<rt>せ</rt>が<rt></rt>高<rt>たか</rt>い</ruby></b>です (my older sister is tall)" },
     audio: "tall-of-person"
   },
@@ -2749,6 +2889,7 @@ window.WORDS = [
   {
     kanji: "もう一度",
     kana: "もういちど",
+    japanese: "<ruby>もう<rt></rt>一<rt>いち</rt>度<rt>ど</rt></ruby>",
     english: { main: "once more; again", note: "expression; adverb; JLPT N5", example: "<b><ruby>もう<rt></rt>一<rt>いち</rt>度<rt>ど</rt></ruby></b><ruby>言<rt>い</rt>って</ruby>ください (please say it again)" },
     audio: "once-more-again"
   },
@@ -2827,6 +2968,7 @@ window.WORDS = [
   {
     kanji: "大人",
     kana: "おとな",
+    japanese: "<ruby>大<rt>お</rt>人<rt>とな</rt></ruby>",
     english: { main: "adult; grown-up", note: "noun; na-adjective; JLPT N5" }
   },
   {
@@ -2902,6 +3044,7 @@ window.WORDS = [
   {
     kanji: "元気",
     kana: "げんき",
+    japanese: "<ruby>元<rt>げん</rt>気<rt>き</rt></ruby>",
     english: { main: "<i>1.</i> lively; energetic; <i>2.</i> healthy", note: "na-adjective; noun; JLPT N5" }
   },
   {
@@ -2956,6 +3099,7 @@ window.WORDS = [
   {
     kanji: "着る/着ます",
     kana: "きる/きます",
+    japanese: "<ruby>着<rt>き</rt>る</ruby>/<ruby>着<rt>き</rt>ます</ruby>",
     english: { main: "to wear <i>(from the shoulders down)</i>", note: "verb (ichidan, tr.); JLPT N5" }
   },
   {
@@ -3016,6 +3160,7 @@ window.WORDS = [
   {
     kanji: "話",
     kana: "はなし | わ",
+    japanese: "<ruby>話<rt>はなし</rt></ruby> | <ruby>話<rt>わ</rt></ruby>",
     english: { main: "<i>1.</i> talk; <i>2.</i> tale; story; fable | <i>counter for stories, episodes of TV series, etc.</i>", note: "noun; counter; JLPT N5" }
   },
   {
@@ -3078,6 +3223,7 @@ window.WORDS = [
   {
     kanji: "階",
     kana: "かい",
+    japanese: "<ruby>階<rt>かい</rt></ruby>",
     english: { main: "<i>1.</i> storey; floor; <i>2. counter for storeys and floors of a building</i>", note: "noun; noun, used as a suffix; counter; JLPT N1", example: "いっ<b>かい</b> (first floor); に<b>かい</b> (second floor)" }
   },
   {
@@ -3169,17 +3315,20 @@ window.WORDS = [
   {
     kanji: "歩く/歩きます",
     kana: "あるく/あるきます",
+    japanese: "<ruby>歩<rt>ある</rt>く</ruby>/<ruby>歩<rt>ある</rt>きます</ruby>",
     english: { main: "to walk", note: "verb (godan, intr.); JLPT N5", example: "<b><ruby>歩<rt>ある</rt>いて</ruby></b><ruby>来<rt>き</rt>ました</ruby> (i came on foot. (lit. i walked and came.))" }
   },
   {
     kanji: "道",
     kana: "みち",
+    japanese: "<ruby>道<rt>みち</rt></ruby>",
     english: { main: "<i>1.</i> road; path; street; <i>2.</i> route; way", note: "noun; JLPT N5" },
     audio: "road-path-street"
   },
   {
     kanji: "百円ショップ",
     kana: "ひゃくえんショップ",
+    japanese: "<ruby>百<rt>ひゃく</rt>円<rt>えん</rt>ショップ</ruby>",
     english: { main: "hundred-yen store; dollar store", note: "noun" }
   },
   {
@@ -3189,11 +3338,13 @@ window.WORDS = [
   {
     kanji: "切る/切ります",
     kana: "きる/きります",
+    japanese: "<ruby>切<rt>き</rt>る</ruby>/<ruby>切<rt>き</rt>ります</ruby>",
     english: { main: "to cut", note: "verb (godan, tr.); JLPT N5" }
   },
   {
     kanji: "八月",
     kana: "はちがつ",
+    japanese: "<ruby>八<rt>はち</rt>月<rt>がつ</rt></ruby>",
     english: { main: "August", note: "noun" },
     audio: "august"
   },
@@ -3209,6 +3360,7 @@ window.WORDS = [
   {
     kanji: "食べ物",
     kana: "たべもの",
+    japanese: "<ruby>食<rt>た</rt>べ<rt></rt>物<rt>もの</rt></ruby>",
     english: { main: "food", note: "noun; JLPT N5" },
     audio: "food"
   },
@@ -3227,6 +3379,7 @@ window.WORDS = [
   {
     kanji: "十二月",
     kana: "じゅうにがつ",
+    japanese: "<ruby>十<rt>じゅう</rt>二<rt>に</rt>月<rt>がつ</rt></ruby>",
     english: { main: "December", note: "noun" },
     audio: "december"
   },
@@ -3255,12 +3408,14 @@ window.WORDS = [
   {
     kanji: "十月",
     kana: "じゅうがつ",
+    japanese: "<ruby>十<rt>じゅう</rt>月<rt>がつ</rt></ruby>",
     english: { main: "October", note: "noun", example: "<b><ruby>十<rt>じゅう</rt>月<rt>がつ</rt></ruby></b><ruby>三<rt>さん</rt>十<rt>じゅう</rt>一<rt>いち</rt>日<rt>にち</rt></ruby> (october 31st)" },
     audio: "october"
   },
   {
     kanji: "(お)祭り",
     kana: "(お)まつり",
+    japanese: "<ruby>(お)<rt></rt>祭<rt>まつ</rt>り</ruby>",
     english: { main: "festival", note: "noun; polite; JLPT N4" },
     audio: "festival"
   },
@@ -3300,6 +3455,7 @@ window.WORDS = [
   {
     kanji: "～年生",
     kana: "～ねんせい",
+    japanese: "<ruby>～<rt></rt>年<rt>ねん</rt>生<rt>せい</rt></ruby>",
     english: { main: "nth-year student", note: "suffix; JLPT N1", example: "なおみさんは<ruby>三<rt>さん</rt></ruby><b><ruby>年<rt>ねん</rt>生<rt>せい</rt></ruby></b>ですか (are you a junior, naomi?)" },
     audio: "nth-year-student"
   },
@@ -3377,18 +3533,21 @@ window.WORDS = [
   {
     kanji: "書く/書きます",
     kana: "かく/かきます",
+    japanese: "<ruby>書<rt>か</rt>く</ruby>/<ruby>書<rt>か</rt>きます</ruby>",
     english: { main: "<i>1.</i> to write; <i>2.</i> to draw", note: "verb (godan, tr.); JLPT N5", example: "てがみを<b><ruby>書<rt>か</rt>きます</ruby></b> (i will write a letter)" },
     audio: "to-write,to-write-polite"
   },
   {
     kanji: "吸う/吸います",
     kana: "すう/すいます",
+    japanese: "<ruby>吸<rt>す</rt>う</ruby>/<ruby>吸<rt>す</rt>います</ruby>",
     english: { main: "to breathe in; to smoke", note: "verb (godan, tr.); JLPT N5", example: "タバコを<b><ruby>吸<rt>す</rt>います</ruby></b>か (do you smoke?)" },
     audio: "to-breathe-in,to-breathe-in-polite"
   },
   {
     kanji: "息",
     kana: "いき",
+    japanese: "<ruby>息<rt>いき</rt></ruby>",
     english: { main: "breath; breathing", note: "noun; JLPT N3" },
     audio: "breath"
   },
@@ -3400,6 +3559,7 @@ window.WORDS = [
   {
     kanji: "日記",
     kana: "にっき",
+    japanese: "<ruby>日<rt>にっ</rt>記<rt>き</rt></ruby>",
     english: { main: "diary", note: "noun; JLPT N4" },
     audio: "diary"
   },
@@ -3419,6 +3579,7 @@ window.WORDS = [
   {
     kanji: "始める/始めます",
     kana: "はじめる/はじめます",
+    japanese: "<ruby>始<rt>はじ</rt>める</ruby>/<ruby>始<rt>はじ</rt>めます</ruby>",
     english: { main: "to start; to begin", note: "verb (ichidan, tr.); JLPT N4" },
     audio: "to-begin,to-begin-polite"
   },
@@ -3437,6 +3598,7 @@ window.WORDS = [
   {
     kanji: "先週",
     kana: "せんしゅう",
+    japanese: "<ruby>先<rt>せん</rt>週<rt>しゅう</rt></ruby>",
     english: { main: "last week", note: "noun; adverb; JLPT N5" }
   },
   {
@@ -3448,6 +3610,7 @@ window.WORDS = [
   {
     kanji: "何も",
     kana: "なにも",
+    japanese: "<ruby>何<rt>なに</rt>も</ruby>",
     english: { main: "(not) anything; (nothing) at all; (not) any; nothing <i>(with negative verb)</i>", note: "expression; JLPT N3", example: "<ruby>今朝<rt>けさ</rt></ruby><b><ruby>何<rt>なに</rt>も</ruby></b><ruby>食<rt>た</rt>べませんでした</ruby> (i didn't eat anything this morning)" }
   },
   {
@@ -3466,6 +3629,7 @@ window.WORDS = [
   {
     kanji: "何か",
     kana: "なにか",
+    japanese: "<ruby>何<rt>なに</rt>か</ruby>",
     english: { main: "something", note: "pronoun; JLPT N3", example: "<ruby>昨日<rt>きのう</rt></ruby>デパートで<b><ruby>何<rt>なに</rt>か</ruby></b><ruby>買<rt>か</rt>いました</ruby>か (did you buy something at the department store yesterday?)" }
   },
   {
@@ -3520,11 +3684,13 @@ window.WORDS = [
   {
     kanji: "猫",
     kana: "ねこ",
+    japanese: "<ruby>猫<rt>ねこ</rt></ruby>",
     english: { main: "cat", note: "noun; JLPT N5", example: "<b><ruby>猫<rt>ねこ</rt></ruby></b>は<ruby>毎<rt>まい</rt>日<rt>にち</rt></ruby>うちに<ruby>来<rt>き</rt>ます</ruby> (the cats come to the house every day)" }
   },
   {
     kanji: "今年",
     kana: "ことし",
+    japanese: "<ruby>今年<rt>ことし</rt></ruby>",
     english: { main: "this year", note: "noun; adverb; JLPT N5", example: "<b><ruby>今年<rt>ことし</rt></ruby></b><ruby>日本<rt>にほん</rt></ruby>にかえります (this year, i'll go back to japan)" },
     audio: "this-year"
   },
@@ -3537,6 +3703,7 @@ window.WORDS = [
   {
     kanji: "描く/描きます",
     kana: "かく/かきます",
+    japanese: "<ruby>描<rt>か</rt>く</ruby>/<ruby>描<rt>か</rt>きます</ruby>",
     english: { main: "to draw; to paint", note: "verb (godan, tr.); JLPT N3", example: "ペンで<ruby>絵<rt>え</rt></ruby>を<b><ruby>描<rt>か</rt>きます</ruby></b> (i draw pictures with a pen)" },
     audio: "to-draw-to-paint,to-draw-to-paint-polite"
   },
@@ -3554,12 +3721,14 @@ window.WORDS = [
   {
     kanji: "大会",
     kana: "たいかい",
+    japanese: "<ruby>大<rt>たい</rt>会<rt>かい</rt></ruby>",
     english: { main: "tournament; competition", note: "noun; JLPT N3", example: "からての<b><ruby>大<rt>たい</rt>会<rt>かい</rt></ruby></b>にでます (i will participate in a karate tournament)" },
     audio: "tournament"
   },
   {
     kanji: "出る/出ます",
     kana: "でる/でます",
+    japanese: "<ruby>出<rt>で</rt>る</ruby>/<ruby>出<rt>で</rt>ます</ruby>",
     english: { main: "<i>1.</i> to leave; to exit; <i>2.</i> to participate; to attend", note: "verb (ichidan, intr.); JLPT N5", example: "(1) いまから<ruby>家<rt>いえ</rt></ruby>を<b><ruby>出<rt>で</rt>ます</ruby></b> (i'm leaving the house now);<br>(2) からての<ruby>大<rt>たい</rt>会<rt>かい</rt></ruby>に<b>でます</b> (i will participate in a karate tournament)" },
     audio: "to-participate,to-participate-polite"
   },
@@ -3587,6 +3756,7 @@ window.WORDS = [
   {
     kanji: "八つ",
     kana: "やっつ",
+    japanese: "<ruby>八<rt>やっ</rt>つ</ruby>",
     english: { main: "eight", note: "numeric; JLPT N5" },
     audio: "8-yattsu"
   },
@@ -3602,6 +3772,7 @@ window.WORDS = [
   {
     kanji: "九つ",
     kana: "ここのつ",
+    japanese: "<ruby>九<rt>ここの</rt>つ</ruby>",
     english: { main: "nine", note: "numeric; JLPT N5" },
     audio: "9-kokonotsu"
   },
@@ -3672,6 +3843,7 @@ window.WORDS = [
   {
     kanji: "高",
     kana: "こう",
+    japanese: "<ruby>高<rt>こう</rt></ruby>",
     english: { main: "high", note: "prefix​; noun" },
     audio: "high"
   },
@@ -3692,9 +3864,10 @@ window.WORDS = [
     english: { main: "teammate", note: "noun" }
   },
   {
-    // kanji: "今夜",
+    kanji: "今夜",
     kana: "こんや",
-    english: { main: "this evening; tonight", note: "noun; adverb; JLPT N4" }
+    japanese: "<ruby>今<rt>こん</rt>夜<rt>や</rt></ruby>",
+    english: { main: "this evening; tonight", note: "noun; adverb; JLPT N4", example: "<b><ruby>今<rt>こん</rt>夜<rt>や</rt></ruby></b>コンサートに<ruby>行<rt>い</rt>きたい</ruby>です (i want to go to a concert tonight)" }
   },
   {
     kana: "バレエ",
@@ -3716,6 +3889,7 @@ window.WORDS = [
   {
     kanji: "始まる/始まります",
     kana: "はじまる/はじまります",
+    japanese: "<ruby>始<rt>はじ</rt>まる</ruby>/<ruby>始<rt>はじ</rt>まります</ruby>",
     english: { main: "to begin; to start", note: "verb (godan, intr.); JLPT N5" },
     audio: "to-begin-intr,to-begin-intr-polite"
   },
@@ -3772,6 +3946,7 @@ window.WORDS = [
   {
     kanji: "左",
     kana: "ひだり",
+    japanese: "<ruby>左<rt>ひだり</rt></ruby>",
     english: { main: "left; left-hand side", note: "noun; JLPT N5", example: "セーターはTシャツの<b><ruby>左<rt>ひだり</rt></ruby></b>です (the sweater is to the left of the t-shirt)" }
   },
   {
@@ -3791,12 +3966,14 @@ window.WORDS = [
   {
     kanji: "上がる/上がります",
     kana: "あがる/あがります",
+    japanese: "<ruby>上<rt>あ</rt>がる</ruby>/<ruby>上<rt>あ</rt>がります</ruby>",
     english: { main: "to rise; to go up; to ascend", note: "verb (godan, intr.); JLPT N4", example: "<ruby>二<rt>に</rt>階<rt>かい</rt></ruby>に<b><ruby>上<rt>あ</rt>がります</ruby></b>か (are you going up to the second floor?)" },
     audio: "to-rise,to-rise-polite"
   },
   {
     kanji: "右",
     kana: "みぎ",
+    japanese: "<ruby>右<rt>みぎ</rt></ruby>",
     english: { main: "right; right-hand side", note: "noun; JLPT N5", example: "かばんはさいふの<b><ruby>右<rt>みぎ</rt></ruby></b>です (the bags are to the right of the wallets)" },
     audio: "right-direction"
   },
@@ -3822,12 +3999,14 @@ window.WORDS = [
   {
     kanji: "棚",
     kana: "たな",
+    japanese: "<ruby>棚<rt>たな</rt></ruby>",
     english: { main: "shelf", note: "noun; JLPT N4" },
     audio: "shelf"
   },
   {
     kanji: "上",
     kana: "うえ",
+    japanese: "<ruby>上<rt>うえ</rt></ruby>",
     english: { main: "<i>1.</i> above; over; up; <i>2.</i> top; upper part; <i>3.</i> on (top of)", note: "noun; JLPT N5", example: "ネックレスはたなの<b><ruby>上<rt>うえ</rt></ruby></b>です (the necklace is on the shelf)" },
     audio: "above-over-up-on"
   },
@@ -3847,12 +4026,14 @@ window.WORDS = [
   {
     kanji: "今度",
     kana: "こんど",
+    japanese: "<ruby>今<rt>こん</rt>度<rt>ど</rt></ruby>",
     english: { main: "<i>1.</i> this time; <i>2.</i> next time; another time", note: "noun; adverb; JLPT N4", example: "(2) <b>こんど</b>もっと<ruby>買<rt>か</rt>います</ruby> (next time i will buy more)" },
     audio: "this-time-next-time"
   },
   {
     kanji: "一日",
     kana: "ついたち | いちにち",
+    japanese: "<ruby>一日<rt>ついたち</rt></ruby> | <ruby>一<rt>いち</rt>日<rt>にち</rt></ruby>",
     english: { main: "the first of the month | <i>1.</i> one day; <i>2.</i> all day (long)", note: "noun | noun; adverb; JLPT N5", example: "<ruby>十<rt>じゅう</rt>二<rt>に</rt>月<rt>がつ</rt></ruby><b><ruby>一日<rt>ついたち</rt></ruby></b> (december 1st) | <b><ruby>一<rt>いち</rt>日<rt>にち</rt></ruby></b><ruby>休<rt>やす</rt>みました</ruby> (i rested for one day)" },
     audio: "1st-of-month,one-day-all-day"
   },
@@ -3893,6 +4074,7 @@ window.WORDS = [
   {
     kanji: "前",
     kana: "まえ",
+    japanese: "<ruby>前<rt>まえ</rt></ruby>",
     english: { main: "in front (of)", note: "noun; JLPT N5", example: "ATMはジムの<b>まえ</b>です (the atm is in front of the gym)" }
   },
   {
@@ -3906,12 +4088,14 @@ window.WORDS = [
   {
     kanji: "無料",
     kana: "むりょう",
+    japanese: "<ruby>無<rt>む</rt>料<rt>りょう</rt></ruby>",
     english: { main: "free (of charge)", note: "noun; JLPT N3" },
     audio: "free-of-charge"
   },
   {
     kanji: "後ろ",
     kana: "うしろ",
+    japanese: "<ruby>後<rt>うし</rt>ろ</ruby>",
     english: { main: "back; behind; rear", note: "noun; JLPT N5", example: "スパはプールの<b>うしろ</b>ですか (is the spa behind the pool?)" }
   },
   {
@@ -3948,12 +4132,14 @@ window.WORDS = [
   {
     kanji: "(お)腹",
     kana: "(お)なか | はら",
+    japanese: "<ruby>(お)<rt></rt>腹<rt>なか</rt></ruby> | <ruby>腹<rt>はら</rt></ruby>",
     english: { main: "belly; abdomen; stomach", note: "noun; polite; JLPT N5; JLPT N3", example: "<b>おなか</b>がすきました (i'm hungry (lit. my stomach became empty))" },
     audio: "belly-onaka,belly-hara"
   },
   {
     kanji: "空く/空きます",
     kana: "すく/すきます",
+    japanese: "<ruby>空<rt>す</rt>く</ruby>/<ruby>空<rt>す</rt>きます</ruby>",
     english: { main: "<i>1.</i> to become less crowded; to get empty; <i>2.</i> to be hungry", note: "verb (godan, intr.); JLPT N3", example: "(2) おなかが<b>すきました</b> (i'm hungry (lit. my stomach became empty))" },
     audio: "to-become-less-crowded-hungry,to-become-less-crowded-hungry-polite"
   },
@@ -3975,12 +4161,14 @@ window.WORDS = [
   {
     kanji: "下",
     kana: "した",
+    japanese: "<ruby>下<rt>した</rt></ruby>",
     english: { main: "<i>1.</i> below; down; under; <i>2.</i> bottom; <i>3.</i> beneath; underneath", note: "noun; JLPT N5" },
     audio: "below-under-bottom"
   },
   {
     kanji: "牛肉",
     kana: "ぎゅうにく",
+    japanese: "<ruby>牛<rt>ぎゅう</rt>肉<rt>にく</rt></ruby>",
     english: { main: "beef", note: "noun; JLPT N5" },
     audio: "beef"
   },
@@ -4006,6 +4194,7 @@ window.WORDS = [
   {
     kanji: "一番",
     kana: "いちばん",
+    japanese: "<ruby>一<rt>いち</rt>番<rt>ばん</rt></ruby>",
     english: { main: "number one; first; first place", note: "noun; JLPT N5", example: "<ruby>棚<rt>たな</rt></ruby>の<b><ruby>一<rt>いち</rt>番<rt>ばん</rt></ruby></b><ruby>上<rt>うえ</rt></ruby> (top(most) shelf);<br><ruby>棚<rt>たな</rt></ruby>の<b><ruby>一<rt>いち</rt>番<rt>ばん</rt></ruby></b><ruby>下<rt>した</rt></ruby> (the very bottom shelf);<br>ひきだしの<b><ruby>一<rt>いち</rt>番<rt>ばん</rt></ruby></b><ruby>左<rt>ひだり</rt></ruby>です (it's the leftmost drawer)" },
     audio: "number-one-first"
   },
@@ -4022,12 +4211,14 @@ window.WORDS = [
   {
     kanji: "引き出し",
     kana: "ひきだし",
+    japanese: "<ruby>引<rt>ひ</rt>き<rt></rt>出<rt>だ</rt>し</ruby>",
     english: { main: "drawer", note: "noun; JLPT N4" },
     audio: "drawer"
   },
   {
     kanji: "中",
     kana: "なか",
+    japanese: "<ruby>中<rt>なか</rt></ruby>",
     english: { main: "inside; interior", note: "noun; JLPT N5", example: "ひきだしの<b><ruby>中<rt>なか</rt></ruby></b>のフォークをつかいましょう (let's use the fork in the drawer)" }
   },
   {
@@ -4056,17 +4247,20 @@ window.WORDS = [
   {
     kanji: "今から",
     kana: "いまから",
+    japanese: "<ruby>今<rt>いま</rt>から</ruby>",
     english: { main: "from now; from this moment", note: "adverb", example: "<b><ruby>今<rt>いま</rt>から</ruby></b><ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt>ます</ruby> (i'm leaving the house now)" },
     audio: "from-now"
   },
   {
     kanji: "着く/着きます",
     kana: "つく/つきます",
+    japanese: "<ruby>着<rt>つ</rt>く</ruby>/<ruby>着<rt>つ</rt>きます</ruby>",
     english: { main: "to arrive at; to reach", note: "verb (godan, intr.); JLPT N5", example: "もうすぐ<ruby>駅<rt>えき</rt></ruby>に<b><ruby>着<rt>つ</rt>きます</ruby></b> (soon i will arrive at the station)" }
   },
   {
     kanji: "遅い",
     kana: "おそい",
+    japanese: "<ruby>遅<rt>おそ</rt>い</ruby>",
     english: { main: "<i>1.</i> slow; <i>2.</i> late", note: "i-adjective; JLPT N5" },
     audio: "slow-late"
   },
@@ -4081,6 +4275,7 @@ window.WORDS = [
   {
     kanji: "私たち",
     kana: "わたしたち",
+    japanese: "<ruby>私<rt>わたし</rt>たち</ruby>",
     english: { main: "we; us", note: "pronoun" },
     audio: "we-us"
   },
@@ -4092,6 +4287,7 @@ window.WORDS = [
   {
     kanji: "送る/送ります",
     kana: "おくる/おくります",
+    japanese: "<ruby>送<rt>おく</rt>る</ruby>/<ruby>送<rt>おく</rt>ります</ruby>",
     english: { main: "to send; to dispatch", note: "verb (godan, tr.); JLPT N4", example: "メッセージを<b><ruby>送<rt>おく</rt>ります</ruby></b> (i will send a message)" }
   },
   {
@@ -4105,17 +4301,20 @@ window.WORDS = [
   {
     kanji: "遅れる/遅れます",
     kana: "おくれる/おくれます",
+    japanese: "<ruby>遅<rt>おく</rt>れる</ruby>/<ruby>遅<rt>おく</rt>れます</ruby>",
     english: { main: "to be late", note: "verb (ichidan, intr.); JLPT N4" },
     audio: "to-be-late,to-be-late-polite"
   },
   {
     kanji: "急ぐ/急ぎます",
     kana: "いそぐ/いそぎます",
+    japanese: "<ruby>急<rt>いそ</rt>ぐ</ruby>/<ruby>急<rt>いそ</rt>ぎます</ruby>",
     english: { main: "to hurry", note: "verb (godan, intr., tr.); JLPT N4" }
   },
   {
     kanji: "西口",
     kana: "にしぐち",
+    japanese: "<ruby>西<rt>にし</rt>口<rt>ぐち</rt></ruby>",
     english: { main: "west entrance; west exit", note: "noun" },
     audio: "west-entrance-exit"
   },
@@ -4131,11 +4330,13 @@ window.WORDS = [
   {
     kanji: "悪い",
     kana: "わるい",
+    japanese: "<ruby>悪<rt>わる</rt>い</ruby>",
     english: { main: "bad; poor; undesirable", note: "i-adjective; JLPT N5", example: "ちょうしが<b>わるい</b>です (i feel unwell)" }
   },
   {
     kanji: "知る/知ります",
     kana: "しる/しります",
+    japanese: "<ruby>知<rt>し</rt>る</ruby>/<ruby>知<rt>し</rt>ります</ruby>",
     english: { main: "to know; to be aware (of)", note: "verb (godan, tr.); JLPT N5", example: "いいいしゃを<b>しっています</b> (i know a good doctor)" },
     audio: "to-know-to-be-aware,to-know-to-be-aware-polite"
   },
@@ -4148,12 +4349,14 @@ window.WORDS = [
   {
     kanji: "二日",
     kana: "ふつか",
+    japanese: "<ruby>二日<rt>ふつか</rt></ruby>",
     english: { main: "<i>1.</i> second day of the month; <i>2.</i> two days", note: "noun; JLPT N5", example: "(1) <ruby>七<rt>しち</rt>月<rt>がつ</rt></ruby><b><ruby>二日<rt>ふつか</rt></ruby></b>はひまです (i'm free on july second)" },
     audio: "2nd-of-month"
   },
   {
     kanji: "入れる/入れます",
     kana: "いれる/いれます",
+    japanese: "<ruby>入<rt>い</rt>れる</ruby>/<ruby>入<rt>い</rt>れます</ruby>",
     english: { main: "to put in; to insert", note: "verb (ichidan, tr.); JLPT N5", example: "<ruby>二<rt>に</rt>時<rt>じ</rt></ruby>によやくを<b><ruby>入<rt>い</rt>れます</ruby></b> (i will make a reservation for 2 o'clock)" },
     audio: "to-put-in,to-put-in-polite"
   },
@@ -4173,30 +4376,35 @@ window.WORDS = [
   {
     kanji: "虫",
     kana: "むし",
+    japanese: "<ruby>虫<rt>むし</rt></ruby>",
     english: { main: "insect; bug", note: "noun; JLPT N4", example: "<ruby>全<rt>ぜん</rt>然<rt>ぜん</rt></ruby><b><ruby>虫<rt>むし</rt></ruby></b>が<ruby>好<rt>す</rt>き</ruby>じゃないです (i don't like insects at all)" },
     audio: "insect"
   },
   {
     kanji: "引きこもり",
     kana: "ひきこもり",
+    japanese: "<ruby>引<rt>ひ</rt>きこもり</ruby>",
     english: { main: "shut-in; hikikomori", note: "noun" },
     audio: "shut-in-hikikomori"
   },
   {
     kanji: "強い",
     kana: "つよい",
+    japanese: "<ruby>強<rt>つよ</rt>い</ruby>",
     english: { main: "<i>1.</i> strong; <i>2.</i> skilled", note: "i-adjective; JLPT N5" },
     audio: "strong-skilled"
   },
   {
     kanji: "弱い",
     kana: "よわい",
+    japanese: "<ruby>弱<rt>よわ</rt>い</ruby>",
     english: { main: "weak; unskilled", note: "i-adjective; JLPT N5" },
     audio: "weak-unskilled"
   },
   {
     kanji: "一週間",
     kana: "いっしゅうかん",
+    japanese: "<ruby>一<rt>いっ</rt>週<rt>しゅう</rt>間<rt>かん</rt></ruby>",
     english: { main: "one week", note: "noun" },
     audio: "1-week"
   },
@@ -4258,6 +4466,7 @@ window.WORDS = [
   {
     kanji: "赤ちゃん",
     kana: "あかちゃん",
+    japanese: "<ruby>赤<rt>あか</rt>ちゃん</ruby>",
     english: { main: "baby; infant", note: "noun; JLPT N4" }
   },
   {
@@ -4272,6 +4481,7 @@ window.WORDS = [
   {
     kanji: "(お)正月",
     kana: "(お)しょうがつ",
+    japanese: "<ruby>(お)<rt></rt>正<rt>しょう</rt>月<rt>がつ</rt></ruby>",
     english: { main: "New Year <i>(esp. first three days)</i>", note: "noun; polite" },
     audio: "new-year"
   },
@@ -4298,11 +4508,13 @@ window.WORDS = [
   {
     kanji: "個",
     kana: "こ",
+    japanese: "<ruby>個<rt>こ</rt></ruby>",
     english: { main: "<i>counter for (small) things or pieces</i>", note: "counter", example: "<ruby>八<rt>はち</rt>十<rt>じゅう</rt>八<rt>はっ</rt></ruby><b><ruby>個<rt>こ</rt></ruby></b> (88 pieces)" }
   },
   {
     kanji: "何個",
     kana: "なんこ",
+    japanese: "<ruby>何<rt>なん</rt>個<rt>こ</rt></ruby>",
     english: { main: "how many pieces", note: "noun" }
   },
   {
@@ -4314,18 +4526,21 @@ window.WORDS = [
   {
     kanji: "生徒",
     kana: "せいと",
+    japanese: "<ruby>生<rt>せい</rt>徒<rt>と</rt></ruby>",
     english: { main: "pupil; student", note: "noun; JLPT N5", example: "<b><ruby>生<rt>せい</rt>徒<rt>と</rt></ruby></b>に<ruby>日本<rt>にほん</rt>語<rt>ご</rt></ruby>をおしえます (i teach my students japanese)" },
     audio: "pupil"
   },
   {
     kanji: "皆さん",
     kana: "みなさん",
+    japanese: "<ruby>皆<rt>みな</rt>さん</ruby>",
     english: { main: "all; everyone", note: "noun; honorific; JLPT N5" },
     audio: "all-everyone"
   },
   {
     kanji: "習う/習います",
     kana: "ならう/ならいます",
+    japanese: "<ruby>習<rt>なら</rt>う</ruby>/<ruby>習<rt>なら</rt>います</ruby>",
     english: { main: "to take lessons in; to be taught; to learn <i>(from a teacher)</i>", note: "verb (godan, tr.); JLPT N5" }
   },
   {
@@ -4336,12 +4551,14 @@ window.WORDS = [
   {
     kanji: "借りる/借ります",
     kana: "かりる/かります",
+    japanese: "<ruby>借<rt>か</rt>りる</ruby>/<ruby>借<rt>か</rt>ります</ruby>",
     english: { main: "<i>1.</i> to borrow; <i>2.</i> to rent", note: "verb (ichidan, tr.); JLPT N5", example: "(1) おとうとは<ruby>お<rt></rt>母<rt>かあ</rt>さん</ruby>に<ruby>お<rt></rt>金<rt>かね</rt></ruby>を<b><ruby>借<rt>か</rt>りました</ruby></b> (my younger brother borrowed money from my mother)" },
     audio: "to-borrow-to-rent,to-borrow-to-rent-polite"
   },
   {
     kanji: "貸す/貸します",
     kana: "かす/かします",
+    japanese: "<ruby>貸<rt>か</rt>す</ruby>/<ruby>貸<rt>か</rt>します</ruby>",
     english: { main: "<i>1.</i> to lend; to loan; <i>2.</i> to rent out", note: "verb (godan, tr.); JLPT N5", example: "(1) <ruby>お<rt></rt>母<rt>かあ</rt>さん</ruby>はおとうとに<ruby>お<rt></rt>金<rt>かね</rt></ruby>を<b><ruby>貸<rt>か</rt>しました</ruby></b> (my mother lent money to my younger brother)" },
     audio: "to-lend-to-rent-out,to-lend-to-rent-out-polite"
   },
@@ -4354,12 +4571,14 @@ window.WORDS = [
   {
     kanji: "借金",
     kana: "しゃっきん",
+    japanese: "<ruby>借<rt>しゃっ</rt>金<rt>きん</rt></ruby>",
     english: { main: "debt; loan", note: "noun; verb (suru, tr.); JLPT N3" },
     audio: "debt-loan"
   },
   {
     kanji: "去年",
     kana: "きょねん",
+    japanese: "<ruby>去<rt>きょ</rt>年<rt>ねん</rt></ruby>",
     english: { main: "last year", note: "noun; adverb; JLPT N5" },
     audio: "last-year"
   },
@@ -4382,6 +4601,7 @@ window.WORDS = [
   {
     kanji: "死ぬ/死にます",
     kana: "しぬ/しにます",
+    japanese: "<ruby>死<rt>し</rt>ぬ</ruby>/<ruby>死<rt>し</rt>にます</ruby>",
     english: { main: "to die", note: "verb (godan, intr.); JLPT N5" },
     audio: "to-die,to-die-polite"
   },
@@ -4394,39 +4614,46 @@ window.WORDS = [
   {
     kanji: "押す/押します",
     kana: "おす/おします",
+    japanese: "<ruby>押<rt>お</rt>す</ruby>/<ruby>押<rt>お</rt>します</ruby>",
     english: { main: "to push", note: "verb (godan, tr.); JLPT N5", example: "ボタンを<b><ruby>押<rt>お</rt>している</ruby></b> (i'm pushing the button)" },
     audio: "to-push,to-push-polite"
   },
   {
     kanji: "もう一回",
     kana: "もういっかい",
+    japanese: "<ruby>もう<rt></rt>一<rt>いっ</rt>回<rt>かい</rt></ruby>",
     english: { main: "one more time; once again", note: "expression; adverb", example: "<b><ruby>もう<rt></rt>一<rt>いっ</rt>回<rt>かい</rt></ruby></b><ruby>言<rt>い</rt>って</ruby>ください (please say it one more time)" },
     audio: "one-more-time"
   },
   {
     kanji: "回",
     kana: "かい",
+    japanese: "<ruby>回<rt>かい</rt></ruby>",
     english: { main: "<i>counter for occurrences</i>", note: "counter; JLPT N3", example: "<ruby>もう<rt></rt>一<rt>いっ</rt></ruby><b><ruby>回<rt>かい</rt></ruby></b><ruby>言<rt>い</rt>って</ruby>ください (please say it one more time)" }
   },
   {
     kanji: "取る/取ります",
     kana: "とる/とります",
+    japanese: "<ruby>取<rt>と</rt>る</ruby>/<ruby>取<rt>と</rt>ります</ruby>",
     english: { main: "<i>1.</i> to take; to grab; <i>2.</i> to pass; to hand", note: "verb (godan, tr.); JLPT N5", example: "(2) あの<ruby>本<rt>ほん</rt></ruby>を<b><ruby>取<rt>と</rt>って</ruby></b>ください (please pass me that book)" },
     audio: "to-take-to-pass"
   },
   {
     kanji: "曲がる/曲がります",
     kana: "まがる/まがります",
+    japanese: "<ruby>曲<rt>ま</rt>がる</ruby>/<ruby>曲<rt>ま</rt>がります</ruby>",
     english: { main: "<i>1.</i> to bend; to curve; <i>2.</i> to turn", note: "verb (godan, intr.); JLPT N5", example: "(2) <ruby>右<rt>みぎ</rt></ruby>に<b><ruby>曲<rt>ま</rt>がって</ruby></b> (turn right)" }
   },
   {
     kanji: "文",
     kana: "ぶん",
+    japanese: "<ruby>文<rt>ぶん</rt></ruby>",
     english: { main: "sentence", note: "noun; JLPT N3", example: "この<b><ruby>文<rt>ぶん</rt></ruby></b>を<ruby>読<rt>よ</rt>んで</ruby>ください (please read this sentence)" }
   },
   {
     kanji: "電気",
     kana: "でんき",
+    japanese: "<ruby>電<rt>でん</rt>気<rt>き</rt></ruby>",
     english: { main: "<i>1.</i> electricity; <i>2.</i> (electric) light", note: "noun; JLPT N5", example: "(2) <b><ruby>電<rt>でん</rt>気<rt>き</rt></ruby></b>をけしてください (please turn off the lights)" }
   },
   {
@@ -4437,12 +4664,14 @@ window.WORDS = [
   {
     kanji: "少々",
     kana: "しょうしょう",
+    japanese: "<ruby>少<rt>しょう</rt>々<rt>しょう</rt></ruby>",
     english: { main: "a little; a bit", note: "adverb; noun; JLPT N3", example: "<b><ruby>少<rt>しょう</rt>々<rt>しょう</rt></ruby></b><ruby>お<rt></rt>待<rt>ま</rt>ち</ruby>ください ([very formal] please wait a little)" },
     audio: "a-little-a-bit"
   },
   {
     kanji: "立つ/立ちます",
     kana: "たつ/たちます",
+    japanese: "<ruby>立<rt>た</rt>つ</ruby>/<ruby>立<rt>た</rt>ちます</ruby>",
     english: { main: "<i>1.</i> to stand up; <i>2.</i> to stand <i>(in a position)</i>", note: "verb (godan, intr.); JLPT N5" }
   },
   {
@@ -4529,12 +4758,14 @@ window.WORDS = [
   {
     kanji: "考える/考えます",
     kana: "かんがえる/かんがえます",
+    japanese: "<ruby>考<rt>かんが</rt>える</ruby>/<ruby>考<rt>かんが</rt>えます</ruby>",
     english: { main: "to think (about, of); to contemplate", note: "verb (ichidan, tr.); JLPT N4" },
     audio: "to-think-about-of,to-think-about-of-polite"
   },
   {
     kanji: "大切",
     kana: "たいせつ",
+    japanese: "<ruby>大<rt>たい</rt>切<rt>せつ</rt></ruby>",
     english: { main: "important", note: "na-adjective; JLPT N5" },
     audio: "important"
   },
@@ -4556,6 +4787,7 @@ window.WORDS = [
   {
     kanji: "思う/思います",
     kana: "おもう/おもいます",
+    japanese: "<ruby>思<rt>おも</rt>う</ruby>/<ruby>思<rt>おも</rt>います</ruby>",
     english: { main: "to think; to believe; to reckon", note: "verb (godan, tr.); JLPT N4", example: "<ruby>明<rt>あ</rt>日<rt>した</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>だと<b><ruby>思<rt>おも</rt>う</ruby></b> (i think it will rain tomorrow)" }
   },
   {
@@ -4577,12 +4809,14 @@ window.WORDS = [
   {
     kanji: "動物",
     kana: "どうぶつ",
+    japanese: "<ruby>動<rt>どう</rt>物<rt>ぶつ</rt></ruby>",
     english: { main: "animal", note: "noun; JLPT N5" },
     audio: "animal"
   },
   {
     kanji: "人気",
     kana: "にんき",
+    japanese: "<ruby>人<rt>にん</rt>気<rt>き</rt></ruby>",
     english: { main: "popularity", note: "noun; JLPT N3", example: "<b><ruby>人<rt>にん</rt>気<rt>き</rt></ruby></b>のカフェ (a popular café)" }
   },
   {
@@ -4598,22 +4832,26 @@ window.WORDS = [
   {
     kanji: "目",
     kana: "め",
+    japanese: "<ruby>目<rt>め</rt></ruby>",
     english: { main: "eye", note: "noun; JLPT N5" }
   },
   {
     kanji: "匹",
     kana: "ひき",
+    japanese: "<ruby>匹<rt>ひき</rt></ruby>",
     english: { main: "<i>counter for small animals</i>", note: "counter; JLPT N1", example: "<ruby>大<rt>おお</rt>きい</ruby><ruby>猫<rt>ねこ</rt></ruby>が<b><ruby>一<rt>いっ</rt>匹<rt>ぴき</rt></ruby></b>います (there is one big cat)" }
   },
   {
     kanji: "耳",
     kana: "みみ",
+    japanese: "<ruby>耳<rt>みみ</rt></ruby>",
     english: { main: "ear", note: "noun; JLPT N5" },
     audio: "ear"
   },
   {
     kanji: "口",
     kana: "くち",
+    japanese: "<ruby>口<rt>くち</rt></ruby>",
     english: { main: "mouth", note: "noun; JLPT N5" },
     audio: "mouth"
   },
@@ -4624,6 +4862,7 @@ window.WORDS = [
   {
     kanji: "鼻",
     kana: "はな",
+    japanese: "<ruby>鼻<rt>はな</rt></ruby>",
     english: { main: "nose", note: "noun; JLPT N5" },
     audio: "nose"
   },
@@ -4649,12 +4888,14 @@ window.WORDS = [
   {
     kanji: "五日",
     kana: "いつか",
+    japanese: "<ruby>五日<rt>いつか</rt></ruby>",
     english: { main: "<i>1.</i> fifth day of the month; <i>2.</i> five days", note: "noun; JLPT N5", example: "<ruby>九月<rt>くがつ</rt></ruby><b><ruby>五日<rt>いつか</rt></ruby></b>はひまです (i'm free on september fifth)" },
     audio: "5th-of-month"
   },
   {
     kanji: "足",
     kana: "あし",
+    japanese: "<ruby>足<rt>あし</rt></ruby>",
     english: { main: "leg; foot", note: "noun; JLPT N5" },
     audio: "leg-foot"
   },
@@ -4666,6 +4907,7 @@ window.WORDS = [
   {
     kanji: "鳥",
     kana: "とり",
+    japanese: "<ruby>鳥<rt>とり</rt></ruby>",
     english: { main: "bird", note: "noun; JLPT N5" },
     audio: "bird"
   },
@@ -4731,12 +4973,14 @@ window.WORDS = [
   {
     kanji: "文化",
     kana: "ぶんか",
+    japanese: "<ruby>文<rt>ぶん</rt>化<rt>か</rt></ruby>",
     english: { main: "culture; civilization", note: "noun; JLPT N4" },
     audio: "culture-civilization"
   },
   {
     kanji: "先月",
     kana: "せんげつ",
+    japanese: "<ruby>先<rt>せん</rt>月<rt>げつ</rt></ruby>",
     english: { main: "last month", note: "noun; adverb; JLPT N5" },
     audio: "last-month"
   },
@@ -4753,6 +4997,7 @@ window.WORDS = [
   {
     kanji: "初めて",
     kana: "はじめて",
+    japanese: "<ruby>初<rt>はじ</rt>めて</ruby>",
     english: { main: "for the first time", note: "adverb; noun; JLPT N5", example: "<b><ruby>初<rt>はじ</rt>めて</ruby></b><ruby>日本<rt>にほん</rt></ruby>でかぶきを<ruby>見<rt>み</rt>ました</ruby> (i saw kabuki for the first time in japan)" },
     audio: "for-the-first-time"
   },
@@ -4768,6 +5013,7 @@ window.WORDS = [
   {
     kanji: "見つける/見つけます",
     kana: "みつける/みつけます",
+    japanese: "<ruby>見<rt>み</rt>つける</ruby>/<ruby>見<rt>み</rt>つけます</ruby>",
     english: { main: "to find; to discover", note: "verb (ichidan, tr.); JLPT N4" },
     audio: "to-find-to-discover,to-find-to-discover-polite"
   },
@@ -4799,6 +5045,7 @@ window.WORDS = [
   {
     kanji: "光る/光ります",
     kana: "ひかる/ひかります",
+    japanese: "<ruby>光<rt>ひか</rt>る</ruby>/<ruby>光<rt>ひか</rt>ります</ruby>",
     english: { main: "to shine; to glitter; to be bright", note: "verb (godan, intr.); JLPT N4", example: "このきれいなマウスは<b><ruby>光<rt>ひか</rt>ります</ruby></b> (this pretty mouse lights up)" },
     audio: "to-shine,to-shine-polite"
   },
@@ -4837,6 +5084,22 @@ window.WORDS = [
   {
     kanji: "重い",
     kana: "おもい",
+    japanese: "<ruby>重<rt>おも</rt>い</ruby>",
     english: { main: "heavy", note: "i-adjective; JLPT N5" }
+  },
+  {
+    kana: "アーティスト",
+    english: { main: "artist; musician", note: "noun", example: "<ruby>私<rt>わたし</rt></ruby>の<ruby>好<rt>す</rt>きな</ruby><b>アーティスト</b>に<ruby>会<rt>あ</rt>いたい</ruby>です (i want to meet my favorite artist)" }
+  },
+  {
+    kana: "ステージ",
+    english: { main: "stage <i>(platform)</i>", note: "noun; JLPT N2" }
+  },
+  {
+    kanji: "真ん中",
+    kana: "まんなか",
+    japanese: "<ruby>真<rt>ま</rt>ん<rt></rt>中<rt>なか</rt></ruby>",
+    english: { main: "middle; center; heart", note: "noun; JLPT N4", example: "<b><ruby>真<rt>ま</rt>ん<rt></rt>中<rt>なか</rt></ruby></b>のせき (middle seat)" },
+    audio: "middle-center"
   }
 ];

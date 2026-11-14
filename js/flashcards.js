@@ -165,80 +165,180 @@ function playAudioFile(file) {
   audioPlayer.play().catch(() => {});
 }
 
+function splitJapaneseAlternatives(html, separator = "|") {
+  const parts = [];
+  const separators = [];
+  const tagStack = [];
+  const voidTags = new Set([
+    "area", "base", "br", "col", "embed", "hr",
+    "img", "input", "link", "meta", "param",
+    "source", "track", "wbr"
+  ]);
+
+  let current = "";
+
+  for (let i = 0; i < html.length; i++) {
+    // Detect HTML tags and keep their contents together.
+    if (html[i] === "<") {
+      const match = html.slice(i).match(
+        /^<\s*(\/?)\s*([a-zA-Z][\w-]*)\b[^>]*>/
+      );
+
+      if (match) {
+        const tag = match[2].toLowerCase();
+
+        if (match[1]) {
+          tagStack.pop();
+        } else if (
+          !voidTags.has(tag) &&
+          !match[0].endsWith("/>")
+        ) {
+          tagStack.push(tag);
+        }
+
+        current += match[0];
+        i += match[0].length - 1;
+        continue;
+      }
+    }
+
+    // Split only at separators OUTSIDE HTML tags.
+    if (
+      tagStack.length === 0 &&
+      html[i] === separator
+    ) {
+      let before = "";
+
+      while (current.length > 0 && /\s/.test(current.slice(-1))) {
+        before = current.slice(-1) + before;
+        current = current.slice(0, -1);
+      }
+
+      let after = "";
+      let j = i + 1;
+
+      while (j < html.length && /\s/.test(html[j])) {
+        after += html[j];
+        j++;
+      }
+
+      parts.push(current);
+      separators.push(before + html[i] + after);
+
+      current = "";
+      i = j - 1;
+      continue;
+    }
+
+    current += html[i];
+  }
+
+  parts.push(current);
+
+  return { parts, separators };
+}
+
 // ------------------- Display logic -------------------
 
 function displayWord(word) {
   const hasKanji = word.kanji && word.kanji.trim() !== "";
 
-  const kanjiEl = document.getElementById("kanji");
-  const kanaEl = document.getElementById("kana");
+  const japaneseEl = document.getElementById("japanese");
   const englishEl = document.getElementById("english");
 
-  kanjiEl.textContent = hasKanji ? word.kanji : "";
+  // ---- render Japanese + audio buttons ----
+  japaneseEl.innerHTML = "";
 
-  // ---- render kana + audio buttons ----
-  kanaEl.innerHTML = "";
+  const japaneseText = word.japanese || word.kana || "";
 
-  if (word.audio) {
-    const audioFiles = typeof word.audio === "string"
-      ? word.audio.split(",").map(a => a.trim())
-      : word.audio;
+  const audioFiles = word.audio
+    ? (typeof word.audio === "string"
+        ? word.audio.split(",").map(a => a.trim())
+        : word.audio)
+    : [];
 
-    const kanaParts = word.kana.split(/\s*[|/]\s*/);
-    const separators = word.kana.match(/\s*[|/]\s*/g) || [];
+  const { parts: japaneseParts, separators } =
+      splitJapaneseAlternatives(japaneseText);
 
-    const count = kanaParts.length;
+  let audioIndex = 0;
 
-    for (let i = 0; i < count; i++) {
-      const span = document.createElement("span");
-      span.className = "kanaText";
-      span.textContent = kanaParts[i];
+  for (let i = 0; i < japaneseParts.length; i++) {
 
-      if (audioFiles[i]) {
+    // Add the separator between alternative readings.
+    if (i > 0 && separators[i - 1]) {
+      japaneseEl.appendChild(
+        document.createTextNode(
+          separators[i - 1].replace(/ /g, "\u00A0")
+        )
+      );
+    }
+
+    // One .word span per | alternative.
+    const wordSpan = document.createElement("span");
+    wordSpan.className = "word";
+
+    // Split this alternative into /-separated forms.
+    const { parts: forms, separators: formSeparators } =
+      splitJapaneseAlternatives(japaneseParts[i], "/");
+
+    for (let j = 0; j < forms.length; j++) {
+
+      // Add the form itself.
+      wordSpan.insertAdjacentHTML(
+        "beforeend",
+        forms[j]
+      );
+
+      // Add its corresponding audio button.
+      if (audioFiles[audioIndex]) {
         const btn = document.createElement("button");
         btn.className = "audioBtn";
         btn.type = "button";
 
+        const audioFile = audioFiles[audioIndex];
+
         btn.addEventListener("click", e => {
           e.stopPropagation();
-          const audio = new Audio(`audio/${audioFiles[i]}.mp3`);
+          const audio = new Audio(`audio/${audioFile}.mp3`);
           audio.play().catch(() => {});
         });
 
-        span.appendChild(btn);
+        wordSpan.appendChild(btn);
       }
 
-      kanaEl.appendChild(span);
+      audioIndex++;
 
-      if (separators[i]) {
-        kanaEl.appendChild(document.createTextNode(separators[i].replace(/ /g, "\u00A0")));
+      // Add the slash between related forms.
+      if (j < forms.length - 1) {
+        wordSpan.appendChild(
+          document.createTextNode(
+            formSeparators[j].replace(/ /g, "\u00A0")
+          )
+        );
       }
     }
-  } else {
-    const span = document.createElement("span");
-    span.className = "kanaText";
-    span.textContent = word.kana;
-    kanaEl.appendChild(span);
+
+    if (wordSpan.querySelector(".audioBtn")) {
+      wordSpan.classList.add("has-audio");
+    }
+
+    japaneseEl.appendChild(wordSpan);
   }
 
-  // ---- render english ----
+  // Reset furigana visibility for each new word.
+  japaneseEl.classList.remove("show-furigana");
+
+  // Kana-only words have no furigana to reveal.
+  if (!hasKanji) {
+    japaneseEl.classList.add("show-furigana");
+  }
+
+  // ---- render English ----
   let englishHTML = `<div class="main">${word.english.main}</div>`;
 
-  // either display as they are with ;
   if (word.english.note) {
     englishHTML += `<span class="note">${word.english.note}</span>`;
   }
-  // or remove the ; and split into <i></i>s
-  // if (word.english.note) {
-  //   const formattedNote = word.english.note
-  //     .split(";")
-  //     .map(part => part.trim())
-  //     .filter(Boolean)
-  //     .map(part => `<i>${part}</i>`)
-  //     .join(" ");
-
-  //   englishHTML += `<span class="note">${formattedNote}</span>`;
-  // }
 
   if (word.english.example) {
     englishHTML += `<div class="example">${word.english.example}</div>`;
@@ -247,14 +347,7 @@ function displayWord(word) {
   englishEl.innerHTML = englishHTML;
   englishEl.classList.add("hidden");
 
-  // ---- reveal logic ----
-  if (hasKanji) {
-    kanaEl.classList.add("hidden");
-    revealStage = 0;
-  } else {
-    kanaEl.classList.remove("hidden");
-    revealStage = 1;
-  }
+  revealStage = hasKanji ? 0 : 1;
 }
 
 // ------------------- Navigation -------------------
@@ -287,11 +380,11 @@ function previousWord() {
 // ------------------- Reveal logic -------------------
 
 function revealStep() {
-  const kanaEl = document.getElementById("kana");
+  const japaneseEl = document.getElementById("japanese");
   const englishEl = document.getElementById("english");
 
   if (revealStage === 0) {
-    kanaEl.classList.remove("hidden");
+    japaneseEl.classList.add("show-furigana");
     revealStage = 1;
   } else if (revealStage === 1) {
     englishEl.classList.remove("hidden");
