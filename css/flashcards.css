@@ -112,7 +112,7 @@ rt {
   }
 }
 
-#kanji {
+/*#kanji {
   height: 40%;
   display: flex;
   justify-content: center;
@@ -128,13 +128,13 @@ rt {
     padding-bottom: 2rem;
     font-size: 2.4rem;
   }
-}
+}*/
 
-#kanji > ruby > rt {
+/*#kanji > ruby > rt {
   font-weight: 400;
-}
+}*/
 
-#kana {
+/*#kana {
   height: 20%;
   display: flex;
   flex-wrap: wrap;
@@ -147,9 +147,71 @@ rt {
   #kana {
     font-size: 2.4rem;
   }
+}*/
+
+#japanese {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 50%;
+  padding-bottom: 3.1rem;
+  font-size: 0rem;
+  font-weight: 700;
+  color: #d8deeb;
+  line-height: 1;
+}
+@media (orientation: portrait) {
+  #japanese {
+    padding-bottom: 2rem;
+  }
+}
+
+#japanese.show-furigana {
+  font-size: 3.8rem;
+}
+@media (orientation: portrait) {
+  #japanese.show-furigana {
+    font-size: 2.8rem;
+  }
+}
+
+#japanese rt {
+  visibility: hidden;
+  font-weight: 400;
+}
+
+#japanese.show-furigana rt {
+  visibility: visible;
+}
+
+/* Hide all alternative readings initially */
+#japanese .word {
+  display: none;
+  font-size: 3.8rem;
+}
+@media (orientation: portrait) {
+  #japanese .word {
+    font-size: 2.8rem;
+  }
+}
+
+#japanese .word.has-audio {
+  transform: translateX(.3em);
+}
+
+/* Show the first reading */
+#japanese .word:first-child {
+  display: inline;
+}
+
+/* Show all readings after the first reveal */
+#japanese.show-furigana .word {
+  display: inline;
 }
 
 .audioBtn {
+  position: relative;
+  display: inline-block;
   width: .5em;
   height: .5em;
   margin: -1em 0 0 .1em;
@@ -160,9 +222,7 @@ rt {
   vertical-align: middle;
   cursor: pointer;
   opacity: .5;
-}
-.kanaText:last-of-type .audioBtn {
-  margin-right: -.6em;
+  z-index: 1;
 }
 .audioBtn:hover,
 .audioBtn:active {
@@ -171,7 +231,7 @@ rt {
 
 #english {
   position: relative;
-  height: 40%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -278,16 +338,16 @@ rt {
 .kanji-explanations {
   overflow-y: auto;
   font-family: 'BIZ UDMincho', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: #e34234;
-  line-height: 1.3;
+  line-height: 1.2;
 }
-@media (orientation: portrait) {
+/*@media (orientation: portrait) {
   .example,
   .kanji-explanations {
     font-size: 1.2rem;
   }
-}
+}*/
 
 .kanji-explanations {
   display: flex;
