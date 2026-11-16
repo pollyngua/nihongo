@@ -47,6 +47,12 @@ body {
   color: #e34234;
 }
 
+rt {
+  font-size: 50%;
+  text-align: center;
+  user-select: none;
+}
+
 /* --- typography*1.25: .8 / 1 / 1.3 / 1.6 / 2 / 2.4 / 3.1 / 3.8 / 4.8 / 6 --- */
 
 #container {
