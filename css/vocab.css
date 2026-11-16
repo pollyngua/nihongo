@@ -44,6 +44,7 @@ body {
 
 rt {
   font-size: 50%;
+  text-align: center;
   user-select: none;
 }
 
@@ -88,31 +89,19 @@ rt {
 
 /* typography */
 
-.kanji {
+.japanese {
   font-size: 2rem;
   font-weight: 700;
   color: #d8deeb;
   line-height: 1;
 }
 
-.kanji > ruby > rt {
+.japanese rt {
   font-weight: 400;
 }
 
-.romaji {
-  font-family: 'BIZ UDMincho', sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1;
-  color: #d8deeb;
-}
-
-.kana {
-  font-size: 2rem;
-  color: #d8deeb;
-}
-
 .audioBtn {
+  display: inline-block;
   width: .5em;
   height: .5em;
   margin: -1em 0 0 .1em;
@@ -122,7 +111,7 @@ rt {
   background-size: contain;
   vertical-align: middle;
   cursor: pointer;
-  opacity: .5;
+  opacity: .7;
 }
 .audioBtn:hover,
 .audioBtn:active {
@@ -131,7 +120,6 @@ rt {
 
 .english {
   max-width: 44rem;
-  font-size: 1.2rem;
   color: #a2a9ba;
 }
 
@@ -141,6 +129,7 @@ rt {
 
 .main {
   max-width: 44rem;
+  font-size: 1.2rem;
   font-weight: 700;
   line-height: 1.3;
 }
@@ -170,31 +159,15 @@ rt {
   font-style: normal;
 }
 
-.example,
-.kanji-explanations {
+.example {
   font-family: 'BIZ UDMincho', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #e34234;
   line-height: 1.3;
 }
 
 .example > b {
   color: #a2a9ba;
-}
-
-.kanji-char {
-  font-weight: 700;
-  color: #a2a9ba;
-}
-
-.source {
-  font-family: 'BIZ UDMincho', sans-serif;
-  font-size: .9rem;
-  line-height: 1.3;
-}
-
-.source a {
-  color: #e34234;
 }
 
 /*https://developers.google.com/fonts/docs/getting_started*/

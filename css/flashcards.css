@@ -44,6 +44,7 @@ body {
 
 rt {
   font-size: 50%;
+  text-align: center;
   user-select: none;
 }
 
@@ -221,7 +222,7 @@ rt {
   background-size: contain;
   vertical-align: middle;
   cursor: pointer;
-  opacity: .5;
+  opacity: .7;
   z-index: 1;
 }
 .audioBtn:hover,
