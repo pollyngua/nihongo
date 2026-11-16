@@ -6,6 +6,44 @@ menu.querySelectorAll("option").forEach(opt => {
   opt.dataset.label = opt.textContent;
 });
 
+function splitJapaneseAlternatives(html, separator = "|") {
+  const parts = [];
+  const separators = [];
+
+  let current = "";
+  let insideTag = false;
+
+  for (let i = 0; i < html.length; i++) {
+    const char = html[i];
+
+    if (char === "<") insideTag = true;
+    if (char === ">") insideTag = false;
+
+    if (!insideTag && html.startsWith(separator, i)) {
+      parts.push(current);
+      current = "";
+
+      let sep = separator;
+      i++;
+
+      while (html[i] === " ") {
+        sep += html[i];
+        i++;
+      }
+
+      separators.push(sep);
+      i--;
+      continue;
+    }
+
+    current += char;
+  }
+
+  parts.push(current);
+
+  return { parts, separators };
+}
+
 // Function to render a list of words
 function render(list) {
   container.innerHTML = "";
@@ -14,68 +52,76 @@ function render(list) {
     const entry = document.createElement("div");
     entry.className = "entry";
 
-    // --- kanji ---
-    if (word.kanji) {
-      const kanjiEl = document.createElement("div");
-      kanjiEl.className = "kanji";
-      kanjiEl.textContent = word.kanji;
-      entry.appendChild(kanjiEl);
-    }
+    // --- japanese + audio buttons ---
+    const japaneseEl = document.createElement("div");
+    japaneseEl.className = "japanese";
 
-    // --- kana with audio buttons ---
-    const kanaEl = document.createElement("div");
-    kanaEl.className = "kana";
+    const japaneseText = word.japanese || word.kana || "";
 
-    if (word.audio) {
-      const audioFiles = typeof word.audio === "string"
-        ? word.audio.split(",").map(a => a.trim())
-        : word.audio;
+    const audioFiles = word.audio
+      ? (typeof word.audio === "string"
+          ? word.audio.split(",").map(a => a.trim())
+          : word.audio)
+      : [];
 
-      // split kana into parts (only kana)
-      const kanaParts = word.kana.split(/\s*[|/]\s*/);
+    const { parts: japaneseParts, separators } =
+      splitJapaneseAlternatives(japaneseText);
 
-      // split separators (keep them)
-      const separators = word.kana.match(/\s*[|/]\s*/g) || [];
+    let audioIndex = 0;
 
-      const count = kanaParts.length;
+    for (let i = 0; i < japaneseParts.length; i++) {
+      if (i > 0 && separators[i - 1]) {
+        japaneseEl.appendChild(
+          document.createTextNode(
+            separators[i - 1].replace(/ /g, "\u00A0")
+          )
+        );
+      }
 
-      for (let i = 0; i < count; i++) {
-        // kana
-        const span = document.createElement("span");
-        span.className = "kanaText";
-        span.textContent = kanaParts[i];
+      const wordSpan = document.createElement("span");
+      wordSpan.className = "word";
 
-        // audio button
-        if (audioFiles[i]) {
+      const { parts: forms, separators: formSeparators } =
+        splitJapaneseAlternatives(japaneseParts[i], "/");
+
+      for (let j = 0; j < forms.length; j++) {
+        wordSpan.insertAdjacentHTML("beforeend", forms[j].trim());
+
+        if (audioFiles[audioIndex]) {
           const btn = document.createElement("button");
           btn.className = "audioBtn";
           btn.type = "button";
 
+          const audioFile = audioFiles[audioIndex];
+
           btn.addEventListener("click", e => {
             e.stopPropagation();
-            const audioPlayer = new Audio(`audio/${audioFiles[i].trim()}.mp3`);
-            audioPlayer.play().catch(() => {});
+            const audio = new Audio(`audio/${audioFile}.mp3`);
+            audio.play().catch(() => {});
           });
 
-          span.appendChild(btn); // ✅ key change
+          wordSpan.appendChild(btn);
         }
 
-        kanaEl.appendChild(span);
+        audioIndex++;
 
-        // separator (if exists)
-        if (separators[i]) {
-          kanaEl.appendChild(document.createTextNode(separators[i]));
+        if (j < forms.length - 1) {
+          wordSpan.appendChild(
+            document.createTextNode(
+              formSeparators[j].replace(/ /g, "\u00A0")
+            )
+          );
         }
       }
-    } else {
-      // no audio → just show kana
-      const span = document.createElement("span");
-    span.className = "kanaText";
-    span.textContent = word.kana;
-    kanaEl.appendChild(span);
+
+      if (wordSpan.querySelector(".audioBtn")) {
+        wordSpan.classList.add("has-audio");
+      }
+
+      japaneseEl.appendChild(wordSpan);
     }
 
-    entry.appendChild(kanaEl);
+    entry.appendChild(japaneseEl);
 
     // --- english ---
     const englishEl = document.createElement("div");

@@ -2676,8 +2676,10 @@ window.WORDS = [
     english: { main: "a.m.; morning", note: "noun; adverb; JLPT N5", example: "<b>ごぜん</b><ruby>八<rt>はち</rt>時<rt>じ</rt></ruby>ごろおきます (i wake up around 8 a.m.)" }
   },
   {
+    kanji: "洗う/洗います",
     kana: "あらう/あらいます",
-    english: { main: "to wash", note: "verb (godan, tr.); JLPT N5" }
+    japanese: "<ruby>洗<rt>あら</rt>う</ruby>/<ruby>洗<rt>あら</rt>います</ruby>",
+    english: { main: "to wash; to cleanse; to rinse", note: "verb (godan, tr.); JLPT N5" }
   },
   {
     kana: "うんてんしゅ",
@@ -5101,5 +5103,23 @@ window.WORDS = [
     japanese: "<ruby>真<rt>ま</rt>ん<rt></rt>中<rt>なか</rt></ruby>",
     english: { main: "middle; center; heart", note: "noun; JLPT N4", example: "<b><ruby>真<rt>ま</rt>ん<rt></rt>中<rt>なか</rt></ruby></b>のせき (middle seat)" },
     audio: "middle-center"
+  },
+  {
+    kanji: "外",
+    kana: "そと",
+    japanese: "<ruby>外<rt>そと</rt></ruby>",
+    english: { main: "outside; exterior", note: "noun; JLPT N5" }
+  },
+  {
+    kanji: "手",
+    kana: "て",
+    japanese: "<ruby>手<rt>て</rt></ruby>",
+    english: { main: "hand; arm", note: "noun; JLPT N5" }
+  },
+  {
+    kanji: "戻る/戻ります",
+    kana: "もどる/もどります",
+    japanese: "<ruby>戻<rt>もど</rt>る</ruby>/<ruby>戻<rt>もど</rt>ります</ruby>",
+    english: { main: "to return; to go back", note: "verb (godan, intr.); JLPT N4", example: "せきに<b><ruby>戻<rt>もど</rt>ります</ruby></b>か (will you return to your seat?)" }
   }
 ];
