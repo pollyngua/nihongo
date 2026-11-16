@@ -3213,5 +3213,119 @@ window.WORDS = [
       trans: "center of gravity"
     }
     ]
+  },
+  {
+    kanji: "好",
+    kana: "この、す、よ、い、コウ",
+    english: "fond, pleasing, like something",
+    note: "JLPT N3",
+    parts: "radical: <b>女</b> (woman, female)",
+    examples: [
+    {
+      word: "<ruby>大<rt>だい</rt><b>好</b><rt><b>す</b></rt>き</ruby>",
+      trans: "loved; greatly liked"
+    }
+    ]
+  },
+  {
+    kanji: "夜",
+    kana: "よ、よる、ヤ",
+    english: "night, evening",
+    note: "JLPT N4",
+    parts: "radical: <b>夕</b> (evening, sunset)",
+    examples: [
+    {
+      word: "<ruby><b>夜</b><rt><b>よる</b></rt></ruby>",
+      trans: "night"
+    },
+    {
+      word: "<ruby>今<rt>こん</rt><b>夜</b><rt><b>や</b></rt></ruby>",
+      trans: "tonight"
+    }
+    ]
+  },
+  {
+    kanji: "真",
+    kana: "ま、まこと、シン",
+    english: "true, reality, Buddhist sect",
+    note: "JLPT N4",
+    parts: "radical: <b>目</b> (eye)",
+    examples: [
+    {
+      word: "<ruby>写<rt>しゃ</rt><b>真</b><rt><b>しん</b></rt></ruby>",
+      trans: "photograph"
+    },
+    {
+      word: "<ruby><b>真</b><rt><b>ま</b></rt>ん<rt></rt>中<rt>なか</rt></ruby>",
+      trans: "middle"
+    }
+    ]
+  },
+  {
+    kanji: "外",
+    kana: "そと、ほか、はず、と、ガイ、ゲ",
+    english: "outside",
+    note: "JLPT N5",
+    parts: "radical: <b>夕</b> (evening, sunset)",
+    examples: [
+    {
+      word: "<ruby><b>外</b><rt><b>そと</b></rt></ruby>",
+      trans: "outside"
+    },
+    {
+      word: "<ruby><b>外</b><rt><b>がい</b></rt>国<rt>こく</rt>人<rt>じん</rt></ruby>",
+      trans: "foreigner"
+    }
+    ]
+  },
+  {
+    kanji: "手",
+    kana: "て、た、シュ、ズ",
+    english: "hand",
+    note: "JLPT N4",
+    parts: "radical: <b>手</b> (扌、龵) (hand)",
+    examples: [
+    {
+      word: "<ruby><b>手</b><rt><b>て</b></rt>紙<rt>がみ</rt></ruby>",
+      trans: "letter; note"
+    },
+    {
+      word: "<ruby><b>手</b><rt><b>て</b></rt>袋<rt>ぶくろ</rt></ruby>",
+      trans: "glove"
+    },
+    {
+      word: "<ruby>上<rt>じょう</rt><b>手</b><rt><b>ず</b></rt></ruby>",
+      trans: "skillful"
+    },
+    {
+      word: "<ruby>お<rt></rt><b>手</b><rt><b>て</b></rt>洗<rt>あら</rt>い</ruby>",
+      trans: "restroom"
+    },
+    {
+      word: "<ruby><b>手</b><rt><b>て</b></rt>首<rt>くび</rt></ruby>",
+      trans: "wrist"
+    },
+    {
+      word: "<ruby><b>手</b><rt><b>て</b></rt>伝<rt>つだ</rt>う</ruby>",
+      trans: "to help"
+    }
+    ]
+  },
+  {
+    kanji: "戻",
+    kana: "もど、レイ",
+    english: "re-, return, revert, resume, restore, go backwards",
+    note: "JLPT N3",
+    parts: "radical: <b>戸</b> (戶、户) (door, house)",
+    examples: [
+    {
+      word: "<ruby><b>戻</b><rt><b>もど</b></rt>る</ruby>",
+      trans: "to go back"
+    },
+    {
+      word: "<ruby><b>戻</b><rt><b>もど</b></rt>す</ruby>",
+      trans: "to put back"
+    }
+    ]
   }
 ];
