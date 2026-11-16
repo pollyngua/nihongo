@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>flashcards-budo</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BIZ+UDPMincho:400,700|BIZ+UDMincho:400,700|Noto+Sans+JP:300,700">
+  <link rel="stylesheet" href="css/flashcards-budo.css">
+  <link rel="shortcut icon" href="../img/flashcards_favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/flashcards_apple-touch-icon.png">
+</head>
+<body>
+
+  <div id="container">
+    <button id="prevBtn">prev</button>
+    <div id="card">
+      <div id="japanese"></div>
+      <div id="english" class="hidden"></div>
+    </div>
+    <button id="nextBtn">next</button>
+  </div>
+
+  <div id="display">
+    <span id="uniqueCounter"><span>0</span> / 0</span>
+    <select id="posFilter">
+      <option value="all">all</option>
+      <option value="related">related</option>
+      <option value="basic terms">basic terms</option>
+      <option value="techniques">techniques</option>
+      <option value="anatomy">anatomy</option>
+      <option value="commands, kumite">commands, kumite</option>
+      <option value="kata">kata</option>
+    </select>
+  </div>
+
+  <script src="js/words-budo.js"></script>
+  <script src="js/flashcards-budo.js"></script>
+</body>
+</html>
