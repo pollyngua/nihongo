@@ -8,9 +8,10 @@ window.WORDS = [
       main: "aikido",
       note: "related",
       kanjiBreakdown: [
-        ["<ruby>合<rt>あ</rt>う</ruby>", "to join; to match"],
+        ["<ruby>合<rt>あい|ごう|がっ</rt></ruby>", "to join; to match"],
+        ["<ruby>合<rt>あ</rt>う</ruby>", "to join; to match", "moreDetail"],
         ["<ruby>気<rt>き</rt></ruby>", "spirit"],
-        ["<ruby>道<rt>どう</rt></ruby>", "way; path"]
+        ["<ruby>道<rt>どう|みち</rt></ruby>", "way; path"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=56CZigBX-2o, リリーと日本語|https://www.youtube.com/watch?v=--wYk4QYuys"
     }
@@ -39,7 +40,8 @@ window.WORDS = [
       note: "related",
       kanjiBreakdown: [
         ["<ruby>安<rt>あん</rt></ruby>", "peaceful"],
-        ["<ruby>座<rt>すわ</rt>る</ruby>", "to sit"]
+        ["<ruby>座<rt>ざ</rt></ruby>", "seat"],
+        ["<ruby>座<rt>すわ</rt>る</ruby>", "to sit", "moreDetail"]
       ],
       source: "https://www.youtube.com/watch?v=YbNNXeGhRY0"
     }
@@ -53,7 +55,7 @@ window.WORDS = [
       main: "blue <i>(as noun; <b>青い</b> as adjective)</i>",
       note: "related; basic terms; commands, kumite",
       kanjiBreakdown: [
-        ["<ruby>青<rt>あお</rt></ruby>", "blue"]
+        ["<ruby>青<rt>あお|せい</rt></ruby>", "blue"]
       ]
     }
   },
@@ -81,7 +83,7 @@ window.WORDS = [
       note: "related",
       kanjiBreakdown: [
         ["<ruby>武<rt>ぶ</rt></ruby>", "warrior"],
-        ["<ruby>道<rt>どう</rt></ruby>", "way; path"]
+        ["<ruby>道<rt>どう|みち</rt></ruby>", "way; path"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=kEa7zgqysks"
     }
@@ -127,7 +129,7 @@ window.WORDS = [
       kanjiBreakdown: [
         ["<ruby>武<rt>ぶ</rt></ruby>", "warrior"],
         ["<ruby>士<rt>し</rt></ruby>", "knight; man"],
-        ["<ruby>道<rt>どう</rt></ruby>", "way; path"]
+        ["<ruby>道<rt>どう|みち</rt></ruby>", "way; path"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=HexrazvrNEE, リリーと日本語|https://www.youtube.com/watch?v=kEa7zgqysks"
     }
@@ -142,8 +144,8 @@ window.WORDS = [
       note: "related",
       kanjiBreakdown: [
         ["<ruby>弟<rt>で</rt>子<rt>し</rt></ruby>", "pupil"],
-        ["<ruby>弟<rt>で</rt></ruby>", "younger brother", "moreDetail"],
-        ["<ruby>子<rt>し</rt></ruby>", "child", "moreDetail"]
+        ["<ruby>弟<rt>で|おとうと</rt></ruby>", "younger brother", "moreDetail"],
+        ["<ruby>子<rt>し|こ</rt></ruby>", "child", "moreDetail"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=9Chbe3mZcNI"
     }
@@ -157,8 +159,10 @@ window.WORDS = [
       main: "martial arts uniform",
       note: "related",
       kanjiBreakdown: [
-        ["<ruby>道<rt>どう</rt></ruby>", "way; path"],
-        ["<ruby>着<rt>き</rt>る</ruby>", "to wear"]
+        ["<ruby>道<rt>どう|みち</rt></ruby>", "way; path"],
+        ["<ruby>着<rt>ぎ|き|ちゃく</rt></ruby>", "clothes"],
+        ["<ruby>着<rt>き</rt>る</ruby>", "to wear", "moreDetail"],
+        ["<ruby>着<rt>つ</rt>く</ruby>", "to arrive", "moreDetail"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=6-fMxG62kiY"
     }
@@ -173,7 +177,7 @@ window.WORDS = [
       note: "related",
       kanjiBreakdown: [
         ["<ruby>同<rt>どう</rt></ruby>", "the same"],
-        ["<ruby>輩<rt>はい</rt></ruby>", "group"]
+        ["<ruby>輩<rt>はい|ぱい</rt></ruby>", "group"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=6-fMxG62kiY"
     }
@@ -187,8 +191,8 @@ window.WORDS = [
       main: "dojo",
       note: "related",
       kanjiBreakdown: [
-        ["<ruby>道<rt>どう</rt></ruby>", "way; path"],
-        ["<ruby>場<rt>じょう</rt></ruby>", "place"]
+        ["<ruby>道<rt>どう|みち</rt></ruby>", "way; path"],
+        ["<ruby>場<rt>じょう|ば</rt></ruby>", "place"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=EMhyxPqAiyg, リリーと日本語|https://www.youtube.com/watch?v=6-fMxG62kiY, リリーと日本語|https://www.youtube.com/watch?v=VZZGVOBvkdg"
     }
@@ -205,7 +209,7 @@ window.WORDS = [
         ["<ruby>不<rt>ふ</rt>動<rt>どう</rt>心<rt>しん</rt></ruby>", "imperturbability"],
         ["<ruby>不<rt>ふ</rt></ruby>", "opposite", "moreDetail"],
         ["<ruby>動<rt>どう</rt></ruby>", "move", "moreDetail"],
-        ["<ruby>心<rt>しん</rt></ruby>", "core; mind; heart", "moreDetail"]
+        ["<ruby>心<rt>しん|こころ</rt></ruby>", "core; mind; heart", "moreDetail"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=hI0EraozJp8"
     }
@@ -219,9 +223,11 @@ window.WORDS = [
       main: "abdominal breathing <i>(see also/same as <b>kokyu tanden ho</b>)</i>",
       note: "related",
       kanjiBreakdown: [
-        ["<ruby>腹<rt>ふく</rt></ruby>", "abdomen"],
+        ["<ruby>腹<rt>ふく|ふっ|はら</rt></ruby>", "abdomen"],
         ["<ruby>式<rt>しき</rt></ruby>", "style"],
-        ["<ruby>呼<rt>こ</rt>吸<rt>きゅう</rt></ruby>", "breathing"]
+        ["<ruby>呼<rt>こ</rt>吸<rt>きゅう</rt></ruby>", "breathing"],
+        ["<ruby>呼<rt>よ</rt>ぶ</ruby>", "to call out", "moreDetail"],
+        ["<ruby>吸<rt>す</rt>う</ruby>", "to inhale", "moreDetail"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=SiHMA2TyPjE"
     },
@@ -236,7 +242,8 @@ window.WORDS = [
       main: "training camp",
       note: "related",
       kanjiBreakdown: [
-        ["<ruby>合<rt>あ</rt>う</ruby>", "to join; to match"],
+        ["<ruby>合<rt>あい|ごう|がっ</rt></ruby>", "to join; to match"],
+        ["<ruby>合<rt>あ</rt>う</ruby>", "to join; to match", "moreDetail"],
         ["<ruby>宿<rt>しゅく</rt></ruby>", "inn; lodge"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=p8xRZ9G_uFE, リリーと日本語|https://www.youtube.com/watch?v=L0-fAF9Kxy0"
@@ -251,7 +258,9 @@ window.WORDS = [
       main: "technique; skill",
       note: "related",
       kanjiBreakdown: [
-        ["<ruby>技<rt>ぎ</rt>術<rt>じゅつ</rt></ruby>", "technique"]
+        ["<ruby>技<rt>ぎ</rt>術<rt>じゅつ</rt></ruby>", "technique"],
+        ["<ruby>技<rt>ぎ|わざ</rt></ruby>", "technique (narrow)", "moreDetail"],
+        ["<ruby>術<rt>じゅつ</rt></ruby>", "technique (broad)", "moreDetail"]
       ]
     }
   },
@@ -279,8 +288,9 @@ window.WORDS = [
       main: "breathing technique; a type of abdominal breathing",
       note: "related",
       kanjiBreakdown: [
-        ["<ruby>息<rt>い</rt></ruby>", "breath"],
-        ["<ruby>吹<rt>ふ</rt>く</ruby>", "to blow"]
+        ["<ruby>息<rt>い|いき|そく</rt></ruby>", "breath"],
+        ["<ruby>吹<rt>ぶき</rt></ruby>", "to blow"],
+        ["<ruby>吹<rt>ふ</rt>く</ruby>", "to blow", "moreDetail"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=SiHMA2TyPjE"
     }
@@ -294,7 +304,7 @@ window.WORDS = [
       main: "breath; breathing <i>(inhaling, exhaling, plus the air inhaled and exhaled. compare w/ <b>kokyu</b>)</i>",
       note: "related",
       kanjiBreakdown: [
-        ["<ruby>息<rt>いき</rt></ruby>", "breath"]
+        ["<ruby>息<rt>い|いき|そく</rt></ruby>", "breath"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=d-BCXGas6Yw"
     }
@@ -308,8 +318,8 @@ window.WORDS = [
       main: "judo",
       note: "related",
       kanjiBreakdown: [
-        ["<ruby>柔<rt>じゅう</rt></ruby>", "soft; flexible"],
-        ["<ruby>道<rt>どう</rt></ruby>", "way; path"]
+        ["<ruby>柔<rt>じゅう|やわらかい</rt></ruby>", "soft; flexible"],
+        ["<ruby>道<rt>どう|みち</rt></ruby>", "way; path"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=56CZigBX-2o, リリーと日本語|https://www.youtube.com/watch?v=--wYk4QYuys, リリーと日本語|https://www.youtube.com/watch?v=zsfDkp-nsV4"
     }
@@ -325,7 +335,7 @@ window.WORDS = [
       kanjiBreakdown: [
         ["<ruby>準<rt>じゅん</rt>備<rt>び</rt></ruby>", "preparation (longer-term than yōi)"],
         ["<ruby>体<rt>たい</rt>操<rt>そう</rt></ruby>", "physical exercise"],
-        ["<ruby>体<rt>たい</rt></ruby>", "body", "moreDetail"],
+        ["<ruby>体<rt>たい|からだ</rt></ruby>", "body", "moreDetail"],
         ["<ruby>操<rt>あやつ</rt>る</ruby>", "to manipulate", "moreDetail"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=BtI8ReLcSEg, リリーと日本語|https://www.youtube.com/watch?v=JyknKhmu0Y8"
@@ -341,8 +351,8 @@ window.WORDS = [
       note: "related; basic terms",
       kanjiBreakdown: [
         ["<ruby>重<rt>じゅう</rt>心<rt>しん</rt></ruby>", "center of gravity"],
-        ["<ruby>重<rt>じゅう</rt></ruby>", "heavy", "moreDetail"],
-        ["<ruby>心<rt>しん</rt></ruby>", "core; mind; heart", "moreDetail"]
+        ["<ruby>重<rt>じゅう|おもい</rt></ruby>", "heavy", "moreDetail"],
+        ["<ruby>心<rt>しん|こころ</rt></ruby>", "core; mind; heart", "moreDetail"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=nkhbge-mHbM, リリーと日本語|https://www.youtube.com/watch?v=hI0EraozJp8"
     }
@@ -358,8 +368,8 @@ window.WORDS = [
       kanjiBreakdown: [
         ["<ruby>重<rt>じゅう</rt>心<rt>しん</rt></ruby>", "center of gravity"],
         ["<ruby>移<rt>い</rt>動<rt>どう</rt></ruby>", "movement"],
-        ["<ruby>重<rt>じゅう</rt></ruby>", "heavy", "moreDetail"],
-        ["<ruby>心<rt>しん</rt></ruby>", "core; mind; heart", "moreDetail"],
+        ["<ruby>重<rt>じゅう|おもい</rt></ruby>", "heavy", "moreDetail"],
+        ["<ruby>心<rt>しん|こころ</rt></ruby>", "core; mind; heart", "moreDetail"],
         ["<ruby>移<rt>うつ</rt>す</ruby>", "to transfer", "moreDetail"],
         ["<ruby>動<rt>うご</rt>く</ruby>", "to move", "moreDetail"],
       ],
@@ -375,8 +385,8 @@ window.WORDS = [
       main: "japanese flower arrangement; ikebana",
       note: "related",
       kanjiBreakdown: [
-        ["<ruby>華<rt>か</rt></ruby>", "flower"],
-        ["<ruby>道<rt>どう</rt></ruby>", "way; path"]
+        ["<ruby>華<rt>か|はな</rt></ruby>", "flower"],
+        ["<ruby>道<rt>どう|みち</rt></ruby>", "way; path"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=56CZigBX-2o"
     }
@@ -393,7 +403,7 @@ window.WORDS = [
         ["<ruby>寒<rt>かん</rt></ruby>", "cold (noun)"],
         ["<ruby>稽<rt>げい</rt>古<rt>こ</rt></ruby>", "practice"],
         ["<ruby>稽<rt>かんが</rt>える</ruby>", "to think over", "moreDetail"],
-        ["<ruby>古<rt>こ</rt></ruby>", "old", "moreDetail"]
+        ["<ruby>古<rt>こ|ふるい</rt></ruby>", "old", "moreDetail"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=BtI8ReLcSEg, リリーと日本語|https://www.youtube.com/watch?v=vr8I3dQ0NWU"
     }
@@ -407,9 +417,9 @@ window.WORDS = [
       main: "the way of the empty hand",
       note: "related",
       kanjiBreakdown: [
-        ["<ruby>空<rt>から</rt></ruby>", "empty"],
-        ["<ruby>手<rt>て</rt></ruby>", "hand"],
-        ["<ruby>道<rt>どう</rt></ruby>", "way; path"]
+        ["<ruby>空<rt>くう|そら|から</rt></ruby>", "empty; sky"],
+        ["<ruby>手<rt>て|しゅ</rt></ruby>", "hand"],
+        ["<ruby>道<rt>どう|みち</rt></ruby>", "way; path"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=A_XqPEzCsJE, リリーと日本語|https://www.youtube.com/watch?v=--wYk4QYuys"
     }
@@ -423,9 +433,11 @@ window.WORDS = [
       main: "karate uniform",
       note: "related",
       kanjiBreakdown: [
-        ["<ruby>空<rt>から</rt></ruby>", "empty"],
-        ["<ruby>手<rt>て</rt></ruby>", "hand"],
-        ["<ruby>着<rt>き</rt>る</ruby>", "to wear"]
+        ["<ruby>空<rt>くう|そら|から</rt></ruby>", "empty; sky"],
+        ["<ruby>手<rt>て|しゅ</rt></ruby>", "hand"],
+        ["<ruby>着<rt>ぎ|き|ちゃく</rt></ruby>", "clothes"],
+        ["<ruby>着<rt>き</rt>る</ruby>", "to wear", "moreDetail"],
+        ["<ruby>着<rt>つ</rt>く</ruby>", "to arrive", "moreDetail"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=6-fMxG62kiY"
     }
@@ -441,7 +453,7 @@ window.WORDS = [
       kanjiBreakdown: [
         ["<ruby>稽<rt>けい</rt>古<rt>こ</rt></ruby>", "practice"],
         ["<ruby>稽<rt>かんが</rt>える</ruby>", "to think over", "moreDetail"],
-        ["<ruby>古<rt>こ</rt></ruby>", "old", "moreDetail"]
+        ["<ruby>古<rt>こ|ふるい</rt></ruby>", "old", "moreDetail"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=BtI8ReLcSEg, リリーと日本語|https://www.youtube.com/watch?v=vr8I3dQ0NWU"
     }
@@ -456,11 +468,104 @@ window.WORDS = [
       note: "related",
       kanjiBreakdown: [
         ["<ruby>稽<rt>けい</rt>古<rt>こ</rt></ruby>", "practice"],
-        ["<ruby>始<rt>はじ</rt>める</ruby>", "to begin"],
         ["<ruby>稽<rt>かんが</rt>える</ruby>", "to think over", "moreDetail"],
-        ["<ruby>古<rt>こ</rt></ruby>", "old", "moreDetail"]
+        ["<ruby>古<rt>こ|ふるい</rt></ruby>", "old", "moreDetail"],
+        ["<ruby>始<rt>はじ</rt>める</ruby>", "to begin"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=vr8I3dQ0NWU, リリーと日本語|https://www.youtube.com/watch?v=rnEuPU5p89w, リリーと日本語|https://www.youtube.com/watch?v=ZhM2oYuHycs"
+    }
+  },
+  {
+    kanji: "稽古納め",
+    kana: "けいこおさめ",
+    japanese: "<ruby>稽<rt>けい</rt>古<rt>こ</rt>納<rt>おさ</rt>め</ruby>",
+    english: {
+      romaji: "keiko osame",
+      main: "last practice of the year <i>(for things traditional or related to japanese history or culture; with teacher)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>稽<rt>けい</rt>古<rt>こ</rt></ruby>", "practice"],
+        ["<ruby>稽<rt>かんが</rt>える</ruby>", "to think over", "moreDetail"],
+        ["<ruby>古<rt>こ|ふるい</rt></ruby>", "old", "moreDetail"],
+        ["<ruby>納<rt>おさ</rt>める</ruby>", "to conclude"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=vr8I3dQ0NWU, リリーと日本語|https://www.youtube.com/watch?v=rnEuPU5p89w"
+    }
+  },
+  {
+    kanji: "剣道",
+    kana: "けんどう",
+    japanese: "<ruby>剣<rt>けん</rt>道<rt>どう</rt></ruby>",
+    english: {
+      romaji: "kendō",
+      main: "kendo",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>剣<rt>けん</rt></ruby>", "sword"],
+        ["<ruby>道<rt>どう|みち</rt></ruby>", "way; path"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=56CZigBX-2o, リリーと日本語|https://www.youtube.com/watch?v=--wYk4QYuys"
+    }
+  },
+  {
+    kanji: "気",
+    kana: "き",
+    japanese: "<ruby>気<rt>き</rt></ruby>",
+    english: {
+      romaji: "ki",
+      main: "energy",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>気<rt>き</rt></ruby>", "spirit; energy"]
+      ]
+    }
+  },
+  {
+    kanji: "気迫",
+    kana: "きはく",
+    japanese: "<ruby>気<rt>き</rt>迫<rt>はく</rt></ruby>",
+    english: {
+      romaji: "kihaku",
+      main: "spirit",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>気<rt>き</rt></ruby>", "spirit; energy"],
+        ["<ruby>迫<rt>はく</rt></ruby>", "urge; force"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=4EbKOze-gbU"
+    }
+  },
+  {
+    kanji: "基本稽古",
+    kana: "きほんげいこ",
+    japanese: "<ruby>基<rt>き</rt>本<rt>ほん</rt>稽<rt>げい</rt>古<rt>こ</rt></ruby>",
+    english: {
+      romaji: "kihon geiko",
+      main: "basics practice",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>基<rt>き</rt>本<rt>ほん</rt></ruby>", "fundamentals"],
+        ["<ruby>基<rt>き|もと</rt></ruby>", "base; basic", "moreDetail"],
+        ["<ruby>本<rt>ほん</rt></ruby>", "book; essence", "moreDetail"],
+        ["<ruby>稽<rt>げい</rt>古<rt>こ</rt></ruby>", "practice"],
+        ["<ruby>稽<rt>かんが</rt>える</ruby>", "to think over", "moreDetail"],
+        ["<ruby>古<rt>こ|ふるい</rt></ruby>", "old", "moreDetail"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=tgRk8UYohX8"
+    }
+  },
+  {
+    kanji: "鍛えます",
+    kana: "きたえます",
+    japanese: "<ruby>鍛<rt>きた</rt>えます</ruby>",
+    english: {
+      romaji: "kitaemasu",
+      main: "to temper; to train <i>(as in <b><ruby>小<rt>こ</rt>手<rt>て</rt>鍛<rt>きた</rt>え</ruby></b>)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>鍛<rt>きた</rt>える</ruby>", "to temper; to train"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=sA_iv_XkAoA"
     }
   },
   {
@@ -568,7 +673,7 @@ window.WORDS = [
       note: "kata",
       kanjiBreakdown: [
         ["<ruby>観<rt>かん</rt></ruby>", "observation meditation (Buddhism)"],
-        ["<ruby>空<rt>くう</rt></ruby>", "empty air; sky"]
+        ["<ruby>空<rt>くう|そら|から</rt></ruby>", "empty; sky"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=9doY2sHo6vI"
     }
