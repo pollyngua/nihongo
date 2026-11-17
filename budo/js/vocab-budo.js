@@ -216,9 +216,9 @@ function render(list) {
     if (word.english.kanjiBreakdown?.length) {
       englishHTML += `<div class="kanjiBreakdown">`;
 
-      word.english.kanjiBreakdown.forEach(([ruby, translation]) => {
+      word.english.kanjiBreakdown.forEach(([ruby, translation, extraClass]) => {
         englishHTML += `
-          <div class="pair">
+          <div class="pair ${extraClass || ""}">
             ${ruby}
             <div class="en">${translation}</div>
           </div>
@@ -237,7 +237,11 @@ function render(list) {
 
       englishHTML += `<div class="source">`;
 
-      sources.forEach(source => {
+      sources.forEach((source, index) => {
+        if (index > 0) {
+          englishHTML += ", ";
+        }
+
         const separatorIndex = source.indexOf("|");
 
         if (separatorIndex !== -1) {
@@ -281,13 +285,18 @@ function applyFilter() {
 }
 
 // Initial setup.
-const sortedWords = [...window.WORDS].sort((a, b) =>
-  (a.english.romaji || "").localeCompare(
-    b.english.romaji || "",
+const sortedWords = [...window.WORDS].sort((a, b) => {
+  const getSortKey = word =>
+    (word.english.romaji || "")
+      .replace(/^\([^)]*\)/, "")
+      .trim();
+
+  return getSortKey(a).localeCompare(
+    getSortKey(b),
     "en",
     { sensitivity: "base" }
-  )
-);
+  );
+});
 
 updateDropdownCounts();
 render(sortedWords);

@@ -269,9 +269,9 @@ function displayWord(word) {
   if (word.english.kanjiBreakdown?.length) {
     englishHTML += `<div class="kanjiBreakdown">`;
 
-    for (const [ruby, translation] of word.english.kanjiBreakdown) {
+    for (const [ruby, translation, extraClass] of word.english.kanjiBreakdown) {
       englishHTML += `
-        <div class="pair">
+        <div class="pair ${extraClass || ""}">
           ${ruby}
           <div class="en">${translation}</div>
         </div>
@@ -286,8 +286,12 @@ function displayWord(word) {
 
     const sources = word.english.source.split(",");
 
-    for (const item of sources) {
+    sources.forEach((item, index) => {
       const source = item.trim();
+
+      if (index > 0) {
+        englishHTML += ", ";
+      }
 
       if (source.includes("|")) {
         const [text, url] = source.split("|", 2);
@@ -297,7 +301,7 @@ function displayWord(word) {
       } else {
         englishHTML += `<span>${source}</span>`;
       }
-    }
+    });
 
     englishHTML += `</div>`;
   }
