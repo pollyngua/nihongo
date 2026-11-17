@@ -345,31 +345,34 @@ rt {
   }
 }
 
+.kanjiBreakdown rt {
+  font-size: 40%;
+}
+
 .kanjiBreakdown .en {
-  max-width: 10rem;
+  max-width: 8rem;
   font-size: 1rem;
+  line-height: 1;
   color: #a2a9ba;
 }
 
 .kanjiBreakdown .moreDetail {
+  opacity: .5;
+}
+.kanjiBreakdown .moreDetail ruby {
   position: relative;
 }
-.kanjiBreakdown .moreDetail::before,
-.kanjiBreakdown .moreDetail::after {
+.kanjiBreakdown .moreDetail ruby::before,
+.kanjiBreakdown .moreDetail ruby::after {
   position: absolute;
-  top: .4em;
-  font-size: 1.9em;
-  color: #a2a9ba;
-  opacity: .3;
-  z-index: -1;
 }
-.kanjiBreakdown .moreDetail::before {
-  content: "[";
-  left: -.05em;
+.kanjiBreakdown .moreDetail ruby::before {
+  content: "(";
+  left: -.4em;
 }
-.kanjiBreakdown .moreDetail::after {
-  content: "]";
-  right: -.05em;
+.kanjiBreakdown .moreDetail ruby::after {
+  content: ")";
+  right: -.4em;
 }
 
 .source {
