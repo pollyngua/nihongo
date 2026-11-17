@@ -1143,7 +1143,9 @@ window.WORDS = [
     english: { main: "stairs", note: "noun; JLPT N5" }
   },
   {
+    kanji: "出口",
     kana: "でぐち",
+    japanese: "<ruby>出<rt>でぐ</rt>口<rt>ち</rt></ruby>",
     english: { main: "exit", note: "noun; JLPT N5" }
   },
   {
@@ -3680,7 +3682,7 @@ window.WORDS = [
   },
   {
     kana: "もう",
-    english: { main: "already; yet", note: "adverb; JLPT N5", example: "<b>もう</b>しゅくだいをしましたか (did you do your homework yet?)" },
+    english: { main: "<i>1.</i> already; yet; <i>2.</i> soon; shortly; presently", note: "adverb; JLPT N5", example: "(1) <b>もう</b>しゅくだいをしましたか (did you do your homework yet?)<br>(2) すみません、<b>もう</b><ruby>家<rt>うち</rt></ruby>にかえります (excuse me, i'm going home now)" },
     audio: "already-yet"
   },
   {
@@ -5121,5 +5123,23 @@ window.WORDS = [
     kana: "もどる/もどります",
     japanese: "<ruby>戻<rt>もど</rt>る</ruby>/<ruby>戻<rt>もど</rt>ります</ruby>",
     english: { main: "to return; to go back", note: "verb (godan, intr.); JLPT N4", example: "せきに<b><ruby>戻<rt>もど</rt>ります</ruby></b>か (will you return to your seat?)" }
+  },
+  {
+    kana: "ぺん",
+    english: { main: "pen", note: "noun; JLPT N5" }
+  },
+  {
+    kana: "サイン",
+    english: { main: "autograph", note: "noun; verb (suru, tr., intr.); JLPT N3" }
+  },
+  {
+    // kanji: "並ぶ/並びます",
+    kana: "ならぶ/ならびます",
+    // japanese: "<ruby>並<rt>なら</rt>ぶ</ruby>/<ruby>並<rt>なら</rt>びます</ruby>",
+    english: { main: "to line up; to stand in a line", note: "verb (godan, intr.); JLPT N5", example: "ここに<b>ならびましょう</b>か (should we line up here?)" }
+  },
+  {
+    kana: "グッズ",
+    english: { main: "goods; merchandise", note: "noun" }
   }
 ];
