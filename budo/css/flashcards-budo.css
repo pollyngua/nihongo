@@ -71,6 +71,7 @@ rt {
   color: #475062;
   cursor: pointer;
   font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
   line-height: 1;
 }
 @media (orientation: portrait) {
@@ -117,7 +118,7 @@ rt {
   display: flex;
   justify-content: center;
   align-items: end;
-  height: 50%;
+  height: 40%;
   padding-bottom: 3.1rem;
   font-size: 0rem;
   font-weight: 700;
@@ -195,11 +196,9 @@ rt {
 
 #english {
   position: relative;
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
+  height: 60%;
+  display: grid;
+  align-content: start;
   /* ↓ (.note font-size * line-height) + .note padding-bottom + #english children margin-bottom */
   padding-top: 3rem;
   color: #a2a9ba;
@@ -259,7 +258,8 @@ rt {
 
 .main {
   max-width: 44rem;
-  font-family: 'Noto Serif JP', serif;
+  justify-self: center;
+  font-family: 'BIZ UDPMincho', serif;
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.3;
@@ -305,9 +305,9 @@ rt {
 
 .kanjiBreakdown {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  /*overflow-y: auto;*/
+  align-items: baseline;
+  justify-content: center;
   font-family: 'BIZ UDMincho', sans-serif;
   font-size: 1.4rem;
   color: #e34234;
@@ -318,48 +318,32 @@ rt {
   display: inline-block;
   margin-bottom: .25rem;
   padding: 0 .5rem;
-  font-family: 'BIZ UDMincho', sans-serif;
+  font-family: 'BIZ UDPMincho', sans-serif;
   font-size: 1.4rem;
   line-height: 1.2;
   color: #e34234;
   text-align: center;
 }
-.pair:first-of-type {
-  padding-left: 0;
-}
-@media (orientation: portrait) {
-  .kanjiBreakdown .pair {
-    padding: 0 .25rem;
-  }
-}
 
 .kanjiBreakdown ruby {
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.2;
   color: #a2a9ba;
   white-space: nowrap;
 }
-@media (orientation: portrait) {
-  .kanjiBreakdown ruby {
-    font-size: 1.6rem;
-  }
-}
-
-.kanjiBreakdown rt {
-  font-size: 40%;
-}
 
 .kanjiBreakdown .en {
   max-width: 8rem;
+  font-family: 'BIZ UDPMincho', serif;
   font-size: 1rem;
-  line-height: 1;
+  line-height: 1.2;
   color: #a2a9ba;
 }
 
 .kanjiBreakdown .moreDetail {
   opacity: .5;
 }
-.kanjiBreakdown .moreDetail ruby {
+/*.kanjiBreakdown .moreDetail ruby {
   position: relative;
 }
 .kanjiBreakdown .moreDetail ruby::before,
@@ -373,11 +357,12 @@ rt {
 .kanjiBreakdown .moreDetail ruby::after {
   content: ")";
   right: -.4em;
-}
+}*/
 
 .source {
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: .8rem;
+  font-weight: 300;
   line-height: 1.3;
 }
 
@@ -402,6 +387,7 @@ rt {
   padding: 1rem;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 1rem;
+  font-weight: 300;
   color: #a2a9ba;
 }
 #uniqueCounter > .seen {
@@ -423,6 +409,7 @@ rt {
   color: #475062;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 1rem;
+  font-weight: 300;
   line-height: 1;
 }
 @media (orientation: portrait) {
@@ -449,6 +436,7 @@ rt {
   color: #475062;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 1rem;
+  font-weight: 300;
   line-height: 1;
 }
 #posFilter:focus {
