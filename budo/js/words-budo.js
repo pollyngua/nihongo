@@ -569,6 +569,134 @@ window.WORDS = [
     }
   },
   {
+    kanji: "後輩",
+    kana: "こうはい",
+    japanese: "<ruby>後<rt>こう</rt>輩<rt>はい</rt></ruby>",
+    english: {
+      romaji: "kōhai",
+      main: "junior student <i>(in rank or age)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>後<rt>こう|うしろ|ご|あと</rt></ruby>", "back; after; later; [time] left"],
+        ["<ruby>輩<rt>はい|ぱい</rt></ruby>", "group"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=6-fMxG62kiY"
+    }
+  },
+  {
+    kanji: "心構え",
+    kana: "こころがまえ",
+    japanese: "<ruby>心<rt>こころ</rt>構<rt>がま</rt>え</ruby>",
+    english: {
+      romaji: "kokoro gamae",
+      main: "mental preparedness",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>心<rt>しん|こころ</rt></ruby>", "core; mind; heart"],
+        ["<ruby>構<rt>がま</rt>え</ruby>", "posture"],
+        ["<ruby>構<rt>かま</rt>える</ruby>", "to adopt a posture", "moreDetail"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=OtZpi8pCdgg"
+    }
+  },
+  {
+    kanji: "呼吸",
+    kana: "こきゅう",
+    japanese: "<ruby>呼<rt>こ</rt>吸<rt>きゅう</rt></ruby>",
+    english: {
+      romaji: "kokyū",
+      main: "breath; breathing <i>(inhaling, exhaling. compare w/ <b>iki</b>)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>呼<rt>こ</rt>吸<rt>きゅう</rt></ruby>", "breathing"],
+        ["<ruby>呼<rt>よ</rt>ぶ</ruby>", "to call out", "moreDetail"],
+        ["<ruby>吸<rt>す</rt>う</ruby>", "to inhale", "moreDetail"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=d-BCXGas6Yw, リリーと日本語|https://www.youtube.com/watch?v=hI0EraozJp8"
+    }
+  },
+  {
+    kanji: "呼吸丹田法",
+    kana: "こきゅうたんでんほう",
+    japanese: "<ruby>呼<rt>こ</rt>吸<rt>きゅう</rt>丹<rt>たん</rt>田<rt>でん</rt>法<rt>ほう</rt></ruby>",
+    english: {
+      romaji: "kokyū tanden hō",
+      main: "abdominal breathing <i>(see also/same as <b>fukushiki kokyū</b>)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>呼<rt>こ</rt>吸<rt>きゅう</rt></ruby>", "breathing"],
+        ["<ruby>呼<rt>よ</rt>ぶ</ruby>", "to call out", "moreDetail"],
+        ["<ruby>吸<rt>す</rt>う</ruby>", "to inhale", "moreDetail"],
+        ["<ruby>丹<rt>たん</rt>田<rt>でん</rt></ruby>", "area where ki is concentrated"],
+        ["<ruby>丹<rt>たん</rt></ruby>", "vermilion; elixir of life; sincerity", "moreDetail"],
+        ["<ruby>田<rt>でん|た|だ</rt></ruby>", "rice field", "moreDetail"],
+        ["<ruby>法<rt>ほう</rt></ruby>", "method"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=SiHMA2TyPjE"
+    }
+  },
+  {
+    kanji: "弓道",
+    kana: "きゅうどう",
+    japanese: "<ruby>弓<rt>きゅう</rt>道<rt>どう</rt></ruby>",
+    english: {
+      romaji: "kyūdō",
+      main: "japanese archery",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>弓<rt>きゅう|ゆみ</rt></ruby>", "bow"],
+        ["<ruby>道<rt>どう|みち</rt></ruby>", "way; path"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=56CZigBX-2o, リリーと日本語|https://www.youtube.com/watch?v=--wYk4QYuys"
+    }
+  },
+  {
+    kanji: "急所",
+    kana: "きゅうしょ",
+    japanese: "<ruby>急<rt>きゅう</rt>所<rt>しょ</rt></ruby>",
+    english: {
+      romaji: "kyūsho",
+      main: "vital point",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>急<rt>きゅう</rt></ruby>", "sudden; urgent"],
+        ["<ruby>急<rt>いそ</rt>ぐ</ruby>", "to hurry", "moreDetail"],
+        ["<ruby>所<rt>しょ</rt></ruby>", "place"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=Bj9jC64JA4A"
+    }
+  },
+  {
+    kanji: "水の心",
+    kana: "みずのこころ",
+    japanese: "<ruby>水<rt>みず</rt>の<rt></rt>心<rt>こころ</rt></ruby>",
+    english: {
+      romaji: "mizu no kokoro",
+      main: "mind like water",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>水<rt>みず|すい</rt></ruby>", "water"],
+        ["<ruby>心<rt>しん|こころ</rt></ruby>", "core; mind; heart"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=xgGGuSh-pQI"
+    }
+  },
+  {
+    kanji: "無心",
+    kana: "むしん",
+    japanese: "<ruby>無<rt>む</rt>心<rt>しん</rt></ruby>",
+    english: {
+      romaji: "mushin",
+      main: "no mind/empty mind",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>無<rt>む</rt></ruby>", "nothing"],
+        ["<ruby>心<rt>しん|こころ</rt></ruby>", "core; mind; heart"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=iu1OsSlJI-g, リリーと日本語|https://www.youtube.com/watch?v=OtZpi8pCdgg"
+    }
+  },
+  {
     kanji: "",
     kana: "",
     japanese: "<ruby></ruby>",
