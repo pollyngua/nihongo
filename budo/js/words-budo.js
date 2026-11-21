@@ -697,6 +697,141 @@ window.WORDS = [
     }
   },
   {
+    kanji: "人間",
+    kana: "にん",
+    japanese: "<ruby>人<rt>にん</rt>間<rt>げん</rt></ruby>",
+    english: {
+      romaji: "ningen",
+      main: "human being",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>人<rt>にん|ひと</rt></ruby>", "person"],
+        ["<ruby>間<rt>げん|ま|かん|あいだ</rt></ruby>", "interval; space; between"]
+      ]
+    }
+  },
+  {
+    kanji: "帯",
+    kana: "おび",
+    japanese: "<ruby>帯<rt>おび</rt></ruby>",
+    english: {
+      romaji: "obi",
+      main: "belt <i>(for kimono or dogi specifically)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>帯<rt>おび</rt></ruby>", "belt; sash"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=6-fMxG62kiY"
+    }
+  },
+  {
+    kanji: "押忍",
+    kana: "おっす",
+    japanese: "<ruby>押<rt>おっ</rt>忍<rt>す</rt></ruby>",
+    english: {
+      romaji: "oss",
+      main: "<i>1.</i> informal/coarse, male greeting (hey; yo); <i>or<br>2.</i> contraction of “good morning” (ohayōgozaimasu), usu. written in hiragana/katakana; <i>or<br>3.</i>in martial arts, “to suppress and endure,” “to tame one’s ego and be patient,” “to be strict with oneself,” written in kanji",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>押<rt>お</rt>す</ruby>", "to push"],
+        ["<ruby>忍<rt>しの</rt>ぶ</ruby>", "to endure"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=k3OXaWBa6GU, リリーと日本語|https://www.youtube.com/watch?v=G8jyhTRj2Xw"
+    }
+  },
+  {
+    kanji: "礼三息",
+    kana: "れいさんそく",
+    japanese: "<ruby>礼<rt>れい</rt>三<rt>さん</rt>息<rt>そく</rt></ruby>",
+    english: {
+      romaji: "rei san soku",
+      main: "bow w/ 3 breaths <i>(inhale while going down, exhale at the bottom position, inhale again coming up)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>礼<rt>れい</rt></ruby>", "bow; courtesy"],
+        ["<ruby>三<rt>さん|み</rt></ruby>", "3"],
+        ["<ruby>息<rt>い|いき|そく</rt></ruby>", "breath"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=d-BCXGas6Yw"
+    }
+  },
+  {
+    kanji: "立礼",
+    kana: "りつれい",
+    japanese: "<ruby>立<rt>りつ</rt>礼<rt>れい</rt></ruby>",
+    english: {
+      romaji: "ritsu rei",
+      main: "bow from standing position",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>立<rt>た</rt>つ</ruby>", "to stand (up)"],
+        ["<ruby>礼<rt>れい</rt></ruby>", "bow; courtesy"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=YZ_FpwbGIE4"
+    }
+  },
+  {
+    kanji: "茶道",
+    kana: "さどう",
+    japanese: "<ruby>茶<rt>さ</rt>道<rt>どう</rt></ruby>",
+    english: {
+      romaji: "sadō",
+      main: "japanese tea ceremony​",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>茶<rt>さ|ちゃ</rt></ruby>", "tea (esp. green)"],
+        ["<ruby>道<rt>どう|みち</rt></ruby>", "way; path"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=56CZigBX-2o"
+    }
+  },
+  {
+    kanji: "精神",
+    kana: "せいしん",
+    japanese: "<ruby>精<rt>せい</rt>神<rt>しん</rt></ruby>",
+    english: {
+      romaji: "seishin",
+      main: "spirit; soul; mind",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>精<rt>せい</rt></ruby>", "energy"],
+        ["<ruby>神<rt>しん|かみ</rt></ruby>", "god"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=sA_iv_XkAoA, リリーと日本語|https://www.youtube.com/watch?v=S4qfuAW69Hk"
+    }
+  },
+  {
+    kanji: "生徒",
+    kana: "せいと",
+    japanese: "<ruby>生<rt>せい</rt>徒<rt>と</rt></ruby>",
+    english: {
+      romaji: "seito",
+      main: "student <i>(in a school or otherwise)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>生<rt>せい</rt></ruby>", "born"],
+        ["<ruby>徒<rt>と</rt></ruby>", "junior"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=9Chbe3mZcNI"
+    }
+  },
+  {
+    kanji: "正座",
+    kana: "せいざ",
+    japanese: "<ruby>正<rt>せい</rt>座<rt>ざ</rt></ruby>",
+    english: {
+      romaji: "seiza",
+      main: "formal kneeling on the ground",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>正<rt>せい|しょう|ただしい</rt></ruby>", "correct"],
+        ["<ruby>座<rt>ざ</rt></ruby>", "seat"],
+        ["<ruby>座<rt>すわ</rt>る</ruby>", "to sit (down)", "moreDetail"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=k3OXaWBa6GU, リリーと日本語|https://www.youtube.com/watch?v=YZ_FpwbGIE4"
+    }
+  },
+  {
     kanji: "",
     kana: "",
     japanese: "<ruby></ruby>",
@@ -709,101 +844,7 @@ window.WORDS = [
         ["<ruby><rt></rt></ruby>", ""],
         ["<ruby><rt></rt></ruby>", ""]
       ],
-      source: "リリーと日本語|https://www.youtube.com/watch?v=kEa7zgqysks"
-    }
-  },
-
-
-  {
-    kanji: "松涛館",
-    kana: "しょうとうかん",
-    japanese: "<ruby>松<rt>しょう</rt>涛<rt>とう</rt>館<rt>かん</rt></ruby>",
-    english: {
-      romaji: "shōtōkan",
-      main: "shoto's house",
-      note: "related",
-      kanjiBreakdown: [
-        ["<ruby>松<rt>しょう</rt></ruby>", "pine tree"],
-        ["<ruby>涛<rt>とう</rt></ruby>", "waves"],
-        ["<ruby>館<rt>かん</rt></ruby>", "official building"]
-      ],
-      source: "リリーと日本語|https://www.youtube.com/watch?v=A_XqPEzCsJE"
-    }
-  },
-  {
-    kanji: "技",
-    kana: "わざ",
-    japanese: "<ruby>技<rt>わざ</rt></ruby>",
-    english: {
-      romaji: "waza",
-      main: "technique",
-      note: "basic terms",
-      kanjiBreakdown: [
-        ["<ruby>技<rt>わざ</rt></ruby>", "technique"]
-      ],
-      source: "リリーと日本語|https://www.youtube.com/watch?v=A_XqPEzCsJE"
-    },
-    audio: "technique"
-  },
-  {
-    kanji: "底掌打ち",
-    kana: "ていしょううち",
-    japanese: "<ruby>底<rt>てい</rt>掌<rt>しょう</rt>打<rt>う</rt>ち</ruby>",
-    english: {
-      romaji: "teishō uchi",
-      main: "palm heel strike",
-      note: "techniques",
-      kanjiBreakdown: [
-        ["<ruby>底<rt>てい</rt></ruby>", "bottom"],
-        ["<ruby>掌<rt>しょう</rt></ruby>", "palm"],
-        ["<ruby>打<rt>う</rt>つ</ruby>", "to hit, to strike"]
-      ],
-      source: "リリーと日本語|https://www.youtube.com/watch?v=FOnKGeGtszo, https://www.youtube.com/watch?v=nkhbge-mHbM, no-link text"
-    }
-  },
-  {
-    kanji: "背足",
-    kana: "はいそく",
-    japanese: "<ruby>背<rt>はい</rt>足<rt>そく</rt></ruby>",
-    english: {
-      romaji: "haisoku",
-      main: "top of the foot <i>(when the foot is in plantar flexion)</i>",
-      note: "anatomy; karate",
-      kanjiBreakdown: [
-        ["<ruby>背<rt>はい</rt></ruby>", "back"],
-        ["<ruby>足<rt>そく</rt></ruby>", "leg, foot"]
-      ],
-      source: "リリーと日本語|https://www.youtube.com/watch?v=YxwU6eV-1hk"
-    }
-  },
-  {
-    kanji: "回って",
-    kana: "まわって",
-    japanese: "<ruby>回<rt>まわ</rt>って</ruby>",
-    english: {
-      romaji: "mawatte",
-      main: "turn around",
-      note: "commands, kumite",
-      kanjiBreakdown: [
-        ["<ruby>回<rt>まわ</rt>る</ruby>", "to turn"]
-      ],
-      source: "リリーと日本語|https://www.youtube.com/watch?v=QrfPj8iSZzE"
-    },
-    audio: "turn-around"
-  },
-  {
-    kanji: "観空",
-    kana: "かんくう",
-    japanese: "<ruby>観<rt>かん</rt>空<rt>くう</rt></ruby>",
-    english: {
-      romaji: "kankū",
-      main: "to look at the sky",
-      note: "kata",
-      kanjiBreakdown: [
-        ["<ruby>観<rt>かん</rt></ruby>", "observation meditation (Buddhism)"],
-        ["<ruby>空<rt>くう|そら|から</rt></ruby>", "empty; sky"]
-      ],
-      source: "リリーと日本語|https://www.youtube.com/watch?v=9doY2sHo6vI"
+      source: "リリーと日本語|"
     }
   }
 ];

@@ -84,15 +84,15 @@ function getCategories(word) {
 
 // Build the category dropdown.
 function updateDropdownCounts() {
-  const categories = new Set();
+  const categories = [
+    "related",
+    "basic terms",
+    "commands, kumite",
+    "techniques",
+    "anatomy",
+    "kata"
+  ];
 
-  window.WORDS.forEach(word => {
-    getCategories(word).forEach(category => {
-      categories.add(category);
-    });
-  });
-
-  // Keep the "show all" option.
   menu.innerHTML = '<option value="all">show all</option>';
 
   categories.forEach(category => {
@@ -260,9 +260,6 @@ function render(list) {
 
       englishHTML += `</div>`;
     }
-
-    englishEl.innerHTML = englishHTML;
-    entry.appendChild(englishEl);
 
     englishEl.innerHTML = englishHTML;
     entry.appendChild(englishEl);
