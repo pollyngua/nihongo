@@ -832,6 +832,162 @@ window.WORDS = [
     }
   },
   {
+    kanji: "先輩",
+    kana: "せんぱい",
+    japanese: "<ruby>先<rt>せん</rt>輩<rt>ぱい</rt></ruby>",
+    english: {
+      romaji: "senpai",
+      main: "of the same group but w/ more experience/senior student <i>(in rank or age)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>先<rt>せん</rt></ruby>", "before; first move"],
+        ["<ruby>輩<rt>はい|ぱい</rt></ruby>", "group"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=6-fMxG62kiY, リリーと日本語|https://www.youtube.com/watch?v=177zTctX2wE"
+    }
+  },
+  {
+    kanji: "先生",
+    kana: "せんせい",
+    japanese: "<ruby>先<rt>せん</rt>生<rt>せい</rt></ruby>",
+    english: {
+      romaji: "sensei",
+      main: "teacher",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>先<rt>せん</rt></ruby>", "before; first move"],
+        ["<ruby>生<rt>せい</rt></ruby>", "born"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=k3OXaWBa6GU, リリーと日本語|https://www.youtube.com/watch?v=6-fMxG62kiY, リリーと日本語|https://www.youtube.com/watch?v=9Chbe3mZcNI"
+    }
+  },
+  {
+    kanji: "師範",
+    kana: "しはん",
+    japanese: "<ruby>師<rt>し</rt>範<rt>はん</rt></ruby>",
+    english: {
+      romaji: "shihan",
+      main: "teacher <i>(honorific title in japanese traditional arts)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>師<rt>し</rt></ruby>", "teacher; master"],
+        ["<ruby>範<rt>はん</rt></ruby>", "example"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=9Chbe3mZcNI"
+    }
+  },
+  {
+    kanji: "心技体",
+    kana: "しんぎたい",
+    japanese: "<ruby>心<rt>しん</rt>技<rt>ぎ</rt>体<rt>たい</rt></ruby>",
+    english: {
+      romaji: "shingitai",
+      main: "mind, technique, body",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>心<rt>しん|こころ</rt></ruby>", "core; mind; heart"],
+        ["<ruby>技<rt>ぎ|わざ</rt></ruby>", "technique (narrow)"],
+        ["<ruby>体<rt>たい|からだ</rt></ruby>", "body"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=sA_iv_XkAoA"
+    }
+  },
+  {
+    kanji: "白",
+    kana: "しろ",
+    japanese: "<ruby>白<rt>しろ</rt></ruby>",
+    english: {
+      romaji: "shiro",
+      main: "white <i>(as noun; <b>白い</b> as adjective)</i>",
+      note: "related; basic terms; commands, kumite",
+      kanjiBreakdown: [
+        ["<ruby>白<rt>しろ</rt></ruby>", "white"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=rcEgq0LanSg"
+    }
+  },
+  {
+    kanji: "姿勢",
+    kana: "しせい",
+    japanese: "<ruby>姿<rt>し</rt>勢<rt>せい</rt></ruby>",
+    english: {
+      romaji: "shisei",
+      main: "posture",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>姿<rt>し|すがた</rt></ruby>", "appearance"],
+        ["<ruby>勢<rt>せい</rt></ruby>", "power; energy"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=d-BCXGas6Yw, リリーと日本語|https://www.youtube.com/watch?v=nkhbge-mHbM, リリーと日本語|https://www.youtube.com/watch?v=hI0EraozJp8"
+    }
+  },
+  {
+    kanji: "師匠",
+    kana: "ししょう",
+    japanese: "<ruby>師<rt>し</rt>匠<rt>しょう</rt></ruby>",
+    english: {
+      romaji: "shisho",
+      main: "mentor",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>師<rt>し</rt></ruby>", "teacher; master"],
+        ["<ruby>匠<rt>しょう</rt></ruby>", "craftsman"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=9Chbe3mZcNI"
+    }
+  },
+  {
+    kanji: "勝負",
+    kana: "しょうぶ",
+    japanese: "<ruby>勝<rt>しょう</rt>負<rt>ぶ</rt></ruby>",
+    english: {
+      romaji: "shōbu",
+      main: "match; competition",
+      note: "related; basic terms; commands, kumite",
+      kanjiBreakdown: [
+        ["<ruby>勝<rt>しょう|かち</rt></ruby>", "to win"],
+        ["<ruby>勝<rt>か</rt>つ</ruby>", "to win", "moreDetail"],
+        ["<ruby>負<rt>ぶ|まけ</rt></ruby>", "to lose"],
+        ["<ruby>負<rt>ま</rt>ける</ruby>", "to lose", "moreDetail"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=rcEgq0LanSg"
+    }
+  },
+  {
+    kanji: "暑中稽古",
+    kana: "しょちゅうげいこ",
+    japanese: "<ruby>暑<rt>しょ</rt>中<rt>ちゅう</rt>稽<rt>げい</rt>古<rt>こ</rt></ruby>",
+    english: {
+      romaji: "shochūgeiko",
+      main: "“hot” practice <i>(for things traditional or related to japanese history or culture; with teacher)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>暑<rt>しょ</rt></ruby>", "heat"],
+        ["<ruby>中<rt>ちゅう|なか</rt></ruby>", "center; middle; inside"],
+        ["<ruby>稽<rt>げい</rt>古<rt>こ</rt></ruby>", "practice"],
+        ["<ruby>稽<rt>かんが</rt>える</ruby>", "to think over", "moreDetail"],
+        ["<ruby>古<rt>こ|ふるい</rt></ruby>", "old", "moreDetail"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=BtI8ReLcSEg, リリーと日本語|https://www.youtube.com/watch?v=vr8I3dQ0NWU"
+    }
+  },
+  {
+    kanji: "松涛館",
+    kana: "しょうとうかん",
+    japanese: "<ruby>松<rt>しょう</rt>涛<rt>とう</rt>館<rt>かん</rt></ruby>",
+    english: {
+      romaji: "shōtōkan",
+      main: "shoto’s house",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>松<rt>しょう</rt></ruby>", "pine tree"],
+        ["<ruby>涛<rt>とう</rt></ruby>", "waves"],
+        ["<ruby>館<rt>かん</rt></ruby>", "official building"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=A_XqPEzCsJE"
+    }
+  },
+  {
     kanji: "",
     kana: "",
     japanese: "<ruby></ruby>",
