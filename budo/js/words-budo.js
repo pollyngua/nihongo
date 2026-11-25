@@ -988,13 +988,223 @@ window.WORDS = [
     }
   },
   {
+    kanji: "相撲",
+    kana: "すもう",
+    japanese: "<ruby>相<rt>す</rt>撲<rt>もう</rt></ruby>",
+    english: {
+      romaji: "sumō",
+      main: "sumo",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>相<rt>す|あい</rt></ruby>", "together; mutually"],
+        ["<ruby>撲<rt>もう|ぼく</rt></ruby>", "to beat; to strike"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=--wYk4QYuys"
+    }
+  },
+  {
+    kanji: "月の心",
+    kana: "つきのこころ",
+    japanese: "<ruby>月<rt>つき</rt>の<rt></rt>心<rt>こころ</rt></ruby>",
+    english: {
+      romaji: "tsuki no kokoro",
+      main: "mind like the moon <i>(to be aware of all surroundings evenly and not allow clouds/worries to obscure)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>月<rt>つき|げつ</rt></ruby>", "moon"],
+        ["<ruby>心<rt>しん|こころ</rt></ruby>", "core; mind; heart"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=jWc4Rh8dlzg"
+    }
+  },
+  {
+    kanji: "短棒",
+    kana: "たんぼう",
+    japanese: "<ruby>短<rt>たん</rt>棒<rt>ぼう</rt></ruby>",
+    english: {
+      romaji: "tanbō",
+      main: "short-staff",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>短<rt>たん</rt></ruby>", "short"],
+        ["<ruby>棒<rt>ぼう</rt></ruby>", "rod; stick"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=f33galIGdss"
+    }
+  },
+  {
+    kanji: "丹田",
+    kana: "たんでん",
+    japanese: "<ruby>丹<rt>たん</rt>田<rt>でん</rt></ruby>",
+    english: {
+      romaji: "tanden",
+      main: "area where <b>気</b> is concentrated <i>(mainly lower (<b>ge-</b>/<b>seika-</b>, 3-9 cm under navel), also middle (<b>chu-</b>, solar plexus) and upper (<b>jo-</b>, third eye))</i>",
+      note: "related; basic terms",
+      kanjiBreakdown: [
+        ["<ruby>丹<rt>たん</rt>田<rt>でん</rt></ruby>", "area where ki is concentrated"],
+        ["<ruby>丹<rt>たん</rt></ruby>", "vermilion; elixir of life; sincerity", "moreDetail"],
+        ["<ruby>田<rt>でん|た|だ</rt></ruby>", "rice field", "moreDetail"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=f33galIGdss, リリーと日本語|https://www.youtube.com/watch?v=hI0EraozJp8"
+    }
+  },
+  {
+    kanji: "畳",
+    kana: "たたみ",
+    japanese: "<ruby>畳<rt>たたみ</rt></ruby>",
+    english: {
+      romaji: "tatami",
+      main: "tatami mat",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>畳<rt>たたみ</rt></ruby>", "japanese straw floor covering"]
+      ],
+      source: "https://www.youtube.com/watch?v=YbNNXeGhRY0"
+    }
+  },
+  {
+    kanji: "和",
+    kana: "わ",
+    japanese: "<ruby>和<rt>わ</rt></ruby>",
+    english: {
+      romaji: "wa",
+      main: "japan <i>(the oldest recorded name of japan; also used as a prefix, japanese-style)</i>",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>和<rt>わ</rt></ruby>", "japan; japanese-style"]
+      ]
+    }
+  },
+  {
+    kanji: "残心",
+    kana: "ざんしん",
+    japanese: "<ruby>残<rt>ざん</rt>心<rt>しん</rt></ruby>",
+    english: {
+      romaji: "zanshin",
+      main: "remaining mind",
+      note: "related; basic terms",
+      kanjiBreakdown: [
+        ["<ruby>残<rt>ざん</rt></ruby>", "remainder; what is left"],
+        ["<ruby>残<rt>のこ</rt>る</ruby>", "to remain", "moreDetail"],
+        ["<ruby>残<rt>のこ</rt>す</ruby>", "to leave (behind)", "moreDetail"],
+        ["<ruby>心<rt>しん|こころ</rt></ruby>", "core; mind; heart"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=56CZigBX-2o"
+    }
+  },
+  {
+    kanji: "座礼",
+    kana: "ざれい",
+    japanese: "<ruby>座<rt>ざ</rt>礼<rt>れい</rt></ruby>",
+    english: {
+      romaji: "za rei",
+      main: "bow from seiza/seated bow",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>座<rt>ざ</rt></ruby>", "seat"],
+        ["<ruby>座<rt>すわ</rt>る</ruby>", "to sit", "moreDetail"],
+        ["<ruby>礼<rt>れい</rt></ruby>", "bow; courtesy"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=YZ_FpwbGIE4"
+    }
+  },
+  {
+    kanji: "禅",
+    kana: "ぜん",
+    japanese: "<ruby>禅<rt>ぜん</rt></ruby>",
+    english: {
+      romaji: "zen",
+      main: "zen",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>禅<rt>ぜん</rt></ruby>", "zen"]
+      ]
+    }
+  },
+  {
+    kanji: "安定",
+    kana: "あんてい",
+    japanese: "<ruby>安<rt>あん</rt>定<rt>てい</rt></ruby>",
+    english: {
+      romaji: "antei",
+      main: "stability",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>安<rt>あん</rt></ruby>", "peaceful"],
+        ["<ruby>定<rt>てい</rt></ruby>", "determined; fixed"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=nkhbge-mHbM"
+    }
+  },
+  {
+    kanji: "足さばき",
+    kana: "あしさばき",
+    japanese: "<ruby>足<rt>あし</rt>さばき</ruby>",
+    english: {
+      romaji: "ashi sabaki",
+      main: "foot movement; footwork",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>足<rt>あし|そく</rt></ruby>", "leg; foot"],
+        ["<ruby>さばき</ruby>", "handling; -﻿work"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=FOnKGeGtszo"
+    }
+  },
+  {
+    kanji: "分解",
+    kana: "ぶんかい",
+    japanese: "<ruby>分<rt>ぶん</rt>解<rt>かい</rt></ruby>",
+    english: {
+      romaji: "bunkai",
+      main: "the result of something that has been broken down",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>分<rt>ぶん</rt>解<rt>かい</rt></ruby>", "disassembly; analysis"],
+        ["<ruby>分<rt>ぶん|わ</rt></ruby>", "part; portion", "moreDetail"],
+        ["<ruby>分<rt>わ</rt>ける</ruby>", "to divide (into)", "moreDetail"],
+        ["<ruby>解<rt>かい</rt></ruby>", "comprehension", "moreDetail"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=6-fMxG62kiY, https://www.youtube.com/watch?v=YbNNXeGhRY0"
+    }
+  },
+  {
+    kanji: "中段",
+    kana: "ちゅうだん",
+    japanese: "<ruby>中<rt>ちゅう</rt>段<rt>だん</rt></ruby>",
+    english: {
+      romaji: "chūdan",
+      main: "middle level",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>中<rt>ちゅう|なか</rt></ruby>", "center; middle; inside"],
+        ["<ruby>段<rt>だん</rt></ruby>", "step; level"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=A_XqPEzCsJE"
+    }
+  },
+  {
+    kanji: "大",
+    kana: "だい",
+    japanese: "<ruby>大<rt>だい</rt></ruby>",
+    english: {
+      romaji: "dai",
+      main: "big; major",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>大<rt>だい</rt></ruby>", "big; major"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=9doY2sHo6vI"
+    }
+  },
+  {
     kanji: "",
     kana: "",
     japanese: "<ruby></ruby>",
     english: {
       romaji: "",
       main: "",
-      note: "related",
+      note: "basic terms",
       kanjiBreakdown: [
         ["<ruby><rt></rt></ruby>", ""],
         ["<ruby><rt></rt></ruby>", ""],
