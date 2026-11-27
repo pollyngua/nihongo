@@ -367,11 +367,11 @@ window.WORDS = [
       note: "related",
       kanjiBreakdown: [
         ["<ruby>重<rt>じゅう</rt>心<rt>しん</rt></ruby>", "center of gravity"],
-        ["<ruby>移<rt>い</rt>動<rt>どう</rt></ruby>", "movement"],
         ["<ruby>重<rt>じゅう|おもい</rt></ruby>", "heavy", "moreDetail"],
         ["<ruby>心<rt>しん|こころ</rt></ruby>", "core; mind; heart", "moreDetail"],
+        ["<ruby>移<rt>い</rt>動<rt>どう</rt></ruby>", "movement"],
         ["<ruby>移<rt>うつ</rt>す</ruby>", "to transfer", "moreDetail"],
-        ["<ruby>動<rt>うご</rt>く</ruby>", "to move", "moreDetail"],
+        ["<ruby>動<rt>うご</rt>く</ruby>", "to move", "moreDetail"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=d-BCXGas6Yw, リリーと日本語|https://www.youtube.com/watch?v=nkhbge-mHbM"
     }
@@ -1195,6 +1195,307 @@ window.WORDS = [
         ["<ruby>大<rt>だい</rt></ruby>", "big; major"]
       ],
       source: "リリーと日本語|https://www.youtube.com/watch?v=9doY2sHo6vI"
+    }
+  },
+  {
+    kanji: "演武線",
+    kana: "えんぶせん",
+    japanese: "<ruby>演<rt>えん</rt>武<rt>ぶ</rt>線<rt>せん</rt></ruby>",
+    english: {
+      romaji: "enbusen",
+      main: "the spot where a kata begins, as well as its line of movement",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>演<rt>えん</rt></ruby>", "performance"],
+        ["<ruby>武<rt>ぶ</rt></ruby>", "warrior"],
+        ["<ruby>線<rt>せん</rt></ruby>", "line"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=f33galIGdss"
+    }
+  },
+  {
+    kanji: "下段",
+    kana: "げだん",
+    japanese: "<ruby>下<rt>げ</rt>段<rt>だん</rt></ruby>",
+    english: {
+      romaji: "gedan",
+      main: "lower level",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>下<rt>げ|か|した</rt></ruby>", "lower; below"],
+        ["<ruby>段<rt>だん</rt></ruby>", "step; level"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=A_XqPEzCsJE"
+    }
+  },
+  {
+    kanji: "後の先",
+    kana: "ごのせん",
+    japanese: "<ruby>後<rt>ご</rt>の<rt></rt>先<rt>せん</rt></ruby>",
+    english: {
+      romaji: "go no sen",
+      main: "seizing the initiative after the opponent has attacked <i>(same as <b>tai no sen</b>)</i>",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>後<rt>こう|うしろ|ご|あと</rt></ruby>", "back; after; later; [time] left"],
+        ["<ruby>先<rt>せん</rt></ruby>", "before; first move"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=L17SWSFQL4k"
+    }
+  },
+  {
+    kanji: "半身",
+    kana: "はんみ",
+    japanese: "<ruby>半<rt>はん</rt>身<rt>み</rt></ruby>",
+    english: {
+      romaji: "hanmi",
+      main: "half-front-facing, to 45°",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>半<rt>はん</rt></ruby>", "half"],
+        ["<ruby>身<rt>み</rt></ruby>", "one’s body"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=MxmaIFji55g, リリーと日本語|https://www.youtube.com/watch?v=hI0EraozJp8"
+    }
+  },
+  {
+    kanji: "左",
+    kana: "ひだり",
+    japanese: "<ruby>左<rt>ひだり</rt></ruby>",
+    english: {
+      romaji: "hidari",
+      main: "left",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>左<rt>ひだり</rt></ruby>", "left"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=A2qija6nsWo, リリーと日本語|https://www.youtube.com/watch?v=YxwU6eV-1hk"
+    }
+  },
+  {
+    kanji: "引き足",
+    kana: "ひきあし",
+    japanese: "<ruby>引<rt>ひ</rt>き<rt></rt>足<rt>あし</rt></ruby>",
+    english: {
+      romaji: "hikiashi",
+      main: "retracting leg",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>引<rt>ひ</rt>く</ruby>", "to pull"],
+        ["<ruby>足<rt>あし|そく</rt></ruby>", "leg; foot"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=Ry4MHAtOncI, リリーと日本語|https://www.youtube.com/watch?v=FOnKGeGtszo"
+    }
+  },
+  {
+    kanji: "引き手",
+    kana: "ひきて",
+    japanese: "<ruby>引<rt>ひ</rt>き<rt></rt>手<rt>て</rt></ruby>",
+    english: {
+      romaji: "hikite",
+      main: "pulling hand",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>引<rt>ひ</rt>く</ruby>", "to pull"],
+        ["<ruby>手<rt>て|しゅ</rt></ruby>", "hand"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=Ry4MHAtOncI"
+    }
+  },
+  {
+    kanji: "移動稽古",
+    kana: "いどうげいこ",
+    japanese: "<ruby>移<rt>い</rt>動<rt>どう</rt>稽<rt>げい</rt>古<rt>こ</rt></ruby>",
+    english: {
+      romaji: "idō geiko",
+      main: "practice while moving <i>(compare with <b>sonoba no keiko</b>/<b>sonoba geiko</b>)</i>",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>移<rt>い</rt>動<rt>どう</rt></ruby>", "movement"],
+        ["<ruby>移<rt>うつ</rt>す</ruby>", "to transfer", "moreDetail"],
+        ["<ruby>動<rt>うご</rt>く</ruby>", "to move", "moreDetail"],
+        ["<ruby>稽<rt>げい</rt>古<rt>こ</rt></ruby>", "practice"],
+        ["<ruby>稽<rt>かんが</rt>える</ruby>", "to think over", "moreDetail"],
+        ["<ruby>古<rt>こ|ふるい</rt></ruby>", "old", "moreDetail"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=tgRk8UYohX8"
+    }
+  },
+  {
+    kanji: "自由組手",
+    kana: "じゆうくみて",
+    japanese: "<ruby>自<rt>じ</rt>由<rt>ゆう</rt>組<rt>く</rt>み<rt></rt>手<rt>て</rt></ruby>",
+    english: {
+      romaji: "jiyū kumite",
+      main: "free sparring",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>自<rt>じ</rt>由<rt>ゆう</rt></ruby>", "freedom"],
+        ["<ruby>組<rt>く</rt>む</ruby>", "to join; to assemble"],
+        ["<ruby>手<rt>て|しゅ</rt></ruby>", "hand"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=6-fMxG62kiY"
+    }
+  },
+  {
+    kanji: "軸足",
+    kana: "じくあし",
+    japanese: "<ruby>軸<rt>じく</rt>足<rt>あし</rt></ruby>",
+    english: {
+      romaji: "jiku ashi",
+      main: "pivot leg",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>軸<rt>じく</rt></ruby>", "axis"],
+        ["<ruby>足<rt>あし|そく</rt></ruby>", "leg; foot"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=FOnKGeGtszo"
+    }
+  },
+  {
+    kanji: "柔段",
+    kana: "じゅうだん",
+    japanese: "<ruby>柔<rt>じゅう</rt>段<rt>だん</rt></ruby>",
+    english: {
+      romaji: "jūnan",
+      main: "flexibility",
+      note: "related",
+      kanjiBreakdown: [
+        ["<ruby>柔<rt>じゅう|やわらかい</rt></ruby>", "soft; flexible"],
+        ["<ruby>段<rt>だん</rt></ruby>", "step; level"]
+      ]
+    }
+  },
+  {
+    kanji: "上段",
+    kana: "じょうだん",
+    japanese: "<ruby>上<rt>じょう</rt>段<rt>だん</rt></ruby>",
+    english: {
+      romaji: "jōdan",
+      main: "upper level",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>上<rt>じょう|うえ|あ</rt></ruby>", "upper; above"],
+        ["<ruby>段<rt>だん</rt></ruby>", "step; level"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=A_XqPEzCsJE"
+    }
+  },
+  {
+    kanji: "構え",
+    kana: "がまえ",
+    japanese: "<ruby>構<rt>がま</rt>え</ruby>",
+    english: {
+      romaji: "kamae",
+      main: "posture; position",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>構<rt>がま</rt>え</ruby>", "posture"],
+        ["<ruby>構<rt>かま</rt>える</ruby>", "to adopt a posture", "moreDetail"]
+      ]
+    }
+  },
+  {
+    kanji: "型",
+    kana: "かた",
+    japanese: "<ruby>型<rt>かた</rt></ruby>",
+    english: {
+      romaji: "kata",
+      main: "form <i>(traditional, okinawa)</i>",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>型<rt>かた</rt></ruby>", "mold; model"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=9doY2sHo6vI"
+    }
+  },
+  {
+    kanji: "形",
+    kana: "かた",
+    japanese: "<ruby>形<rt>かた</rt></ruby>",
+    english: {
+      romaji: "kata",
+      main: "form <i>(jka)</i>",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>形<rt>かた</rt></ruby>", "shape; form"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=9doY2sHo6vI"
+    }
+  },
+  {
+    kanji: "懸の先",
+    kana: "けんのせん",
+    japanese: "<ruby>懸<rt>けん</rt>の<rt></rt>先<rt>せん</rt></ruby>",
+    english: {
+      romaji: "ken no sen",
+      main: "seizing the initiative as the opponent attacks <i>(same as <b>sen no sen</b>)</i>",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>懸<rt>けん</rt></ruby>", "with utmost effort"],
+        ["<ruby>懸<rt>けん</rt>命<rt>めい</rt></ruby>", "eager; strenuous", "moreDetail"],
+        ["<ruby>先<rt>せん</rt></ruby>", "before; first move"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=4EbKOze-gbU"
+    }
+  },
+  {
+    kanji: "蹴り",
+    kana: "けり",
+    japanese: "<ruby>蹴<rt>け</rt>り</ruby>",
+    english: {
+      romaji: "keri",
+      main: "kick",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>蹴<rt>け</rt>る</ruby>", "to kick"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=Ry4MHAtOncI"
+    }
+  },
+  {
+    kanji: "気合",
+    kana: "きあい",
+    japanese: "<ruby>気<rt>き</rt>合<rt>あい</rt></ruby>",
+    english: {
+      romaji: "kiai",
+      main: "shout",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>気<rt>き</rt></ruby>", "spirit"],
+        ["<ruby>合<rt>あい|ごう|がっ</rt></ruby>", "to join; to match"],
+        ["<ruby>合<rt>あ</rt>う</ruby>", "to join; to match", "moreDetail"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=QrfPj8iSZzE"
+    }
+  },
+  {
+    kanji: "基本",
+    kana: "きほん",
+    japanese: "<ruby>基<rt>き</rt>本<rt>ほん</rt></ruby>",
+    english: {
+      romaji: "kihon",
+      main: "foundation, basics <i>(as in the core of something) (compare with <b>kiso</b>)</i>",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>基<rt>き|もと</rt></ruby>", "base; basic"],
+        ["<ruby>本<rt>ほん</rt></ruby>", "book; essence"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=A_XqPEzCsJE, リリーと日本語|https://www.youtube.com/watch?v=tgRk8UYohX8"
+    }
+  },
+  {
+    kanji: "決め",
+    kana: "きめ",
+    japanese: "<ruby>決<rt>き</rt>める</ruby>",
+    english: {
+      romaji: "kime",
+      main: "kime",
+      note: "basic terms",
+      kanjiBreakdown: [
+        ["<ruby>決<rt>き</rt>める</ruby>", "to decide"]
+      ],
+      source: "リリーと日本語|https://www.youtube.com/watch?v=QrfPj8iSZzE"
     }
   },
   {
